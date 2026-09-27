@@ -54,7 +54,7 @@ function ficheRow(rec,opts={}){
   '<span class="fiche-flags">'+statusChip(rec)+stubTag(rec)+'</span>'+
   '<span class="fiche-go" aria-hidden="true">↗</span></a></li>';
 }
-function ficheList(list,opts={}){return '<ul class="register" role="list">'+list.map(rec=>ficheRow(rec,opts)).join('')+'</ul>';}
+function ficheList(list,opts={}){return '<div class="register-tools"><span>'+list.length+' fiches</span><div role="group" aria-label="Affichage des fiches"><button type="button" data-layout="list" aria-pressed="true">Liste</button><button type="button" data-layout="grid" aria-pressed="false">Galerie</button></div></div><ul class="register" role="list">'+list.map(rec=>ficheRow(rec,opts)).join('')+'</ul>';}
 function ficheCards(list){return '<div class="card-grid">'+list.map(rec=>'<a class="fiche-card" href="'+link(rec.id)+'"><span class="card-sigil">'+sigil(rec,40)+'</span><span class="card-kicker">'+esc(rec.type)+' · '+esc(rec.domain)+'</span><h3>'+esc(rec.title)+'</h3><p>'+esc(rec.summary)+'</p><span class="card-flags">'+statusChip(rec)+stubTag(rec)+'</span></a>').join('')+'</div>';}
 function linkChips(ids,label){const list=rel(ids);if(!list.length)return '';return '<div class="renvois">'+(label?'<p class="label">'+esc(label)+'</p>':'')+'<ul>'+list.map(rec=>'<li><a href="'+link(rec.id)+'">'+esc(rec.title)+' <span aria-hidden="true">↗</span></a></li>').join('')+'</ul></div>';}
 
@@ -106,20 +106,24 @@ function filterBar(route,base,params,hidden){
 }
 
 /* Chronologie maître : un rail de neuf jalons, chacun relié à sa notice et à ses fiches. */
+function eraDetail(id){
+ const era=eras.find(item=>item.id===id)||eras[0],rec=byId.get(era.id);
+ return '<p class="era-date">'+esc(era.date)+'</p><h3>'+esc(era.title)+'</h3><div class="era-prose">'+prose(rec?.body||era.summary)+'</div>'+linkChips(era.links,'Dans cet âge')+'<a class="button button-small" href="'+link(era.id)+'">Lire la notice ↗</a>';
+}
 function timeline(){
- const items=eras.map(era=>{
-  const notice=byId.get(era.id), linked=rel(era.links).filter(rec=>rec.id!==era.id);
-  return '<li class="jalon" id="jalon-'+esc(era.id)+'">'+
-   '<span class="jalon-order" aria-hidden="true">'+String(era.order).padStart(2,'0')+'</span>'+
-   '<div class="jalon-body"><p class="jalon-date">'+esc(era.date)+'</p>'+
-   '<h3>'+(notice?'<a href="'+link(notice.id)+'">'+esc(era.title)+'</a>':esc(era.title))+'</h3>'+
-   '<p class="jalon-summary">'+esc(era.summary)+'</p>'+
-   (linked.length?'<ul class="jalon-links">'+linked.map(rec=>'<li><a href="'+link(rec.id)+'">'+esc(rec.title)+'</a></li>').join('')+'</ul>':'')+
-   '</div></li>';
- }).join('');
- return '<section class="chronology"><header class="section-head"><p class="label">CHRONOLOGIE MAÎTRE</p><h2>Les neuf âges du Bris</h2>'+
-  '<p class="section-note">'+eras.length+' jalons, du Silence originel à l’Éveil des Brisures. Le calendrier du Bris fixe l’an 0 ; chaque jalon ouvre sa notice et les fiches qui le portent.</p></header>'+
-  '<ol class="rail">'+items+'</ol></section>';
+ const selected=eras[0].id;
+ return '<section class="chronology"><header class="section-head"><p class="label">CALENDRIER DU BRIS</p><h2>Une histoire de ruptures.</h2><p class="section-note">Du Silence originel à l’Éveil des Brisures. Choisissez un âge pour en suivre les traces.</p></header><div class="time-browser"><ol class="rail">'+eras.map(era=>'<li class="jalon" id="jalon-'+esc(era.id)+'"><button type="button" data-era="'+esc(era.id)+'" aria-pressed="'+(era.id===selected)+'" aria-controls="era-detail"><span class="jalon-order">'+String(era.order).padStart(2,'0')+'</span><span><small>'+esc(era.date)+'</small><strong>'+esc(era.title)+'</strong></span><span aria-hidden="true">↗</span></button></li>').join('')+'</ol><div id="era-detail" class="era-detail" aria-live="polite">'+eraDetail(selected)+'</div></div></section>';
+}
+function worldDetail(id){
+ const rec=byId.get(id)||byId.get('terra');
+ return '<div class="world-detail-title">'+sigil(rec,54)+'<div><p class="label">'+esc(rec.type)+'</p><h3>'+esc(rec.title)+'</h3></div></div><p class="world-summary">'+esc(rec.summary)+'</p><div class="world-excerpt">'+prose(rec.body)+'</div>'+linkChips(rec.links.slice(0,7),'À découvrir')+'<a class="text-link" href="'+link(rec.id)+'">Ouvrir la fiche '+esc(rec.title)+' ↗</a>';
+}
+function worldExplorer(selected='terra'){
+ const ids=['cieux','terra','abysses','repli'];if(!ids.includes(selected))selected='terra';
+ return '<section class="world-explorer"><header class="section-head"><p class="label">GÉOGRAPHIE DE LA CRÉATION</p><h2>Trois mondes. Une cicatrice.</h2><p class="section-note">Choisissez un domaine. Suivez les lieux, les peuples et les passages qui lui sont liés.</p></header><div class="world-browser"><div class="cosmogram" role="group" aria-label="Choisir un domaine"><div class="cosmos-axis" aria-hidden="true"></div>'+ids.map(id=>{const rec=byId.get(id);return '<button type="button" class="world-node world-node-'+id+'" data-world="'+id+'" aria-pressed="'+(id===selected)+'" aria-controls="world-detail"><span class="world-node-symbol" aria-hidden="true">'+sigil(rec,52)+'</span><span><small>'+esc(rec.type)+'</small><strong>'+esc(rec.title)+'</strong></span><span class="world-node-arrow" aria-hidden="true">↗</span></button>';}).join('')+'<p class="cosmogram-note">Schéma de navigation<br>Le Repli est une dimension-cicatrice.</p></div><div id="world-detail" class="world-detail" aria-live="polite">'+worldDetail(selected)+'</div></div></section>';
+}
+function journey(){
+ return '<section class="entry-path"><header class="section-head"><p class="label">PREMIERS PAS</p><h2>Entrez dans l’histoire.</h2><p class="section-note">Un parcours en huit lectures, du Bris à Sceelim. Prenez le temps de découvrir les fondations de MONO.</p></header><div id="reading-resume" class="reading-resume" hidden></div><ol class="path-list">'+(P.reading||[]).map((id,index)=>{const rec=byId.get(id);return '<li><span class="path-num">'+String(index+1).padStart(2,'0')+'</span><div><h3><a href="'+link(id)+'">'+esc(rec.title)+'</a></h3><p>'+esc(rec.summary)+'</p></div></li>';}).join('')+'</ol></section>';
 }
 /* Sceau du Nom : plaque gravée (aucune image), quatre marques AZ KA VO TH autour du Bris. */
 function orrery(){
@@ -145,23 +149,11 @@ function doorPanel(pillar){
   '<p class="door-total"><span class="chip">'+total+' fiches</span><span class="text-link" aria-hidden="true">Ouvrir '+esc(pillar.title)+' →</span></p></article>';
 }
 function home(){
- const path=(P.reading||[]).map((id,index)=>{const rec=byId.get(id);if(!rec)return '';return '<li><span class="path-num" aria-hidden="true">'+String(index+1).padStart(2,'0')+'</span><div><h3><a href="'+link(id)+'">'+esc(rec.title)+'</a></h3><p>'+esc(rec.summary)+'</p></div></li>';}).join('');
  const present=byId.get('sceelim');
- return '<section class="opening">'+
-  '<div class="opening-copy"><p class="label">ARCHIVES D’UNE CRÉATION BRISÉE</p><h1>MONO</h1><p class="opening-sub">Le Codex du Bris</p>'+
-  '<p class="opening-lede">'+esc(P.introduction)+'</p><p class="opening-premise">'+esc(P.premise)+'</p>'+
-  '<p class="opening-stat"><span class="chip chip-status chip-canon">CANON '+esc(D.canon_version||'V6')+'</span><span class="chip">'+records.length+' fiches reliées</span><span class="chip">'+eras.length+' jalons</span></p>'+
-  '<div class="hero-actions"><a class="button" href="#/lore">Entrer par LORE <span aria-hidden="true">→</span></a><a class="button button-ghost" href="#/explorer">Entrer par EXPLORER <span aria-hidden="true">→</span></a></div></div>'+
-  '<div class="opening-plate">'+orrery()+'</div></section>'+
-  '<section class="doors-section"><header class="section-head"><p class="label">DEUX ESPACES PUBLICS</p><h2>L’histoire, ou le monde.</h2>'+
-  '<p class="section-note">Un même canon, deux entrées : suivre la chronologie et les récits, ou comprendre les principes, les cultures et les lieux. Chaque fiche garde une adresse stable et renvoie aux autres.</p></header>'+
-  '<div class="door-grid">'+pillars.map(doorPanel).join('')+'</div></section>'+
-  '<section class="entry-path"><header class="section-head"><p class="label">REPÈRES D’ENTRÉE</p><h2>Huit fiches pour tenir le monde</h2>'+
-  '<p class="section-note">Le trajet le plus court entre le Bris, la Présence, les mondes et la cité où tout recommence.</p></header>'+
-  '<ol class="path-list">'+path+'</ol></section>'+
-  (present?'<section class="feature"><div class="feature-mark">'+sigil(present,72)+'</div><article><p class="label">LE PRÉSENT COMMENCE ICI</p>'+
-   '<h2><a href="'+link(present.id)+'">'+esc(present.title)+'</a></h2><p class="feature-lede">'+esc(present.summary)+'</p><p class="feature-body">'+esc(lead(present))+'</p>'+
-   '<a class="text-link" href="'+link(present.id)+'">Entrer dans la cité ↗</a></article></section>':'');
+ return '<section class="opening"><div class="opening-copy"><p class="label">UNE MYTHOLOGIE À EXPLORER</p><h1>MONO</h1><p class="opening-sub">Le Codex du Bris</p><p class="opening-lede">'+esc(P.introduction)+'</p><div class="hero-actions"><a class="button" href="'+link((P.reading||[])[0]||'bris-an-0')+'">Découvrir l’univers ↗</a><a class="text-link" href="#/lore/annales">Lire les Annales</a></div></div><div class="opening-plate">'+orrery()+'</div></section>'+
+ '<div class="index-band"><span>ARCHIVES DE MONO</span><span>'+records.length+' fiches reliées</span><span>'+eras.length+' jalons</span><span>CANON '+esc(D.canon_version)+'</span></div>'+
+ '<section class="doors-section"><header class="section-head"><h2>Deux chemins dans le même univers.</h2></header><div class="door-grid">'+pillars.map(doorPanel).join('')+'</div></section>'+worldExplorer()+journey()+
+ '<section class="feature"><div class="feature-mark">'+sigil(present,100)+'</div><article><p class="label">LE PRÉSENT COMMENCE ICI</p><h2><a href="'+link(present.id)+'">'+esc(present.title)+'</a></h2><p class="feature-lede">'+esc(present.summary)+'</p><p class="feature-body">'+esc(lead(present))+'</p><a class="text-link" href="'+link(present.id)+'">Entrer dans la cité ↗</a></article></section>';
 }
 function spaceTabs(pillarId,current){
  const def=pillarDef(pillarId);
@@ -177,20 +169,20 @@ function worldStrip(base,params){
 function shelf(spaceId,preview,limit){
  const space={id:spaceId,...spaceOf(spaceId)}, items=recsOf(spaceId);
  return '<section class="shelf shelf-'+esc(spaceId)+'"><header class="section-head"><p class="label">'+esc(space.kicker)+'</p>'+
-  '<h2><a href="#/lore/'+esc(spaceId)+'">'+esc(space.label)+'</a></h2><p class="section-note">'+esc(space.description)+'</p></header>'+
+  '<h2><a href="#/'+esc(space.pillar)+'/'+esc(spaceId)+'">'+esc(space.label)+'</a></h2><p class="section-note">'+esc(space.description)+'</p></header>'+
   preview+
   '<p class="more"><a class="text-link" href="#/'+(space.pillar==='lore'?'lore':'explorer')+'/'+esc(spaceId)+'">Voir les '+items.length+' fiches de '+esc(space.label)+' ↗</a></p></section>';
 }
 function pillarView(pillarId){
  const def=pillarDef(pillarId), list=recsOfPillar(pillarId);
  const head='<header class="space-head"><p class="label">'+esc(def.title)+' · '+list.length+' fiches</p><h1>'+esc(def.subtitle)+'</h1>'+
-  '<p class="space-lede">'+esc(def.description)+'</p><p class="space-stat">Deux entrées pour un même canon — aucune fiche n’est dupliquée entre les deux espaces.</p></header>'+
+  '<p class="space-lede">'+esc(def.description)+'</p></header>'+
   spaceTabs(pillarId,'');
  if(pillarId==='lore')return head+
   '<section class="shelf shelf-ages"><header class="section-head"><p class="label">'+esc(spaceOf('ages').kicker)+'</p><h2><a href="#/lore/ages">'+esc(spaceOf('ages').label)+'</a></h2><p class="section-note">'+esc(spaceOf('ages').description)+'</p></header>'+timeline()+
   '<p class="more"><a class="text-link" href="#/lore/ages">Voir les '+recsOf('ages').length+' notices d’âge ↗</a></p></section>'+
   shelf('annales',ficheCards(recsOf('annales')));
- return head+
+ return head+worldExplorer()+
   shelf('fondements',ficheCards(recsOf('fondements').slice(0,6)))+
   shelf('revelations',ficheCards(recsOf('revelations').slice(0,6)))+
   shelf('domaines',worldStrip(recsOf('domaines'),{get:()=>''})+ficheCards(recsOf('domaines').slice(0,6)));
@@ -201,12 +193,17 @@ function spaceView(spaceId,params){
  const head='<nav class="trail" aria-label="Fil d’Ariane"><a href="#/accueil">MONO</a><span aria-hidden="true">/</span><a href="#/'+esc(pillarId)+'">'+esc(pillarDef(pillarId).title)+'</a><span aria-hidden="true">/</span><span aria-current="page">'+esc(space.label)+'</span></nav>'+
   '<header class="space-head"><p class="label">'+esc(pillarDef(pillarId).title)+' · '+esc(space.kicker)+'</p><h1>'+esc(space.label)+'</h1>'+
   '<p class="space-lede">'+esc(space.description)+'</p><p class="space-stat">'+base.length+' fiches publiées dans cet espace.</p></header>'+spaceTabs(pillarId,spaceId);
- const extra=spaceId==='ages'?timeline():spaceId==='domaines'?worldStrip(base,params):'';
+ const extra=spaceId==='ages'?timeline():spaceId==='domaines'?worldExplorer(norm(params.get('domaine')||'terra'))+worldStrip(base,params):'';
  return head+extra+
-  '<section class="register-zone"><header class="section-head"><h2>'+esc(title)+'</h2><p class="section-note">'+list.length+' fiche'+(list.length>1?'s':'')+' affichée'+(list.length>1?'s':'')+' sur '+base.length+'. Les filtres restent dans l’adresse : le lien est partageable.</p></header>'+
+  '<section class="register-zone"><header class="section-head"><h2>'+esc(title)+'</h2><p class="section-note">'+list.length+' fiche'+(list.length>1?'s':'')+' affichée'+(list.length>1?'s':'')+' sur '+base.length+'.</p></header>'+
   filterBar('#/'+pillarId+'/'+spaceId,base,params,null)+
   (list.length?ficheList(list):'<p class="empty">Aucune fiche ne correspond à ces critères. <a class="text-link" href="#/'+esc(pillarId)+'/'+esc(spaceId)+'">Réinitialiser les filtres ↗</a></p>')+
   '</section>';
+}
+function readingTrail(rec){
+ const ids=P.reading||[],index=ids.indexOf(rec.id);if(index<0)return '';
+ const next=byId.get(ids[index+1]);
+ return '<nav class="reading-trail" aria-label="Parcours de découverte"><span>Découvrir MONO <small>Lecture '+(index+1)+' sur '+ids.length+'</small></span>'+(index?'<a href="'+link(ids[index-1])+'">← Précédente</a>':'')+(next?'<a href="'+link(next.id)+'">Continuer : '+esc(next.title)+' →</a>':'<a href="#/explorer">Poursuivre l’exploration →</a>')+'</nav>';
 }
 function recordView(rec){
  const pillarId=pillarOf(rec), space=spaceOf(rec.space), siblings=recsOf(rec.space), index=siblings.findIndex(item=>item.id===rec.id);
@@ -217,7 +214,7 @@ function recordView(rec){
   '<header class="folio-head"><div class="folio-sigil">'+sigil(rec,96)+'</div><div class="folio-title"><p class="folio-flags">'+statusChip(rec)+stubTag(rec)+'<span class="chip-min">'+esc(rec.type)+'</span><span class="chip-min">n° '+esc(folio(rec))+'</span></p>'+
   '<h1>'+esc(rec.title)+'</h1><p class="folio-lede">'+esc(rec.summary)+'</p>'+
   '<p class="folio-actions"><button type="button" class="button button-small" data-bookmark="'+esc(rec.id)+'" aria-pressed="'+saved+'">'+(saved?'Retirer des signets':'Ajouter aux signets')+'</button><button type="button" class="button button-small button-ghost" data-share>Copier le lien</button></p></div></header>'+
-  '<div class="folio-body"><div class="prose">'+prose(rec.body)+'</div><aside class="marginalia">'+
+  readingTrail(rec)+'<div class="folio-body"><div class="prose">'+prose(rec.body)+'</div><aside class="marginalia">'+
    '<h2>Repères</h2><dl><dt>Type</dt><dd>'+esc(rec.type)+'</dd><dt>Espace</dt><dd><a href="#/'+esc(pillarId)+'/'+esc(rec.space)+'">'+esc(space.label)+'</a></dd><dt>Domaine</dt><dd>'+esc(rec.domain)+'</dd><dt>Ère</dt><dd>'+esc(rec.era)+'</dd><dt>Lignée</dt><dd>'+esc(rec.lineage)+'</dd><dt>Fiche</dt><dd>n° '+esc(folio(rec))+'</dd><dt>Mise à jour</dt><dd>'+esc(rec.last_updated)+'</dd></dl>'+
    (rec.questions.length?'<h2>Questions ouvertes</h2><ul class="questions">'+rec.questions.map(question=>'<li>'+esc(question)+'</li>').join('')+'</ul>':'')+
    '<h2>Sources</h2><ul class="sources">'+rec.sources.map(source=>'<li><strong>'+esc(String(source.document).replace('.md','').replaceAll('_',' '))+'</strong><span>'+esc(source.section)+'</span></li>').join('')+'</ul>'+
@@ -261,10 +258,10 @@ let currentRoute={pillar:'',space:'',key:''};
 /* Chrome permanent : deux portes, puis les sections du pilier courant. */
 function chrome(current){
  const pillarId=current.pillar, spaceId=current.space||'';
- $('primary-nav').innerHTML=pillars.map(pillar=>'<a class="door" href="#/'+esc(pillar.id)+'"'+(pillarId===pillar.id?' aria-current="page"':'')+'><b>'+esc(pillar.title)+'</b><span>'+esc(pillar.subtitle)+'</span></a>').join('');
- const ids=pillarId&&pillarDef(pillarId).spaces.length?pillarDef(pillarId).spaces:pillars.flatMap(pillar=>pillar.spaces);
+ $('primary-nav').innerHTML='<a class="nav-home" href="#/accueil"'+(current.key==='accueil'?' aria-current="page"':'')+'>Accueil <span aria-hidden="true">↗</span></a>'+pillars.map(pillar=>'<a class="door" href="#/'+esc(pillar.id)+'"'+(pillarId===pillar.id?' aria-current="page"':'')+'><b>'+esc(pillar.title)+'</b><span>'+esc(pillar.subtitle)+'</span></a>').join('');
+ const ids=pillars.flatMap(pillar=>pillar.spaces);
  $('sub-nav').innerHTML=ids.map(id=>'<a href="#/'+esc(spaceOf(id).pillar)+'/'+esc(id)+'"'+(spaceId===id?' aria-current="page"':'')+'><span>'+esc(spaceOf(id).label)+'</span><small>'+recsOf(id).length+'</small></a>').join('')+
-  '<a href="#/signets"'+(current.key==='signets'?' aria-current="page"':'')+'><span>Mes signets</span><small>'+bookmarks().length+'</small></a>';
+  '<a href="#/recherche"'+(current.key==='recherche'?' aria-current="page"':'')+'><span>Tout le Codex</span><small>'+records.length+'</small></a><a href="#/signets"'+(current.key==='signets'?' aria-current="page"':'')+'><span>Mes signets</span><small>'+bookmarks().length+'</small></a>';
  const colophon=$('colophon-canon');
  if(colophon)colophon.textContent='Canon '+String(D.canon_version||'V6')+' · '+records.length+' fiches · '+eras.length+' jalons';
 }
@@ -283,6 +280,30 @@ function renderSearch(query){
  $('search-results').innerHTML=shown.length?'<ul class="hit-list" role="list">'+shown.map(rec=>'<li><a class="hit" href="'+link(rec.id)+'"><span class="hit-sigil">'+sigil(rec,28)+'</span><span class="hit-main"><small>'+esc(rec.type)+' · '+esc(spaceOf(rec.space).label)+'</small><b>'+esc(rec.title)+'</b><em>'+esc(rec.summary)+'</em></span>'+statusChip(rec)+'</a></li>').join('')+'</ul>':'<p class="empty">Aucun résultat. <a class="text-link" href="#/recherche">Parcourir le registre complet ↗</a></p>';
  const all=$('search-all');
  if(all)all.href='#/recherche'+(raw?'?q='+encodeURIComponent(raw):'');
+}
+function rememberReading(id){
+ const raw=store.get('mono-v6-reading',[]),history=Array.isArray(raw)?raw.filter(value=>byId.has(value)):[];
+ store.set('mono-v6-reading',[id,...history.filter(value=>value!==id)].slice(0,30));
+}
+function hydrateReading(){
+ const el=$('reading-resume');if(!el)return;
+ const raw=store.get('mono-v6-reading',[]),recent=Array.isArray(raw)?raw.find(id=>byId.has(id)):null;
+ if(!recent)return;const rec=byId.get(recent);el.hidden=false;
+ el.innerHTML='<span>Votre dernière lecture</span><a href="'+link(rec.id)+'">'+esc(rec.title)+' ↗</a>';
+}
+function applyLayout(value){
+ const mode=(value||store.get('mono-v6-layout','list'))==='grid'?'grid':'list';
+ document.querySelectorAll('.register').forEach(el=>el.dataset.layout=mode);
+ document.querySelectorAll('button[data-layout]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.layout===mode)));
+}
+function exploreFrom(event){
+ const world=event.target.closest('[data-world]');
+ if(world){const region=world.closest('.world-browser');region.querySelectorAll('[data-world]').forEach(el=>el.setAttribute('aria-pressed',String(el===world)));region.querySelector('.world-detail').innerHTML=worldDetail(world.dataset.world);return true;}
+ const era=event.target.closest('[data-era]');
+ if(era){const region=era.closest('.time-browser');region.querySelectorAll('[data-era]').forEach(el=>el.setAttribute('aria-pressed',String(el===era)));region.querySelector('.era-detail').innerHTML=eraDetail(era.dataset.era);return true;}
+ const layout=event.target.closest('button[data-layout]');
+ if(layout){applyLayout(layout.dataset.layout);store.set('mono-v6-layout',layout.dataset.layout);return true;}
+ return false;
 }
 /* Actions de page : déléguées sur #main, donc disponibles dès le premier rendu. */
 function bookmarkFrom(event){
@@ -338,7 +359,7 @@ function route(){
  else if(target==='signets'){html=savedView();title='Mes signets';description='Vos fiches conservées dans ce navigateur.';}
  else if(target==='fiche'){
   const rec=byId.get(id);
-  if(rec){html=recordView(rec);title=rec.title;description=rec.summary;pillarId=pillarOf(rec);spaceId=rec.space;}
+  if(rec){rememberReading(rec.id);html=recordView(rec);title=rec.title;description=rec.summary;pillarId=pillarOf(rec);spaceId=rec.space;}
   else{html=notFoundView(id||'inconnu');title='Fiche introuvable';}
  }
  else{
@@ -352,6 +373,7 @@ function route(){
  chrome(currentRoute);
  const main=$('main');
  main.innerHTML=html;
+ applyLayout();hydrateReading();
  main.dataset.route=target;
  document.documentElement.dataset.pillar=pillarId||'accueil';
  document.documentElement.dataset.space=spaceId||'accueil';
@@ -387,7 +409,7 @@ $('search-dialog').addEventListener('click',event=>{
  if(event.target.closest('a.hit'))dialog.close();
 });
 $('search-input').addEventListener('input',event=>renderSearch(event.target.value));
-$('search-input').addEventListener('keydown',event=>{
+$('search-dialog').addEventListener('keydown',event=>{
  const hits=[...document.querySelectorAll('#search-results .hit')];
  if(!hits.length)return;
  const index=hits.indexOf(document.activeElement);
@@ -408,7 +430,7 @@ document.addEventListener('keydown',event=>{
 const skip=document.querySelector('.skip');
 if(skip)skip.addEventListener('click',event=>{event.preventDefault();const main=$('main');main.focus();main.scrollIntoView({block:'start'});});
 const main=$('main');
-main.addEventListener('click',event=>{if(bookmarkFrom(event))return;shareFrom(event);});
+main.addEventListener('click',event=>{if(exploreFrom(event)||bookmarkFrom(event))return;shareFrom(event);});
 main.addEventListener('submit',event=>{submitFrom(event);});
 window.addEventListener('hashchange',route);
 window.addEventListener('storage',event=>{if(event.key==='mono-v6-bookmarks')route();});

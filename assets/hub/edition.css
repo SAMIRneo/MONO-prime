@@ -78,3 +78,21 @@ html[data-theme="paper"] .orrery-ticks line{stroke:var(--bronze-2);opacity:.5}
  a[href^="#"]::after{content:""}
 }
 
+/* Lecture plus ample, appareil critique secondaire. */
+.folio-head{padding:1rem 0 2rem;gap:1.5rem}
+.folio-title h1{font-weight:400;font-size:clamp(2.8rem,5vw,4.6rem);line-height:1.12}
+.folio-lede{font-style:normal;line-height:1.6;color:var(--text-dim)}
+.folio-body{grid-template-columns:minmax(0,1fr) 16rem;gap:2.5rem}
+.prose{font-size:1.18rem;line-height:1.9;max-width:64ch}
+.marginalia{background:transparent;border:0;border-left:1px solid var(--line);padding:0 0 0 1.5rem}
+.marginalia dl{grid-template-columns:1fr;gap:.25rem}
+.marginalia dd{margin-bottom:.6rem}
+.sources strong{overflow-wrap:anywhere;font-size:.6rem}
+html[data-theme=paper] .door-panel,html[data-theme=paper] .marginalia,html[data-theme=paper] .fiche-card{box-shadow:none}
+@media(max-width:1099px){.folio-body{grid-template-columns:1fr}.marginalia{border-left:0;border-top:1px solid var(--line);padding:1.5rem 0}.marginalia dl{grid-template-columns:auto 1fr}.marginalia dd{margin:0}}
+@media(max-width:600px){.folio-head{grid-template-columns:1fr}.folio-sigil svg{width:60px;height:60px}.prose{font-size:1.1rem}.folio-title h1{font-size:2.6rem}}
+@media print{.page{margin:0;width:auto}.folio-body{grid-template-columns:1fr}.navigation,.register-tools{display:none!important}.prose{font-size:11pt}.marginalia{padding:1rem;border:1px solid #999}}
+
+.reading-trail{display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;padding:1rem 1.2rem;border-left:2px solid var(--gold);background:var(--surface);font:.78rem/1.5 var(--font-ui)}
+.reading-trail>span{margin-right:auto;color:var(--text)}.reading-trail small{display:block;color:var(--text-faint);font-size:.68rem}.reading-trail a{color:var(--gold);text-underline-offset:4px;min-height:32px;display:inline-flex;align-items:center}
+@media print{.reading-trail{display:none}}
