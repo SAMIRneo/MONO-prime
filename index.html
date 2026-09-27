@@ -3,29 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="MONO, codex de la création brisée : chroniques, mondes, Sceaux, archives et Âges du Bris.">
-<meta name="theme-color" content="#090d12">
+<meta name="description" content="Explorez MONO, une création brisée : mythologie, peuples, mondes et chroniques. Un codex vivant pour suivre les Sceaux et les Âges du Bris.">
+<meta name="theme-color" content="#0b121b">
 <meta name="color-scheme" content="dark light">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta property="og:title" content="MONO · Le Codex du Bris">
 <meta property="og:description" content="Une création brisée. Une Présence dispersée. Un monde qui recommence à se souvenir.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://samirneo.github.io/MONO-prime/">
+<link rel="canonical" href="https://samirneo.github.io/MONO-prime/">
 <title>MONO · Le Codex du Bris</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23090d12'/%3E%3Cpath d='M16 3 29 16 16 29 3 16Z' fill='none' stroke='%23d8b06a'/%3E%3Cpath d='M16 9v14M9 16h14' stroke='%23d8b06a'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/hub/style.css">
-<link rel="stylesheet" href="assets/hub/edition.css">
-<script defer src="assets/hub/catalogue.js"></script>
-<script defer src="assets/hub/app.js"></script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b121b'/%3E%3Ccircle cx='16' cy='16' r='12' fill='none' stroke='%23d8b775'/%3E%3Cpath d='M16 4 28 16 16 28 4 16Z' fill='none' stroke='%23d8b775'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/hub/style.css?v=af8c6d83d018">
+<link rel="stylesheet" href="assets/hub/edition.css?v=62c9ec889291">
+<script defer src="assets/hub/catalogue.js?v=c25770694bfb"></script>
+<script defer src="assets/hub/app.js?v=641ffafdfa1d"></script>
 </head>
 <body>
-<a class="skip" href="#main">Aller au Codex</a>
+<a class="skip" href="#main">Aller au contenu</a>
 <header class="masthead">
-  <a class="brand" href="#/accueil" aria-label="MONO, accueil"><span>MONO</span></a>
-  <p class="header-seal">ARCHIVES MONO · ÉDITION V4.5</p>
-  <div class="header-actions"><button id="search-open" type="button">RECHERCHER <kbd>⌘K</kbd></button><button id="theme" type="button">PAPIER</button><button id="menu" class="mobile-only" type="button" aria-controls="rail" aria-expanded="false">INDEX</button></div>
+<a class="brand" href="#/accueil" aria-label="MONO, Le Codex du Bris, accueil"><span class="brand-mark" aria-hidden="true">M</span><span>MONO<small>LE CODEX DU BRIS</small></span></a>
+<p class="header-seal">UNE PRÉSENCE DISPERSÉE</p>
+<div class="header-actions"><button id="search-open" type="button" aria-haspopup="dialog" aria-controls="search-dialog">Rechercher <kbd>Ctrl K</kbd></button><button id="theme" type="button">Mode papier</button><button id="menu" type="button" aria-controls="navigation" aria-expanded="false">Menu</button></div>
 </header>
+<div id="navigation" class="navigation">
 <nav class="book-tabs" id="primary-nav" aria-label="Les livres de MONO"></nav>
-<main id="main" class="page" tabindex="-1"><p class="muted">Ouverture des archives.</p></main>
-<nav id="mobile-nav" class="mobile-nav" aria-label="Navigation mobile"></nav>
-<footer class="foot"><a href="#/accueil">MONO</a><p>La mémoire est une forme de passage.</p><span>AZ · KA · VO · TH · © 2026</span></footer>
-<dialog id="search-dialog" aria-labelledby="search-heading"><div class="search-top"><h2 id="search-heading">RECHERCHE RITUELLE</h2><button id="search-close" type="button">FERMER</button></div><div class="search-body"><label class="sr-only" for="search-input">Chercher dans le Codex</label><input id="search-input" type="search" autocomplete="off" placeholder="AzKavoth, Sceelim, Brisure, Khoram..."><div class="search-results" id="search-results"></div></div></dialog>
+<nav class="sub-nav" id="sub-nav" aria-label="Parcours de lecture"></nav>
+</div>
+<main id="main" class="page" tabindex="-1"><section class="opening"><div class="opening-copy"><p class="rubric">ARCHIVES D’UNE CRÉATION BRISÉE</p><h1>MONO</h1><p class="opening-subtitle">Le Codex du Bris</p><p class="opening-intro">Une création brisée. Une Présence dispersée. Un monde qui recommence à se souvenir.</p><p class="opening-premise">Après le Bris, les Cieux, Terra et les Abysses portent les traces d’une création fracturée. À Sceelim, les Brisures se rouvrent. Des lignées, des machines et des mémoires oubliées reviennent.</p><div class="hero-actions"><a class="seal-button inverse" href="#/commencer">Commencer ici <span aria-hidden="true">↗</span></a><a class="text-link" href="#/terra">Explorer le monde <span aria-hidden="true">→</span></a></div><div class="canon-note"><span class="state state-canon">CANON</span><span>V4.5 · 101 fiches reliées</span></div></div><div class="orrery" role="img" aria-label="Composition symbolique des quatre Sceaux autour du Bris, sans valeur cartographique"><canvas id="signal-canvas" aria-hidden="true"></canvas><div class="orrery-circle outer"></div><div class="orrery-circle inner"></div><div class="orrery-diamond"></div><div class="orrery-core"><span>LE BRIS</span><strong>0</strong><small>CALENDRIER DU BRIS</small></div><div class="seal-node node-0"><b>AZ</b><span>Source</span></div><div class="seal-node node-1"><b>KA</b><span>Lien</span></div><div class="seal-node node-2"><b>VO</b><span>Forme</span></div><div class="seal-node node-3"><b>TH</b><span>Épanchement</span></div><p class="orrery-caption">LES QUATRE SCEAUX DU NOM</p></div></section><section class="entry-band"><a href="#/histoire"><small>CALENDRIER DU BRIS</small><strong>9 jalons</strong><span>Parcourir les âges ↗</span></a><a href="#/annales"><small>RÉCITS & TÉMOIGNAGES</small><strong>Les Annales</strong><span>Lire une chronique ↗</span></a><a href="#/lacunes"><small>UN UNIVERS EN CONSTRUCTION</small><strong>Les questions ouvertes</strong><span>Voir ce qui reste à écrire ↗</span></a></section><section class="dispatch"><div><p class="rubric">OUVRIR LES ARCHIVES</p><h2>Chaque livre,<br>une porte.</h2><p>Du premier Bris aux peuples de Terra. Suivez les renvois, gardez vos signets et retrouvez les sources de chaque fiche.</p></div><div class="dispatch-grid"><a href="#/cosmologie"><span>I</span><h3>COSMOGONIE</h3><p>Les origines du Bris</p><b aria-hidden="true">↗</b></a><a href="#/terra"><span>II</span><h3>MONDE & PEUPLES</h3><p>Un monde à parcourir</p><b aria-hidden="true">↗</b></a><a href="#/histoire"><span>III</span><h3>HISTOIRE & FICTIONS</h3><p>La mémoire des âges</p><b aria-hidden="true">↗</b></a><a href="#/codex"><span>IV</span><h3>CODEX</h3><p>Les archives de MONO</p><b aria-hidden="true">↗</b></a></div></section><section class="featured-record"><div class="city-sigil" aria-hidden="true"><span>S</span><small>SCEELIM</small></div><article><p class="rubric">LE PRÉSENT COMMENCE ICI</p><h2>Sceelim</h2><p>Cité autonome d’Avarn, sanctuaire diplomatique et premier foyer visible de l’Éveil.</p><a class="text-link" href="#/fiche/sceelim">Entrer dans la cité ↗</a></article></section></main>
+<footer class="foot"><a class="footer-brand" href="#/accueil">MONO</a><p>Le Codex du Bris · Canon V4.5</p><a href="#/lacunes">L’univers en construction ↗</a><span>© 2026</span></footer>
+<dialog id="search-dialog" aria-labelledby="search-heading"><div class="search-top"><h2 id="search-heading">Chercher dans le Codex</h2><button id="search-close" type="button" aria-label="Fermer la recherche">Fermer</button></div><div class="search-body"><label for="search-input">Un nom, un lieu, une idée</label><input id="search-input" type="search" autocomplete="off" placeholder="Sceelim, Brisure, Khoram…"><p id="search-count" role="status" aria-live="polite"></p><div class="search-results" id="search-results"></div><a class="text-link" id="search-all" href="#/codex">Voir tous les résultats et filtrer ↗</a></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
