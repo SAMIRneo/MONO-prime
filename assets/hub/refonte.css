@@ -38,3 +38,32 @@ body::before{background-image:repeating-linear-gradient(0deg,transparent 0 3px,r
 @media(max-width:600px){.opening{padding-top:3.8rem}.opening-copy h1{font-size:clamp(4.4rem,20vw,7rem)}.opening-lede{font-size:1.42rem}.opening-plate{max-width:340px}.index-band{gap:.4rem}.masthead{padding-block:.6rem}.brand-mark{width:2rem;height:2rem}.brand-word{font-size:1rem}.section-head h2{font-size:2rem}.sub-nav a{border-left:0}}
 @media(prefers-reduced-motion:reduce){.orrery-ticks{animation:none}}
 @media print{body{background:#fff}.opening{background:#fff;min-height:0;border:0;padding:0}.opening::before,.opening::after{display:none}.folio-head{border-top:0}.marginalia{background:#fff}}
+/* Téléphone étroit : actions compactes, cibles tactiles et aucun débordement horizontal. */
+@media(max-width:760px){
+ .masthead{height:64px;padding-inline:.75rem}
+ .navigation{top:64px;max-height:calc(100dvh - 64px)}
+ .masthead-actions{gap:.25rem;min-width:0}
+ .masthead-actions button{min-width:44px;min-height:44px;padding:.35rem .5rem;letter-spacing:0}
+ #search-open,#theme{font-size:0}
+ #search-open::before{content:"Chercher";font-size:.65rem}
+ #theme::before{content:"Papier";font-size:.65rem}
+ .opening{padding:3.5rem clamp(.9rem,4vw,1.5rem) 1.7rem}
+ .opening-plate{padding:.5rem 0 1.4rem}
+ .opening-plate .orrery{width:min(100%,19rem)}
+ .index-band{padding:1rem;gap:.35rem .8rem}
+ .door-panel,.door-panel-explorer{padding:1rem}
+ .door-grid{gap:1rem;border:0}
+ .door-panel-lore{border-right:1px solid var(--bronze);border-bottom:1px solid var(--bronze)}
+ .world-detail{overflow-wrap:anywhere}
+ .fiche-link{min-height:64px}
+ .sub-nav a,.door-spaces a,.world-node{min-height:44px}
+}
+@media(max-width:380px){
+ .brand-mark{display:none}
+ .brand-word{font-size:.88rem;letter-spacing:.15em}
+ .brand-word small{display:none}
+ .masthead-actions button{padding-inline:.36rem}
+ .opening-copy h1{font-size:clamp(3.8rem,20vw,5rem)}
+ .orrery-node{width:5.2rem;font-size:.8rem}
+ .cosmogram{padding:.65rem}
+}
