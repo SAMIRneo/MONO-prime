@@ -38,7 +38,7 @@ body::before{display:block;opacity:.75;background-image:radial-gradient(circle a
 .opening::after{content:"✦  ✦  ✦";position:absolute;right:1rem;bottom:.65rem;color:var(--gold);font:1rem var(--font-data);letter-spacing:.35em}
 .opening-copy{z-index:1;max-width:56ch;gap:1rem;justify-items:start}
 .opening-copy .label{padding:.25rem .55rem;background:var(--gold);color:var(--bg);font-family:var(--font-data);font-weight:700;letter-spacing:.08em}
-.opening-copy h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(6rem,13vw,11rem);font-weight:900;letter-spacing:-.07em;line-height:.83;color:var(--text);text-shadow:4px 4px 0 var(--bg),7px 7px 0 var(--present),10px 10px 0 var(--bg),12px 12px 0 var(--bronze-2)}
+.opening-copy h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(5.5rem,10vw,9rem);font-weight:900;letter-spacing:-.07em;line-height:.83;color:var(--text);text-shadow:4px 4px 0 var(--bg),7px 7px 0 var(--present),10px 10px 0 var(--bg),12px 12px 0 var(--bronze-2)}
 .opening-sub{font-family:var(--font-data);font-size:clamp(.85rem,1.4vw,1.15rem);font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--present);background:var(--bg);border:1px dashed var(--present);padding:.35rem .65rem;transform:rotate(-2deg)}
 .opening-lede{font-size:clamp(1.35rem,2.2vw,2rem);line-height:1.34;max-width:25ch}
 .opening-plate{min-width:0;background:radial-gradient(circle,var(--glow),transparent 70%)}
