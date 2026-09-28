@@ -1,0 +1,69 @@
+/* MONO — direction éditoriale : cabinet d'archives numérique, édition 90's. */
+:root{--shell:min(1380px,100% - 2 * var(--gutter));--font-display:Georgia,"Iowan Old Style",serif}
+html[data-theme="ink"]{--bg:#080b10;--bg-2:#10141b;--surface:#141922;--surface-2:#1c222c;--line:#39382f;--line-2:#65583e;--text:#f1e9d7;--text-dim:#c6bda8;--text-faint:#a49a85;--bronze:#997746;--bronze-2:#c29a5e;--gold:#e2b76d;--amber:#ebac52;--grid:rgba(207,171,107,.035)}
+body{background-image:radial-gradient(ellipse at 70% 0%,rgba(121,83,42,.12),transparent 50%)}
+body::before{background-image:repeating-linear-gradient(0deg,transparent 0 3px,rgba(0,0,0,.07) 3px 4px),repeating-linear-gradient(90deg,var(--grid) 0 1px,transparent 1px 48px);opacity:.48}
+.masthead{padding-block:.8rem;border-bottom:1px solid var(--bronze);box-shadow:0 4px 24px #0005}
+.brand-mark{width:2.8rem;height:2.8rem;background:var(--surface);box-shadow:inset 0 0 0 4px var(--bg),0 0 0 1px var(--bronze)}
+.brand-word{font-weight:700;font-size:1.32rem;letter-spacing:.28em}
+.brand-word small{font-size:.51rem;letter-spacing:.2em}
+.masthead-seal{border:1px solid var(--line);padding:.5rem .8rem;letter-spacing:.18em}
+.masthead-actions button{border-color:var(--bronze);padding:.55rem .8rem}
+.navigation{background:var(--bg-2);box-shadow:inset 0 -1px var(--line)}
+.door{padding:1rem .2rem .85rem}.door b{font-size:1.16rem}
+.sub-nav a{border-color:transparent;border-left:1px solid var(--line);padding-inline:.75rem}
+.page{padding-top:clamp(2rem,4vw,3.6rem)}
+.opening{position:relative;min-height:clamp(490px,57vw,650px);grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:clamp(1rem,4vw,4rem);padding:clamp(2rem,5vw,5rem);border:1px solid var(--bronze);background:radial-gradient(circle at 75% 48%,rgba(187,140,65,.13),transparent 35%),linear-gradient(125deg,var(--surface),var(--bg) 64%);overflow:hidden}
+.opening::before{content:"ARCHIVE // 001     •     LE CODEX DU BRIS";position:absolute;left:0;right:0;top:0;padding:.35rem 1rem;border-bottom:1px solid var(--line);font: .58rem/1.5 var(--font-data);letter-spacing:.2em;color:var(--bronze-2);background:var(--bg-2)}
+.opening::after{content:"✦";position:absolute;right:.9rem;bottom:.5rem;color:var(--bronze-2);font-size:1.5rem}
+.opening-copy{max-width:56ch;gap:1.1rem;z-index:1}
+.opening-copy h1{font-size:clamp(5rem,12vw,11rem);letter-spacing:-.09em;line-height:.8;text-shadow:3px 3px 0 var(--bg),5px 5px 0 var(--bronze)}
+.opening-sub{font-family:var(--font-display);font-size:clamp(1.25rem,2vw,2rem);font-style:italic;letter-spacing:.03em;text-transform:none;color:var(--gold)}
+.opening-lede{font-size:clamp(1.3rem,2.3vw,2.1rem);line-height:1.35;max-width:25ch}
+.opening-plate{min-width:0}.orrery{filter:drop-shadow(0 0 30px rgba(193,139,65,.14))}
+.hero-actions{margin-top:1.5rem}.hero-actions .button{padding:.9rem 1.2rem}
+.index-band{border:1px solid var(--bronze);border-top:0;background:var(--bg-2);font-family:var(--font-data);letter-spacing:.13em}
+.section-head{border-left:2px solid var(--gold);padding-left:1.2rem;max-width:75ch}
+.section-head h2{font-size:clamp(2rem,3.3vw,3.4rem)}
+.doors-section,.world-explorer,.entry-path{margin-top:clamp(3rem,6vw,6rem)}
+.door-grid{gap:1rem}.door-panel{position:relative;border:1px solid var(--bronze);background:linear-gradient(160deg,var(--surface),var(--bg-2));box-shadow:5px 5px 0 var(--bg),6px 6px 0 var(--line-2)}
+.door-panel::before{content:"✦   MONO / ARCHIVES";display:block;font:.57rem var(--font-data);letter-spacing:.16em;color:var(--gold);border-bottom:1px solid var(--line);padding:.65rem 1rem}
+.door-headline b{letter-spacing:.09em}.door-spaces a:hover,.fiche-link:hover{background:var(--surface-2)}
+.world-browser{border:1px solid var(--line-2);background:var(--bg-2)}
+.world-node{background:var(--surface)}.world-node[aria-pressed="true"]{background:var(--surface-2)}
+.path-list{counter-reset:archive}.path-list li{border-bottom:1px solid var(--line)}
+.fiche-link{transition:background .15s,color .15s}.fiche-row:nth-child(odd){background:rgba(194,154,94,.035)}
+.folio-head{border-top:1px solid var(--bronze);padding-top:2rem}.marginalia{background:var(--bg-2);padding:1.2rem;border:1px solid var(--line);border-top:3px double var(--bronze)}
+@media(max-width:900px){.opening{grid-template-columns:1fr;min-height:0;padding:3.5rem clamp(1.2rem,5vw,3rem) 2rem}.opening-copy h1{font-size:clamp(5rem,18vw,9rem)}.opening-plate{max-width:460px;width:100%;margin:auto}.masthead-seal{display:none}}
+@media(max-width:600px){.opening{padding-top:3.8rem}.opening-copy h1{font-size:clamp(4.4rem,20vw,7rem)}.opening-lede{font-size:1.42rem}.opening-plate{max-width:340px}.index-band{gap:.4rem}.masthead{padding-block:.6rem}.brand-mark{width:2rem;height:2rem}.brand-word{font-size:1rem}.section-head h2{font-size:2rem}.sub-nav a{border-left:0}}
+@media(prefers-reduced-motion:reduce){.orrery-ticks{animation:none}}
+@media print{body{background:#fff}.opening{background:#fff;min-height:0;border:0;padding:0}.opening::before,.opening::after{display:none}.folio-head{border-top:0}.marginalia{background:#fff}}
+/* Téléphone étroit : actions compactes, cibles tactiles et aucun débordement horizontal. */
+@media(max-width:760px){
+ .masthead{height:64px;padding-inline:.75rem}
+ .navigation{top:64px;max-height:calc(100dvh - 64px)}
+ .masthead-actions{gap:.25rem;min-width:0}
+ .masthead-actions button{min-width:44px;min-height:44px;padding:.35rem .5rem;letter-spacing:0}
+ #search-open,#theme{font-size:0}
+ #search-open::before{content:"Chercher";font-size:.65rem}
+ #theme::before{content:"Papier";font-size:.65rem}
+ .opening{padding:3.5rem clamp(.9rem,4vw,1.5rem) 1.7rem}
+ .opening-plate{padding:.5rem 0 1.4rem}
+ .opening-plate .orrery{width:min(100%,19rem)}
+ .index-band{padding:1rem;gap:.35rem .8rem}
+ .door-panel,.door-panel-explorer{padding:1rem}
+ .door-grid{gap:1rem;border:0}
+ .door-panel-lore{border-right:1px solid var(--bronze);border-bottom:1px solid var(--bronze)}
+ .world-detail{overflow-wrap:anywhere}
+ .fiche-link{min-height:64px}
+ .sub-nav a,.door-spaces a,.world-node{min-height:44px}
+}
+@media(max-width:380px){
+ .brand-mark{display:none}
+ .brand-word{font-size:.88rem;letter-spacing:.15em}
+ .brand-word small{display:none}
+ .masthead-actions button{padding-inline:.36rem}
+ .opening-copy h1{font-size:clamp(3.8rem,20vw,5rem)}
+ .orrery-node{width:5.2rem;font-size:.8rem}
+ .cosmogram{padding:.65rem}
+}
