@@ -20,8 +20,8 @@ const rel=ids=>(ids||[]).map(id=>byId.get(id)).filter(Boolean);
 const isStub=rec=>String(rec.body||'').length<100;
 const STATUS={canon:'ÉTABLI',mystere:'MYSTÈRE ASSUMÉ',developper:'À DÉVELOPPER',proposition:'PROPOSITION',hypothese:'HYPOTHÈSE',legende:'LÉGENDE INTERNE',rumeur:'RUMEUR',obsolete:'OBSOLÈTE'};
 const statusKey=rec=>STATUS[rec.status]?rec.status:'canon';
-const statusChip=rec=>'<span class="chip chip-status chip-'+statusKey(rec)+'">'+esc(STATUS[rec.status]||rec.status)+'</span>';
-const stubTag=rec=>isStub(rec)?'<span class="chip chip-stub">NOTICE BRÈVE</span>':'';
+const statusChip=rec=>rec.status==='canon'?'':'<span class="chip chip-status chip-'+statusKey(rec)+'">'+esc(STATUS[rec.status]||rec.status)+'</span>';
+const stubTag=rec=>'';
 const spaceChip=rec=>'<a class="chip chip-space" href="#/'+pillarOf(rec)+'/'+esc(rec.space)+'">'+esc(spaceOf(rec.space).label)+'</a>';
 
 /* Sigil : monogramme déterministe par fiche — cadre à angles droits, anneau mesuré, marques et glyphe de type. */
@@ -42,18 +42,28 @@ function sigil(rec,size){
 }
 /* Prose : paragraphes, titres ##, gras. Aucun HTML brut interprété. */
 const inline=text=>esc(text).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*([^*]+)\*/g,'<em>$1</em>').replace(/\x60([^\x60]+)\x60/g,'<code>$1</code>');
-function prose(text){let chapter=0;return String(text||'').split(/\n\s*\n/).filter(Boolean).map(block=>{
- const lines=block.trim().split('\n');
- if(lines[0].startsWith('|')){const rows=lines.filter(l=>!/^\|[ :|-]+\|$/.test(l)).map(l=>l.split('|').slice(1,-1).map(s=>inline(s.trim())));return '<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau du document"><table>'+rows.map((cells,i)=>'<tr>'+cells.map(c=>'<'+(i?'td':'th scope="col"')+'>'+c+'</'+(i?'td':'th')+'>').join('')+'</tr>').join('')+'</table></div>';}
- if(/^#{1,6} /.test(block))return lines.map(l=>{const m=l.match(/^(#{1,6}) (.*)/);return m?'<h'+Math.max(2,Math.min(m[1].length,4))+' id="chapitre-'+(++chapter)+'">'+inline(m[2])+'</h'+Math.max(2,Math.min(m[1].length,4))+'>':'<p>'+inline(l)+'</p>';}).join('');
- if(/^---+$/.test(block.trim()))return '<hr>';
- if(lines.every(l=>/^[-] /.test(l)))return '<ul>'+lines.map(l=>'<li>'+inline(l.slice(2))+'</li>').join('')+'</ul>';
- if(lines.every(l=>/^\d+\. /.test(l)))return '<ol>'+lines.map(l=>'<li>'+inline(l.replace(/^\d+\. /,''))+'</li>').join('')+'</ol>';
- return '<p>'+inline(block).replace(/\n/g,'<br>')+'</p>';
- }).join('');}
-function chapterMenu(rec){const headings=[...rec.body.matchAll(/^## (.+)$/gm)];return headings.length?'<nav class="chapter-menu" aria-label="Chapitres du livre"><h2>Dans ce livre</h2><ol>'+headings.map((m,i)=>'<li><button type="button" data-chapter="chapitre-'+(i+1)+'">'+inline(m[1])+'</button></li>').join('')+'</ol></nav>':'';}
+function prose(text){
+ const lines=String(text||'').split('\n'),out=[];let i=0,heading=0;
+ const special=l=>/^(?:#{1,6} |\|\s*|[-] |\d+\. |---+$)/.test(l);
+ while(i<lines.length){const line=lines[i].trim();if(!line){i++;continue;}
+  const h=line.match(/^(#{1,6}) (.+)/);if(h){const level=Math.max(2,Math.min(4,h[1].length));out.push('<h'+level+' id="chapitre-'+(++heading)+'">'+inline(h[2])+'</h'+level+'>');i++;continue;}
+  if(/^---+$/.test(line)){out.push('<hr>');i++;continue;}
+  if(line.startsWith('|')){const rows=[];while(i<lines.length&&lines[i].trim().startsWith('|')){const row=lines[i++].trim();if(!/^\|[ :|-]+\|$/.test(row))rows.push(row.split('|').slice(1,-1).map(c=>inline(c.trim())));}
+   out.push('<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau : '+esc(rows[0]?.map(c=>c.replace(/<[^>]*>/g,'')).join(', ')||'repères')+'"><table><thead><tr>'+rows[0].map(c=>'<th scope="col">'+c+'</th>').join('')+'</tr></thead><tbody>'+rows.slice(1).map(row=>'<tr>'+row.map((c,j)=>'<td data-label="'+esc(rows[0][j]?.replace(/<[^>]*>/g,'')||'')+'">'+c+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>');continue;}
+  if(/^(?:- |\d+\. )/.test(line)){const ordered=/^\d/.test(line),tag=ordered?'ol':'ul',re=ordered?/^\d+\. /:/^- /,items=[];while(i<lines.length&&re.test(lines[i].trim()))items.push('<li>'+inline(lines[i++].trim().replace(re,''))+'</li>');out.push('<'+tag+'>'+items.join('')+'</'+tag+'>');continue;}
+  const para=[line];i++;while(i<lines.length&&lines[i].trim()&&!special(lines[i].trim()))para.push(lines[i++].trim());out.push('<p>'+inline(para.join('\n')).replace(/\n/g,'<br>')+'</p>');
+ }
+ return out.join('');
+}
+function chapterMenu(rec){const headings=[...rec.body.matchAll(/^#{2,4} (.+)$/gm)];return headings.length>1?'<details class="article-contents"><summary>Dans cette page</summary><ol>'+headings.map((m,i)=>'<li><button type="button" data-chapter="chapitre-'+(i+1)+'">'+inline(m[1])+'</button></li>').join('')+'</ol></details>':'';}
+function minuteCount(text){return Math.max(1,Math.ceil(text.split(/\s+/).length/200));}
+function bookHref(rec,chapter=1){return link(rec.id)+'?chapitre='+chapter;}
+function bookCards(){return '<ol class="book-shelf">'+records.filter(r=>r.type==='Livre').map((r,i)=>'<li><a class="book-cover" href="'+bookHref(r)+'"><span class="book-number">0'+(i+1)+'</span><span class="label">LIVRE '+['I','II','III','IV'][i]+'</span><h2>'+esc(r.title.replace(/^Livre [IVX]+ — /,''))+'</h2><p>'+esc(r.summary)+'</p><span class="book-meta">'+r.chapters.length+' chapitres · environ '+minuteCount(r.body)+' min</span><span class="text-link">'+(i?'Ouvrir le livre':'Commencer la lecture')+' →</span></a></li>').join('')+'</ol>';}
+function storyLibrary(){return '<header class="space-head"><p class="label">LES RÉCITS DES ORIGINES</p><h1>Avant le monde,<br>il y avait le Nom.</h1><p class="space-lede">Quatre livres, à lire dans l’ordre. Du premier retrait d’AZKAVOTH aux croyances des mortels, découvrez l’histoire à travers ceux qui la racontent.</p><a class="button" href="'+bookHref(byId.get('livre-1'))+'">Lire le premier chapitre →</a></header><div id="story-resume" class="reading-resume" hidden></div>'+bookCards()+'<aside class="reading-help"><h2>Besoin d’un repère ?</h2><p>Vous pouvez lire sans préparation. Si un nom ou un lieu vous échappe, les pages de l’univers sont là pour vous accompagner.</p><a class="text-link" href="#/fiche/decouvrir">Découvrir les quatre repères →</a><a class="text-link" href="#/lore/ages">Situer les événements dans le temps →</a></aside>';}
+function topicCards(){return '<div class="topic-grid">'+P.topics.map((t,i)=>'<article class="topic-card"><span class="label">0'+(i+1)+' / '+esc(spaceOf(t.space).label)+'</span><h2>'+esc(t.title)+'</h2><p>'+esc(t.description)+'</p><ul>'+rel(t.ids).map(r=>'<li><a href="'+link(r.id)+'">'+esc(r.title)+' <span aria-hidden="true">→</span></a></li>').join('')+'</ul><a class="text-link" href="#/explorer/'+t.space+'">Tout explorer →</a></article>').join('')+'</div>';}
+function guideView(){return '<header class="space-head"><p class="label">PREMIÈRE VISITE</p><h1>Découvrir MONO</h1><p class="space-lede">Quatre repères pour entrer dans le monde. Vous pourrez ensuite suivre les récits ou explorer les sujets qui vous intriguent.</p></header><ol class="discovery-steps">'+P.intro.map((item,i)=>'<li><span class="step-number">0'+(i+1)+'</span><div><h2>'+esc(item.title)+'</h2><p>'+esc(item.body)+'</p><a class="text-link" href="'+link(item.target)+'">'+esc(item.label)+' →</a></div></li>').join('')+'</ol><section class="reading-help"><p class="label">ET MAINTENANT ?</p><h2>Laissez l’histoire commencer.</h2><p>Le premier livre raconte ce qui précède la Déchirure. Aucun autre repère n’est nécessaire pour commencer.</p><a class="button" href="'+bookHref(byId.get('livre-1'))+'">Lire le Livre I →</a><a class="text-link" href="#/explorer">Explorer l’univers →</a></section>';}
 
-/* Registre dense des fiches. */
+
 function ficheRow(rec,opts={}){
  return '<li class="fiche-row"><a class="fiche-link" href="'+link(rec.id)+'">'+
   '<span class="fiche-sigil">'+sigil(rec,opts.large?44:34)+'</span>'+
@@ -64,7 +74,7 @@ function ficheRow(rec,opts={}){
   '<span class="fiche-go" aria-hidden="true">↗</span></a></li>';
 }
 function ficheList(list,opts={}){return '<div class="register-tools"><span>'+list.length+' fiches</span><div role="group" aria-label="Affichage des fiches"><button type="button" data-layout="list" aria-pressed="true">Liste</button><button type="button" data-layout="grid" aria-pressed="false">Galerie</button></div></div><ul class="register" role="list">'+list.map(rec=>ficheRow(rec,opts)).join('')+'</ul>';}
-function ficheCards(list){return '<div class="card-grid">'+list.map(rec=>'<a class="fiche-card" href="'+link(rec.id)+'"><span class="card-sigil">'+sigil(rec,40)+'</span><span class="card-kicker">'+esc(rec.type)+' · '+esc(rec.domain)+'</span><h3>'+esc(rec.title)+'</h3><p>'+esc(rec.summary)+'</p><span class="card-flags">'+statusChip(rec)+stubTag(rec)+'</span></a>').join('')+'</div>';}
+function ficheCards(list){return '<div class="card-grid">'+list.map(rec=>'<a class="fiche-card" href="'+link(rec.id)+'"><span class="card-sigil">'+sigil(rec,40)+'</span><span class="card-kicker">'+esc(spaceOf(rec.space).label)+'</span><h3>'+esc(rec.title)+'</h3><p>'+esc(rec.summary)+'</p><span class="text-link">Découvrir →</span></a>').join('')+'</div>';}
 function linkChips(ids,label){const list=rel(ids);if(!list.length)return '';return '<div class="renvois">'+(label?'<p class="label">'+esc(label)+'</p>':'')+'<ul>'+list.map(rec=>'<li><a href="'+link(rec.id)+'">'+esc(rec.title)+' <span aria-hidden="true">↗</span></a></li>').join('')+'</ul></div>';}
 
 /* Recherche : index sans accents sur titre, résumé, corps, type, domaine, époque, lignée, espace et tags. */
@@ -105,11 +115,11 @@ function filterBar(route,base,params,hidden){
  const select=(name,label,values)=>{const current=params.get(name)||'';return '<label class="field"><span>'+esc(label)+'</span><select name="'+name+'"><option value="">Tous</option>'+values.map(v=>{const [value,text]=Array.isArray(v)?v:[v,v];return '<option value="'+esc(value)+'"'+(current===value?' selected':'')+'>'+esc(text)+'</option>';}).join('')+'</select></label>';};
  const order=params.get('tri')||'ordre';
  return '<form class="filter-bar" id="filter-form" action="'+esc(route)+'">'+hides+
-  '<label class="field field-q"><span>Motif</span><input type="search" name="q" value="'+esc(params.get('q')||'')+'" placeholder="titre, type, texte…" autocomplete="off"></label>'+
+  '<label class="field field-q"><span>Rechercher</span><input type="search" name="q" value="'+esc(params.get('q')||'')+'" placeholder="titre, type, texte…" autocomplete="off"></label>'+
   select('type','Type',facet(base,'type'))+
   select('domaine','Domaine',facet(base,'domain'))+
   select('statut','Statut',facet(base,'status').map(value=>[value,STATUS[value]||value]))+
-  select('lignee','Lignée',facet(base,'lineage'))+
+
   '<label class="field"><span>Ordre</span><select name="tri">'+[['ordre','Canon'],['titre','Titre'],['maj','Mise à jour'],['statut','Statut']].map(([value,text])=>'<option value="'+value+'"'+(order===value?' selected':'')+'>'+text+'</option>').join('')+'</select></label>'+
   '<span class="filter-actions"><button type="submit">Filtrer</button><a class="text-link" href="'+esc(route)+'">Réinitialiser</a></span></form>';
 }
@@ -123,10 +133,8 @@ function timeline(){
  const selected=eras[0].id;
  return '<section class="chronology"><header class="section-head"><p class="label">CALENDRIER DE LA DÉCHIRURE</p><h2>Une histoire de ruptures.</h2><p class="section-note">Du Néant à l’Éveil des Brisures. Choisissez un âge pour en suivre les traces.</p></header><div class="time-browser"><ol class="rail">'+eras.map(era=>'<li class="jalon" id="jalon-'+esc(era.id)+'"><button type="button" data-era="'+esc(era.id)+'" aria-pressed="'+(era.id===selected)+'" aria-controls="era-detail"><span class="jalon-order">'+String(era.order).padStart(2,'0')+'</span><span><small>'+esc(era.date)+'</small><strong>'+esc(era.title)+'</strong></span><span aria-hidden="true">↗</span></button></li>').join('')+'</ol><div id="era-detail" class="era-detail" aria-live="polite">'+eraDetail(selected)+'</div></div></section>';
 }
-function worldDetail(id){
- const rec=byId.get(id)||byId.get('terra');
- return '<div class="world-detail-title">'+sigil(rec,54)+'<div><p class="label">'+esc(rec.type)+'</p><h3>'+esc(rec.title)+'</h3></div></div><p class="world-summary">'+esc(rec.summary)+'</p><div class="world-excerpt">'+prose(rec.body)+'</div>'+linkChips(rec.links.slice(0,7),'À découvrir')+'<a class="text-link" href="'+link(rec.id)+'">Ouvrir la fiche '+esc(rec.title)+' ↗</a>';
-}
+function worldDetail(id){const rec=byId.get(id)||byId.get('terra');return '<div class="world-detail-title">'+sigil(rec,54)+'<div><p class="label">LES TROIS MONDES</p><h3>'+esc(rec.title)+'</h3></div></div><p class="world-summary">'+esc(rec.summary)+'</p>'+linkChips(rec.id==='terra'?['avarn','sahrun','khoram','seyra','theryn']:rec.id==='cieux'?['archanges','structure-verticale']:['qerath','structure-verticale'],'Pour aller plus loin')+'<a class="text-link" href="'+link(rec.id)+'">Explorer '+esc(rec.title)+' →</a>';}
+
 function worldExplorer(selected='terra'){
  const ids=['cieux','terra','abysses'];if(!ids.includes(selected))selected='terra';
  return '<section class="world-explorer"><header class="section-head"><p class="label">GÉOGRAPHIE DE LA CRÉATION</p><h2>Trois mondes issus de la Déchirure.</h2><p class="section-note">Choisissez un domaine. Suivez les lieux, les peuples et les passages qui lui sont liés.</p></header><div class="world-browser"><div class="cosmogram" role="group" aria-label="Choisir un domaine"><div class="cosmos-axis" aria-hidden="true"></div>'+ids.map(id=>{const rec=byId.get(id);return '<button type="button" class="world-node world-node-'+id+'" data-world="'+id+'" aria-pressed="'+(id===selected)+'" aria-controls="world-detail"><span class="world-node-symbol" aria-hidden="true">'+sigil(rec,52)+'</span><span><small>'+esc(rec.type)+'</small><strong>'+esc(rec.title)+'</strong></span><span class="world-node-arrow" aria-hidden="true">↗</span></button>';}).join('')+'<p class="cosmogram-note">Schéma de navigation<br>Cieux · Terra · Abysses</p></div><div id="world-detail" class="world-detail" aria-live="polite">'+worldDetail(selected)+'</div></div></section>';
@@ -157,13 +165,8 @@ function doorPanel(pillar){
   '<ul class="door-spaces">'+spaces.map(space=>'<li><a href="#/'+esc(pillar.id)+'/'+esc(space.id)+'"><span class="space-name">'+esc(space.label)+'</span><span class="space-meta">'+recsOf(space.id).length+' fiches · '+esc(space.kicker)+'</span></a></li>').join('')+'</ul>'+
   '<p class="door-total"><span class="chip">'+total+' fiches</span><span class="text-link" aria-hidden="true">Ouvrir '+esc(pillar.title)+' →</span></p></article>';
 }
-function home(){
- const present=byId.get('aurenth');
- return '<section class="opening"><div class="opening-copy"><p class="label">UNE MYTHOLOGIE À EXPLORER</p><h1>MONO</h1><p class="opening-sub">Le Codex de la Déchirure</p><p class="opening-lede">'+esc(P.introduction)+'</p><div class="hero-actions"><a class="button" href="'+link((P.reading||[])[0]||'bris-an-0')+'">Découvrir l’univers ↗</a><a class="text-link" href="#/lore/annales">Lire les Annales</a></div></div><div class="opening-plate">'+orrery()+'</div></section>'+
- '<div class="index-band"><span>ARCHIVES DE MONO</span><span>'+records.length+' fiches reliées</span><span>'+eras.length+' jalons</span><span>CANON '+esc(D.canon_version)+'</span></div>'+
- '<section class="doors-section"><header class="section-head"><h2>Deux chemins dans le même univers.</h2></header><div class="door-grid">'+pillars.map(doorPanel).join('')+'</div></section>'+worldExplorer()+journey()+
- '<section class="feature"><div class="feature-mark">'+sigil(present,100)+'</div><article><p class="label">LE TÉMOIN DE TERRA</p><h2><a href="'+link(present.id)+'">'+esc(present.title)+'</a></h2><p class="feature-lede">'+esc(present.summary)+'</p><p class="feature-body">'+esc(lead(present))+'</p><a class="text-link" href="'+link(present.id)+'">Entrer dans la cité ↗</a></article></section>';
-}
+function home(){return '<section class="opening"><div class="opening-copy"><p class="label">BIENVENUE DANS MONO</p><h1>MONO</h1><p class="opening-sub">Le Codex de la Déchirure</p><p class="opening-lede">'+esc(P.introduction)+'</p><div class="hero-actions"><a class="button" href="#/fiche/decouvrir">Je découvre l’univers →</a><a class="text-link" href="#/fiche/livre-1?chapitre=1">Je commence l’histoire →</a></div></div><div class="opening-plate">'+orrery()+'</div></section><div class="index-band"><span>UN UNIVERS À DÉCOUVRIR</span><span>3 mondes</span><span>5 continents</span><span>4 livres des origines</span></div><section class="first-steps"><header class="section-head"><p class="label">POUR COMMENCER</p><h2>Trois idées pour trouver vos repères.</h2></header><div class="essential-grid">'+P.intro.slice(0,3).map((x,i)=>'<article><span class="label">0'+(i+1)+'</span><h3>'+esc(x.title)+'</h3><p>'+esc(x.body)+'</p><a class="text-link" href="'+link(x.target)+'">'+esc(x.label)+' →</a></article>').join('')+'</div></section><div id="story-resume" class="reading-resume" hidden></div><section class="home-stories"><header class="section-head"><p class="label">LIRE L’HISTOIRE</p><h2>Les Récits des Origines.</h2><p class="section-note">Un chapitre à la fois, du Nom seul jusqu’aux premiers sacerdoces des mortels.</p></header>'+bookCards()+'</section><section class="home-topics"><header class="section-head"><p class="label">EXPLORER À VOTRE RYTHME</p><h2>Suivez votre curiosité.</h2></header>'+topicCards()+'</section>';}
+
 function spaceTabs(pillarId,current){
  const def=pillarDef(pillarId);
  return '<nav class="space-tabs" aria-label="Sections de '+esc(def.title)+'">'+def.spaces.map(id=>'<a href="#/'+esc(pillarId)+'/'+esc(id)+'"'+(id===current?' aria-current="page"':'')+'><span>'+esc(spaceOf(id).label)+'</span><small>'+recsOf(id).length+'</small></a>').join('')+'</nav>';
@@ -182,21 +185,11 @@ function shelf(spaceId,preview,limit){
   preview+
   '<p class="more"><a class="text-link" href="#/'+(space.pillar==='lore'?'lore':'explorer')+'/'+esc(spaceId)+'">Voir les '+items.length+' fiches de '+esc(space.label)+' ↗</a></p></section>';
 }
-function pillarView(pillarId){
- const def=pillarDef(pillarId), list=recsOfPillar(pillarId);
- const head='<header class="space-head"><p class="label">'+esc(def.title)+' · '+list.length+' fiches</p><h1>'+esc(def.subtitle)+'</h1>'+
-  '<p class="space-lede">'+esc(def.description)+'</p></header>'+
-  spaceTabs(pillarId,'');
- if(pillarId==='lore')return head+
-  '<section class="shelf shelf-ages"><header class="section-head"><p class="label">'+esc(spaceOf('ages').kicker)+'</p><h2><a href="#/lore/ages">'+esc(spaceOf('ages').label)+'</a></h2><p class="section-note">'+esc(spaceOf('ages').description)+'</p></header>'+timeline()+
-  '<p class="more"><a class="text-link" href="#/lore/ages">Voir les '+recsOf('ages').length+' notices d’âge ↗</a></p></section>'+
-  shelf('annales',ficheCards(recsOf('annales')));
- return head+worldExplorer()+
-  shelf('fondements',ficheCards(recsOf('fondements').slice(0,6)))+
-  shelf('revelations',ficheCards(recsOf('revelations').slice(0,6)))+
-  shelf('domaines',worldStrip(recsOf('domaines'),{get:()=>''})+ficheCards(recsOf('domaines').slice(0,6)));
-}
+function pillarView(pillarId){if(pillarId==='lore')return storyLibrary();return '<header class="space-head"><p class="label">L’UNIVERS DE MONO</p><h1>Comprendre le monde.</h1><p class="space-lede">Des origines aux croyances, choisissez ce que vous voulez découvrir. Chaque page vous mène vers les notions qui lui sont liées.</p><a class="button" href="#/fiche/decouvrir">Commencer par les quatre repères →</a></header>'+topicCards()+worldExplorer();}
+
 function spaceView(spaceId,params){
+ if(spaceId==='annales')return storyLibrary();
+ if(spaceId==='ages')return '<header class="space-head"><p class="label">SE REPÉRER DANS LE TEMPS</p><h1>La chronologie</h1><p class="space-lede">CD signifie Calendrier de la Déchirure. L’an 0 marque la naissance des trois mondes. Les dates précédées de ~ sont approximatives.</p></header>'+timeline();
  const space={id:spaceId,...spaceOf(spaceId)}, pillarId=space.pillar, base=recsOf(spaceId), list=filterRecords(base,params);
  const title=spaceId==='ages'?'Les notices d’âge':spaceId==='domaines'?'Les fiches du monde':spaceId==='annales'?'Les récits et les voix':spaceId==='fondements'?'Les principes et les êtres':spaceId==='revelations'?'Les Sceaux et les doctrines':'Les fiches';
  const head='<nav class="trail" aria-label="Fil d’Ariane"><a href="#/accueil">MONO</a><span aria-hidden="true">/</span><a href="#/'+esc(pillarId)+'">'+esc(pillarDef(pillarId).title)+'</a><span aria-hidden="true">/</span><span aria-current="page">'+esc(space.label)+'</span></nav>'+
@@ -205,8 +198,8 @@ function spaceView(spaceId,params){
  const extra=spaceId==='ages'?timeline():spaceId==='domaines'?worldExplorer(norm(params.get('domaine')||'terra'))+worldStrip(base,params):'';
  return head+extra+
   '<section class="register-zone"><header class="section-head"><h2>'+esc(title)+'</h2><p class="section-note">'+list.length+' fiche'+(list.length>1?'s':'')+' affichée'+(list.length>1?'s':'')+' sur '+base.length+'.</p></header>'+
-  filterBar('#/'+pillarId+'/'+spaceId,base,params,null)+
-  (list.length?ficheList(list):'<p class="empty">Aucune fiche ne correspond à ces critères. <a class="text-link" href="#/'+esc(pillarId)+'/'+esc(spaceId)+'">Réinitialiser les filtres ↗</a></p>')+
+  '<details class="filter-drawer"><summary>Rechercher dans cette rubrique</summary>'+filterBar('#/'+pillarId+'/'+spaceId,base,params,null)+'</details>'+
+  (list.length?ficheCards(list):'<p class="empty">Aucune fiche ne correspond à ces critères. <a class="text-link" href="#/'+esc(pillarId)+'/'+esc(spaceId)+'">Réinitialiser les filtres ↗</a></p>')+
   '</section>';
 }
 function readingTrail(rec){
@@ -214,31 +207,28 @@ function readingTrail(rec){
  const next=byId.get(ids[index+1]);
  return '<nav class="reading-trail" aria-label="Parcours de découverte"><span>Découvrir MONO <small>Lecture '+(index+1)+' sur '+ids.length+'</small></span>'+(index?'<a href="'+link(ids[index-1])+'">← Précédente</a>':'')+(next?'<a href="'+link(next.id)+'">Continuer : '+esc(next.title)+' →</a>':'<a href="#/explorer">Poursuivre l’exploration →</a>')+'</nav>';
 }
-function recordView(rec){
- const pillarId=pillarOf(rec), space=spaceOf(rec.space), siblings=recsOf(rec.space), index=siblings.findIndex(item=>item.id===rec.id);
- const previous=siblings[index-1], next=siblings[index+1], saved=bookmarks().includes(rec.id);
- const backs=records.filter(item=>item.id!==rec.id&&item.links.includes(rec.id));
- return '<article class="folio">'+
-  '<nav class="trail" aria-label="Fil d’Ariane"><a href="#/accueil">MONO</a><span aria-hidden="true">/</span><a href="#/'+esc(pillarId)+'">'+esc(pillarDef(pillarId).title)+'</a><span aria-hidden="true">/</span><a href="#/'+esc(pillarId)+'/'+esc(rec.space)+'">'+esc(space.label)+'</a><span aria-hidden="true">/</span><span aria-current="page">'+esc(rec.title)+'</span></nav>'+
-  '<header class="folio-head"><div class="folio-sigil">'+sigil(rec,96)+'</div><div class="folio-title"><p class="folio-flags">'+statusChip(rec)+stubTag(rec)+'<span class="chip-min">'+esc(rec.type)+'</span><span class="chip-min">n° '+esc(folio(rec))+'</span></p>'+
-  '<h1>'+esc(rec.title)+'</h1><p class="folio-lede">'+esc(rec.summary)+'</p>'+
-  '<p class="folio-actions"><button type="button" class="button button-small" data-bookmark="'+esc(rec.id)+'" aria-pressed="'+saved+'">'+(saved?'Retirer des signets':'Ajouter aux signets')+'</button><button type="button" class="button button-small button-ghost" data-share>Copier le lien</button></p></div></header>'+
-  readingTrail(rec)+chapterMenu(rec)+'<div class="folio-body"><div class="prose">'+prose(rec.body)+'</div><aside class="marginalia">'+
-   '<h2>Repères</h2><dl><dt>Type</dt><dd>'+esc(rec.type)+'</dd><dt>Espace</dt><dd><a href="#/'+esc(pillarId)+'/'+esc(rec.space)+'">'+esc(space.label)+'</a></dd><dt>Domaine</dt><dd>'+esc(rec.domain)+'</dd><dt>Ère</dt><dd>'+esc(rec.era)+'</dd><dt>Lignée</dt><dd>'+esc(rec.lineage)+'</dd><dt>Fiche</dt><dd>n° '+esc(folio(rec))+'</dd><dt>Mise à jour</dt><dd>'+esc(rec.last_updated)+'</dd></dl>'+
-   (rec.questions.length?'<h2>Questions ouvertes</h2><ul class="questions">'+rec.questions.map(question=>'<li>'+esc(question)+'</li>').join('')+'</ul>':'')+
-   '<h2>Sources</h2><ul class="sources">'+rec.sources.map(source=>'<li><strong>'+esc(String(source.document).replace('.md','').replaceAll('_',' '))+'</strong><span>'+esc(source.section)+'</span></li>').join('')+'</ul>'+
-  '</aside></div>'+
-  '<footer class="folio-foot">'+linkChips(rec.links,'Renvois')+(backs.length?linkChips(backs.map(item=>item.id),'Cité dans'):'')+
-  '<nav class="folio-nav" aria-label="Fiches voisines dans '+esc(space.label)+'">'+(previous?'<a href="'+link(previous.id)+'"><small>Précédent</small><span>'+esc(previous.title)+'</span></a>':'<span></span>')+(next?'<a href="'+link(next.id)+'"><small>Suivant</small><span>'+esc(next.title)+'</span></a>':'<span></span>')+'</nav></footer></article>';
+function storyView(rec,params){
+ const all=params.get('chapitre')==='tout',raw=Number(params.get('chapitre')||1),index=Number.isInteger(raw)&&raw>=1&&raw<=rec.chapters.length?raw-1:0,c=rec.chapters[index],books=records.filter(r=>r.type==='Livre'),bi=books.indexOf(rec);
+ if(!all)store.set('mono-story-position',{id:rec.id,chapter:index+1});
+ const previous=index>0?{url:bookHref(rec,index),label:'Chapitre précédent'}:bi>0?{url:bookHref(books[bi-1],books[bi-1].chapters.length),label:'Livre précédent'}:null;
+ const next=index<rec.chapters.length-1?{url:bookHref(rec,index+2),label:'Chapitre suivant : '+rec.chapters[index+1].title}:bi<books.length-1?{url:bookHref(books[bi+1]),label:'Continuer avec le Livre '+['I','II','III','IV'][bi+1]}:{url:'#/explorer',label:'Poursuivre dans l’univers'};
+ return '<article class="story-reader"><nav class="trail" aria-label="Fil d’Ariane"><a href="#/lore">Récits des Origines</a><span aria-hidden="true">/</span><span>Livre '+['I','II','III','IV'][bi]+'</span></nav><header class="reader-head"><p class="label">RÉCITS DES ORIGINES · LIVRE '+['I','II','III','IV'][bi]+'</p><h1>'+esc(rec.title)+'</h1><p>'+esc(rec.summary)+'</p></header><div class="reader-tools"><span>'+(all?'Lecture intégrale · environ '+minuteCount(rec.body)+' min':'Chapitre '+(index+1)+' sur '+rec.chapters.length+' · environ '+minuteCount(c.body)+' min')+'</span><a href="'+(all?bookHref(rec):bookHref(rec,'tout'))+'">'+(all?'Lire chapitre par chapitre':'Lire le livre en entier')+'</a></div><details class="reader-contents"><summary>Choisir un chapitre</summary><ol>'+rec.chapters.map((ch,i)=>'<li><a href="'+bookHref(rec,i+1)+'"'+(!all&&i===index?' aria-current="page"':'')+'>'+esc(ch.title)+'</a></li>').join('')+'</ol></details><div class="story-prose prose">'+(all?prose(rec.body):'<h2>'+esc(c.title)+'</h2>'+prose(c.body))+'</div><nav class="chapter-navigation" aria-label="Suite de la lecture">'+(all?(bi?'<a href="'+bookHref(books[bi-1],'tout')+'">← Livre précédent</a>':'<a href="#/lore">Tous les livres</a>'):(previous?'<a href="'+previous.url+'">← '+esc(previous.label)+'</a>':'<a href="#/lore">Tous les livres</a>'))+'<a class="button" data-next-chapter href="'+(all?(bi<books.length-1?bookHref(books[bi+1],'tout'):'#/explorer'):next.url)+'">'+esc(all?(bi<books.length-1?'Lire le livre suivant':'Explorer l’univers'):next.label)+' →</a></nav><div class="reader-bottom"><button type="button" data-bookmark="'+rec.id+'" aria-pressed="'+bookmarks().includes(rec.id)+'">'+(bookmarks().includes(rec.id)?'Retirer des signets':'Garder ce livre')+'</button><button type="button" data-share>Copier le lien de lecture</button><a href="#/fiche/decouvrir">Retrouver les repères de l’univers</a></div></article>';
 }
+function recordView(rec,params){
+ if(rec.id==='decouvrir')return guideView();
+ if(rec.type==='Livre')return storyView(rec,params);
+ const space=spaceOf(rec.space),saved=bookmarks().includes(rec.id);
+ return '<article class="knowledge-page"><nav class="trail" aria-label="Fil d’Ariane"><a href="#/explorer">Univers</a><span aria-hidden="true">/</span><a href="#/'+space.pillar+'/'+rec.space+'">'+esc(space.label)+'</a></nav><header class="knowledge-head"><p class="label">'+esc(space.label)+(rec.status==='mystere'?' · CE QUI RESTE MYSTÉRIEUX':'')+'</p><h1>'+esc(rec.title)+'</h1><p class="space-lede">'+esc(rec.summary)+'</p></header>'+readingTrail(rec)+chapterMenu(rec)+'<div class="knowledge-layout"><div class="prose">'+prose(rec.body)+'</div><aside class="knowledge-aside"><h2>Pour se repérer</h2><p>Un nom ou une idée vous échappe ? Revenez aux quatre repères de MONO.</p><a class="text-link" href="#/fiche/decouvrir">Découvrir l’univers →</a>'+linkChips(rec.links,'À lire ensuite')+'</aside></div><footer class="knowledge-footer"><button type="button" data-bookmark="'+rec.id+'" aria-pressed="'+saved+'">'+(saved?'Retirer des signets':'Garder cette page')+'</button><button type="button" data-share>Copier le lien</button><details><summary>Référence du récit</summary><p>'+rec.sources.map(s=>esc(s.document.includes('Narration')?'Récits des Origines':'Lore & Cartographie')+' — '+esc(s.section.replace(/^\d+\. /,'').replace(/\x60/g,'').replace(/\[(?:ÉTABLI|MYSTÈRE ASSUMÉ)\]/g,''))).join('<br>')+'</p></details></footer></article>';
+}
+
 function searchView(params){
  const query=params.get('q')||'', list=filterRecords(records,params);
  return '<nav class="trail" aria-label="Fil d’Ariane"><a href="#/accueil">MONO</a><span aria-hidden="true">/</span><span aria-current="page">Registre</span></nav>'+
   '<header class="space-head"><p class="label">RECHERCHE & REGISTRE</p><h1>Chercher dans le Codex</h1>'+
-  '<p class="space-lede">Le canon entier en une liste : '+records.length+' fiches, deux espaces, cinq sections. Les filtres restent dans l’adresse, le lien est partageable.</p></header>'+
+  '<p class="space-lede">Retrouvez un lieu, un personnage, une croyance ou un passage des récits.</p></header>'+
   filterBar('#/recherche',records,params,null)+
   '<section class="register-zone"><header class="section-head"><h2>'+(query?list.length+' résultat'+(list.length>1?'s':'')+' pour « '+esc(query)+' »':list.length+' fiches')+'</h2>'+
-  '<p class="section-note">Recherche sans accents sur le titre, le résumé, le corps, le type, le domaine, l’époque, la lignée et les tags.</p></header>'+
+  '<p class="section-note">Cherchez un nom ou quelques mots ; les passages des récits sont aussi inclus.</p></header>'+
   (list.length?ficheList(list,{space:true}):'<p class="empty">Aucune fiche ne correspond. <a class="text-link" href="#/recherche">Vider les filtres ↗</a></p>')+'</section>';
 }
 function savedView(){
@@ -269,10 +259,10 @@ function chrome(current){
  const pillarId=current.pillar, spaceId=current.space||'';
  $('primary-nav').innerHTML='<a class="nav-home" href="#/accueil"'+(current.key==='accueil'?' aria-current="page"':'')+'>Accueil <span aria-hidden="true">↗</span></a>'+pillars.map(pillar=>'<a class="door" href="#/'+esc(pillar.id)+'"'+(pillarId===pillar.id?' aria-current="page"':'')+'><b>'+esc(pillar.title)+'</b><span>'+esc(pillar.subtitle)+'</span></a>').join('');
  const ids=pillars.flatMap(pillar=>pillar.spaces);
- $('sub-nav').innerHTML=ids.map(id=>'<a href="#/'+esc(spaceOf(id).pillar)+'/'+esc(id)+'"'+(spaceId===id?' aria-current="page"':'')+'><span>'+esc(spaceOf(id).label)+'</span><small>'+recsOf(id).length+'</small></a>').join('')+
+ $('sub-nav').innerHTML='<a href="#/fiche/decouvrir"><span>Première visite</span><small>→</small></a>'+ids.map(id=>'<a href="#/'+esc(spaceOf(id).pillar)+'/'+esc(id)+'"'+(spaceId===id?' aria-current="page"':'')+'><span>'+esc(spaceOf(id).label)+'</span><small>'+recsOf(id).length+'</small></a>').join('')+
   '<a href="#/recherche"'+(current.key==='recherche'?' aria-current="page"':'')+'><span>Tout le Codex</span><small>'+records.length+'</small></a><a href="#/signets"'+(current.key==='signets'?' aria-current="page"':'')+'><span>Mes signets</span><small>'+bookmarks().length+'</small></a>';
  const colophon=$('colophon-canon');
- if(colophon)colophon.textContent='Canon '+String(D.canon_version||'V8.1')+' · '+records.length+' fiches · '+eras.length+' jalons';
+ if(colophon)colophon.textContent='MONO · Les Récits des Origines';
 }
 function closeMenu(){document.body.classList.remove('tabs-open');const button=$('menu');if(button)button.setAttribute('aria-expanded','false');}
 let toastTimer;
@@ -295,11 +285,11 @@ function rememberReading(id){
  store.set('mono-v81-reading',[id,...history.filter(value=>value!==id)].slice(0,30));
 }
 function hydrateReading(){
- const el=$('reading-resume');if(!el)return;
- const raw=store.get('mono-v81-reading',[]),recent=Array.isArray(raw)?raw.find(id=>byId.has(id)):null;
- if(!recent)return;const rec=byId.get(recent);el.hidden=false;
- el.innerHTML='<span>Votre dernière lecture</span><a href="'+link(rec.id)+'">'+esc(rec.title)+' ↗</a>';
+ const el=$('story-resume');if(!el)return;const position=store.get('mono-story-position',null);if(!position||typeof position!=='object')return;
+ const rec=byId.get(position.id);if(!rec||rec.type!=='Livre'||!Number.isInteger(position.chapter)||!rec.chapters[position.chapter-1])return;
+ el.hidden=false;el.innerHTML='<span class="label">REPRENDRE VOTRE LECTURE</span><a href="'+bookHref(rec,position.chapter)+'">'+esc(rec.title)+' — '+esc(rec.chapters[position.chapter-1].title)+' →</a>';
 }
+
 function applyLayout(value){
  const mode=(value||store.get('mono-v81-layout','list'))==='grid'?'grid':'list';
  document.querySelectorAll('.register').forEach(el=>el.dataset.layout=mode);
@@ -369,7 +359,7 @@ function route(){
  else if(target==='signets'){html=savedView();title='Mes signets';description='Vos fiches conservées dans ce navigateur.';}
  else if(target==='fiche'){
   const rec=byId.get(id);
-  if(rec){rememberReading(rec.id);html=recordView(rec);title=rec.title;description=rec.summary;pillarId=pillarOf(rec);spaceId=rec.space;}
+  if(rec){rememberReading(rec.id);html=recordView(rec,params);title=rec.title;description=rec.summary;pillarId=pillarOf(rec);spaceId=rec.space;}
   else{html=notFoundView(id||'inconnu');title='Fiche introuvable';}
  }
  else{
