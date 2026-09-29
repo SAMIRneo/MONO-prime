@@ -1,4 +1,4 @@
-/* MONO V6 — Codex public à deux espaces (LORE, EXPLORER) : registre de fiches, chronologie et recherche.
+/* MONO V8.1 — Codex public à deux espaces (LORE, EXPLORER) : registre de fiches, chronologie et recherche.
    JavaScript natif, aucune dépendance. Les vues sont des chaînes HTML, l'accueil est pré-rendu au build. */
 (() => {
 'use strict';
@@ -18,7 +18,7 @@ const norm=v=>String(v??'').replace(/[\u2019\u2018]/g,"'").normalize('NFD').repl
 const link=id=>'#/fiche/'+encodeURIComponent(id);
 const rel=ids=>(ids||[]).map(id=>byId.get(id)).filter(Boolean);
 const isStub=rec=>String(rec.body||'').length<100;
-const STATUS={canon:'CANON',proposition:'PROPOSITION',hypothese:'HYPOTHÈSE',legende:'LÉGENDE INTERNE',rumeur:'RUMEUR',obsolete:'OBSOLÈTE'};
+const STATUS={canon:'ÉTABLI',mystere:'MYSTÈRE ASSUMÉ',developper:'À DÉVELOPPER',proposition:'PROPOSITION',hypothese:'HYPOTHÈSE',legende:'LÉGENDE INTERNE',rumeur:'RUMEUR',obsolete:'OBSOLÈTE'};
 const statusKey=rec=>STATUS[rec.status]?rec.status:'canon';
 const statusChip=rec=>'<span class="chip chip-status chip-'+statusKey(rec)+'">'+esc(STATUS[rec.status]||rec.status)+'</span>';
 const stubTag=rec=>isStub(rec)?'<span class="chip chip-stub">NOTICE BRÈVE</span>':'';
@@ -41,8 +41,17 @@ function sigil(rec,size){
   '<g class="sigil-glyph">'+GLYPH_PATH[glyph]+'</g><circle class="sigil-core" cx="24" cy="24" r="2.05"/></svg>';
 }
 /* Prose : paragraphes, titres ##, gras. Aucun HTML brut interprété. */
-const inline=text=>esc(text).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
-function prose(text){return String(text||'').split(/\n\s*\n/).filter(Boolean).map(block=>block.startsWith('## ')?'<h2>'+inline(block.slice(3))+'</h2>':'<p>'+inline(block).replace(/\n/g,'<br>')+'</p>').join('');}
+const inline=text=>esc(text).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*([^*]+)\*/g,'<em>$1</em>').replace(/\x60([^\x60]+)\x60/g,'<code>$1</code>');
+function prose(text){let chapter=0;return String(text||'').split(/\n\s*\n/).filter(Boolean).map(block=>{
+ const lines=block.trim().split('\n');
+ if(lines[0].startsWith('|')){const rows=lines.filter(l=>!/^\|[ :|-]+\|$/.test(l)).map(l=>l.split('|').slice(1,-1).map(s=>inline(s.trim())));return '<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau du document"><table>'+rows.map((cells,i)=>'<tr>'+cells.map(c=>'<'+(i?'td':'th scope="col"')+'>'+c+'</'+(i?'td':'th')+'>').join('')+'</tr>').join('')+'</table></div>';}
+ if(/^#{1,6} /.test(block))return lines.map(l=>{const m=l.match(/^(#{1,6}) (.*)/);return m?'<h'+Math.max(2,Math.min(m[1].length,4))+' id="chapitre-'+(++chapter)+'">'+inline(m[2])+'</h'+Math.max(2,Math.min(m[1].length,4))+'>':'<p>'+inline(l)+'</p>';}).join('');
+ if(/^---+$/.test(block.trim()))return '<hr>';
+ if(lines.every(l=>/^[-] /.test(l)))return '<ul>'+lines.map(l=>'<li>'+inline(l.slice(2))+'</li>').join('')+'</ul>';
+ if(lines.every(l=>/^\d+\. /.test(l)))return '<ol>'+lines.map(l=>'<li>'+inline(l.replace(/^\d+\. /,''))+'</li>').join('')+'</ol>';
+ return '<p>'+inline(block).replace(/\n/g,'<br>')+'</p>';
+ }).join('');}
+function chapterMenu(rec){const headings=[...rec.body.matchAll(/^## (.+)$/gm)];return headings.length?'<nav class="chapter-menu" aria-label="Chapitres du livre"><h2>Dans ce livre</h2><ol>'+headings.map((m,i)=>'<li><button type="button" data-chapter="chapitre-'+(i+1)+'">'+inline(m[1])+'</button></li>').join('')+'</ol></nav>':'';}
 
 /* Registre dense des fiches. */
 function ficheRow(rec,opts={}){
@@ -112,18 +121,18 @@ function eraDetail(id){
 }
 function timeline(){
  const selected=eras[0].id;
- return '<section class="chronology"><header class="section-head"><p class="label">CALENDRIER DU BRIS</p><h2>Une histoire de ruptures.</h2><p class="section-note">Du Silence originel à l’Éveil des Brisures. Choisissez un âge pour en suivre les traces.</p></header><div class="time-browser"><ol class="rail">'+eras.map(era=>'<li class="jalon" id="jalon-'+esc(era.id)+'"><button type="button" data-era="'+esc(era.id)+'" aria-pressed="'+(era.id===selected)+'" aria-controls="era-detail"><span class="jalon-order">'+String(era.order).padStart(2,'0')+'</span><span><small>'+esc(era.date)+'</small><strong>'+esc(era.title)+'</strong></span><span aria-hidden="true">↗</span></button></li>').join('')+'</ol><div id="era-detail" class="era-detail" aria-live="polite">'+eraDetail(selected)+'</div></div></section>';
+ return '<section class="chronology"><header class="section-head"><p class="label">CALENDRIER DE LA DÉCHIRURE</p><h2>Une histoire de ruptures.</h2><p class="section-note">Du Néant à l’Éveil des Brisures. Choisissez un âge pour en suivre les traces.</p></header><div class="time-browser"><ol class="rail">'+eras.map(era=>'<li class="jalon" id="jalon-'+esc(era.id)+'"><button type="button" data-era="'+esc(era.id)+'" aria-pressed="'+(era.id===selected)+'" aria-controls="era-detail"><span class="jalon-order">'+String(era.order).padStart(2,'0')+'</span><span><small>'+esc(era.date)+'</small><strong>'+esc(era.title)+'</strong></span><span aria-hidden="true">↗</span></button></li>').join('')+'</ol><div id="era-detail" class="era-detail" aria-live="polite">'+eraDetail(selected)+'</div></div></section>';
 }
 function worldDetail(id){
  const rec=byId.get(id)||byId.get('terra');
  return '<div class="world-detail-title">'+sigil(rec,54)+'<div><p class="label">'+esc(rec.type)+'</p><h3>'+esc(rec.title)+'</h3></div></div><p class="world-summary">'+esc(rec.summary)+'</p><div class="world-excerpt">'+prose(rec.body)+'</div>'+linkChips(rec.links.slice(0,7),'À découvrir')+'<a class="text-link" href="'+link(rec.id)+'">Ouvrir la fiche '+esc(rec.title)+' ↗</a>';
 }
 function worldExplorer(selected='terra'){
- const ids=['cieux','terra','abysses','repli'];if(!ids.includes(selected))selected='terra';
- return '<section class="world-explorer"><header class="section-head"><p class="label">GÉOGRAPHIE DE LA CRÉATION</p><h2>Trois mondes. Une cicatrice.</h2><p class="section-note">Choisissez un domaine. Suivez les lieux, les peuples et les passages qui lui sont liés.</p></header><div class="world-browser"><div class="cosmogram" role="group" aria-label="Choisir un domaine"><div class="cosmos-axis" aria-hidden="true"></div>'+ids.map(id=>{const rec=byId.get(id);return '<button type="button" class="world-node world-node-'+id+'" data-world="'+id+'" aria-pressed="'+(id===selected)+'" aria-controls="world-detail"><span class="world-node-symbol" aria-hidden="true">'+sigil(rec,52)+'</span><span><small>'+esc(rec.type)+'</small><strong>'+esc(rec.title)+'</strong></span><span class="world-node-arrow" aria-hidden="true">↗</span></button>';}).join('')+'<p class="cosmogram-note">Schéma de navigation<br>Le Repli est une dimension-cicatrice.</p></div><div id="world-detail" class="world-detail" aria-live="polite">'+worldDetail(selected)+'</div></div></section>';
+ const ids=['cieux','terra','abysses'];if(!ids.includes(selected))selected='terra';
+ return '<section class="world-explorer"><header class="section-head"><p class="label">GÉOGRAPHIE DE LA CRÉATION</p><h2>Trois mondes issus de la Déchirure.</h2><p class="section-note">Choisissez un domaine. Suivez les lieux, les peuples et les passages qui lui sont liés.</p></header><div class="world-browser"><div class="cosmogram" role="group" aria-label="Choisir un domaine"><div class="cosmos-axis" aria-hidden="true"></div>'+ids.map(id=>{const rec=byId.get(id);return '<button type="button" class="world-node world-node-'+id+'" data-world="'+id+'" aria-pressed="'+(id===selected)+'" aria-controls="world-detail"><span class="world-node-symbol" aria-hidden="true">'+sigil(rec,52)+'</span><span><small>'+esc(rec.type)+'</small><strong>'+esc(rec.title)+'</strong></span><span class="world-node-arrow" aria-hidden="true">↗</span></button>';}).join('')+'<p class="cosmogram-note">Schéma de navigation<br>Cieux · Terra · Abysses</p></div><div id="world-detail" class="world-detail" aria-live="polite">'+worldDetail(selected)+'</div></div></section>';
 }
 function journey(){
- return '<section class="entry-path"><header class="section-head"><p class="label">PREMIERS PAS</p><h2>Entrez dans l’histoire.</h2><p class="section-note">Un parcours en huit lectures, du Bris à Sceelim. Prenez le temps de découvrir les fondations de MONO.</p></header><div id="reading-resume" class="reading-resume" hidden></div><ol class="path-list">'+(P.reading||[]).map((id,index)=>{const rec=byId.get(id);return '<li><span class="path-num">'+String(index+1).padStart(2,'0')+'</span><div><h3><a href="'+link(id)+'">'+esc(rec.title)+'</a></h3><p>'+esc(rec.summary)+'</p></div></li>';}).join('')+'</ol></section>';
+ return '<section class="entry-path"><header class="section-head"><p class="label">PREMIERS PAS</p><h2>Entrez dans l’histoire.</h2><p class="section-note">Un parcours en huit lectures, du Nom aux quatre Livres. Prenez le temps de découvrir les fondations de MONO.</p></header><div id="reading-resume" class="reading-resume" hidden></div><ol class="path-list">'+(P.reading||[]).map((id,index)=>{const rec=byId.get(id);return '<li><span class="path-num">'+String(index+1).padStart(2,'0')+'</span><div><h3><a href="'+link(id)+'">'+esc(rec.title)+'</a></h3><p>'+esc(rec.summary)+'</p></div></li>';}).join('')+'</ol></section>';
 }
 /* Sceau du Nom : plaque gravée (aucune image), quatre marques AZ KA VO TH autour du Bris. */
 function orrery(){
@@ -133,7 +142,7 @@ function orrery(){
   '<g class="orrery-ticks">'+ticks+'</g>'+
   '<circle class="orrery-ring" cx="160" cy="160" r="104"/><circle class="orrery-ring" cx="160" cy="160" r="70"/>'+
   '<path class="orrery-frame" d="M160 26 294 160 160 294 26 160Z"/>'+
-  '<text class="orrery-label" x="160" y="152" text-anchor="middle">LE BRIS</text>'+
+  '<text class="orrery-label" x="160" y="152" text-anchor="middle">DÉCHIRURE</text>'+
   '<text class="orrery-zero" x="160" y="192" text-anchor="middle">0</text></svg>'+
   '<ul class="orrery-nodes">'+seals+'</ul><p class="orrery-caption">LES QUATRE SCEAUX DU NOM</p></div>';
 }
@@ -149,11 +158,11 @@ function doorPanel(pillar){
   '<p class="door-total"><span class="chip">'+total+' fiches</span><span class="text-link" aria-hidden="true">Ouvrir '+esc(pillar.title)+' →</span></p></article>';
 }
 function home(){
- const present=byId.get('sceelim');
- return '<section class="opening"><div class="opening-copy"><p class="label">UNE MYTHOLOGIE À EXPLORER</p><h1>MONO</h1><p class="opening-sub">Le Codex du Bris</p><p class="opening-lede">'+esc(P.introduction)+'</p><div class="hero-actions"><a class="button" href="'+link((P.reading||[])[0]||'bris-an-0')+'">Découvrir l’univers ↗</a><a class="text-link" href="#/lore/annales">Lire les Annales</a></div></div><div class="opening-plate">'+orrery()+'</div></section>'+
+ const present=byId.get('aurenth');
+ return '<section class="opening"><div class="opening-copy"><p class="label">UNE MYTHOLOGIE À EXPLORER</p><h1>MONO</h1><p class="opening-sub">Le Codex de la Déchirure</p><p class="opening-lede">'+esc(P.introduction)+'</p><div class="hero-actions"><a class="button" href="'+link((P.reading||[])[0]||'bris-an-0')+'">Découvrir l’univers ↗</a><a class="text-link" href="#/lore/annales">Lire les Annales</a></div></div><div class="opening-plate">'+orrery()+'</div></section>'+
  '<div class="index-band"><span>ARCHIVES DE MONO</span><span>'+records.length+' fiches reliées</span><span>'+eras.length+' jalons</span><span>CANON '+esc(D.canon_version)+'</span></div>'+
  '<section class="doors-section"><header class="section-head"><h2>Deux chemins dans le même univers.</h2></header><div class="door-grid">'+pillars.map(doorPanel).join('')+'</div></section>'+worldExplorer()+journey()+
- '<section class="feature"><div class="feature-mark">'+sigil(present,100)+'</div><article><p class="label">LE PRÉSENT COMMENCE ICI</p><h2><a href="'+link(present.id)+'">'+esc(present.title)+'</a></h2><p class="feature-lede">'+esc(present.summary)+'</p><p class="feature-body">'+esc(lead(present))+'</p><a class="text-link" href="'+link(present.id)+'">Entrer dans la cité ↗</a></article></section>';
+ '<section class="feature"><div class="feature-mark">'+sigil(present,100)+'</div><article><p class="label">LE TÉMOIN DE TERRA</p><h2><a href="'+link(present.id)+'">'+esc(present.title)+'</a></h2><p class="feature-lede">'+esc(present.summary)+'</p><p class="feature-body">'+esc(lead(present))+'</p><a class="text-link" href="'+link(present.id)+'">Entrer dans la cité ↗</a></article></section>';
 }
 function spaceTabs(pillarId,current){
  const def=pillarDef(pillarId);
@@ -161,8 +170,8 @@ function spaceTabs(pillarId,current){
 }
 function worldStrip(base,params){
  const current=params.get('domaine')||'';
- const items=['Terra','Cieux','Abysses','Repli','Transversal'].map(name=>({name,count:base.filter(rec=>rec.domain===name).length})).filter(item=>item.count);
- return '<section class="world-strip"><header class="section-head"><p class="label">LES MONDES</p><h2>Choisir un théâtre</h2><p class="section-note">Cieux, Terra et Abysses sont les trois mondes créés ; le Repli est une dimension-cicatrice née des Brisures secondaires.</p></header>'+
+ const items=['Terra','Cieux','Abysses','Transversal'].map(name=>({name,count:base.filter(rec=>rec.domain===name).length})).filter(item=>item.count);
+ return '<section class="world-strip"><header class="section-head"><p class="label">LES MONDES</p><h2>Choisir un théâtre</h2><p class="section-note">Cieux, Terra et Abysses sont les trois mondes issus de la Déchirure.</p></header>'+
   '<ul class="world-list"><li><a href="#/explorer/domaines"'+(current?'':' aria-current="page"')+'><span>Tous les mondes</span><small>'+base.length+' fiches</small></a></li>'+
   items.map(item=>'<li><a href="#/explorer/domaines?domaine='+encodeURIComponent(item.name)+'"'+(current===item.name?' aria-current="page"':'')+'><span>'+esc(item.name)+'</span><small>'+item.count+' fiches</small></a></li>').join('')+'</ul></section>';
 }
@@ -214,7 +223,7 @@ function recordView(rec){
   '<header class="folio-head"><div class="folio-sigil">'+sigil(rec,96)+'</div><div class="folio-title"><p class="folio-flags">'+statusChip(rec)+stubTag(rec)+'<span class="chip-min">'+esc(rec.type)+'</span><span class="chip-min">n° '+esc(folio(rec))+'</span></p>'+
   '<h1>'+esc(rec.title)+'</h1><p class="folio-lede">'+esc(rec.summary)+'</p>'+
   '<p class="folio-actions"><button type="button" class="button button-small" data-bookmark="'+esc(rec.id)+'" aria-pressed="'+saved+'">'+(saved?'Retirer des signets':'Ajouter aux signets')+'</button><button type="button" class="button button-small button-ghost" data-share>Copier le lien</button></p></div></header>'+
-  readingTrail(rec)+'<div class="folio-body"><div class="prose">'+prose(rec.body)+'</div><aside class="marginalia">'+
+  readingTrail(rec)+chapterMenu(rec)+'<div class="folio-body"><div class="prose">'+prose(rec.body)+'</div><aside class="marginalia">'+
    '<h2>Repères</h2><dl><dt>Type</dt><dd>'+esc(rec.type)+'</dd><dt>Espace</dt><dd><a href="#/'+esc(pillarId)+'/'+esc(rec.space)+'">'+esc(space.label)+'</a></dd><dt>Domaine</dt><dd>'+esc(rec.domain)+'</dd><dt>Ère</dt><dd>'+esc(rec.era)+'</dd><dt>Lignée</dt><dd>'+esc(rec.lineage)+'</dd><dt>Fiche</dt><dd>n° '+esc(folio(rec))+'</dd><dt>Mise à jour</dt><dd>'+esc(rec.last_updated)+'</dd></dl>'+
    (rec.questions.length?'<h2>Questions ouvertes</h2><ul class="questions">'+rec.questions.map(question=>'<li>'+esc(question)+'</li>').join('')+'</ul>':'')+
    '<h2>Sources</h2><ul class="sources">'+rec.sources.map(source=>'<li><strong>'+esc(String(source.document).replace('.md','').replaceAll('_',' '))+'</strong><span>'+esc(source.section)+'</span></li>').join('')+'</ul>'+
@@ -250,8 +259,8 @@ if(window.MONO_PRERENDER){window.MONO_RENDERED_HOME=home();return;}
 /* Stockage local : signets et thème, avec reprise des clés V4.5 si elles existent encore. */
 const store={get(key,fallback){try{const value=JSON.parse(localStorage.getItem(key));return value??fallback;}catch{return fallback;}},set(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true;}catch{return false;}}};
 function bookmarks(){
- const stored=store.get('mono-v6-bookmarks',null);
- const list=Array.isArray(stored)?stored:store.get('mono-v45-bookmarks',[]);
+ const stored=store.get('mono-v81-bookmarks',null);
+ const list=Array.isArray(stored)?stored:store.get('mono-v81-bookmarks',[]);
  return (Array.isArray(list)?list:[]).filter(id=>byId.has(id));
 }
 let currentRoute={pillar:'',space:'',key:''};
@@ -263,7 +272,7 @@ function chrome(current){
  $('sub-nav').innerHTML=ids.map(id=>'<a href="#/'+esc(spaceOf(id).pillar)+'/'+esc(id)+'"'+(spaceId===id?' aria-current="page"':'')+'><span>'+esc(spaceOf(id).label)+'</span><small>'+recsOf(id).length+'</small></a>').join('')+
   '<a href="#/recherche"'+(current.key==='recherche'?' aria-current="page"':'')+'><span>Tout le Codex</span><small>'+records.length+'</small></a><a href="#/signets"'+(current.key==='signets'?' aria-current="page"':'')+'><span>Mes signets</span><small>'+bookmarks().length+'</small></a>';
  const colophon=$('colophon-canon');
- if(colophon)colophon.textContent='Canon '+String(D.canon_version||'V6')+' · '+records.length+' fiches · '+eras.length+' jalons';
+ if(colophon)colophon.textContent='Canon '+String(D.canon_version||'V8.1')+' · '+records.length+' fiches · '+eras.length+' jalons';
 }
 function closeMenu(){document.body.classList.remove('tabs-open');const button=$('menu');if(button)button.setAttribute('aria-expanded','false');}
 let toastTimer;
@@ -282,27 +291,28 @@ function renderSearch(query){
  if(all)all.href='#/recherche'+(raw?'?q='+encodeURIComponent(raw):'');
 }
 function rememberReading(id){
- const raw=store.get('mono-v6-reading',[]),history=Array.isArray(raw)?raw.filter(value=>byId.has(value)):[];
- store.set('mono-v6-reading',[id,...history.filter(value=>value!==id)].slice(0,30));
+ const raw=store.get('mono-v81-reading',[]),history=Array.isArray(raw)?raw.filter(value=>byId.has(value)):[];
+ store.set('mono-v81-reading',[id,...history.filter(value=>value!==id)].slice(0,30));
 }
 function hydrateReading(){
  const el=$('reading-resume');if(!el)return;
- const raw=store.get('mono-v6-reading',[]),recent=Array.isArray(raw)?raw.find(id=>byId.has(id)):null;
+ const raw=store.get('mono-v81-reading',[]),recent=Array.isArray(raw)?raw.find(id=>byId.has(id)):null;
  if(!recent)return;const rec=byId.get(recent);el.hidden=false;
  el.innerHTML='<span>Votre dernière lecture</span><a href="'+link(rec.id)+'">'+esc(rec.title)+' ↗</a>';
 }
 function applyLayout(value){
- const mode=(value||store.get('mono-v6-layout','list'))==='grid'?'grid':'list';
+ const mode=(value||store.get('mono-v81-layout','list'))==='grid'?'grid':'list';
  document.querySelectorAll('.register').forEach(el=>el.dataset.layout=mode);
  document.querySelectorAll('button[data-layout]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.layout===mode)));
 }
 function exploreFrom(event){
+ const chapter=event.target.closest('[data-chapter]');if(chapter){const heading=document.getElementById(chapter.dataset.chapter);if(heading){heading.setAttribute('tabindex','-1');heading.focus();heading.scrollIntoView({block:'start'});}return true;}
  const world=event.target.closest('[data-world]');
  if(world){const region=world.closest('.world-browser');region.querySelectorAll('[data-world]').forEach(el=>el.setAttribute('aria-pressed',String(el===world)));region.querySelector('.world-detail').innerHTML=worldDetail(world.dataset.world);return true;}
  const era=event.target.closest('[data-era]');
  if(era){const region=era.closest('.time-browser');region.querySelectorAll('[data-era]').forEach(el=>el.setAttribute('aria-pressed',String(el===era)));region.querySelector('.era-detail').innerHTML=eraDetail(era.dataset.era);return true;}
  const layout=event.target.closest('button[data-layout]');
- if(layout){applyLayout(layout.dataset.layout);store.set('mono-v6-layout',layout.dataset.layout);return true;}
+ if(layout){applyLayout(layout.dataset.layout);store.set('mono-v81-layout',layout.dataset.layout);return true;}
  return false;
 }
 /* Actions de page : déléguées sur #main, donc disponibles dès le premier rendu. */
@@ -311,7 +321,7 @@ function bookmarkFrom(event){
  if(!button)return false;
  const id=button.dataset.bookmark, list=bookmarks();
  const next=list.includes(id)?list.filter(item=>item!==id):[...list,id];
- if(!store.set('mono-v6-bookmarks',next)){notify('Le stockage local est indisponible : utilisez « Copier le lien » pour conserver cette fiche.');return true;}
+ if(!store.set('mono-v81-bookmarks',next)){notify('Le stockage local est indisponible : utilisez « Copier le lien » pour conserver cette fiche.');return true;}
  const kept=next.includes(id);
  button.setAttribute('aria-pressed',String(kept));
  button.textContent=kept?'Retirer des signets':'Ajouter aux signets';
@@ -354,8 +364,8 @@ function route(){
  if(!KNOWN.includes(target)){pendingNotice='Adresse inconnue : retour à l’accueil du Codex.';location.replace('#/accueil');return;}
  let html='', title='MONO', description=P.premise||'', pillarId='', spaceId='';
  const id=decodePart(parts[1]||'');
- if(target==='accueil'){html=home();title='MONO · Le Codex du Bris';description=P.introduction||'';}
- else if(target==='recherche'){html=searchView(params);title='Chercher dans le Codex';description='Registre complet des '+records.length+' fiches du canon '+String(D.canon_version||'V6')+'.';}
+ if(target==='accueil'){html=home();title='MONO · Le Codex de la Déchirure';description=P.introduction||'';}
+ else if(target==='recherche'){html=searchView(params);title='Chercher dans le Codex';description='Registre complet des '+records.length+' fiches du canon '+String(D.canon_version||'V8.1')+'.';}
  else if(target==='signets'){html=savedView();title='Mes signets';description='Vos fiches conservées dans ce navigateur.';}
  else if(target==='fiche'){
   const rec=byId.get(id);
@@ -378,7 +388,7 @@ function route(){
  document.documentElement.dataset.pillar=pillarId||'accueil';
  document.documentElement.dataset.space=spaceId||'accueil';
  [...main.children].forEach((element,index)=>element.style.setProperty('--i',String(index)));
- document.title=target==='accueil'?'MONO · Le Codex du Bris':title+' · MONO';
+ document.title=target==='accueil'?'MONO · Le Codex de la Déchirure':title+' · MONO';
  const meta=document.querySelector('meta[name="description"]');
  if(meta)meta.content=description;
  if(initialized)main.focus({preventScroll:true});
@@ -388,12 +398,12 @@ function route(){
 }
 /* Amorçage : thème, recherche, menu, raccourcis et première route. */
 let initialTheme='ink';
-try{const saved=localStorage.getItem('mono-v6-theme')||localStorage.getItem('mono-v45-theme');if(saved==='paper'||saved==='ink')initialTheme=saved;}catch{}
+try{const saved=localStorage.getItem('mono-v81-theme')||localStorage.getItem('mono-v45-theme');if(saved==='paper'||saved==='ink')initialTheme=saved;}catch{}
 theme(initialTheme);
 $('theme').addEventListener('click',()=>{
  const next=document.documentElement.dataset.theme==='ink'?'paper':'ink';
  theme(next);
- try{localStorage.setItem('mono-v6-theme',next);}catch{notify('Le thème est appliqué pour cette visite seulement.');}
+ try{localStorage.setItem('mono-v81-theme',next);}catch{notify('Le thème est appliqué pour cette visite seulement.');}
 });
 $('search-open').addEventListener('click',()=>{
  closeMenu();opener=document.activeElement;
@@ -433,7 +443,7 @@ const main=$('main');
 main.addEventListener('click',event=>{if(exploreFrom(event)||bookmarkFrom(event))return;shareFrom(event);});
 main.addEventListener('submit',event=>{submitFrom(event);});
 window.addEventListener('hashchange',route);
-window.addEventListener('storage',event=>{if(event.key==='mono-v6-bookmarks')route();});
+window.addEventListener('storage',event=>{if(event.key==='mono-v81-bookmarks')route();});
 route();
 })();
 

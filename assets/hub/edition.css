@@ -96,3 +96,6 @@ html[data-theme=paper] .door-panel,html[data-theme=paper] .marginalia,html[data-
 .reading-trail{display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;padding:1rem 1.2rem;border-left:2px solid var(--gold);background:var(--surface);font:.78rem/1.5 var(--font-ui)}
 .reading-trail>span{margin-right:auto;color:var(--text)}.reading-trail small{display:block;color:var(--text-faint);font-size:.68rem}.reading-trail a{color:var(--gold);text-underline-offset:4px;min-height:32px;display:inline-flex;align-items:center}
 @media print{.reading-trail{display:none}}
+
+/* Tables et chapitres V8.1 */
+.table-scroll{max-width:100%;overflow-x:auto;margin:1.5rem 0}.table-scroll table{border-collapse:collapse;width:100%;font-size:.92em}.table-scroll th,.table-scroll td{padding:.8rem;text-align:left;vertical-align:top;border-bottom:1px solid currentColor}.prose,.folio-body>*{min-width:0}.chapter-menu{margin:2rem 0}.chapter-menu button{text-align:left;white-space:normal;padding:.5rem}h2[id]{scroll-margin-top:6rem}
