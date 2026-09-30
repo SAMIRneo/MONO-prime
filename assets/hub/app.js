@@ -4,6 +4,12 @@
 'use strict';
 const D=window.MONO_CATALOGUE, $=id=>document.getElementById(id);
 if(!D||!Array.isArray(D.records)){const main=$('main');if(main)main.innerHTML='<h1>Le Codex ne peut pas être chargé.</h1><p>Rechargez la page pour réessayer.</p>';return;}
+
+const ICONS={search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/>',moon:'<path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/>',sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>',menu:'<path d="M4 7h16M4 12h12M4 17h16"/>',home:'<path d="m3 10 9-7 9 7M6 8v12h12V8M10 20v-6h4v6"/>',book:'<path d="M12 5v15M3 5c4-1 6-1 9 1 3-2 5-2 9-1v14c-4-1-6-1-9 1-3-2-5-2-9-1Z"/>',compass:'<circle cx="12" cy="12" r="9"/><path d="m16 8-2 6-6 2 2-6Z"/>',bookmark:'<path d="M6 3h12v18l-6-4-6 4Z"/>',arrow:'<path d="M5 12h14m-5-5 5 5-5 5"/>',check:'<path d="m5 12 4 4L19 6"/>'};
+function icon(name){return '<svg class="ui-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(ICONS[name]||ICONS.compass)+'</svg>';}
+function wordmark(){return '<svg class="mono-wordmark" viewBox="0 0 296 80" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"><path d="M8 66V14l27 32 27-32v52M164 66V14l46 52V14"/><ellipse cx="111" cy="40" rx="27" ry="27"/><ellipse cx="258" cy="40" rx="27" ry="27"/></g><path d="m111 31 9 9-9 9-9-9Zm147 0 9 9-9 9-9-9Z" fill="currentColor"/></svg>';}
+function brandSeal(){return '<svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="m32 3 29 29-29 29L3 32Z" stroke="currentColor"/><path d="M17 44V20l15 17 15-17v24" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="32" r="24" stroke="currentColor" stroke-dasharray="1 5"/></svg>';}
+
 const P=D.presentation||{}, records=D.records, byId=new Map(records.map(r=>[r.id,r]));
 const eras=(D.eras||[]).slice().sort((a,b)=>a.order-b.order), pillars=D.pillars||[], spaces=D.spaces||{};
 const spaceOf=id=>spaces[id]||{label:id,kicker:'',description:'',pillar:'explorer',order:0};
@@ -170,7 +176,7 @@ function storyInvitation(){
  const book=byId.get('livre-1'),chapter=book.chapters[0],excerpt=chapter.body.split(/\n\s*\n/)[0];
  return '<section class="story-invitation"><div><p class="label">LA PREMIÈRE PAGE</p><h2>'+esc(chapter.title)+'</h2><blockquote>'+esc(excerpt)+'</blockquote><p class="invitation-meta">'+esc(book.title)+' · '+minuteCount(chapter.body)+' min de lecture</p><a class="button" href="'+bookHref(book)+'">Entrer dans le récit →</a></div><div class="invitation-emblem" aria-hidden="true"><img src="assets/hub/art/seuil.svg" alt="" width="800" height="500" loading="lazy"></div></section>';
 }
-function home(){return '<section class="opening"><div class="opening-copy"><p class="label">UN UNIVERS · QUATRE LIVRES · VOTRE EXPLORATION</p><h1>MONO</h1><p class="opening-sub">Le Codex de la Déchirure</p><p class="opening-lede">'+esc(P.introduction)+'</p><div class="hero-actions"><a class="button" href="#/fiche/decouvrir">Découvrir le monde →</a><a class="text-link" href="#/fiche/livre-1?chapitre=1">Lire le premier récit →</a></div><p class="hero-guidance">Première visite ? Les quatre repères vous accompagnent. La lecture peut aussi commencer directement.</p></div><div class="opening-plate">'+orrery()+'</div></section><div class="index-band"><span>LE CODEX EST OUVERT</span><span>3 mondes</span><span>5 continents</span><span>4 livres des origines</span></div><div id="story-resume" class="reading-resume" hidden></div><section class="first-steps"><header class="section-head"><p class="label">PREMIÈRE VISITE</p><h2>Tout commence par une Déchirure.</h2><p class="section-note">Quatre repères pour entrer dans MONO. Ouvrez ceux qui éveillent votre curiosité.</p></header><div class="essential-grid">'+P.intro.map((x,i)=>'<article><div class="essential-seal" aria-hidden="true">'+sigil(byId.get(x.target),56)+'</div><span class="label">0'+(i+1)+' / PREMIER REPÈRE</span><h3>'+esc(x.title)+'</h3><p>'+esc(x.body)+'</p><a class="text-link" href="'+link(x.target)+'">'+esc(x.label)+' →</a></article>').join('')+'</div></section>'+worldExplorer()+storyInvitation()+'<section class="home-stories"><header class="section-head"><p class="label">LES RÉCITS DES ORIGINES</p><h2>Une histoire. Quatre livres.</h2><p class="section-note">À lire dans l’ordre, un chapitre à la fois. Votre dernière lecture est conservée sur cet appareil.</p></header>'+bookCards()+'</section><section class="home-topics"><header class="section-head"><p class="label">EXPLORER À VOTRE RYTHME</p><h2>Suivez votre curiosité.</h2></header>'+topicCards()+'</section>';}
+function home(){return '<section class="opening"><div class="opening-copy"><p class="label">UN UNIVERS · QUATRE LIVRES · VOTRE EXPLORATION</p><h1 class="hero-wordmark" aria-label="MONO">'+wordmark()+'</h1><p class="opening-sub">Le Codex de la Déchirure</p><p class="opening-lede">'+esc(P.introduction)+'</p><div class="hero-actions"><a class="button" href="#/fiche/decouvrir">Découvrir le monde →</a><a class="text-link" href="#/fiche/livre-1?chapitre=1">Lire le premier récit →</a></div><p class="hero-guidance">Première visite ? Les quatre repères vous accompagnent. La lecture peut aussi commencer directement.</p></div><div class="opening-plate">'+orrery()+'</div></section><div class="index-band"><span>LE CODEX EST OUVERT</span><span>3 mondes</span><span>5 continents</span><span>4 livres des origines</span></div><div id="story-resume" class="reading-resume" hidden></div><section class="first-steps"><header class="section-head"><p class="label">PREMIÈRE VISITE</p><h2>Tout commence par une Déchirure.</h2><p class="section-note">Quatre repères pour entrer dans MONO. Ouvrez ceux qui éveillent votre curiosité.</p></header><div class="essential-grid">'+P.intro.map((x,i)=>'<article><div class="essential-seal" aria-hidden="true">'+sigil(byId.get(x.target),56)+'</div><span class="label">0'+(i+1)+' / PREMIER REPÈRE</span><h3>'+esc(x.title)+'</h3><p>'+esc(x.body)+'</p><a class="text-link" href="'+link(x.target)+'">'+esc(x.label)+' →</a></article>').join('')+'</div><aside id="discovery-widget" class="discovery-widget" aria-label="Votre parcours de découverte"></aside></section>'+worldExplorer()+storyInvitation()+'<section class="home-stories"><header class="section-head"><p class="label">LES RÉCITS DES ORIGINES</p><h2>Une histoire. Quatre livres.</h2><p class="section-note">À lire dans l’ordre, un chapitre à la fois. Votre dernière lecture est conservée sur cet appareil.</p></header>'+bookCards()+'</section><section class="home-topics"><header class="section-head"><p class="label">EXPLORER À VOTRE RYTHME</p><h2>Suivez votre curiosité.</h2></header>'+topicCards()+'</section>';}
 
 
 function spaceTabs(pillarId,current){
@@ -267,10 +273,11 @@ let currentRoute={pillar:'',space:'',key:''};
 /* Chrome permanent : deux portes, puis les sections du pilier courant. */
 function chrome(current){
  const pillarId=current.pillar, spaceId=current.space||'';
- $('primary-nav').innerHTML='<a class="nav-home" href="#/accueil"'+(current.key==='accueil'?' aria-current="page"':'')+'>Accueil <span aria-hidden="true">↗</span></a>'+pillars.map(pillar=>'<a class="door" href="#/'+esc(pillar.id)+'"'+(pillarId===pillar.id?' aria-current="page"':'')+'><b>'+esc(pillar.title)+'</b><span>'+esc(pillar.subtitle)+'</span></a>').join('');
+ $('primary-nav').innerHTML='<a class="nav-home" href="#/accueil"'+(current.key==='accueil'?' aria-current="page"':'')+'>'+icon('home')+'<span>Accueil</span></a>'+pillars.map(pillar=>'<a class="door" href="#/'+esc(pillar.id)+'"'+(pillarId===pillar.id?' aria-current="page"':'')+'>'+icon(pillar.id==='lore'?'book':'compass')+'<span class="door-copy"><b>'+(pillar.id==='lore'?'Les récits':'L’univers')+'</b><span>'+(pillar.id==='lore'?'Lire les quatre livres':'Explorer le Codex')+'</span></span>'+icon('arrow')+'</a>').join('');
  const ids=pillars.flatMap(pillar=>pillar.spaces);
- $('sub-nav').innerHTML='<a href="#/fiche/decouvrir"><span>Première visite</span><small>→</small></a>'+ids.map(id=>'<a href="#/'+esc(spaceOf(id).pillar)+'/'+esc(id)+'"'+(spaceId===id?' aria-current="page"':'')+'><span>'+esc(spaceOf(id).label)+'</span><small>'+recsOf(id).length+'</small></a>').join('')+
-  '<a href="#/recherche"'+(current.key==='recherche'?' aria-current="page"':'')+'><span>Tout le Codex</span><small>'+records.length+'</small></a><a href="#/signets"'+(current.key==='signets'?' aria-current="page"':'')+'><span>Mes signets</span><small>'+bookmarks().length+'</small></a>';
+ $('sub-nav').innerHTML='<a class="nav-discover" href="#/fiche/decouvrir"'+(current.id==='decouvrir'?' aria-current="page"':'')+'><span>Première visite</span>'+icon('arrow')+'</a><span class="nav-caption">DANS LE CODEX</span>'+ids.map(id=>'<a href="#/'+esc(spaceOf(id).pillar)+'/'+esc(id)+'"'+(spaceId===id?' aria-current="page"':'')+'><span>'+esc(spaceOf(id).label)+'</span><small>'+recsOf(id).length+'</small></a>').join('')+
+  '<span class="nav-caption">VOTRE CARNET</span><a href="#/recherche"'+(current.key==='recherche'?' aria-current="page"':'')+'>'+icon('search')+'<span>Rechercher</span></a><a href="#/signets"'+(current.key==='signets'?' aria-current="page"':'')+'>'+icon('bookmark')+'<span>Mes signets</span><small>'+bookmarks().length+'</small></a>';
+ const dock=$('mobile-dock');if(dock)dock.innerHTML=[['#/fiche/decouvrir','compass','Découvrir',current.id==='decouvrir'],['#/lore','book','Les récits',pillarId==='lore'],['#/explorer','home','L’univers',pillarId==='explorer'&&current.id!=='decouvrir']].map(([href,symbol,label,on])=>'<a href="'+href+'"'+(on?' aria-current="page"':'')+'>'+icon(symbol)+'<span>'+label+'</span></a>').join('');
  const colophon=$('colophon-canon');
  if(colophon)colophon.textContent='MONO · Les Récits des Origines';
 }
@@ -280,12 +287,12 @@ function notify(message){const toast=$('toast');if(!toast)return;toast.textConte
 function theme(value){
  document.documentElement.dataset.theme=value;
  const button=$('theme');
- if(button){button.textContent=value==='ink'?'Mode papier':'Mode encre';button.setAttribute('aria-label',value==='ink'?'Activer le mode papier':'Activer le mode encre');}
+ if(button){button.innerHTML=icon(value==='ink'?'sun':'moon')+'<span>'+(value==='ink'?'Papier':'Encre')+'</span>';button.setAttribute('aria-pressed',String(value==='paper'));button.setAttribute('aria-label',value==='ink'?'Activer le mode papier':'Activer le mode encre');}
 }
 function renderSearch(query){
  if(!$('search-results'))return;
- const raw=String(query||'').trim(), list=searchRecords(raw), shown=list.slice(0,18);
- $('search-count').textContent=raw?(list.length+' résultat'+(list.length>1?'s':'')+(list.length>18?' · 18 premiers affichés':'')):records.length+' fiches indexées — saisissez un motif.';
+ const raw=String(query||'').trim(), list=searchRecords(raw), shown=raw?list.slice(0,18):rel(['decouvrir','livre-1','terra','sillage']);
+ $('search-count').textContent=raw?(list.length+' résultat'+(list.length>1?'s':'')+(list.length>18?' · 18 premiers affichés':'')):'Pour commencer · ou cherchez un nom, un lieu, une idée.';
  $('search-results').innerHTML=shown.length?'<ul class="hit-list" role="list">'+shown.map(rec=>'<li><a class="hit" href="'+link(rec.id)+'"><span class="hit-sigil">'+sigil(rec,28)+'</span><span class="hit-main"><small>'+esc(rec.type)+' · '+esc(spaceOf(rec.space).label)+'</small><b>'+esc(rec.title)+'</b><em>'+esc(rec.summary)+'</em></span>'+statusChip(rec)+'</a></li>').join('')+'</ul>':'<p class="empty">Aucun résultat. <a class="text-link" href="#/recherche">Parcourir le registre complet ↗</a></p>';
  const all=$('search-all');
  if(all)all.href='#/recherche'+(raw?'?q='+encodeURIComponent(raw):'');
@@ -295,9 +302,14 @@ function rememberReading(id){
  store.set('mono-v81-reading',[id,...history.filter(value=>value!==id)].slice(0,30));
 }
 function hydrateReading(){
- const el=$('story-resume');if(!el)return;const position=store.get('mono-story-position',null);if(!position||typeof position!=='object')return;
+ hydrateDiscovery();const el=$('story-resume');if(!el)return;const position=store.get('mono-story-position',null);if(!position||typeof position!=='object')return;
  const rec=byId.get(position.id);if(!rec||rec.type!=='Livre'||!Number.isInteger(position.chapter)||!rec.chapters[position.chapter-1])return;
- el.hidden=false;el.innerHTML='<span class="label">REPRENDRE VOTRE LECTURE</span><a href="'+bookHref(rec,position.chapter)+'">'+esc(rec.title)+' — '+esc(rec.chapters[position.chapter-1].title)+' →</a>';
+ el.hidden=false;el.innerHTML=icon('book')+'<span class="label">REPRENDRE VOTRE LECTURE</span><a href="'+bookHref(rec,position.chapter)+'">'+esc(rec.title)+' — '+esc(rec.chapters[position.chapter-1].title)+' →</a>';
+}
+
+function hydrateDiscovery(){
+ const el=$('discovery-widget');if(!el)return;const raw=store.get('mono-v81-reading',[]),history=Array.isArray(raw)?raw:[],items=P.intro||[],count=items.filter(x=>history.includes(x.target)).length;
+ el.innerHTML='<div class="discovery-widget-head"><div><span class="label">VOTRE FIL D’EXPLORATION</span><p>'+count+' / '+items.length+' repères parcourus</p></div><span class="discovery-ring" style="--progress:'+count/items.length*100+'%" aria-hidden="true">'+count+'/'+items.length+'</span></div><ol>'+items.map((x,i)=>'<li><a href="'+link(x.target)+'"'+(history.includes(x.target)?' class="is-read"':'')+'><span class="discovery-dot">'+(history.includes(x.target)?icon('check'):i+1)+'</span><span>'+esc(x.title)+(history.includes(x.target)?'<small>Déjà consulté</small>':'')+'</span></a></li>').join('')+'</ol>';
 }
 
 function applyLayout(value){
@@ -383,7 +395,7 @@ function route(){
   if(wanted){html=spaceView(wanted,params);spaceId=wanted;title=spaceOf(wanted).label+' — '+def.title;}
   else{html=pillarView(pillarId);title=def.title+' — '+def.subtitle;description=def.description;}
  }
- currentRoute={pillar:pillarId,space:spaceId,key:target};
+ currentRoute={pillar:pillarId,space:spaceId,key:target,id:target==='fiche'?id:''};
  chrome(currentRoute);
  const main=$('main');
  main.innerHTML=html;
@@ -412,6 +424,7 @@ let scrollFrame=0;window.addEventListener('scroll',()=>{if(!scrollFrame)scrollFr
 let initialTheme='ink';
 try{const saved=localStorage.getItem('mono-v81-theme')||localStorage.getItem('mono-v45-theme');if(saved==='paper'||saved==='ink')initialTheme=saved;}catch{}
 theme(initialTheme);
+const brand=document.querySelector('.brand');if(brand){brand.querySelector('.brand-mark').innerHTML=brandSeal();brand.querySelector('.brand-word').innerHTML=wordmark()+'<small>LE CODEX DE LA DÉCHIRURE</small>';}
 $('theme').addEventListener('click',()=>{
  const next=document.documentElement.dataset.theme==='ink'?'paper':'ink';
  theme(next);
@@ -454,6 +467,7 @@ if(skip)skip.addEventListener('click',event=>{event.preventDefault();const main=
 const main=$('main');
 main.addEventListener('click',event=>{if(exploreFrom(event)||bookmarkFrom(event))return;shareFrom(event);});
 main.addEventListener('submit',event=>{submitFrom(event);});
+document.addEventListener('click',event=>{if(document.body.classList.contains('tabs-open')&&!event.target.closest('.navigation,.masthead'))closeMenu();});
 window.addEventListener('hashchange',route);
 window.addEventListener('storage',event=>{if(event.key==='mono-v81-bookmarks')route();});
 route();
