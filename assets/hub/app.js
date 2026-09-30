@@ -1,5 +1,5 @@
 /* MONO V8.1 — Codex public à deux espaces (LORE, EXPLORER) : registre de fiches, chronologie et recherche.
-   JavaScript natif, aucune dépendance. Les vues sont des chaînes HTML, l'accueil est pré-rendu au build. */
+   Moteur de vues historique, intégré au build Vite avec composants React progressifs. */
 (() => {
 'use strict';
 const D=window.MONO_CATALOGUE, $=id=>document.getElementById(id);
@@ -436,6 +436,7 @@ function route(){
  window.scrollTo(0,0);
  updateProgress();
  initialized=true;
+ window.dispatchEvent(new CustomEvent('mono:route'));
  if(pendingNotice){notify(pendingNotice);pendingNotice='';}
 }
 function updateProgress(){
