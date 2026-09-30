@@ -35,8 +35,25 @@ function mountReaderComfort() {
   const settings = document.querySelector('.reader-settings');
   if (!settings) return;
   const host = document.createElement('div');
-  settings.append(host);
+  const panel = document.createElement('div');
+  panel.className = 'reader-popover';
+  panel.setAttribute('aria-label', 'Personnaliser la lecture');
+  panel.append(host);
+  const existing = settings.querySelector('.reading-controls');
+  if (existing) panel.append(existing);
+  settings.append(panel);
   root = createRoot(host); root.render(<ReaderComfort />);
 }
 mountReaderComfort();
 window.addEventListener('mono:route', mountReaderComfort);
+
+// Close the comfort panel without disturbing the current passage.
+document.addEventListener('click', event => {
+  const settings = document.querySelector<HTMLDetailsElement>('.reader-settings[open]');
+  if (settings && event.target instanceof Node && !settings.contains(event.target)) settings.open = false;
+});
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  const settings = document.querySelector<HTMLDetailsElement>('.reader-settings[open]');
+  if (settings) { settings.open = false; settings.querySelector<HTMLElement>('summary')?.focus(); }
+});
