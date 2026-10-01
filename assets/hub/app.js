@@ -1,3 +1,4 @@
+import { characterGallery, characterSection } from './characters.js';
 /* MONO V8.1 — Codex public à deux espaces (LORE, EXPLORER) : registre de fiches, chronologie et recherche.
    Moteur de vues historique, intégré au build Vite avec composants React progressifs. */
 (() => {
@@ -201,7 +202,7 @@ function shelf(spaceId,preview,limit){
   preview+
   '<p class="more"><a class="text-link" href="#/'+(space.pillar==='lore'?'lore':'explorer')+'/'+esc(spaceId)+'">Voir les '+items.length+' fiches de '+esc(space.label)+' ↗</a></p></section>';
 }
-function pillarView(pillarId){if(pillarId==='lore')return storyLibrary();return '<header class="space-head"><p class="label">L’UNIVERS DE MONO</p><h1>Comprendre le monde.</h1><p class="space-lede">Des origines aux croyances, choisissez ce que vous voulez découvrir. Chaque page vous mène vers les notions qui lui sont liées.</p><a class="button" href="#/fiche/decouvrir">Commencer par les quatre repères →</a></header>'+topicCards()+'<section class="explorer-instruments"><header class="section-head"><p class="label">EXPLORER PAR LES SYMBOLES</p><h2>Les mondes et leurs principes.</h2></header>'+worldExplorer()+sphereAtlas()+'</section>';}
+function pillarView(pillarId){if(pillarId==='lore')return storyLibrary();return '<header class="space-head"><p class="label">L’UNIVERS DE MONO</p><h1>Comprendre le monde.</h1><p class="space-lede">Des origines aux croyances, choisissez ce que vous voulez découvrir. Chaque page vous mène vers les notions qui lui sont liées.</p><a class="button" href="#/fiche/decouvrir">Commencer par les quatre repères →</a></header>'+topicCards()+'<section class="character-invitation"><div><p class="label">LES FIGURES DES ORIGINES</p><h2>Rencontrez les êtres de MONO.</h2><p>Trois entités, sept Archanges, sept Revers. Un portrait pour chaque histoire.</p></div><a class="button" href="#/personnages">Ouvrir la galerie →</a></section>'+'<section class="explorer-instruments"><header class="section-head"><p class="label">EXPLORER PAR LES SYMBOLES</p><h2>Les mondes et leurs principes.</h2></header>'+worldExplorer()+sphereAtlas()+'</section>';}
 
 function spaceView(spaceId,params){
  if(spaceId==='annales')return storyLibrary();
@@ -246,7 +247,7 @@ function recordView(rec,params){
  if(rec.id==='decouvrir'){markGuideStep(0);return guideView();}
  if(rec.type==='Livre')return storyView(rec,params);
  const space=spaceOf(rec.space),saved=bookmarks().includes(rec.id);
- return '<article class="knowledge-page"><nav class="trail" aria-label="Fil d’Ariane"><a href="#/explorer">Univers</a><span aria-hidden="true">/</span><a href="#/'+space.pillar+'/'+rec.space+'">'+esc(space.label)+'</a></nav><header class="knowledge-head"><p class="label">'+esc(space.label)+(rec.status==='mystere'?' · CE QUI RESTE MYSTÉRIEUX':'')+'</p><h1>'+esc(rec.title)+'</h1><p class="space-lede">'+esc(rec.summary)+'</p></header>'+readingTrail(rec)+(rec.id==='lignees'?lineageAtlas():rec.id==='archanges'?sphereAtlas():'')+chapterMenu(rec)+'<div class="knowledge-layout"><div class="prose">'+prose(rec.body)+'</div><aside class="knowledge-aside"><h2>Pour se repérer</h2><p>Un nom ou une idée vous échappe ? Revenez aux quatre repères de MONO.</p><a class="text-link" href="#/fiche/decouvrir">Découvrir l’univers →</a>'+linkChips(rec.links,'À lire ensuite')+'</aside></div><footer class="knowledge-footer"><button type="button" data-bookmark="'+rec.id+'" aria-pressed="'+saved+'">'+(saved?'Retirer des signets':'Garder cette page')+'</button><button type="button" data-share>Copier le lien</button><details><summary>Référence du récit</summary><p>'+rec.sources.map(s=>esc(s.document.includes('Narration')?'Récits des Origines':'Lore & Cartographie')+' — '+esc(s.section.replace(/^\d+\. /,'').replace(/\x60/g,'').replace(/\[(?:ÉTABLI|MYSTÈRE ASSUMÉ)\]/g,''))).join('<br>')+'</p></details></footer></article>';
+ return '<article class="knowledge-page"><nav class="trail" aria-label="Fil d’Ariane"><a href="#/explorer">Univers</a><span aria-hidden="true">/</span><a href="#/'+space.pillar+'/'+rec.space+'">'+esc(space.label)+'</a></nav><header class="knowledge-head"><p class="label">'+esc(space.label)+(rec.status==='mystere'?' · CE QUI RESTE MYSTÉRIEUX':'')+'</p><h1>'+esc(rec.title)+'</h1><p class="space-lede">'+esc(rec.summary)+'</p></header>'+readingTrail(rec)+(rec.id==='lignees'?lineageAtlas():rec.id==='archanges'?sphereAtlas():'')+(rec.id==='archanges'?characterSection('archanges'):rec.id==='qerath'?characterSection('entites',['qerath'])+characterSection('revers'):['azkavoth','vothorak'].includes(rec.id)?characterSection('entites',[rec.id]):'')+chapterMenu(rec)+'<div class="knowledge-layout"><div class="prose">'+prose(rec.body)+'</div><aside class="knowledge-aside"><h2>Pour se repérer</h2><p>Un nom ou une idée vous échappe ? Revenez aux quatre repères de MONO.</p><a class="text-link" href="#/fiche/decouvrir">Découvrir l’univers →</a>'+linkChips(rec.links,'À lire ensuite')+'</aside></div><footer class="knowledge-footer"><button type="button" data-bookmark="'+rec.id+'" aria-pressed="'+saved+'">'+(saved?'Retirer des signets':'Garder cette page')+'</button><button type="button" data-share>Copier le lien</button><details><summary>Référence du récit</summary><p>'+rec.sources.map(s=>esc(s.document.includes('Narration')?'Récits des Origines':'Lore & Cartographie')+' — '+esc(s.section.replace(/^\d+\. /,'').replace(/\x60/g,'').replace(/\[(?:ÉTABLI|MYSTÈRE ASSUMÉ)\]/g,''))).join('<br>')+'</p></details></footer></article>';
 }
 
 function searchView(params){
@@ -388,7 +389,7 @@ function submitFrom(event){
 /* Routage : deux espaces, la fiche, le registre et le carnet. Les adresses retirées reviennent à l'accueil. */
 const ALIASES={accueil:'accueil',commencer:'accueil',cosmologie:'explorer/fondements',fondements:'explorer/fondements',revelations:'explorer/revelations',domaines:'explorer/domaines',terra:'explorer/domaines',histoire:'lore/ages',ages:'lore/ages',annales:'lore/annales',codex:'recherche',recherche:'recherche',lore:'lore',explorer:'explorer',signets:'signets',favoris:'signets',fiche:'fiche'};
 const RETIRED={lacunes:'la liste des sujets à développer',forge:'la Forge locale',atelier:'l’atelier privé'};
-const KNOWN=['accueil','lore','explorer','recherche','signets','fiche'];
+const KNOWN=['personnages','accueil','lore','explorer','recherche','signets','fiche'];
 let initialized=false, opener=null, pendingNotice='';
 const decodePart=value=>{try{return decodeURIComponent(value);}catch{return value;}};
 function route(){
@@ -405,6 +406,7 @@ function route(){
  let html='', title='MONO', description=P.premise||'', pillarId='', spaceId='';
  const id=decodePart(parts[1]||'');
  if(target==='accueil'){html=home();title='MONO · Le Codex de la Déchirure';description=P.introduction||'';}
+ else if(target==='personnages'){html=characterGallery(params);title='Les visages des origines';description='Les trois entités, Sept Archanges et Sept Revers de MONO.';pillarId='explorer';}
  else if(target==='recherche'){html=searchView(params);title='Chercher dans le Codex';description='Registre complet des '+records.length+' fiches du canon '+String(D.canon_version||'V8.1')+'.';}
  else if(target==='signets'){html=savedView();title='Mes signets';description='Vos fiches conservées dans ce navigateur.';}
  else if(target==='fiche'){
@@ -425,6 +427,7 @@ function route(){
  main.innerHTML=html;
  applyLayout();hydrateReading();hydrateReadingMark();const reference=$('reader-reference-dialog');if(reference){reference.addEventListener('close',()=>{if(reference._opener?.isConnected)reference._opener.focus();});reference.addEventListener('click',event=>{if(event.target===reference){const box=reference.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)reference.close();}});}
  main.dataset.route=target;
+ const selected=params.get('personnage');if(selected&&/^[a-z]+$/.test(selected))requestAnimationFrame(()=>document.getElementById('portrait-'+selected)?.scrollIntoView({block:'start'}));
  const isReading=!!main.querySelector('.story-reader');document.body.classList.toggle('is-reading',isReading);document.body.classList.toggle('reading-large',store.get('mono-reading-large',false)===true);const sizeButton=main.querySelector('[data-reader-size]');if(sizeButton){const large=document.body.classList.contains('reading-large');sizeButton.setAttribute('aria-pressed',String(large));sizeButton.textContent=large?'Taille de texte normale':'Texte plus grand';}
  document.documentElement.dataset.pillar=pillarId||'accueil';
  document.documentElement.dataset.space=spaceId||'accueil';

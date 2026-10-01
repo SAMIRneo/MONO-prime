@@ -1,6 +1,7 @@
 import '../assets/hub/catalogue.js';
 import '../assets/hub/app.js';
 import './reader.css';
+import './characters.css';
 
 // Load React only when a visitor opens a story.
 let readerModule: typeof import('./reader') | undefined;
