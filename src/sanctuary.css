@@ -1,6 +1,6 @@
 /* Mineral light, carved frames and an editorial hierarchy shared by the three doors. */
-:root,[data-theme="ink"]{--bg:#101416;--bg-2:#171d20;--surface:#20282b;--text:#f3ebd9;--text-dim:#d0c9b9;--text-faint:#a9aeaa;--line:#354043;--line-2:#65716c;--present:#d8b77b;--accent:#d8b77b;--rail-accent:#d8b77b}
-[data-theme="paper"]{--bg:#eee8dc;--bg-2:#f8f3e9;--surface:#e0d9ca;--text:#252d2c;--text-dim:#43504b;--text-faint:#5b645b;--line:#c5bcaa;--line-2:#938873;--present:#7c5627;--accent:#7c5627}
+:root,html[data-theme="ink"]{--bg:#101416;--bg-2:#171d20;--surface:#20282b;--text:#f3ebd9;--text-dim:#d0c9b9;--text-faint:#a9aeaa;--line:#354043;--line-2:#65716c;--present:#d8b77b;--accent:#d8b77b;--rail-accent:#d8b77b;--gold:#d8b77b;--bronze:#928369;--bronze-2:#b7a180;--amber:#d8b77b;--glow:#c4aa7015;--grid:#a0afa309;--surface-2:#293234}
+html[data-theme="paper"]{--bg:#eee8dc;--bg-2:#f8f3e9;--surface:#e0d9ca;--text:#252d2c;--text-dim:#43504b;--text-faint:#5b645b;--line:#c5bcaa;--line-2:#938873;--present:#7c5627;--accent:#7c5627;--gold:#7c5627;--bronze:#938873;--bronze-2:#7c5627;--glow:#9e8e6610;--grid:#48534308;--surface-2:#d6cdbc}
 body{background:radial-gradient(ellipse at 80% 0%,#c4aa7020,transparent 50%),var(--bg);color:var(--text)}
 .masthead,.navigation{background:var(--bg);border-color:var(--line)}
 .navigation .door{border-radius:4px;background:transparent;border-color:transparent}
