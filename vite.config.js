@@ -3,14 +3,21 @@ import { cpSync, existsSync, readdirSync, rmSync } from 'node:fs';
 
 export default defineConfig({
   base:'/MONO-prime/',
-  build:{target:'es2022'},
+  build:{
+    target:'es2022',
+    rollupOptions:{input:{app:'app.html'}}
+  },
   plugins:[{
     name:'mono-pages',
     closeBundle(){
-      if (existsSync('dist/index.html')) cpSync('dist/index.html','index.html');
+      const built = existsSync('dist/app.html') ? 'dist/app.html' : 'dist/index.html';
+      if (existsSync(built)) {
+        cpSync(built,'dist/index.html');
+        cpSync(built,'index.html');
+      }
       if (existsSync('dist/assets')) {
         for (const entry of readdirSync('assets',{withFileTypes:true})) {
-          if (entry.isFile() && /^(app|reader)-/.test(entry.name)) rmSync('assets/'+entry.name);
+          if (entry.isFile() && /^(app|index|reader)-/.test(entry.name)) rmSync('assets/'+entry.name);
         }
         cpSync('dist/assets','assets',{recursive:true});
       }
