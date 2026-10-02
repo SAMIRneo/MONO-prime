@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "check": "tsc --noEmit && node scripts/check-canon.mjs",
+    "check": "tsc --noEmit && node scripts/check-canon.mjs && node --experimental-strip-types --test tests/*.test.mjs",
     "build": "npm run check && vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "test": "node scripts/check-canon.mjs"
+    "test": "node scripts/check-canon.mjs && node --experimental-strip-types --test tests/*.test.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

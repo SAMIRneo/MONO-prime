@@ -3,16 +3,28 @@ import assert from 'node:assert/strict';
 const d=JSON.parse(readFileSync('src/data/canon.json','utf8'));
 const ids=new Set(d.records.map(e=>e.id));
 const groups=new Set(d.categories.map(g=>g.id));
+const art=JSON.parse(readFileSync('src/data/art.json','utf8'));
 assert.equal(ids.size,d.records.length,'Duplicate record');
 for(const [group,count] of [['puissances',3],['archanges',7],['revers',7],['lignees',6],['cultes',4]])assert.equal(d.records.filter(r=>r.category===group).length,count,group);
 for(const e of d.records){
  assert(groups.has(e.category),e.id+' unknown category');
  assert(e.title&&e.summary&&e.sections.length,e.id+' incomplete');
  for(const id of e.links)assert(ids.has(id)||groups.has(id),e.id+' broken reference '+id);
- if(e.art)for(const suffix of ['', '-small'])assert(existsSync(`public/art/${e.art}${suffix}.webp`) && statSync(`public/art/${e.art}${suffix}.webp`).size>0,e.id+' missing or empty art');
+ if(e.art){
+  const m=art[e.art];
+  assert(m&&m.width>0&&m.height>0&&m.smallWidth>0&&m.mediumWidth>=m.smallWidth&&m.width>=m.mediumWidth,e.id+' invalid image dimensions');
+  for(const suffix of ['', '-small', '-medium']){
+   const path=`public/art/${e.art}${suffix}.webp`;
+   assert(existsSync(path)&&statSync(path).size>0,e.id+' missing or empty art');
+   const bytes=readFileSync(path);
+   assert(bytes.subarray(0,4).toString()==='RIFF'&&bytes.subarray(8,12).toString()==='WEBP',e.id+' invalid WebP');
+  }
+ }
 }
 for(const b of d.books){
  assert(b.chapters.length>0,'Empty book');
+ assert(d.records.some(e=>e.art===b.art),'Unknown book art '+b.art);
+ assert(new Set(b.chapters.map(c=>c.id)).size===b.chapters.length,'Duplicate chapter');
  for(const c of b.chapters)assert(c.title&&c.paragraphs.length,'Empty chapter');
 }
 const text=JSON.stringify(d);

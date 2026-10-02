@@ -1,0 +1,308 @@
+{
+  "abysses": {
+    "width": 506,
+    "height": 1018,
+    "smallWidth": 420,
+    "mediumWidth": 506
+  },
+  "ames": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "anakim": {
+    "width": 335,
+    "height": 762,
+    "smallWidth": 335,
+    "mediumWidth": 335
+  },
+  "aurenth": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "avarn": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "azkavoth": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "bazhur": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "brisures": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "cieux": {
+    "width": 506,
+    "height": 1018,
+    "smallWidth": 420,
+    "mediumWidth": 506
+  },
+  "cosmogonie": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "djinns": {
+    "width": 336,
+    "height": 762,
+    "smallWidth": 336,
+    "mediumWidth": 336
+  },
+  "epanchement": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "eshar": {
+    "width": 438,
+    "height": 881,
+    "smallWidth": 420,
+    "mediumWidth": 438
+  },
+  "fond": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "forme": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "golems": {
+    "width": 335,
+    "height": 762,
+    "smallWidth": 335,
+    "mediumWidth": 335
+  },
+  "hodariel": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "humains": {
+    "width": 335,
+    "height": 762,
+    "smallWidth": 335,
+    "mediumWidth": 335
+  },
+  "ilmoth": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "jugement": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "karzuth": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "khoram": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "lien": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "malkiel": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "nechariel": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "nehrun": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "nephilim": {
+    "width": 336,
+    "height": 762,
+    "smallWidth": 336,
+    "mediumWidth": 336
+  },
+  "ophriel": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "propheties": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "puissance": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "qerath": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "qerathim": {
+    "width": 335,
+    "height": 762,
+    "smallWidth": 335,
+    "mediumWidth": 335
+  },
+  "rahamiel": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sahrun": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sarai": {
+    "width": 437,
+    "height": 881,
+    "smallWidth": 420,
+    "mediumWidth": 437
+  },
+  "sceaux": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sethariel": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sevrak": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "seyra": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sillage": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "source": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "talem": {
+    "width": 438,
+    "height": 881,
+    "smallWidth": 420,
+    "mediumWidth": 438
+  },
+  "tamariel": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "temoins": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "terra": {
+    "width": 506,
+    "height": 1018,
+    "smallWidth": 420,
+    "mediumWidth": 506
+  },
+  "theryn": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "tikkun": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "vothorak": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "yesodiel": {
+    "width": 437,
+    "height": 881,
+    "smallWidth": 420,
+    "mediumWidth": 437
+  },
+  "ymbrath": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "zhorum": {
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  }
+}
