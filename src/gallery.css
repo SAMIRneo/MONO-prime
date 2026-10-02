@@ -58,3 +58,5 @@
  .continent-copy,.aurenth-copy{padding:26px}.continent-tabs{scroll-snap-type:x proximity}.continent-tabs button{scroll-snap-align:start}
 }
 @media(prefers-reduced-motion:reduce){.entry-grid:not(.entry-list) .art-button img,.continent-tabs button{transition:none}.entry-grid:not(.entry-list) .art-button:hover img{transform:none}}
+
+.codex-controls{position:relative;top:auto;z-index:1}
