@@ -12,7 +12,7 @@ const byId=new Map(entries.map(r=>[r.id,r]));
 const groups=canon.categories;
 const BASE=import.meta.env.BASE_URL;
 const artMetadata:Record<string,{width:number;height:number;smallWidth:number;mediumWidth:number}>=artData;
-const asset=(name:string,variant:'full'|'small'|'medium'='full')=>`${BASE}art/${name}${variant==='full'?'':'-'+variant}.webp?v=20261002-lignees-v2`;
+const asset=(name:string,variant:'full'|'small'|'medium'='full')=>`${BASE}art/${name}${variant==='full'?'':'-'+variant}.webp?v=20261002-nonhumains-v3`;
 const replaceQuery=(path:string,value:string)=>history.replaceState(null,'',queryHash(path,value));
 const read=<T,>(key:string,fallback:T):T=>{try{return JSON.parse(localStorage.getItem(key)||'null')??fallback;}catch{return fallback;}};
 const save=(key:string,value:unknown)=>{try{localStorage.setItem(key,JSON.stringify(value));return true;}catch{return false;}};
