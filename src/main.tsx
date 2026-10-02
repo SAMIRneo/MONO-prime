@@ -11,3 +11,5 @@ createRoot(document.getElementById('root')!).render(<App />);
 import './atlas.css';
 
 import './usability.css';
+
+import './terra.css';

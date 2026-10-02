@@ -304,5 +304,47 @@
     "height": 1536,
     "smallWidth": 420,
     "mediumWidth": 840
+  },
+  "terra-map-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "avarn-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sahrun-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "khoram-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "seyra-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "theryn-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "aurenth-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
   }
 }
