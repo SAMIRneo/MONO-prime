@@ -7,3 +7,5 @@ import './experience.css';
 import './direction.css';
 
 createRoot(document.getElementById('root')!).render(<App />);
+
+import './atlas.css';
