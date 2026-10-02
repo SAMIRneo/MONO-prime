@@ -12,10 +12,10 @@
     "mediumWidth": 840
   },
   "anakim": {
-    "width": 335,
-    "height": 762,
-    "smallWidth": 335,
-    "mediumWidth": 335
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
   },
   "aurenth": {
     "width": 1536,
@@ -60,10 +60,10 @@
     "mediumWidth": 840
   },
   "djinns": {
-    "width": 336,
-    "height": 762,
-    "smallWidth": 336,
-    "mediumWidth": 336
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
   },
   "epanchement": {
     "width": 1536,
@@ -90,10 +90,10 @@
     "mediumWidth": 840
   },
   "golems": {
-    "width": 335,
-    "height": 762,
-    "smallWidth": 335,
-    "mediumWidth": 335
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
   },
   "hodariel": {
     "width": 1024,
@@ -102,10 +102,10 @@
     "mediumWidth": 840
   },
   "humains": {
-    "width": 335,
-    "height": 762,
-    "smallWidth": 335,
-    "mediumWidth": 335
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
   },
   "ilmoth": {
     "width": 1024,
@@ -156,10 +156,10 @@
     "mediumWidth": 840
   },
   "nephilim": {
-    "width": 336,
-    "height": 762,
-    "smallWidth": 336,
-    "mediumWidth": 336
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
   },
   "ophriel": {
     "width": 1024,
@@ -186,10 +186,10 @@
     "mediumWidth": 840
   },
   "qerathim": {
-    "width": 335,
-    "height": 762,
-    "smallWidth": 335,
-    "mediumWidth": 335
+    "width": 1024,
+    "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
   },
   "rahamiel": {
     "width": 1024,
