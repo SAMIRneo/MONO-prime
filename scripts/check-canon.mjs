@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 const d=JSON.parse(readFileSync('src/data/canon.json','utf8'));
 const ids=new Set(d.records.map(e=>e.id));
@@ -9,7 +9,7 @@ for(const e of d.records){
  assert(groups.has(e.category),e.id+' unknown category');
  assert(e.title&&e.summary&&e.sections.length,e.id+' incomplete');
  for(const id of e.links)assert(ids.has(id)||groups.has(id),e.id+' broken reference '+id);
- if(e.art)for(const suffix of ['', '-small'])assert(existsSync(`public/art/${e.art}${suffix}.webp`),e.id+' missing art');
+ if(e.art)for(const suffix of ['', '-small'])assert(existsSync(`public/art/${e.art}${suffix}.webp`) && statSync(`public/art/${e.art}${suffix}.webp`).size>0,e.id+' missing or empty art');
 }
 for(const b of d.books){
  assert(b.chapters.length>0,'Empty book');
