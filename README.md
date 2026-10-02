@@ -16,6 +16,8 @@ React 19, TypeScript strict et Vite. Le routage par fragment fonctionne sur GitH
 
 `src/app.tsx` contient les vues et interactions ; `src/style.css` la direction artistique responsive ; `public/art` les portraits WebP individuels avec variantes légères ; `public/fonts` les polices et leurs licences.
 
+La direction actuelle, définie dans `src/direction.css`, évoque des folios sacrés fracturés : obsidienne, cuivre, gravures géométriques, cadres en arche et triptyque décalé des trois puissances. Cormorant Garamond compose les titres et EB Garamond les textes longs ; Manrope reste réservé à la navigation. Les trois nouvelles fontes latines sont auto-hébergées avec leurs licences OFL. Le thème parchemin et les petits écrans disposent de compositions adaptées, sans mouvement obligatoire. Les ornements sont décoratifs et ne définissent aucun nouveau symbole du canon.
+
 Les images ont trois tailles (originale, `-medium`, `-small`) et leurs dimensions sont déclarées dans `src/data/art.json`. Mettre à jour ces variantes et métadonnées lors d'un remplacement d'illustration. La composition complète est conservée dans les cartes et les fiches. Les catégories et requêtes du Codex sont partageables dans l'URL ; la recherche couvre aussi les chapitres. `src/navigation.ts` valide les routes et la dernière lecture, et `tests/navigation.test.mjs` protège ces parcours.
 
 ## Développement et publication

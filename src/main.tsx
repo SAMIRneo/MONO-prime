@@ -4,5 +4,6 @@ import './style.css';
 import './refine.css';
 import './audit.css';
 import './experience.css';
+import './direction.css';
 
 createRoot(document.getElementById('root')!).render(<App />);
