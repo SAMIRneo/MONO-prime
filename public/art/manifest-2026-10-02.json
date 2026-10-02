@@ -1,0 +1,230 @@
+[
+  {
+    "id": "azkavoth",
+    "source": "MONO-AZKAVOTH-v3.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "qerath",
+    "source": "MONO-QERATH-v3.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "vothorak",
+    "source": "MONO-VOTHORAK-v4.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "ophriel",
+    "source": "MONO-OPHRIEL-v2.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "hodariel",
+    "source": "MONO-HODARIEL-v2.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "sethariel",
+    "source": "MONO-SETHARIEL-v2.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "malkiel",
+    "source": "MONO-MALKIEL-v2.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "rahamiel",
+    "source": "MONO-RAHAMIEL-v2.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "tamariel",
+    "source": "MONO-TAMARIEL-v2.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "nechariel",
+    "source": "MONO-NECHARIEL-v2.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "karzuth",
+    "source": "MONO-KARZUTH-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "nehrun",
+    "source": "MONO-NEHRUN-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "ymbrath",
+    "source": "MONO-YMBRATH-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "bazhur",
+    "source": "MONO-BAZHUR-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "sevrak",
+    "source": "MONO-SEVRAK-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "ilmoth",
+    "source": "MONO-ILMOTH-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "zhorum",
+    "source": "MONO-ZHORUM-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "id": "source",
+    "source": "MONO-CULTE-SOURCE-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "lien",
+    "source": "MONO-CULTE-LIEN-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "forme",
+    "source": "MONO-CULTE-FORME-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "epanchement",
+    "source": "MONO-CULTE-EPANCHEMENT-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "avarn",
+    "source": "MONO-AVARN-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "sahrun",
+    "source": "MONO-SAHRUN-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "khoram",
+    "source": "MONO-KHORAM-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "seyra",
+    "source": "MONO-SEYRA-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "theryn",
+    "source": "MONO-THERYN-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "aurenth",
+    "source": "MONO-AURENTH-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "fond",
+    "source": "MONO-FOND-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "jugement",
+    "source": "MONO-JUGEMENT-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "sillage",
+    "source": "MONO-SILLAGE-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "puissance",
+    "source": "MONO-PUISSANCE-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "sceaux",
+    "source": "MONO-SCEAUX-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "tikkun",
+    "source": "MONO-TIKKUN-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "brisures",
+    "source": "MONO-BRISURES-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "propheties",
+    "source": "MONO-PROPHETIES-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "temoins",
+    "source": "MONO-EDEN-TEMOINS-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "cosmogonie",
+    "source": "MONO-DECHIRURE-v1.png",
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "id": "ames",
+    "source": "MONO-AMES-LIMEN-v1.png",
+    "width": 1536,
+    "height": 1024
+  }
+]

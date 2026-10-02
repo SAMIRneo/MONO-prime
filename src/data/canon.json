@@ -700,7 +700,7 @@
           "text": "Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements."
         }
       ],
-      "art": "azkavoth",
+      "art": "source",
       "links": [
         "sillage",
         "sceaux",
@@ -728,7 +728,7 @@
           "text": "Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements."
         }
       ],
-      "art": "rahamiel",
+      "art": "lien",
       "links": [
         "sillage",
         "sceaux",
@@ -756,7 +756,7 @@
           "text": "Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements."
         }
       ],
-      "art": "vothorak",
+      "art": "forme",
       "links": [
         "sillage",
         "sceaux",
@@ -784,7 +784,7 @@
           "text": "Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements."
         }
       ],
-      "art": "djinns",
+      "art": "epanchement",
       "links": [
         "sillage",
         "sceaux",
@@ -812,7 +812,7 @@
           "text": "Unité, Vérité, Intention, Liberté, Justice, Miséricorde, Mémoire, Parole, Sacrifice et Retour restent des repères éthiques. Ils ne désignent pas dix êtres. Il existe sept charges archangéliques, dont celle de Qerath a été transmise à Tamariel."
         }
       ],
-      "art": "cieux",
+      "art": "cosmogonie",
       "links": [
         "cieux",
         "abysses",
@@ -916,7 +916,7 @@
           "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
         }
       ],
-      "art": "terra",
+      "art": "avarn",
       "links": [
         "terra"
       ],
@@ -940,7 +940,7 @@
           "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
         }
       ],
-      "art": "terra",
+      "art": "sahrun",
       "links": [
         "terra"
       ],
@@ -964,7 +964,7 @@
           "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
         }
       ],
-      "art": "terra",
+      "art": "khoram",
       "links": [
         "terra"
       ],
@@ -988,7 +988,7 @@
           "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
         }
       ],
-      "art": "terra",
+      "art": "seyra",
       "links": [
         "terra"
       ],
@@ -1012,7 +1012,7 @@
           "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
         }
       ],
-      "art": "terra",
+      "art": "theryn",
       "links": [
         "terra"
       ],
@@ -1040,7 +1040,7 @@
           "text": "Leur silence impose de voir avant de juger. Mais une victime peut avoir besoin d’une intervention immédiate. La neutralité devient une responsabilité disputée, au cœur d’une ville avec quartiers, commerces et conflits."
         }
       ],
-      "art": "terra",
+      "art": "aurenth",
       "links": [
         "source",
         "temoins",
@@ -1068,7 +1068,7 @@
           "text": "Leur regard n’accorde pas l’omniscience aux visiteurs. Le terme du règne de Qerath reste à AZKAVOTH. Nul ne sait ce que deviendrait le témoignage après une dissolution totale."
         }
       ],
-      "art": "cieux",
+      "art": "temoins",
       "links": [
         "fond",
         "aurenth",
@@ -1094,7 +1094,7 @@
           "text": "Les Revers doivent rendre librement les parts de Qerath dont ils sont nés. Leur souveraineté n’est pas annulée par celle de leur père. Son autorité ne donne aucun droit sur leur réponse ; les tuer ne reconstituerait pas ce qu’il cherche."
         }
       ],
-      "art": "abysses",
+      "art": "fond",
       "links": [
         "qerath",
         "temoins",
@@ -1122,7 +1122,7 @@
           "text": "Les archives célestes cachent ensuite son ancienne place et les raisons de sa contestation. Ce choix vient des gardiens, jamais d’un ordre d’AZKAVOTH. Certains mortels connaissent le souverain abyssal mais le croient né dans les Abysses."
         }
       ],
-      "art": "qerath",
+      "art": "jugement",
       "links": [
         "azkavoth",
         "tamariel",
@@ -1150,7 +1150,7 @@
           "text": "Le Sillage se recompresse à mesure que l’épuisement approche. Les Brisures se multiplient et mettent les dimensions en contact. Elles ne garantissent ni salut ni destruction immédiate."
         }
       ],
-      "art": "cieux",
+      "art": "sillage",
       "links": [
         "puissance",
         "tikkun",
@@ -1183,7 +1183,7 @@
           "text": "Les lignées donnent des dispositions, pas des niveaux fixes. Terrain, préparation, objectif et alliances changent l’issue. Archanges et Revers ont leur pleine autorité dans leur territoire ; leurs manifestations sur Terra sont limitées. Vothorak domine normalement une confrontation matérielle directe. AZKAVOTH ne relève pas d’une échelle de combat."
         }
       ],
-      "art": null,
+      "art": "puissance",
       "links": [
         "sillage",
         "lignees",
@@ -1211,7 +1211,7 @@
           "text": "Eshar tente leur convergence au Grand Rite. L’erreur consiste à confondre réunion et possession, puis à imposer l’accord aux êtres qu’il veut sauver."
         }
       ],
-      "art": null,
+      "art": "sceaux",
       "links": [
         "sarai",
         "eshar",
@@ -1240,7 +1240,7 @@
           "text": "Vothorak veut faire durer son œuvre et la posséder. Qerath veut la rendre au Néant. Les mortels peuvent chercher une réparation dont les deux puissances ne contrôlent pas la réponse."
         }
       ],
-      "art": null,
+      "art": "tikkun",
       "links": [
         "sillage",
         "eshar",
@@ -1266,7 +1266,7 @@
           "text": "Depuis CD 12600, elles se multiplient avec la recompression du Sillage. Leur étude, leur fermeture et leur traversée exigent compréhension et ancrage. La situation politique précise de cette époque demeure à écrire."
         }
       ],
-      "art": "abysses",
+      "art": "brisures",
       "links": [
         "sillage",
         "terra"
@@ -1295,7 +1295,7 @@
           "text": "Les conditions précises d’une réincarnation, la perte de mémoire et le devenir d’une âme sans ancrage restent à définir avant d’en faire le ressort d’un récit."
         }
       ],
-      "art": null,
+      "art": "ames",
       "links": [
         "yesodiel",
         "cieux"
@@ -1425,7 +1425,7 @@
           "text": "Les paroles peuvent être authentiques, incomplètes, mal interprétées ou revendiquées par des puissants. Une révélation ne retire jamais aux êtres leur responsabilité. Les trois prophètes encore sans nom seront développés à partir des événements auxquels ils ont participé."
         }
       ],
-      "art": null,
+      "art": "propheties",
       "links": [
         "sarai",
         "eshar",
@@ -1441,7 +1441,7 @@
       "id": "livre-1",
       "title": "Avant le Temps",
       "subtitle": "Le Nom, les Sphères et la liberté",
-      "art": "azkavoth",
+      "art": "cosmogonie",
       "chapters": [
         {
           "id": "livre-1-1",
@@ -1497,7 +1497,7 @@
       "id": "livre-2",
       "title": "Le Banni",
       "subtitle": "Le jugement et les sept épreuves",
-      "art": "qerath",
+      "art": "temoins",
       "chapters": [
         {
           "id": "livre-2-1",
@@ -1554,7 +1554,7 @@
       "id": "livre-3",
       "title": "La Matière et les Vivants",
       "subtitle": "Le démiurge, Talem et les six lignées",
-      "art": "vothorak",
+      "art": "jugement",
       "chapters": [
         {
           "id": "livre-3-1",
@@ -1610,7 +1610,7 @@
       "id": "livre-4",
       "title": "Les Sceaux et le Voile",
       "subtitle": "Les cultes, la prophétie et le Grand Rite",
-      "art": "terra",
+      "art": "sceaux",
       "chapters": [
         {
           "id": "livre-4-1",
