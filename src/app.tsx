@@ -8,7 +8,7 @@ const entries=canon.records;
 const byId=new Map(entries.map(r=>[r.id,r]));
 const groups=canon.categories;
 const BASE='/MONO-prime/';
-const asset=(name:string,small=false)=>`${BASE}art/${name}${small?'-small':''}.webp?v=20261002`;
+const asset=(name:string,small=false)=>`${BASE}art/${name}${small?'-small':''}.webp?v=20261002-gods2`;
 const normalize=(s:string)=>s.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
 const read=<T,>(key:string,fallback:T):T=>{try{return JSON.parse(localStorage.getItem(key)||'null')??fallback;}catch{return fallback;}};
 const save=(key:string,value:unknown)=>{try{localStorage.setItem(key,JSON.stringify(value));return true;}catch{return false;}};
