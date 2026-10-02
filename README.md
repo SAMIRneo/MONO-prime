@@ -1,19 +1,27 @@
-# MONO · Le Codex de la Déchirure
+# MONO — Le Codex de la Déchirure · V9
 
-Portail narratif : Découvrir, Lire, Explorer. Le catalogue canonique reste dans `assets/hub/catalogue.js` ; cette migration ne modifie aucun texte du lore.
+Un portail narratif en français : lire les origines, comprendre l’univers et explorer un codex illustré. Site : https://samirneo.github.io/MONO-prime/
 
-## Développement
+## Source du canon
 
-Node.js 22 ou supérieur. `npm ci`, puis `npm run dev`. `npm run build` contrôle TypeScript et génère `dist/`. Le chemin de publication est `/MONO-prime/`.
+`src/data/canon.json` est la seule source éditoriale. Elle contient les fiches, les quatre livres, les chapitres et la chronologie. Le site et les deux exports Markdown sont construits depuis cette même source. Modifier ce fichier, puis exécuter `npm run build` ; ne pas éditer directement les exports ni les fichiers compilés.
+
+La V9 consolide les décisions du 1er octobre 2026 : sept Archanges actuels (dont Malkiel et Tamariel), Qerath ancien Archange banni et souverain de l’Épreuve, sept Revers, six lignées incluant les Golems, quatre cultes, territoires métaphysiques, Témoins réunis en Éden et Aurenth terrestre. Vothorak est le démiurge du monde physique. Les anciennes versions contradictoires ont été retirées de l’arborescence active ; l’historique Git reste consultable.
+
+Les mystères du monde sont distingués des éléments à développer. Les illustrations sont des interprétations artistiques ; leurs costumes, détails et effets ne constituent pas des règles supplémentaires. Aucune carte géographique précise n’est encore canonique.
 
 ## Architecture
 
-Vite construit les ressources avec empreintes de cache. `src/main.tsx` intègre les composants React avec TypeScript strict. Le confort de lecture est le premier composant migré ; le moteur de vues historique conserve les routes par fragment, la recherche, les signets et les marques de lecture. L’événement `mono:route` assure le montage et le démontage des composants à chaque changement de page. La migration des autres vues reste progressive.
+React 19, TypeScript strict et Vite. Le routage par fragment fonctionne sur GitHub Pages sans serveur applicatif. Les fiches, la recherche, les comparaisons de principes et les récits partagent les mêmes données. Les signets, le thème et la dernière lecture sont locaux à l’appareil. Le menu mobile, les dialogues, le mouvement réduit et les focus de navigation sont pris en charge. Aucun compte, service tiers de suivi ou police distante n’est requis.
 
-Le workflow GitHub Pages construit et publie `dist/`. Les illustrations appelées par le moteur de vues sont conservées à leur adresse historique. Les réglages de largeur et d’interligne sont locaux à l’appareil.
+`src/app.tsx` contient les vues et interactions ; `src/style.css` la direction artistique responsive ; `public/art` les portraits WebP individuels avec variantes légères ; `public/fonts` les polices et leurs licences.
 
-## Galerie des figures
+## Développement et publication
 
-`#/personnages` présente 17 portraits : trois entités, sept Archanges et sept Revers. `assets/hub/characters.js` contient seulement leur présentation visuelle ; `assets/hub/catalogue.js` reste la source du canon V8.1. Les planches sont cadrées dans chaque carte sans modifier les illustrations. Les aperçus WebP chargent à la demande, et la fenêtre de portrait utilise la résolution source.
+Node.js 22 ou supérieur. Installer avec `npm ci`, puis `npm run dev`. `npm run check` vérifie TypeScript, les références du canon, les nombres de lignées/cultes/gardiens, les illustrations et l’absence de formulations obsolètes. `npm run build` produit `dist` et les exports `MONO_CANON_V9.md` / `MONO_RECITS_V9.md`.
 
-`app.html` est le fichier HTML de développement. Le build produit `dist/index.html` et synchronise aussi `index.html` et les ressources compilées à la racine, pour que la publication Pages depuis la branche comme depuis le workflow serve une version fonctionnelle. Ne pas modifier directement le HTML compilé : modifier `app.html`, puis lancer `npm run build`.
+Le workflow `.github/workflows/pages.yml` publie `dist`. Le build synchronise aussi le HTML et les ressources courantes à la racine pour conserver la compatibilité avec une publication depuis la branche `main`. `art`, `fonts`, `canon`, `assets` et `index.html` à la racine sont donc des sorties générées. Seul le build courant est conservé. Les ressources sources restent dans `public`.
+
+## Continuer l’univers
+
+Priorités ouvertes : histoire des Neuf Lumières et des Royaumes Clos, scènes détaillées du Grand Rite, frontières et sociétés du présent, trois prophètes encore sans nom, règles précises du devenir des âmes, premier arc choral de l’Éveil des Brisures. Ne pas présenter ces points comme déjà racontés.

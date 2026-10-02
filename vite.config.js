@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import { cpSync, readdirSync, writeFileSync } from 'node:fs';
+import { cpSync, readdirSync, rmSync } from 'node:fs';
 export default defineConfig({
  base:'/MONO-prime/',
  build:{target:'es2022',rollupOptions:{input:'app.html'}},
@@ -7,13 +7,12 @@ export default defineConfig({
   name:'mono-pages',
   configureServer(server){server.middlewares.use((req,_res,next)=>{if(req.url&&/^\/(?:MONO-prime\/)?(?:index\.html)?(?:\?|$)/.test(req.url))req.url=req.url.replace(/^(\/(?:MONO-prime\/)?)(?:index\.html)?/,'$1app.html');next();});},
   closeBundle(){
-   cpSync('assets/hub/art','dist/assets/hub/art',{recursive:true});
-   cpSync('assets/hub/portraits','dist/assets/hub/portraits',{recursive:true});
    cpSync('dist/app.html','dist/index.html');
-   // Support Pages both from the workflow artifact and from the main branch.
+   rmSync('dist/app.html');
    cpSync('dist/index.html','index.html');
-   for(const entry of readdirSync('dist/assets',{withFileTypes:true}))if(entry.isFile())cpSync('dist/assets/'+entry.name,'assets/'+entry.name);
-   writeFileSync('.nojekyll','');
+   for(const entry of readdirSync('assets',{withFileTypes:true}))if(entry.isFile()&&/^(app|reader)-/.test(entry.name))rmSync('assets/'+entry.name);
+   cpSync('dist/assets','assets',{recursive:true});
+   for(const name of ['art','fonts','canon','favicon.svg'])cpSync('dist/'+name,name,{recursive:true});
   }
  }]
 });

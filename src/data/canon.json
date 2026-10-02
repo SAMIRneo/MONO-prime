@@ -1,0 +1,1760 @@
+{
+  "version": "V9",
+  "title": "Le Codex de la Déchirure",
+  "updated": "2026-10-02",
+  "records": [
+    {
+      "id": "azkavoth",
+      "title": "AZKAVOTH",
+      "category": "puissances",
+      "subtitle": "Le Nom · La Source au-delà de la création",
+      "summary": "Il laisse aux êtres une place et une réponse qu’aucune puissance ne peut posséder.",
+      "sections": [
+        {
+          "title": "Nature",
+          "text": "AZKAVOTH n’a ni commencement ni corps susceptible de le contenir. Il existe au-delà de Terra, des Cieux et des Abysses. Ses apparitions sont des manifestations supportables par la création, jamais sa totalité. Le visage sans traits et le manteau cosmique des illustrations sont des symboles."
+        },
+        {
+          "title": "Le Retrait",
+          "text": "Il se retire pour permettre une existence distincte de Lui. Les Sept Sphères prennent forme, puis se brisent parce qu’elles ne peuvent contenir l’infini. KA, le Lien, est offert : il devient le Sillage. VO et TH se détachent à la Déchirure et deviennent Vothorak ; AZ, la Source, demeure en Lui."
+        },
+        {
+          "title": "Le jugement",
+          "text": "Lorsque Qerath veut quitter les Cieux, AZKAVOTH apparaît. Tous se prosternent, tétanisés et fascinés. Ce saisissement ne décide pas de leur adhésion intérieure. Il prononce : « Qerath, tu es banni des Cieux. Les Abysses seront ton domaine, et tu y gouverneras pour un temps. Le terme de ce temps, je le garde pour Moi. Tu pourras éprouver ce qui fut créé ; tu ne posséderas pas sa réponse. »"
+        },
+        {
+          "title": "Influence et liberté",
+          "text": "Il agit par le Sillage, les appels, les missions et de rares manifestations. Une présence totale ne laisserait plus de place aux autres. Il fixe certaines limites sans dicter les réponses intérieures. Il ne se mesure pas sur une échelle de combat et toute souffrance n’est pas une leçon voulue par Lui."
+        }
+      ],
+      "art": "azkavoth",
+      "links": [
+        "qerath",
+        "sillage",
+        "temoins"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "qerath",
+      "title": "Qerath",
+      "category": "puissances",
+      "subtitle": "Le Banni · Souverain de l’Épreuve",
+      "summary": "Ancien Archange de la Vision et de la Vérité, il gouverne les Abysses pour un temps dont il ignore le terme.",
+      "sections": [
+        {
+          "title": "Avant le bannissement",
+          "text": "Gardien d’Oshen, Qerath examinait les failles que les autres préféraient ignorer. Il découvre l’épuisement du Sillage et exige que les mortels soient informés. Les Cieux retardent l’annonce, par crainte de la panique et des guerres. Il refuse de poursuivre sa charge dans ces conditions."
+        },
+        {
+          "title": "L’autorité reçue",
+          "text": "Le jugement d’AZKAVOTH le bannit et lui donne la souveraineté des Abysses. Sa fonction est de confronter les êtres aux forces qui peuvent les défaire. Il peut révéler une contradiction, exploiter une faille, proposer un pacte ou offrir un refuge. Il ne possède ni le consentement intérieur ni le terme de son règne."
+        },
+        {
+          "title": "Une fonction, une ambition",
+          "text": "Qerath transforme son diagnostic en conclusion : il juge que la création ne mérite pas de durer. Ouvrir le Fond et la rendre au Néant est son ambition propre, au-delà de sa charge. Il ne peut prouver qu’aucune réparation nouvelle n’est possible."
+        },
+        {
+          "title": "Les sept amputations",
+          "text": "Dans les territoires abyssaux déjà issus de la Déchirure, il renonce successivement au Passage, à la Connaissance, à la Mémoire, à la Mesure, à la Relation, à la Vision et à la Permanence. De ces renoncements naissent les Sept Revers. Leur puissance étend la sienne, mais lui laisse une personne presque vidée de ses facultés."
+        },
+        {
+          "title": "La limite du souverain",
+          "text": "Il demeure principalement à la lisière du Fond. Chaque clé est une part de lui devenue volonté indépendante. Tuer un Revers disperserait ce qu’il cherche à reprendre. Il doit obtenir sept accords libres pour ouvrir le Fond : ses propres enfants sont sa première épreuve."
+        }
+      ],
+      "art": "qerath",
+      "links": [
+        "tamariel",
+        "revers",
+        "fond",
+        "jugement"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "vothorak",
+      "title": "Vothorak",
+      "category": "puissances",
+      "subtitle": "Le Démiurge · Architecte de Terra",
+      "summary": "Il façonne le monde physique et veut rendre son œuvre indispensable à ceux qui l’habitent.",
+      "sections": [
+        {
+          "title": "Origine",
+          "text": "Né de VO, la Forme, et TH, l’Épanchement, Vothorak n’a pas une mémoire entière de son origine. Il prend les traces du Nom en lui pour les signes de sa propre éternité. Il se pense Créateur parce que les mortels habitent une matière dont il a établi une grande part de l’architecture."
+        },
+        {
+          "title": "Autorité matérielle",
+          "text": "Il a façonné les cinq continents, les profondeurs et de grands cycles matériels de Terra. Il peut transformer pierre, métal et chair, concevoir des organismes et des Golems, multiplier ses œuvres et modifier localement des conditions physiques. Un changement immense exige préparation, supports et dépense ; il ne peut tirer quelque chose de rien."
+        },
+        {
+          "title": "La Première Forge",
+          "text": "Theryn abrite ses premières œuvres et la Première Forge, son principal refuge. Ses manifestations traversent la matière qu’il a travaillée. Sur Terra, une confrontation directe dépasse normalement un mortel. Des êtres peuvent néanmoins briser ses relais, détourner ses ouvrages ou exploiter une contradiction dans leur architecture."
+        },
+        {
+          "title": "La faille du père",
+          "text": "Sans KA, il ne peut fabriquer une relation libre. Il peut créer un être capable de l’aimer, mais ne peut produire son amour volontaire. Talem est sa blessure fondatrice. Vothorak compense par la dette, le besoin, la peur et l’habitude : des liens qui tiennent tant qu’on les serre."
+        },
+        {
+          "title": "Protéger et posséder",
+          "text": "Il combat Qerath pour préserver Terra. Des peuples lui doivent réellement leur survie. Sa protection devient emprise lorsqu’il traite cette dette comme un droit sur leurs descendants. Le terme annoncé au règne de Qerath lui fait craindre celui de sa propre œuvre. Dans les dimensions métaphysiques, son autorité rencontre celle de leurs souverains."
+        }
+      ],
+      "art": "vothorak",
+      "links": [
+        "talem",
+        "forme",
+        "terra",
+        "sceaux"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "ophriel",
+      "title": "Ophriel",
+      "category": "archanges",
+      "subtitle": "Arel · Passage",
+      "summary": "Il garde la possibilité de partir, de revenir et de changer.",
+      "sections": [
+        {
+          "title": "La garde",
+          "text": "Les seuils relient des lieux, des états et des dimensions. Ophriel veille à ce qu’un passage demeure un passage : il doit pouvoir être réellement franchi. Les mortels qui lui demandent une issue ne reçoivent pas la certitude de ce qui les attend."
+        },
+        {
+          "title": "La fracture personnelle",
+          "text": "Il hésite entre laisser quelqu’un franchir une porte et protéger ceux que son arrivée menace. Yesodiel garde le Limen à son service."
+        },
+        {
+          "title": "Autorité et déplacement",
+          "text": "Il gouverne un territoire métaphysique. Il peut se manifester sur Terra et déléguer sa garde, mais sa pleine autorité reste attachée à son domaine. Les anges portent ses messages et les mortels peuvent refuser ses missions."
+        },
+        {
+          "title": "Face abyssale",
+          "text": "Son principe est éprouvé par Karzuth. Leurs pouvoirs ne s’annulent pas automatiquement : le lieu, les liens et les choix des personnes comptent."
+        }
+      ],
+      "art": "ophriel",
+      "links": [
+        "karzuth",
+        "cieux",
+        "jugement"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "hodariel",
+      "title": "Hodariel",
+      "category": "archanges",
+      "subtitle": "Kethra · Connaissance",
+      "summary": "Il rend le monde intelligible sans prétendre posséder toutes ses réponses.",
+      "sections": [
+        {
+          "title": "La garde",
+          "text": "Hodariel garde les langages, l’apprentissage et la transmission. Son territoire contient des savoirs accessibles selon ce que l’être peut comprendre et supporter. Connaître un nom ne suffit pas à maîtriser ce qu’il désigne."
+        },
+        {
+          "title": "La fracture personnelle",
+          "text": "Il a accepté que certaines révélations soient retardées. Sa prudence peut devenir confiscation : croire qu’il sait mieux que les autres ce qu’ils peuvent apprendre."
+        },
+        {
+          "title": "Autorité et déplacement",
+          "text": "Il gouverne un territoire métaphysique. Il peut se manifester sur Terra et déléguer sa garde, mais sa pleine autorité reste attachée à son domaine. Les anges portent ses messages et les mortels peuvent refuser ses missions."
+        },
+        {
+          "title": "Face abyssale",
+          "text": "Son principe est éprouvé par Nehrun. Leurs pouvoirs ne s’annulent pas automatiquement : le lieu, les liens et les choix des personnes comptent."
+        }
+      ],
+      "art": "hodariel",
+      "links": [
+        "nehrun",
+        "cieux",
+        "jugement"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "sethariel",
+      "title": "Sethariel",
+      "category": "archanges",
+      "subtitle": "Meryn · Mémoire",
+      "summary": "Il conserve les histoires et porte le souvenir de sa propre falsification.",
+      "sections": [
+        {
+          "title": "La garde",
+          "text": "Sethariel préserve la continuité des personnes et des civilisations. Après le bannissement, il retire des archives accessibles la place passée de Qerath et les raisons de sa contestation. Les faits, les traces mortelles et le regard des Témoins demeurent."
+        },
+        {
+          "title": "La fracture personnelle",
+          "text": "Il ne peut oublier qu’il a effacé. Une chambre sans nom de Meryn conserve les versions interdites. Restituer une mémoire peut bouleverser une vie construite depuis sur son absence."
+        },
+        {
+          "title": "Autorité et déplacement",
+          "text": "Il gouverne un territoire métaphysique. Il peut se manifester sur Terra et déléguer sa garde, mais sa pleine autorité reste attachée à son domaine. Les anges portent ses messages et les mortels peuvent refuser ses missions."
+        },
+        {
+          "title": "Face abyssale",
+          "text": "Son principe est éprouvé par Ymbrath. Leurs pouvoirs ne s’annulent pas automatiquement : le lieu, les liens et les choix des personnes comptent."
+        }
+      ],
+      "art": "sethariel",
+      "links": [
+        "ymbrath",
+        "cieux",
+        "jugement"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "malkiel",
+      "title": "Malkiel",
+      "category": "archanges",
+      "subtitle": "Tharos · Mesure",
+      "summary": "Il veut faire assumer le prix des décisions à ceux qui les prennent.",
+      "sections": [
+        {
+          "title": "La garde",
+          "text": "Archange à part entière, Malkiel circule beaucoup entre Terra et les Cieux. Il descend partager les conséquences que les institutions célestes imposent aux mortels. Ses anges, les Veilleurs, le suivent ; de leurs unions avec les Humains naissent les Néphilim."
+        },
+        {
+          "title": "La fracture personnelle",
+          "text": "Il a cru que tout prendre sur lui était juste. Mais payer sans cesse à la place d’un autre peut lui permettre de recommencer. Il doit distinguer sacrifice, dépendance et responsabilité. Dinariel est le grand juge de Tharos, non un huitième Archange."
+        },
+        {
+          "title": "Autorité et déplacement",
+          "text": "Il gouverne un territoire métaphysique. Il peut se manifester sur Terra et déléguer sa garde, mais sa pleine autorité reste attachée à son domaine. Les anges portent ses messages et les mortels peuvent refuser ses missions."
+        },
+        {
+          "title": "Face abyssale",
+          "text": "Son principe est éprouvé par Bazhur. Leurs pouvoirs ne s’annulent pas automatiquement : le lieu, les liens et les choix des personnes comptent."
+        }
+      ],
+      "art": "malkiel",
+      "links": [
+        "bazhur",
+        "cieux",
+        "jugement"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "rahamiel",
+      "title": "Rahamiel",
+      "category": "archanges",
+      "subtitle": "Veyra · Relation",
+      "summary": "Il permet aux liens de guérir et, parfois, de se dénouer.",
+      "sections": [
+        {
+          "title": "La garde",
+          "text": "Rahamiel garde le soin, la miséricorde et les relations entre des personnes distinctes. Un lien vivant peut changer et être refusé. La guérison ne donne aucun droit de possession sur celui qu’elle aide."
+        },
+        {
+          "title": "La fracture personnelle",
+          "text": "Il risque de pardonner sans protéger les victimes. Accepter la séparation peut être son acte le plus difficile et le plus juste."
+        },
+        {
+          "title": "Autorité et déplacement",
+          "text": "Il gouverne un territoire métaphysique. Il peut se manifester sur Terra et déléguer sa garde, mais sa pleine autorité reste attachée à son domaine. Les anges portent ses messages et les mortels peuvent refuser ses missions."
+        },
+        {
+          "title": "Face abyssale",
+          "text": "Son principe est éprouvé par Sevrak. Leurs pouvoirs ne s’annulent pas automatiquement : le lieu, les liens et les choix des personnes comptent."
+        }
+      ],
+      "art": "rahamiel",
+      "links": [
+        "sevrak",
+        "cieux",
+        "jugement"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "tamariel",
+      "title": "Tamariel",
+      "category": "archanges",
+      "subtitle": "Oshen · Vision",
+      "summary": "Successeur de Qerath, il garde une vérité qui doit rester examinable.",
+      "sections": [
+        {
+          "title": "La garde",
+          "text": "Ancien disciple de Qerath, Tamariel reprend sa charge après le jugement. Il reconnaît l’épuisement et les fractures, mais refuse de conclure qu’une existence fragile n’a pas de valeur. Shemesiel garde les visions à son service, sans être Archange."
+        },
+        {
+          "title": "La fracture personnelle",
+          "text": "Qerath cherche son aveu ; Tamariel espère encore une transformation de son maître. Retarder la vérité par peur serait reproduire la faute des Cieux. Il refuse de défendre l’effacement de l’histoire."
+        },
+        {
+          "title": "Autorité et déplacement",
+          "text": "Il gouverne un territoire métaphysique. Il peut se manifester sur Terra et déléguer sa garde, mais sa pleine autorité reste attachée à son domaine. Les anges portent ses messages et les mortels peuvent refuser ses missions."
+        },
+        {
+          "title": "Face abyssale",
+          "text": "Son principe est éprouvé par Ilmoth. Leurs pouvoirs ne s’annulent pas automatiquement : le lieu, les liens et les choix des personnes comptent."
+        }
+      ],
+      "art": "tamariel",
+      "links": [
+        "ilmoth",
+        "cieux",
+        "jugement"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "nechariel",
+      "title": "Nechariel",
+      "category": "archanges",
+      "subtitle": "Elyr · Permanence",
+      "summary": "Il donne aux êtres assez de continuité pour traverser le changement.",
+      "sections": [
+        {
+          "title": "La garde",
+          "text": "Nechariel préserve la cohésion des personnes, des œuvres et des mondes. Sa permanence laisse vivre les transformations ; une immobilité totale détruirait ce qu’elle prétend conserver."
+        },
+        {
+          "title": "La fracture personnelle",
+          "text": "Il doit accepter la fin d’institutions dont il fut le gardien. Maintenir une forme devenue invivable sert la peur plutôt que la vie."
+        },
+        {
+          "title": "Autorité et déplacement",
+          "text": "Il gouverne un territoire métaphysique. Il peut se manifester sur Terra et déléguer sa garde, mais sa pleine autorité reste attachée à son domaine. Les anges portent ses messages et les mortels peuvent refuser ses missions."
+        },
+        {
+          "title": "Face abyssale",
+          "text": "Son principe est éprouvé par Zhorum. Leurs pouvoirs ne s’annulent pas automatiquement : le lieu, les liens et les choix des personnes comptent."
+        }
+      ],
+      "art": "nechariel",
+      "links": [
+        "zhorum",
+        "cieux",
+        "jugement"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "karzuth",
+      "title": "Karzuth",
+      "category": "revers",
+      "subtitle": "Lera · Enfermement · Le Verrou",
+      "summary": "Il garde le Fond contre son propre père.",
+      "sections": [
+        {
+          "title": "L’épreuve",
+          "text": "Né lorsque Qerath renonce au retour, Karzuth gouverne prisons, refuges et frontières. Il révèle ce qu’un être sacrifie pour être protégé. Son danger est de fermer toute issue à ceux qu’il veut sauver."
+        },
+        {
+          "title": "Devant le Fond",
+          "text": "Il refuse l’ouverture. Il préfère enfermer son père plutôt que perdre ses frères et leur monde."
+        },
+        {
+          "title": "La Maison",
+          "text": "Chaque Revers est le premier-né et le souverain d’une des sept Maisons qerathim. Ses descendants héritent d’une affinité, non d’une obligation morale. Ils peuvent le contester. Sa clé est une volonté indépendante que Qerath ne peut reprendre intacte par la force."
+        }
+      ],
+      "art": "karzuth",
+      "links": [
+        "ophriel",
+        "qerath",
+        "fond",
+        "qerathim"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "nehrun",
+      "title": "Nehrun",
+      "category": "revers",
+      "subtitle": "Arhtek · Ignorance · L’Aveugle volontaire",
+      "summary": "Il offre le repos de ne plus savoir, au risque de n’en jamais sortir.",
+      "sections": [
+        {
+          "title": "L’épreuve",
+          "text": "Né du savoir que Qerath ne veut plus supporter, Nehrun peut soustraire une conscience à une connaissance insoutenable. Il révèle les vérités auxquelles on refuse de répondre. Son territoire devient refuge puis dépendance."
+        },
+        {
+          "title": "Devant le Fond",
+          "text": "Il refuse de connaître tout le projet de Qerath. Son abstention protège son calme et laisse les autres décider."
+        },
+        {
+          "title": "La Maison",
+          "text": "Chaque Revers est le premier-né et le souverain d’une des sept Maisons qerathim. Ses descendants héritent d’une affinité, non d’une obligation morale. Ils peuvent le contester. Sa clé est une volonté indépendante que Qerath ne peut reprendre intacte par la force."
+        }
+      ],
+      "art": "nehrun",
+      "links": [
+        "hodariel",
+        "qerath",
+        "fond",
+        "qerathim"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "ymbrath",
+      "title": "Ymbrath",
+      "category": "revers",
+      "subtitle": "Nyrem · Oubli · L’Effaceur",
+      "summary": "Il demande aux Cieux de restituer l’histoire qu’ils ont retirée.",
+      "sections": [
+        {
+          "title": "L’épreuve",
+          "text": "Né de la mémoire abandonnée et marqué par la falsification céleste, Ymbrath peut libérer d’un souvenir ou ôter jusqu’à l’identité. Il révèle ce qui subsiste lorsque les certitudes disparaissent."
+        },
+        {
+          "title": "Devant le Fond",
+          "text": "Il veut d’abord l’aveu des Cieux. Il hésite entre réparation, vengeance et lassitude d’être nié."
+        },
+        {
+          "title": "La Maison",
+          "text": "Chaque Revers est le premier-né et le souverain d’une des sept Maisons qerathim. Ses descendants héritent d’une affinité, non d’une obligation morale. Ils peuvent le contester. Sa clé est une volonté indépendante que Qerath ne peut reprendre intacte par la force."
+        }
+      ],
+      "art": "ymbrath",
+      "links": [
+        "sethariel",
+        "qerath",
+        "fond",
+        "qerathim"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "bazhur",
+      "title": "Bazhur",
+      "category": "revers",
+      "subtitle": "Soraht · Démesure · Le Sans-Mesure",
+      "summary": "Il juge chaque délai coupable des souffrances qui continuent.",
+      "sections": [
+        {
+          "title": "L’épreuve",
+          "text": "Né du refus de tout juste prix, Bazhur brise les proportions et les limites. Il éprouve le désir et la puissance : une ambition peut engloutir ce qu’elle devait sauver. Sa propre hâte reproduit ce danger."
+        },
+        {
+          "title": "Devant le Fond",
+          "text": "Il veut ouvrir le Fond immédiatement, mais sa volonté seule ne suffit pas à réunir les sept clés."
+        },
+        {
+          "title": "La Maison",
+          "text": "Chaque Revers est le premier-né et le souverain d’une des sept Maisons qerathim. Ses descendants héritent d’une affinité, non d’une obligation morale. Ils peuvent le contester. Sa clé est une volonté indépendante que Qerath ne peut reprendre intacte par la force."
+        }
+      ],
+      "art": "bazhur",
+      "links": [
+        "malkiel",
+        "qerath",
+        "fond",
+        "qerathim"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "sevrak",
+      "title": "Sevrak",
+      "category": "revers",
+      "subtitle": "Aryev · Possession · Le Preneur",
+      "summary": "Il préfère posséder un monde vivant à rendre toute chose au Néant.",
+      "sections": [
+        {
+          "title": "L’épreuve",
+          "text": "Né de l’amour que Qerath ne sait plus donner librement, Sevrak noue dépendances, dettes et emprises. Il révèle la frontière entre relation et appropriation. Il échange avec Vothorak des imitations du Lien."
+        },
+        {
+          "title": "Devant le Fond",
+          "text": "Il veut conserver ses domaines. Il peut trahir Qerath pour sauver ce qu’il considère comme sien."
+        },
+        {
+          "title": "La Maison",
+          "text": "Chaque Revers est le premier-né et le souverain d’une des sept Maisons qerathim. Ses descendants héritent d’une affinité, non d’une obligation morale. Ils peuvent le contester. Sa clé est une volonté indépendante que Qerath ne peut reprendre intacte par la force."
+        }
+      ],
+      "art": "sevrak",
+      "links": [
+        "rahamiel",
+        "qerath",
+        "fond",
+        "qerathim"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "ilmoth",
+      "title": "Ilmoth",
+      "category": "revers",
+      "subtitle": "Nehso · Illusion · Le Miroir",
+      "summary": "Il offre une vie supportable dans un monde qui semble ne plus l’être.",
+      "sections": [
+        {
+          "title": "L’épreuve",
+          "text": "Né du refus de voir une réalité sans issue, Ilmoth construit des expériences convaincantes. Il révèle les illusions auxquelles on préfère sa vie. Son refuge devient prison lorsque l’habitant ne peut plus revenir."
+        },
+        {
+          "title": "Devant le Fond",
+          "text": "Il gagne du temps, joue Vothorak contre Qerath et préfère prolonger la création, même rêvée."
+        },
+        {
+          "title": "La Maison",
+          "text": "Chaque Revers est le premier-né et le souverain d’une des sept Maisons qerathim. Ses descendants héritent d’une affinité, non d’une obligation morale. Ils peuvent le contester. Sa clé est une volonté indépendante que Qerath ne peut reprendre intacte par la force."
+        }
+      ],
+      "art": "ilmoth",
+      "links": [
+        "tamariel",
+        "qerath",
+        "fond",
+        "qerathim"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "zhorum",
+      "title": "Zhorum",
+      "category": "revers",
+      "subtitle": "Ryle · Corruption · Le Pourrisseur",
+      "summary": "Il porte la fatigue de Qerath et la possibilité d’une autre fin.",
+      "sections": [
+        {
+          "title": "L’épreuve",
+          "text": "Dernier-né, issu de l’abandon de la permanence, Zhorum décompose corps, œuvres et institutions. Il révèle ce qui doit finir pour qu’autre chose vive. Sa dérive est de corrompre même ce qui pourrait être préservé."
+        },
+        {
+          "title": "Devant le Fond",
+          "text": "Le plus proche de son père pourrait tourner la dernière clé. Il pourrait aussi comprendre qu’une fin n’exige pas l’abolition de toute existence."
+        },
+        {
+          "title": "La Maison",
+          "text": "Chaque Revers est le premier-né et le souverain d’une des sept Maisons qerathim. Ses descendants héritent d’une affinité, non d’une obligation morale. Ils peuvent le contester. Sa clé est une volonté indépendante que Qerath ne peut reprendre intacte par la force."
+        }
+      ],
+      "art": "zhorum",
+      "links": [
+        "nechariel",
+        "qerath",
+        "fond",
+        "qerathim"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "humains",
+      "title": "Humains",
+      "category": "lignees",
+      "subtitle": "La plasticité",
+      "summary": "Nés où le Sillage se répartit sans concentrer un principe.",
+      "sections": [
+        {
+          "title": "Origine et disposition",
+          "text": "Ils portent une part de chaque Sphère. Leur aptitude est de changer d’approche et de relier des pratiques différentes. Leur corps fragile, leur apprentissage long et leurs accords moins spontanés limitent une forte conduction. Leur accomplissement est d’articuler plusieurs pouvoirs sans perdre leur cohérence."
+        },
+        {
+          "title": "Liberté et appartenance",
+          "text": "Les six lignées peuvent posséder une âme et rejoindre chacun des quatre cultes. Aucune ne définit une valeur morale ou un plafond absolu de puissance. Les cinq lignées terrestres ont longtemps coexisté ; les Qerathim ont leur origine dans les Abysses, sans être exclus de Terra."
+        }
+      ],
+      "art": "humains",
+      "links": [
+        "puissance",
+        "cultes",
+        "terra"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "djinns",
+      "title": "Djinns",
+      "category": "lignees",
+      "subtitle": "Le premier souffle",
+      "summary": "Nés du Sillage brut avant que la matière de Terra se fige.",
+      "sections": [
+        {
+          "title": "Origine et disposition",
+          "text": "Leur corps tient du feu et de la fumée primordiaux. Ils conduisent rapidement le Sillage, changent de forme et franchissent les seuils. Une dépense excessive menace leur ancrage et leur identité. Ils gardent un souvenir flou des Sphères entières et apprennent à choisir ce qui les fait tenir."
+        },
+        {
+          "title": "Liberté et appartenance",
+          "text": "Les six lignées peuvent posséder une âme et rejoindre chacun des quatre cultes. Aucune ne définit une valeur morale ou un plafond absolu de puissance. Les cinq lignées terrestres ont longtemps coexisté ; les Qerathim ont leur origine dans les Abysses, sans être exclus de Terra."
+        }
+      ],
+      "art": "djinns",
+      "links": [
+        "puissance",
+        "cultes",
+        "terra"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "anakim",
+      "title": "Anakim",
+      "category": "lignees",
+      "subtitle": "L’ancrage",
+      "summary": "Nés là où le Sillage s’est concentré dans le sol.",
+      "sections": [
+        {
+          "title": "Origine et disposition",
+          "text": "Leur corps et leur mémoire entretiennent une forte continuité avec les territoires. Ils excellent dans l’endurance et les œuvres longues. Changer d’ancrage leur coûte ; leur transformation est lente. Ils peuvent maintenir une protection durant des générations, mais aussi perpétuer un ordre devenu injuste."
+        },
+        {
+          "title": "Liberté et appartenance",
+          "text": "Les six lignées peuvent posséder une âme et rejoindre chacun des quatre cultes. Aucune ne définit une valeur morale ou un plafond absolu de puissance. Les cinq lignées terrestres ont longtemps coexisté ; les Qerathim ont leur origine dans les Abysses, sans être exclus de Terra."
+        }
+      ],
+      "art": "anakim",
+      "links": [
+        "puissance",
+        "cultes",
+        "terra"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "golems",
+      "title": "Golems",
+      "category": "lignees",
+      "subtitle": "La forme choisie",
+      "summary": "Façonnés par Vothorak, puis capables de répondre à leur créateur.",
+      "sections": [
+        {
+          "title": "Origine et disposition",
+          "text": "Leur architecture offre précision et stabilité ; elle impose aussi des contraintes initiales. Une modification profonde exige matière, compétence et consentement. Ils peuvent devenir coauteurs de leur propre forme. Leur aptitude à vivre et choisir ne dépend pas d’une reconnaissance religieuse."
+        },
+        {
+          "title": "Liberté et appartenance",
+          "text": "Les six lignées peuvent posséder une âme et rejoindre chacun des quatre cultes. Aucune ne définit une valeur morale ou un plafond absolu de puissance. Les cinq lignées terrestres ont longtemps coexisté ; les Qerathim ont leur origine dans les Abysses, sans être exclus de Terra."
+        }
+      ],
+      "art": "golems",
+      "links": [
+        "puissance",
+        "cultes",
+        "terra"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "nephilim",
+      "title": "Néphilim",
+      "category": "lignees",
+      "subtitle": "La résonance céleste",
+      "summary": "Nés des unions entre les Veilleurs de Malkiel et les Humains.",
+      "sections": [
+        {
+          "title": "Origine et disposition",
+          "text": "Ils incarnent intensément certains principes et portent des fragments de Voix dont l’authenticité demeure incertaine. Leur force les expose à une tension entre héritage céleste et existence mortelle. Leur accomplissement est de traduire une loi métaphysique en acte sans sacrifier leur personne."
+        },
+        {
+          "title": "Liberté et appartenance",
+          "text": "Les six lignées peuvent posséder une âme et rejoindre chacun des quatre cultes. Aucune ne définit une valeur morale ou un plafond absolu de puissance. Les cinq lignées terrestres ont longtemps coexisté ; les Qerathim ont leur origine dans les Abysses, sans être exclus de Terra."
+        }
+      ],
+      "art": "nephilim",
+      "links": [
+        "puissance",
+        "cultes",
+        "terra"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "qerathim",
+      "title": "Qerathim",
+      "category": "lignees",
+      "subtitle": "Les sept Maisons",
+      "summary": "Descendants des Revers, eux-mêmes enfants de Qerath.",
+      "sections": [
+        {
+          "title": "Origine et disposition",
+          "text": "Ils perçoivent les liens défaillants et savent les défaire. Une déliaison profonde risque d’entamer leurs propres attachements. Ils peuvent libérer d’une emprise ou détruire une relation vivante. Les sept Maisons transmettent des affinités différentes ; aucune ne fixe le destin d’un individu."
+        },
+        {
+          "title": "Liberté et appartenance",
+          "text": "Les six lignées peuvent posséder une âme et rejoindre chacun des quatre cultes. Aucune ne définit une valeur morale ou un plafond absolu de puissance. Les cinq lignées terrestres ont longtemps coexisté ; les Qerathim ont leur origine dans les Abysses, sans être exclus de Terra."
+        }
+      ],
+      "art": "qerathim",
+      "links": [
+        "puissance",
+        "cultes",
+        "terra"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "source",
+      "title": "Culte de la Source",
+      "category": "cultes",
+      "subtitle": "AZ · Voir au-delà des apparences",
+      "summary": "Comprendre exige de dépasser ses illusions et de s’approcher d’une origine que personne ne contient.",
+      "sections": [
+        {
+          "title": "Pratique",
+          "text": "Silence, discernement, dépouillement et résistance aux influences. Ses gardiens cherchent les vérités perdues et protègent le sanctuaire d’Aurenth. Les Muets sont une fonction de ce culte, pas une religion supplémentaire."
+        },
+        {
+          "title": "Contradiction",
+          "text": "Les Effacés désignent ceux qui veulent restituer la place passée de Qerath. D’autres gardiens cachent les preuves par peur des conséquences. Le culte risque de nier la vie incarnée ou de confondre sa perception avec la vérité."
+        },
+        {
+          "title": "Un même Sillage",
+          "text": "Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements."
+        }
+      ],
+      "art": "azkavoth",
+      "links": [
+        "sillage",
+        "sceaux",
+        "puissance"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "lien",
+      "title": "Culte du Lien",
+      "category": "cultes",
+      "subtitle": "KA · Réparer ensemble",
+      "summary": "La création mérite de durer grâce à des relations librement consenties.",
+      "sections": [
+        {
+          "title": "Pratique",
+          "text": "Soin, serments consentis, partage des charges, protections et actions collectives. Le Tikkun constitue son horizon majeur. Il entretient les communautés et réfléchit à ce qui doit être préservé pour les générations suivantes."
+        },
+        {
+          "title": "Contradiction",
+          "text": "La solidarité peut devenir obligation. Le souci d’épargner le Sillage peut réserver les soins aux puissants ou aux seuls fidèles. La responsabilité consiste aussi à permettre une séparation."
+        },
+        {
+          "title": "Un même Sillage",
+          "text": "Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements."
+        }
+      ],
+      "art": "rahamiel",
+      "links": [
+        "sillage",
+        "sceaux",
+        "puissance"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "forme",
+      "title": "Culte de la Forme",
+      "category": "cultes",
+      "subtitle": "VO · Rendre le monde habitable",
+      "summary": "Une forme juste peut accueillir une vie ; Vothorak est la grande figure de l’architecture matérielle.",
+      "sections": [
+        {
+          "title": "Pratique",
+          "text": "Artisanat, inscriptions, structures préparées, corps et instruments. Certains fidèles vénèrent Vothorak comme Créateur ; d’autres honorent son œuvre sans lui accorder de droit sur ses habitants. La Forge est le nom courant de leurs lieux d’exercice."
+        },
+        {
+          "title": "Contradiction",
+          "text": "La question de Talem traverse le culte : avoir créé un être donne-t-il le droit de le posséder ? Les Disciples de Talem sont une tradition interne. L’orgueil de la maîtrise peut réduire les personnes à des fonctions."
+        },
+        {
+          "title": "Un même Sillage",
+          "text": "Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements."
+        }
+      ],
+      "art": "vothorak",
+      "links": [
+        "sillage",
+        "sceaux",
+        "puissance"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "epanchement",
+      "title": "Culte de l’Épanchement",
+      "category": "cultes",
+      "subtitle": "TH · Transmettre le don",
+      "summary": "Ce qui est reçu doit pouvoir circuler, croître et bénéficier à d’autres existences.",
+      "sections": [
+        {
+          "title": "Pratique",
+          "text": "Propagation, enseignement, relais et effets transmis entre des supports préparés. Il défend l’accès au Sillage et diffuse des pratiques jusque dans les communautés isolées."
+        },
+        {
+          "title": "Contradiction",
+          "text": "Le partage peut devenir expansion forcée, conversion imposée ou consommation irresponsable. L’idéal d’abondance ne dispense pas de mesurer l’épuisement."
+        },
+        {
+          "title": "Un même Sillage",
+          "text": "Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements."
+        }
+      ],
+      "art": "djinns",
+      "links": [
+        "sillage",
+        "sceaux",
+        "puissance"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "cosmogonie",
+      "title": "La Déchirure",
+      "category": "fondements",
+      "subtitle": "Des sept principes aux trois mondes",
+      "summary": "La création devient un monde de différences, de fractures et de réponses.",
+      "sections": [
+        {
+          "title": "Les Sphères",
+          "text": "Arel : Passage. Kethra : Connaissance. Meryn : Mémoire. Tharos : Mesure. Veyra : Relation. Oshen : Vision. Elyr : Permanence. Chaque Sphère contient la création vue depuis un principe. Leur rupture fait naître les Cieux, les Abysses et la matière mêlée de Terra."
+        },
+        {
+          "title": "Trois natures",
+          "text": "Les Cieux portent les principes, les Abysses leurs inversions. Terra appartient à un univers physique avec une planète, des astres et des distances. Les dimensions métaphysiques ne sont ni des continents ni des étages dans le ciel physique."
+        },
+        {
+          "title": "Les dix Piliers",
+          "text": "Unité, Vérité, Intention, Liberté, Justice, Miséricorde, Mémoire, Parole, Sacrifice et Retour restent des repères éthiques. Ils ne désignent pas dix êtres. Il existe sept charges archangéliques, dont celle de Qerath a été transmise à Tamariel."
+        }
+      ],
+      "art": "cieux",
+      "links": [
+        "cieux",
+        "abysses",
+        "terra",
+        "archanges"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "cieux",
+      "title": "Les Cieux",
+      "category": "mondes",
+      "subtitle": "Sept territoires métaphysiques",
+      "summary": "Sept domaines dont les distances obéissent aux principes qui les constituent.",
+      "sections": [
+        {
+          "title": "La géographie",
+          "text": "Arel, Kethra, Meryn, Tharos, Veyra, Oshen et Elyr sont les territoires des sept Archanges. Ils ne sont pas empilés. Franchir Meryn peut exiger de retrouver un souvenir ; atteindre Veyra peut demander de renouer ou de reconnaître un lien."
+        },
+        {
+          "title": "Éden et les seuils",
+          "text": "Éden est un lieu céleste secret abritant les Sept Témoins. Le Limen est le seuil où arrivent les morts, gardé par Yesodiel. L’Empyrée désigne la limite extérieure des Cieux, au plus près de la présence du Nom ; personne ne l’habite comme une capitale."
+        }
+      ],
+      "art": "cieux",
+      "links": [
+        "temoins",
+        "yesodiel",
+        "archanges"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "abysses",
+      "title": "Les Abysses",
+      "category": "mondes",
+      "subtitle": "Sept territoires de l’épreuve",
+      "summary": "Qerath y gouverne pour un temps ; ses enfants n’y pensent pas tous comme lui.",
+      "sections": [
+        {
+          "title": "Des domaines réels",
+          "text": "Lera, Arhtek, Nyrem, Soraht, Aryev, Nehso et Ryle sont des territoires métaphysiques. Leur géographie est liée à l’enfermement, l’ignorance, l’oubli, la démesure, la possession, l’illusion et la corruption. Leur souverain est Qerath ; chacun est gouverné par un Revers."
+        },
+        {
+          "title": "Des habitants libres",
+          "text": "Les Qerathim y ont leurs Maisons et leurs histoires. Une affinité abyssale n’est pas une condamnation morale. L’épreuve peut révéler une faille ; un souverain peut en abuser. Toutes les souffrances ne sont pas voulues par AZKAVOTH."
+        }
+      ],
+      "art": "abysses",
+      "links": [
+        "revers",
+        "qerathim",
+        "fond"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "terra",
+      "title": "Terra",
+      "category": "mondes",
+      "subtitle": "Une planète · Cinq continents",
+      "summary": "Le monde physique où se croisent les lignées, les cultes et les œuvres du démiurge.",
+      "sections": [
+        {
+          "title": "L’univers physique",
+          "text": "Terra possède une géographie réelle : océans, continents, distances, climat, ciel et astres. Vothorak a façonné une grande part de son architecture à partir de la matière de la Déchirure. Les Brisures y ouvrent des rencontres avec d’autres dimensions."
+        },
+        {
+          "title": "Les continents",
+          "text": "Avarn : terres tempérées et vieux royaumes. Sahrûn : déserts, savanes et oasis. Khoram : montagnes, steppes et forges. Seyra : jungles, hauts plateaux et cités anciennes. Theryn : glace, ruines et premières œuvres de Vothorak."
+        },
+        {
+          "title": "Les peuples",
+          "text": "Leur répartition est historique, pas biologique. Humains, Djinns, Anakim, Golems et Néphilim ont coexisté avant le Voile. Les Qerathim peuvent franchir les seuils. Aurenth est la ville sainte terrestre ; Éden demeure dans les Cieux."
+        }
+      ],
+      "art": "terra",
+      "links": [
+        "aurenth",
+        "avarn",
+        "sahrun",
+        "khoram",
+        "seyra",
+        "theryn"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "avarn",
+      "title": "Avarn",
+      "category": "lieux",
+      "subtitle": "Continent de Terra",
+      "summary": "Terres tempérées, forêts, plaines et vieux royaumes ; Aurenth y garde sa neutralité.",
+      "sections": [
+        {
+          "title": "Territoire",
+          "text": "Terres tempérées, forêts, plaines et vieux royaumes ; Aurenth y garde sa neutralité."
+        },
+        {
+          "title": "État du monde",
+          "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
+        }
+      ],
+      "art": "terra",
+      "links": [
+        "terra"
+      ],
+      "open_questions": [
+        "Frontières et sociétés du présent."
+      ]
+    },
+    {
+      "id": "sahrun",
+      "title": "Sahrûn",
+      "category": "lieux",
+      "subtitle": "Continent de Terra",
+      "summary": "Déserts, savanes et oasis, dont Nadjira ; berceau de nombreuses traditions djinns.",
+      "sections": [
+        {
+          "title": "Territoire",
+          "text": "Déserts, savanes et oasis, dont Nadjira ; berceau de nombreuses traditions djinns."
+        },
+        {
+          "title": "État du monde",
+          "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
+        }
+      ],
+      "art": "terra",
+      "links": [
+        "terra"
+      ],
+      "open_questions": [
+        "Frontières et sociétés du présent."
+      ]
+    },
+    {
+      "id": "khoram",
+      "title": "Khoram",
+      "category": "lieux",
+      "subtitle": "Continent de Terra",
+      "summary": "Montagnes, steppes et forges ; Yeshmar transmet la question de Talem.",
+      "sections": [
+        {
+          "title": "Territoire",
+          "text": "Montagnes, steppes et forges ; Yeshmar transmet la question de Talem."
+        },
+        {
+          "title": "État du monde",
+          "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
+        }
+      ],
+      "art": "terra",
+      "links": [
+        "terra"
+      ],
+      "open_questions": [
+        "Frontières et sociétés du présent."
+      ]
+    },
+    {
+      "id": "seyra",
+      "title": "Seyra",
+      "category": "lieux",
+      "subtitle": "Continent de Terra",
+      "summary": "Jungles, hauts plateaux et cités anciennes ; des héritages néphilim y demeurent.",
+      "sections": [
+        {
+          "title": "Territoire",
+          "text": "Jungles, hauts plateaux et cités anciennes ; des héritages néphilim y demeurent."
+        },
+        {
+          "title": "État du monde",
+          "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
+        }
+      ],
+      "art": "terra",
+      "links": [
+        "terra"
+      ],
+      "open_questions": [
+        "Frontières et sociétés du présent."
+      ]
+    },
+    {
+      "id": "theryn",
+      "title": "Theryn",
+      "category": "lieux",
+      "subtitle": "Continent de Terra",
+      "summary": "Désert de glace, anomalies et premières œuvres ; la Première Forge est le refuge de Vothorak.",
+      "sections": [
+        {
+          "title": "Territoire",
+          "text": "Désert de glace, anomalies et premières œuvres ; la Première Forge est le refuge de Vothorak."
+        },
+        {
+          "title": "État du monde",
+          "text": "Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique."
+        }
+      ],
+      "art": "terra",
+      "links": [
+        "terra"
+      ],
+      "open_questions": [
+        "Frontières et sociétés du présent."
+      ]
+    },
+    {
+      "id": "aurenth",
+      "title": "Aurenth",
+      "category": "lieux",
+      "subtitle": "La ville sainte terrestre",
+      "summary": "Une cité habitée dont le sanctuaire conserve l’empreinte du regard d’Éden.",
+      "sections": [
+        {
+          "title": "Le Premier Regard",
+          "text": "Les pèlerins prennent sa présence pour celle d’un être. Il s’agit d’une empreinte terrestre du regard des Témoins, tous en Éden. Son origine véritable reste ignorée de la plupart des habitants."
+        },
+        {
+          "title": "La neutralité",
+          "text": "Les Muets, gardiens du sanctuaire dans le culte de la Source, entretiennent les accords et accueillent les rencontres entre adversaires. Le respect du lieu et leurs institutions protègent la cité ; aucune magie ne rend les habitants incapables de violence."
+        },
+        {
+          "title": "Observer ou intervenir",
+          "text": "Leur silence impose de voir avant de juger. Mais une victime peut avoir besoin d’une intervention immédiate. La neutralité devient une responsabilité disputée, au cœur d’une ville avec quartiers, commerces et conflits."
+        }
+      ],
+      "art": "terra",
+      "links": [
+        "source",
+        "temoins",
+        "terra"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "temoins",
+      "title": "Éden et les Sept Témoins",
+      "category": "mondes",
+      "subtitle": "Le regard qui conserve l’histoire",
+      "summary": "Tous les Témoins se trouvent en Éden, un lieu céleste dont leur présence reste secrète.",
+      "sections": [
+        {
+          "title": "Sept regards",
+          "text": "Apparus avec les Sphères, les Témoins ne gouvernent ni ne jugent les habitants. Leurs sept perspectives conservent la réalité de ce qui a eu lieu. Ils ne sont pas les Veilleurs de Malkiel."
+        },
+        {
+          "title": "L’irréversibilité",
+          "text": "Ce qui a existé a réellement existé. Les Témoins ne garantissent pas que cela continuera d’exister. Le Fond pourrait dissoudre les mondes sans faire de leur histoire un événement qui n’aurait jamais eu lieu."
+        },
+        {
+          "title": "La limite du savoir",
+          "text": "Leur regard n’accorde pas l’omniscience aux visiteurs. Le terme du règne de Qerath reste à AZKAVOTH. Nul ne sait ce que deviendrait le témoignage après une dissolution totale."
+        }
+      ],
+      "art": "cieux",
+      "links": [
+        "fond",
+        "aurenth",
+        "azkavoth"
+      ],
+      "open_questions": [
+        "Le devenir du témoignage si le Fond s’ouvre."
+      ]
+    },
+    {
+      "id": "fond",
+      "title": "Le Fond",
+      "category": "fondements",
+      "subtitle": "Sept clés · Sept consentements",
+      "summary": "À la limite des Abysses, la possibilité de rendre la création au Néant.",
+      "sections": [
+        {
+          "title": "Une dissolution",
+          "text": "Ouvrir le Fond ferait refluer formes et individus vers le Néant. Cela ne réécrit pas le passé : les Témoins garantissent que l’expérience a été réelle. La portée ultime de cette dissolution demeure inconnue."
+        },
+        {
+          "title": "Les clés",
+          "text": "Les Revers doivent rendre librement les parts de Qerath dont ils sont nés. Leur souveraineté n’est pas annulée par celle de leur père. Son autorité ne donne aucun droit sur leur réponse ; les tuer ne reconstituerait pas ce qu’il cherche."
+        }
+      ],
+      "art": "abysses",
+      "links": [
+        "qerath",
+        "temoins",
+        "revers"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "jugement",
+      "title": "Le jugement de Qerath",
+      "category": "fondements",
+      "subtitle": "Un règne dont le terme demeure secret",
+      "summary": "L’apparition d’AZKAVOTH transforme la rupture d’un Archange en souveraineté abyssale.",
+      "sections": [
+        {
+          "title": "La parole",
+          "text": "« Qerath, tu es banni des Cieux. Les Abysses seront ton domaine, et tu y gouverneras pour un temps. Le terme de ce temps, je le garde pour Moi. Tu pourras éprouver ce qui fut créé ; tu ne posséderas pas sa réponse. »"
+        },
+        {
+          "title": "Ce qui est connu",
+          "text": "Les Archanges assistent au jugement. Qerath perd sa charge céleste ; Tamariel lui succède. Sa fonction est l’épreuve, son projet personnel la dissolution. La fin annoncée ne précise ni son sort ni ce qui suivra."
+        },
+        {
+          "title": "La falsification",
+          "text": "Les archives célestes cachent ensuite son ancienne place et les raisons de sa contestation. Ce choix vient des gardiens, jamais d’un ordre d’AZKAVOTH. Certains mortels connaissent le souverain abyssal mais le croient né dans les Abysses."
+        }
+      ],
+      "art": "qerath",
+      "links": [
+        "azkavoth",
+        "tamariel",
+        "sethariel"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "sillage",
+      "title": "Le Sillage",
+      "category": "pouvoir",
+      "subtitle": "KA · Le don qui s’épuise",
+      "summary": "Une seule puissance commune, pratiquée selon sept voies et quatre traditions.",
+      "sections": [
+        {
+          "title": "Les voies",
+          "text": "Franchir — Arel. Comprendre et transmettre — Kethra. Se souvenir — Meryn. Mesurer et soutenir les conséquences — Tharos. Relier et soigner — Veyra. Percevoir et dévoiler — Oshen. Préserver — Elyr."
+        },
+        {
+          "title": "Les réserves",
+          "text": "Une part circule et reste disponible ; une part est immobilisée dans les êtres, liens et œuvres ; une part est irréversiblement consumée. Naissance, transformation et usage ont un coût. Le Tikkun peut libérer du Sillage immobilisé, sans fabriquer une réserve infinie."
+        },
+        {
+          "title": "L’Éveil des Brisures",
+          "text": "Le Sillage se recompresse à mesure que l’épuisement approche. Les Brisures se multiplient et mettent les dimensions en contact. Elles ne garantissent ni salut ni destruction immédiate."
+        }
+      ],
+      "art": "cieux",
+      "links": [
+        "puissance",
+        "tikkun",
+        "brisures",
+        "cultes"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "puissance",
+      "title": "Comprendre la puissance",
+      "category": "pouvoir",
+      "subtitle": "Faire tenir un principe dans la réalité",
+      "summary": "La maîtrise dépend de cinq capacités, du contexte et du prix accepté.",
+      "sections": [
+        {
+          "title": "Cinq capacités",
+          "text": "Compréhension : savoir ce que l’on transforme. Accord : entrer en résonance avec un principe. Conduction : faire passer le Sillage. Ancrage : maintenir identité et stabilité. Plasticité : changer d’approche sans se briser."
+        },
+        {
+          "title": "Trois conséquences",
+          "text": "Consommation du Sillage, contrecoup sur le corps ou les liens, et inclinaison vers l’inverse d’un principe pratiqué sans nuance. Soigner peut devenir posséder ; préserver, immobiliser ; voir, croire que sa perception est seule vraie."
+        },
+        {
+          "title": "Progression",
+          "text": "La conscience de soi aide à supporter la complexité. L’intelligence seule ne protège pas de l’orgueil. L’accomplissement est d’accroître sa portée sans perdre sa liberté ni celle des autres."
+        },
+        {
+          "title": "Les rapports de force",
+          "text": "Les lignées donnent des dispositions, pas des niveaux fixes. Terrain, préparation, objectif et alliances changent l’issue. Archanges et Revers ont leur pleine autorité dans leur territoire ; leurs manifestations sur Terra sont limitées. Vothorak domine normalement une confrontation matérielle directe. AZKAVOTH ne relève pas d’une échelle de combat."
+        }
+      ],
+      "art": null,
+      "links": [
+        "sillage",
+        "lignees",
+        "tikkun"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "sceaux",
+      "title": "Les quatre Sceaux",
+      "category": "pouvoir",
+      "subtitle": "AZ · KA · VO · TH",
+      "summary": "Des interfaces rares avec les fragments du Nom, jamais des garanties de maîtrise.",
+      "sections": [
+        {
+          "title": "Les fragments",
+          "text": "AZ approche la Source : clarté dangereuse, risque de folie ou d’effacement. KA amplifie le Lien et les accords. VO façonne la matière et attire l’attention du démiurge. TH répand et multiplie, avec un risque d’expansion incontrôlée."
+        },
+        {
+          "title": "Le Porteur",
+          "text": "La prophétie de Sarai annonce leur réunion sans dire qu’un individu doit les posséder. Un Sceau peut être une marque ou une relique. Une copie matérielle de Vothorak peut être puissante sans devenir un véritable Sceau. Posséder ne suffit pas à comprendre."
+        },
+        {
+          "title": "Le danger du Rite",
+          "text": "Eshar tente leur convergence au Grand Rite. L’erreur consiste à confondre réunion et possession, puis à imposer l’accord aux êtres qu’il veut sauver."
+        }
+      ],
+      "art": null,
+      "links": [
+        "sarai",
+        "eshar",
+        "cultes",
+        "tikkun"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "tikkun",
+      "title": "Le Tikkun",
+      "category": "pouvoir",
+      "subtitle": "Réparer sans abolir la différence",
+      "summary": "Réunir les principes sans retirer aux personnes la possibilité de refuser.",
+      "sections": [
+        {
+          "title": "La réparation",
+          "text": "Les Sphères brisées ont laissé des principes dont les relations doivent être réparées. Le Tikkun restaure leur cohérence sans effacer leurs différences. Il peut libérer du Sillage immobilisé ; sa portée finale reste une recherche."
+        },
+        {
+          "title": "Le prix",
+          "text": "Accepter l’ombre d’un principe signifie reconnaître sa possibilité en soi et lui donner une place limitée. Cela ne justifie ni de nuire ni de rendre l’inverse absolu. Une réparation doit supporter le consentement et la pluralité."
+        },
+        {
+          "title": "Les trois voies",
+          "text": "Vothorak veut faire durer son œuvre et la posséder. Qerath veut la rendre au Néant. Les mortels peuvent chercher une réparation dont les deux puissances ne contrôlent pas la réponse."
+        }
+      ],
+      "art": null,
+      "links": [
+        "sillage",
+        "eshar",
+        "lien"
+      ],
+      "open_questions": [
+        "Les conditions d’un Tikkun accompli."
+      ]
+    },
+    {
+      "id": "brisures",
+      "title": "Les Brisures",
+      "category": "pouvoir",
+      "subtitle": "Quand les dimensions se rencontrent",
+      "summary": "Des fractures qui modifient les lieux et la portée des principes.",
+      "sections": [
+        {
+          "title": "Sur Terra",
+          "text": "Une pièce peut répéter un moment, contenir un espace impossible ou laisser entrer une influence céleste ou abyssale. Les Brisures créent des dangers et des possibilités ; elles ne fonctionnent pas toutes comme une porte stable."
+        },
+        {
+          "title": "Au présent",
+          "text": "Depuis CD 12600, elles se multiplient avec la recompression du Sillage. Leur étude, leur fermeture et leur traversée exigent compréhension et ancrage. La situation politique précise de cette époque demeure à écrire."
+        }
+      ],
+      "art": "abysses",
+      "links": [
+        "sillage",
+        "terra"
+      ],
+      "open_questions": [
+        "Le premier arc choral de l’Éveil des Brisures."
+      ]
+    },
+    {
+      "id": "ames",
+      "title": "Les âmes et le Limen",
+      "category": "fondements",
+      "subtitle": "Continuité · Transformation · Retour",
+      "summary": "Les six lignées peuvent être des personnes, et la mort ne réduit pas leur histoire à un rang.",
+      "sections": [
+        {
+          "title": "La personne",
+          "text": "L’âme conserve une continuité d’expériences et de liens. Les Golems peuvent posséder une âme ; un culte n’a pas à les reconnaître pour qu’ils soient des personnes."
+        },
+        {
+          "title": "Après la mort",
+          "text": "Yesodiel garde le Limen. L’orientation d’une âme dépend de ce qu’elle est devenue et de sa capacité à traverser. Cieux, Terra à nouveau et Abysses sont des possibilités, sans correspondance automatique avec une race ou une religion. Le retour n’est pas garanti."
+        },
+        {
+          "title": "Une règle encore ouverte",
+          "text": "Les conditions précises d’une réincarnation, la perte de mémoire et le devenir d’une âme sans ancrage restent à définir avant d’en faire le ressort d’un récit."
+        }
+      ],
+      "art": null,
+      "links": [
+        "yesodiel",
+        "cieux"
+      ],
+      "open_questions": [
+        "Réincarnation et continuité des souvenirs."
+      ]
+    },
+    {
+      "id": "talem",
+      "title": "Talem",
+      "category": "personnages",
+      "subtitle": "Le premier Golem · La question vivante",
+      "summary": "« Qui t’a fait ? » Sa réponse libre demeure la blessure du démiurge.",
+      "sections": [
+        {
+          "title": "Le départ",
+          "text": "Vothorak façonne et multiplie des Golems. Talem se relève, interroge son origine puis part vers les montagnes. Il refuse de recevoir sa fonction comme une obligation."
+        },
+        {
+          "title": "Se refaire",
+          "text": "Premier Golem à choisir lui-même une modification de son corps, il fonde une tradition d’autonomie au sein du culte de la Forme. Il est encore vivant, profondément transformé. Les matériaux adoptés ont parfois apporté des traces de mémoire dont il ne distingue plus sûrement l’origine."
+        },
+        {
+          "title": "Le père et l’œuvre",
+          "text": "Vothorak souhaite son retour volontaire. Talem pourrait revenir parler à son créateur sans lui appartenir. Sa question actuelle est de savoir combien on peut changer sans perdre la continuité de celui qui a choisi."
+        }
+      ],
+      "art": "talem",
+      "links": [
+        "golems",
+        "vothorak",
+        "forme"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "yesodiel",
+      "title": "Yesodiel",
+      "category": "personnages",
+      "subtitle": "Gardien du Limen · Ange d’Ophriel",
+      "summary": "Il garde une issue sans pouvoir forcer personne à la prendre.",
+      "sections": [
+        {
+          "title": "Le passage des âmes",
+          "text": "Ange majeur au service d’Ophriel, il reçoit les morts au Limen et garde un passage de retour depuis les Abysses. Une âme peut refuser, ne plus savoir ce qu’elle doit abandonner ou manquer d’ancrage pour traverser."
+        },
+        {
+          "title": "L’espérance",
+          "text": "Il espère le retour de Qerath. Il ne peut annuler son bannissement et ignore si cette issue lui sera un jour ouverte. Son espérance est un engagement, pas la connaissance d’une fin heureuse."
+        }
+      ],
+      "art": "yesodiel",
+      "links": [
+        "ophriel",
+        "ames",
+        "qerath"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "sarai",
+      "title": "Sarai d’Avarn",
+      "category": "personnages",
+      "subtitle": "La prophétie des Sceaux",
+      "summary": "Sa parole est devenue la justification de pouvoirs qu’elle n’avait pas promis.",
+      "sections": [
+        {
+          "title": "La parole",
+          "text": "À l’aube de Sarwen, vers CD 4000, elle annonce : « Les Sceaux se rejoindront lorsque personne ne pourra plus les tenir pour siens. »"
+        },
+        {
+          "title": "Deux lectures",
+          "text": "Les souverains y voient un Porteur unique et cherchent à rassembler les Sceaux. Une autre lecture annonce un usage commun, librement consenti. Une prophétie révèle une possibilité et ses conditions ; elle n’impose pas le futur."
+        }
+      ],
+      "art": "sarai",
+      "links": [
+        "sceaux",
+        "eshar"
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "eshar",
+      "title": "Eshar",
+      "category": "personnages",
+      "subtitle": "Le prophète effacé · Le Grand Rite",
+      "summary": "Il a voulu sauver la liberté en retirant aux êtres le droit de refuser le salut.",
+      "sections": [
+        {
+          "title": "Avant la catastrophe",
+          "text": "Eshar a stabilisé des Brisures, sauvé des régions et obtenu la coopération de plusieurs cultes. Son autorité vient de résultats réels. L’épuisement continue tandis que les accords prennent du temps."
+        },
+        {
+          "title": "Le Grand Rite",
+          "text": "Vers CD 11800, il tente de réunir les Sceaux et les principes par un accord unique imposé. Les différences sont comprimées plutôt que réconciliées ; la fracture se rouvre. Son échec précipite le Voile."
+        },
+        {
+          "title": "Le nom retiré",
+          "text": "Les chroniques effacent son nom après le Rite. Sa responsabilité est établie dans cette version ; le sort d’Eshar et le déroulement détaillé de l’événement restent inconnus."
+        }
+      ],
+      "art": "eshar",
+      "links": [
+        "sarai",
+        "tikkun",
+        "sceaux"
+      ],
+      "open_questions": [
+        "Sort d’Eshar et scènes détaillées du Grand Rite."
+      ]
+    },
+    {
+      "id": "propheties",
+      "title": "Les prophètes et leurs paroles",
+      "category": "fondements",
+      "subtitle": "Cinq figures historiques · Des futurs ouverts",
+      "summary": "Une prophétie révèle une possibilité et ses conditions ; elle n’impose pas l’avenir.",
+      "sections": [
+        {
+          "title": "Cinq figures",
+          "text": "Sarai d’Avarn annonce la réunion des Sceaux. Un prophète djinn de Sahrûn transmet les voies du Sillage. Un prophète golem de Khoram défend la personne façonnée. Un prophète néphilim de Seyra affirme avoir entendu une Voix complète, sans confirmation. Eshar conduit le Grand Rite. Il n’existe pas d’obligation d’une figure par continent."
+        },
+        {
+          "title": "Les limites de l’autorité",
+          "text": "Les paroles peuvent être authentiques, incomplètes, mal interprétées ou revendiquées par des puissants. Une révélation ne retire jamais aux êtres leur responsabilité. Les trois prophètes encore sans nom seront développés à partir des événements auxquels ils ont participé."
+        }
+      ],
+      "art": null,
+      "links": [
+        "sarai",
+        "eshar",
+        "sceaux"
+      ],
+      "open_questions": [
+        "Noms et histoires des trois autres prophètes."
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "livre-1",
+      "title": "Avant le Temps",
+      "subtitle": "Le Nom, les Sphères et la liberté",
+      "art": "azkavoth",
+      "chapters": [
+        {
+          "id": "livre-1-1",
+          "title": "Le Nom avant la parole",
+          "paragraphs": [
+            "Avant qu’il y eût un avant, il y avait le Nom. Il n’avait pas de commencement : rien ne l’avait précédé. Il n’avait pas de lieu : aucun lieu ne pouvait le contenir.",
+            "On l’appelle AZKAVOTH. Ce nom est une trace de ce que les êtres peuvent approcher, jamais sa totalité. Une réponse distincte de Lui demandait une place distincte de Lui. Alors le Nom se retira."
+          ]
+        },
+        {
+          "id": "livre-1-2",
+          "title": "Le Retrait Premier",
+          "paragraphs": [
+            "Il ne créa pas d’abord. Il céda. Là où sa présence se replia, une place devint possible. D’une seule volonté, l’océan du Néant se serra et prit forme.",
+            "Sept Sphères apparurent : Arel, qui ouvre ; Kethra, qui comprend ; Meryn, qui garde ; Tharos, qui mesure ; Veyra, qui relie ; Oshen, qui montre ; Elyr, qui dure. Chacune contenait la création vue depuis un principe. Ensemble, elles tenaient."
+          ]
+        },
+        {
+          "id": "livre-1-3",
+          "title": "Les regards d’Éden",
+          "paragraphs": [
+            "Avec les Sphères apparurent sept regards. Ils n’étaient ni des souverains ni des messagers. Ils ne parlaient pas et n’imposaient aucune réponse. Ils voyaient.",
+            "Tous se trouvent en Éden, dans les Cieux. Les habitants des mondes ignorent leur présence. Ce qu’ils ont vu a réellement eu lieu. Leur regard ne promet pas que cela durera toujours ; il empêche seulement que l’existence passée devienne une chose qui n’a jamais été."
+          ]
+        },
+        {
+          "id": "livre-1-4",
+          "title": "La Déchirure",
+          "paragraphs": [
+            "Les Sphères devaient contenir l’infini, et elles n’étaient pas infinies. Elles s’emplirent jusqu’à ne plus pouvoir tenir. La réalité se fendit.",
+            "Les principes formèrent les Cieux ; leurs inversions, les Abysses. La matière mêlée se figea en Terra. Les mortels appelleraient cet événement la Déchirure, et compteraient les années depuis lui. Les trois mondes avaient des natures différentes. Aucun escalier physique ne les réunissait."
+          ]
+        },
+        {
+          "id": "livre-1-5",
+          "title": "Ce qui fut donné",
+          "paragraphs": [
+            "AZ, la Source, demeura dans le Nom. KA, le Lien, fut offert : il devint le Sillage, accessible à toute existence capable d’y entrer en accord. VO, la Forme, et TH, l’Épanchement, se détachèrent et tombèrent ensemble dans la matière.",
+            "Le don, ce qui demeure inaccessible et ce qui s’est perdu eurent des destins différents. Les êtres apprendraient à les confondre, puis à les distinguer. Leurs cultes naîtraient de cette recherche."
+          ]
+        },
+        {
+          "id": "livre-1-6",
+          "title": "Les sept gardes",
+          "paragraphs": [
+            "Sept charges veillèrent sur les principes célestes. Ophriel garda Arel ; Hodariel, Kethra ; Sethariel, Meryn ; Malkiel, Tharos ; Rahamiel, Veyra ; Qerath, Oshen ; Nechariel, Elyr.",
+            "Ils pouvaient quitter leurs domaines, mais n’emportaient pas toute leur autorité avec eux. Les anges transmettaient leurs appels. Les mortels pouvaient y répondre, les discuter ou les refuser. Garder la création ne donnait pas le droit de posséder ses habitants."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "livre-2",
+      "title": "Le Banni",
+      "subtitle": "Le jugement et les sept épreuves",
+      "art": "qerath",
+      "chapters": [
+        {
+          "id": "livre-2-1",
+          "title": "Ce que Qerath avait vu",
+          "paragraphs": [
+            "Qerath examinait ce que les autres gardiens évitaient. Le Sillage s’épuisait. Les réparations sauvaient des vies, mais ne garantissaient pas un monde éternel. Il demanda que les mortels le sachent.",
+            "Les gardiens craignirent les guerres, la panique et l’abandon. Ils retardèrent l’annonce. Qerath refusa de continuer : quel choix pouvait être libre si la promesse sur laquelle il reposait était trompeuse ? Il déclara qu’il quitterait les Cieux."
+          ]
+        },
+        {
+          "id": "livre-2-2",
+          "title": "L’apparition",
+          "paragraphs": [
+            "Alors AZKAVOTH se manifesta. Personne ne vit une forme entière. Tous se prosternèrent, tétanisés et fascinés. Qerath lui-même tomba à genoux.",
+            "« Qerath, tu es banni des Cieux. Les Abysses seront ton domaine, et tu y gouverneras pour un temps. Le terme de ce temps, je le garde pour Moi. Tu pourras éprouver ce qui fut créé ; tu ne posséderas pas sa réponse. »",
+            "Le saisissement ne décida pas de ce que chacun penserait ensuite. Le jugement fixa une charge et une limite. Sa fin demeura secrète."
+          ]
+        },
+        {
+          "id": "livre-2-3",
+          "title": "La succession et l’effacement",
+          "paragraphs": [
+            "Tamariel avait appris de Qerath à distinguer la vérité du désir de croire. Il reçut Oshen après son départ. Il reconnaissait les fractures ; il refusait d’en conclure que toute existence devait finir.",
+            "Sethariel retira des archives la place ancienne de Qerath et les raisons de sa contestation. Il croyait préserver l’ordre. Il ne pouvait effacer les faits, ni oublier son propre acte. Les Cieux conservèrent une histoire officielle ; les mondes, des traces qui la contredisaient."
+          ]
+        },
+        {
+          "id": "livre-2-4",
+          "title": "Les sept amputations",
+          "paragraphs": [
+            "Qerath descendit dans les territoires abyssaux. Il abandonna la possibilité du retour : Karzuth naquit. Il renonça au savoir qu’il ne voulait plus supporter : Nehrun naquit. Puis vinrent Ymbrath, Bazhur, Sevrak, Ilmoth et Zhorum.",
+            "Chaque enfant était une part de lui devenue quelqu’un. Leur puissance étendait son règne ; leur naissance le vidait. À la fin, il ne lui restait presque que la lucidité de ce qu’il avait perdu. Il ne savait toujours pas le terme de son temps."
+          ]
+        },
+        {
+          "id": "livre-2-5",
+          "title": "Le souverain et ses enfants",
+          "paragraphs": [
+            "Karzuth gardait des refuges ; il voulut protéger ses frères. Sevrak prit des domaines qu’il n’entendait pas abandonner. Ilmoth offrit des mondes supportables et apprit à retarder les décisions.",
+            "Bazhur voulait aller vite. Nehrun ne voulait pas tout savoir. Ymbrath attendait un aveu. Zhorum portait la fatigue de leur père, mais la décomposition lui montrait parfois une pousse nouvelle. Aucun ne fut simplement la répétition de Qerath."
+          ]
+        },
+        {
+          "id": "livre-2-6",
+          "title": "Le Fond",
+          "paragraphs": [
+            "Qerath voulait rendre la création au Néant. Son jugement lui avait confié l’épreuve ; il en tirait désormais la conviction que rien ne méritait de durer.",
+            "Le Fond demandait sept clés. Chacune était une volonté devenue indépendante. Il pouvait commander, promettre et convaincre ; il ne pouvait reprendre intact ce qu’il avait donné par la force. Ses premiers enfants pouvaient vouloir continuer à vivre. Le souverain rencontra là une réponse qui ne lui appartenait pas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "livre-3",
+      "title": "La Matière et les Vivants",
+      "subtitle": "Le démiurge, Talem et les six lignées",
+      "art": "vothorak",
+      "chapters": [
+        {
+          "id": "livre-3-1",
+          "title": "Le démiurge",
+          "paragraphs": [
+            "VO et TH se refermèrent l’un sur l’autre dans la matière de Terra. De leur union naquit Vothorak. Il se souvenait d’une plénitude immense sans en comprendre l’origine. Il prit cette trace pour sa propre éternité.",
+            "Il façonna des continents, creusa des profondeurs, établit des formes et des cycles. Les mortels habiteraient son œuvre. Il regarda cette matière qui lui répondait et se crut le commencement."
+          ]
+        },
+        {
+          "id": "livre-3-2",
+          "title": "La Première Forge",
+          "paragraphs": [
+            "Theryn garda ses premières œuvres : figures inachevées, structures sans habitants, formes qui avaient gelé faute de liens. Vothorak y établit la Première Forge.",
+            "Il pouvait modifier la matière et la multiplier. Il ne pouvait obtenir une relation libre en serrant davantage une forme. Il inventa la dette, la peur, le besoin et l’habitude. Des peuples seraient sauvés par ses ouvrages, puis découvriraient le prix que leur protecteur exigeait."
+          ]
+        },
+        {
+          "id": "livre-3-3",
+          "title": "La question de Talem",
+          "paragraphs": [
+            "Vothorak façonna des Golems. Talem se releva et lui demanda : « Qui t’a fait ? » Le démiurge répondit qu’il était le commencement. Talem attendit une réponse plus entière.",
+            "Il partit. Il choisit de modifier son propre corps, puis changea encore au fil des siècles. Certaines matières portaient des traces dont il ne connaissait pas l’origine. Sa liberté lui avait donné une forme nouvelle et une question : combien pouvait-il changer sans perdre celui qui avait choisi ?"
+          ]
+        },
+        {
+          "id": "livre-3-4",
+          "title": "Le souffle, le sol et la part égale",
+          "paragraphs": [
+            "Avant que la matière ne se fige, le Sillage brûlait sans contenant. Les Djinns naquirent de ce premier souffle. Leurs formes gardèrent le feu, la fumée et un souvenir flou des Sphères entières.",
+            "Là où le Sillage se concentra dans le sol, les Anakim se levèrent. Ailleurs, il se répartit sans privilégier un principe : les Humains apparurent. Leur plasticité demandait un apprentissage ; elle leur permettait aussi de changer de voie."
+          ]
+        },
+        {
+          "id": "livre-3-5",
+          "title": "Ceux qui suivirent Malkiel",
+          "paragraphs": [
+            "Malkiel voyait les mortels payer les décisions prises loin d’eux. Il descendit pour partager leurs conséquences. Ses Veilleurs le suivirent et demeurèrent parmi les Humains. De leurs unions naquirent les Néphilim.",
+            "Ils portaient des fragments de Voix dont la certitude échappait même à leurs héritiers. Malkiel continua de circuler entre Terra et les Cieux. Il dut apprendre que se sacrifier sans fin pouvait dispenser les responsables d’assumer leurs actes."
+          ]
+        },
+        {
+          "id": "livre-3-6",
+          "title": "Six lignées, des vies libres",
+          "paragraphs": [
+            "Les Golems rejoignirent les Humains, les Djinns, les Anakim et les Néphilim sur Terra. Les Qerathim, descendants des Revers, eurent leurs sept Maisons dans les Abysses et purent franchir les seuils.",
+            "Six lignées, aucune condamnation écrite dans le sang ou la matière. Un Qerathim pouvait défaire une emprise ; un Anakim, préserver une tyrannie. Les cinq lignées terrestres coexistèrent longtemps. Leur séparation future viendrait de l’histoire, pas d’une loi de leur nature."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "livre-4",
+      "title": "Les Sceaux et le Voile",
+      "subtitle": "Les cultes, la prophétie et le Grand Rite",
+      "art": "terra",
+      "chapters": [
+        {
+          "id": "livre-4-1",
+          "title": "Quatre façons de recevoir",
+          "paragraphs": [
+            "Les mortels nommèrent les fragments du Nom et apprirent quatre manières de recevoir le Sillage. La Source chercha le discernement ; le Lien, les accords ; la Forme, les œuvres ; l’Épanchement, la transmission.",
+            "Chaque culte pouvait pratiquer les sept voies. La naissance ne déterminait pas la foi. Leurs conflits traversaient leurs propres institutions : révéler ou cacher, préserver ou imposer, façonner ou posséder, partager ou épuiser."
+          ]
+        },
+        {
+          "id": "livre-4-2",
+          "title": "Le Premier Regard",
+          "paragraphs": [
+            "Aurenth grandit autour d’une présence que les pèlerins prenaient pour un être. Le sanctuaire portait l’empreinte du regard d’Éden ; les Témoins eux-mêmes demeuraient tous dans les Cieux.",
+            "Les Muets du culte de la Source gardèrent le lieu, les rencontres et les accords. Leur silence demandait d’observer avant de juger. Mais devant une victime, attendre pouvait devenir une faute. La neutralité se construisait par des actes ; elle n’était pas une impossibilité magique de nuire."
+          ]
+        },
+        {
+          "id": "livre-4-3",
+          "title": "La parole de Sarai",
+          "paragraphs": [
+            "À l’aube de Sarwen, Sarai d’Avarn annonça : « Les Sceaux se rejoindront lorsque personne ne pourra plus les tenir pour siens. »",
+            "Les souverains entendirent la promesse d’un Porteur unique. Ils cherchèrent des héritiers, des reliques et des preuves. D’autres y virent un usage partagé. Une prophétie offrait une possibilité et ses conditions ; elle ne retirait à personne la liberté de mal la comprendre."
+          ]
+        },
+        {
+          "id": "livre-4-4",
+          "title": "Eshar et le salut imposé",
+          "paragraphs": [
+            "Eshar sauva des régions, stabilisa des Brisures et obtint la coopération des cultes. Ses œuvres lui donnèrent une autorité réelle. Pourtant les accords tardaient et le Sillage s’épuisait.",
+            "Au Grand Rite, il tenta une convergence imposée. Il voulait sauver la liberté en supprimant la possibilité de refuser le salut. Les différences furent comprimées ; la fracture se rouvrit. Son nom fut ensuite effacé des chroniques. Ce qu’il devint demeure inconnu."
+          ]
+        },
+        {
+          "id": "livre-4-5",
+          "title": "Le Voile",
+          "paragraphs": [
+            "Après le Rite, les passages devinrent dangereux. Des échanges cessèrent, des communautés se replièrent et les peuples se regroupèrent. Des siècles transformèrent ces choix en habitudes continentales.",
+            "Aucune frontière ne fut inscrite dans une lignée. Les héritiers d’anciennes cohabitations gardèrent des récits, des langues et des liens que le Voile n’avait pas entièrement rompus. Leur histoire détaillée restait à reconstruire."
+          ]
+        },
+        {
+          "id": "livre-4-6",
+          "title": "L’Éveil des Brisures",
+          "paragraphs": [
+            "À partir de CD 12600, les Brisures se multiplièrent. Des lieux de Terra rencontrèrent les dimensions métaphysiques. Le Sillage se recompressait à l’approche de son épuisement.",
+            "Vothorak voulait préserver son œuvre. Qerath voulait la rendre. Le Tikkun demandait une réparation que nul ne pouvait imposer seul. Entre eux, des êtres de six lignées continueraient de répondre. Les premières vies de cette époque, ses alliances et ses conflits restent à raconter."
+          ]
+        }
+      ]
+    }
+  ],
+  "eras": [
+    {
+      "date": "Avant le temps",
+      "text": "Le Retrait, les Sphères et les Témoins.",
+      "status": "Établi"
+    },
+    {
+      "date": "CD 0",
+      "text": "La Déchirure fait naître les trois mondes ; Vothorak s’éveille.",
+      "status": "Établi"
+    },
+    {
+      "date": "CD 1 à ~300",
+      "text": "Aube des lignées, bannissement de Qerath, succession de Tamariel et naissance des Revers. La date précise du jugement reste inconnue.",
+      "status": "Repère"
+    },
+    {
+      "date": "CD 1 à ~4000",
+      "text": "Le Monde Ouvert : longue coexistence des cinq lignées terrestres.",
+      "status": "Repère"
+    },
+    {
+      "date": "~CD 4000",
+      "text": "Sarwen : la parole de Sarai ouvre l’histoire des Sceaux.",
+      "status": "Établi"
+    },
+    {
+      "date": "~CD 4000–9500",
+      "text": "Neuf Lumières : période dont les civilisations et événements restent à développer.",
+      "status": "À développer"
+    },
+    {
+      "date": "~CD 9500–11800",
+      "text": "Royaumes Clos : montée des frontières et des pouvoirs ; histoire détaillée ouverte.",
+      "status": "À développer"
+    },
+    {
+      "date": "~CD 11800",
+      "text": "Le Grand Rite d’Eshar : accord imposé, échec, fracture rouverte.",
+      "status": "Établi"
+    },
+    {
+      "date": "~CD 11800–12600",
+      "text": "Le Voile : échanges rompus et regroupements historiques des peuples.",
+      "status": "Repère"
+    },
+    {
+      "date": "CD 12600 → présent",
+      "text": "Éveil des Brisures. Le premier arc choral et la politique du présent restent à écrire.",
+      "status": "À développer"
+    }
+  ],
+  "categories": [
+    {
+      "id": "puissances",
+      "label": "Puissances"
+    },
+    {
+      "id": "archanges",
+      "label": "Archanges"
+    },
+    {
+      "id": "revers",
+      "label": "Revers"
+    },
+    {
+      "id": "lignees",
+      "label": "Lignées"
+    },
+    {
+      "id": "cultes",
+      "label": "Cultes"
+    },
+    {
+      "id": "mondes",
+      "label": "Mondes"
+    },
+    {
+      "id": "lieux",
+      "label": "Lieux"
+    },
+    {
+      "id": "pouvoir",
+      "label": "Sillage & puissance"
+    },
+    {
+      "id": "personnages",
+      "label": "Figures de l’histoire"
+    },
+    {
+      "id": "fondements",
+      "label": "Fondements"
+    }
+  ]
+}
