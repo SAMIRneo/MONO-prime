@@ -51,3 +51,9 @@ body:before{opacity:.055;background:repeating-linear-gradient(90deg,transparent 
  .codex-categories button{margin:0;width:auto}.mobile-category-ribbon{background:var(--bg)}
 }
 @media(prefers-reduced-motion:reduce){.button,.main-nav a{transition:none}}
+
+:root[data-theme=paper] .main-nav a{color:var(--muted)}
+:root[data-theme=paper] .main-nav a[aria-current]{background:var(--raised);color:var(--ink)}
+:root[data-theme=paper] .main-nav a:hover{color:var(--accent)}
+:root[data-theme=paper] .hero-copy>p,:root[data-theme=paper] .hero-foot{color:var(--muted)}
+:root[data-theme=paper] .door-copy,:root[data-theme=paper] .realm>div{color:var(--ink)}
