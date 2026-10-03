@@ -19,3 +19,5 @@ import './gallery.css';
 import './ambience.css';
 
 import './powerscaling.css';
+
+import './modern.css';
