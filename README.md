@@ -28,4 +28,6 @@ Le workflow `.github/workflows/pages.yml` publie `dist`. Le build synchronise au
 
 ## Continuer l’univers
 
+Consolidation du 3 octobre 2026 : le Retrait et la Déchirure appartiennent au plan divin et cosmique d’AZKAVOTH. Le Sillage est un fluide primordial ; les sept voies, leurs inversions, les circulations des six lignées et les usages militaires et économiques sont détaillés dans la catégorie `powerscaling`. La page `#/powerscaling` compare les voies et les lignées à partir des mêmes fiches du canon. Le menu « Pouvoirs » et l’Univers y donnent accès. Les rapports de force dépendent des réserves, du débit, de la maîtrise et du contexte ; AZKAVOTH reste hors d’une échelle de combat. Les trois illustrations et leurs prompts sont documentés dans `docs/sillage-illustrations.md`.
+
 Priorités ouvertes : histoire des Neuf Lumières et des Royaumes Clos, scènes détaillées du Grand Rite, frontières et sociétés du présent, trois prophètes encore sans nom, règles précises du devenir des âmes, premier arc choral de l’Éveil des Brisures. Ne pas présenter ces points comme déjà racontés.

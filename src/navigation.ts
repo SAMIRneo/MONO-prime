@@ -1,6 +1,6 @@
 export type Route = {page:string; id:string; chapter:number; query:string; section:number|null};
 
-const aliases:Record<string,string> = {accueil:'',personnages:'codex',fondements:'univers',cosmologie:'univers',domaines:'univers',revelations:'univers',histoire:'chronologie',ages:'chronologie',annales:'recits',lore:'recits',explorer:'univers',recherche:'chercher',favoris:'signets'};
+const aliases:Record<string,string> = {accueil:'',personnages:'codex',fondements:'univers',cosmologie:'univers',domaines:'univers',revelations:'univers',histoire:'chronologie',ages:'chronologie',annales:'recits',lore:'recits',explorer:'univers',recherche:'chercher',favoris:'signets',pouvoirs:'powerscaling',powerskelling:'powerscaling'};
 const entryAliases:Record<string,string> = {'structure-verticale':'cosmogonie',retrait:'azkavoth',sacerdoces:'cultes',mysteres:'temoins','chronologie-1':'chronologie',decouvrir:'cosmogonie'};
 
 export function chapterNumber(value:string):number {
@@ -19,7 +19,7 @@ export function parseRoute(hash:string):Route {
  const result:Route={page:aliases[raw]??raw,id,chapter:chapterNumber(chapter),query:params.get('q')||'',section:Number.isSafeInteger(sectionNumber)?sectionNumber:null};
  if(raw==='fiche'&&id.startsWith('livre-'))return {...result,page:'lire',chapter:chapterNumber(params.get('chapitre')||'1'),section:null};
  if(raw==='fiche'&&id.startsWith('chronologie-'))return {...result,page:'chronologie',id:'',section:null};
- if(raw==='fiche'&&['archanges','revers','lignees','cultes'].includes(id))return {...result,page:'codex',section:null};
+ if(raw==='fiche'&&['archanges','revers','lignees','cultes','powerscaling'].includes(id))return {...result,page:'codex',section:null};
  if(raw==='fiche'&&entryAliases[id]){const target=entryAliases[id];return {...result,page:target==='chronologie'?'chronologie':target==='cultes'?'codex':'fiche',id:target};}
  return result;
 }

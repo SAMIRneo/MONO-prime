@@ -1,6 +1,6 @@
 # MONO — Canon V9
 
-Version consolidée le 2026-10-02. Source éditoriale : src/data/canon.json.
+Version consolidée le 2026-10-03. Source éditoriale : src/data/canon.json.
 
 Les descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.
 
@@ -16,7 +16,7 @@ On l’appelle AZKAVOTH. Ce nom est une trace de ce que les êtres peuvent appro
 
 ## Le Retrait Premier
 
-Il ne créa pas d’abord. Il céda. Là où sa présence se replia, une place devint possible. D’une seule volonté, l’océan du Néant se serra et prit forme.
+Il ne créa pas d’abord. Il céda. Là où sa présence se replia, une place devint possible. D’une seule volonté, l’océan du Néant se serra et prit forme. Ce Retrait appartenait à son plan divin et cosmique.
 
 Sept Sphères apparurent : Arel, qui ouvre ; Kethra, qui comprend ; Meryn, qui garde ; Tharos, qui mesure ; Veyra, qui relie ; Oshen, qui montre ; Elyr, qui dure. Chacune contenait la création vue depuis un principe. Ensemble, elles tenaient.
 
@@ -28,13 +28,13 @@ Tous se trouvent en Éden, dans les Cieux. Les habitants des mondes ignorent leu
 
 ## La Déchirure
 
-Les Sphères devaient contenir l’infini, et elles n’étaient pas infinies. Elles s’emplirent jusqu’à ne plus pouvoir tenir. La réalité se fendit.
+Les Sphères portaient l’infini dans des formes finies. Selon le dessein du Nom, elles s’emplirent jusqu’à ne plus pouvoir tenir. La réalité se fendit. La Déchirure appartenait au même plan que le Retrait ; sa signification entière restait à découvrir.
 
 Les principes formèrent les Cieux ; leurs inversions, les Abysses. La matière mêlée se figea en Terra. Les mortels appelleraient cet événement la Déchirure, et compteraient les années depuis lui. Les trois mondes avaient des natures différentes. Aucun escalier physique ne les réunissait.
 
 ## Ce qui fut donné
 
-AZ, la Source, demeura dans le Nom. KA, le Lien, fut offert : il devint le Sillage, accessible à toute existence capable d’y entrer en accord. VO, la Forme, et TH, l’Épanchement, se détachèrent et tombèrent ensemble dans la matière.
+AZ, la Source, demeura dans le Nom. KA, le Lien offert lors du Retrait, devint le Sillage : un fluide primordial que les êtres pourraient sentir, conduire et orienter selon les sept principes. VO, la Forme, et TH, l’Épanchement, se détachèrent et tombèrent ensemble dans la matière.
 
 Le don, ce qui demeure inaccessible et ce qui s’est perdu eurent des destins différents. Les êtres apprendraient à les confondre, puis à les distinguer. Leurs cultes naîtraient de cette recherche.
 
@@ -104,7 +104,7 @@ Il pouvait modifier la matière et la multiplier. Il ne pouvait obtenir une rela
 
 ## La question de Talem
 
-Vothorak façonna des Golems. Talem se releva et lui demanda : « Qui t’a fait ? » Le démiurge répondit qu’il était le commencement. Talem attendit une réponse plus entière.
+Vothorak façonna des Golems. Le Sillage circula dans leurs architectures et une conscience s’éveilla sans que le démiurge en possède la réponse. Talem se releva et lui demanda : « Qui t’a fait ? » Le démiurge répondit qu’il était le commencement. Talem attendit une réponse plus entière.
 
 Il partit. Il choisit de modifier son propre corps, puis changea encore au fil des siècles. Certaines matières portaient des traces dont il ne connaissait pas l’origine. Sa liberté lui avait donné une forme nouvelle et une question : combien pouvait-il changer sans perdre celui qui avait choisi ?
 
@@ -136,6 +136,8 @@ Les mortels nommèrent les fragments du Nom et apprirent quatre manières de rec
 
 Chaque culte pouvait pratiquer les sept voies. La naissance ne déterminait pas la foi. Leurs conflits traversaient leurs propres institutions : révéler ou cacher, préserver ou imposer, façonner ou posséder, partager ou épuiser.
 
+Ils sentirent les courants du don dans leurs corps et leurs ouvrages. Certains apprirent à les conduire directement ; d’autres préparèrent des supports ou répartirent l’effort entre plusieurs personnes. Une même voie prit des formes différentes selon la lignée et la maîtrise de celui qui la pratiquait.
+
 ## Le Premier Regard
 
 Aurenth grandit autour d’une présence que les pèlerins prenaient pour un être. Le sanctuaire portait l’empreinte du regard d’Éden ; les Témoins eux-mêmes demeuraient tous dans les Cieux.
@@ -162,6 +164,6 @@ Aucune frontière ne fut inscrite dans une lignée. Les héritiers d’anciennes
 
 ## L’Éveil des Brisures
 
-À partir de CD 12600, les Brisures se multiplièrent. Des lieux de Terra rencontrèrent les dimensions métaphysiques. Le Sillage se recompressait à l’approche de son épuisement.
+À partir de CD 12600, les Brisures se multiplièrent. À mesure que le Sillage disponible diminuait, les relations entre les dimensions devenaient instables. Leurs tensions concentraient localement le fluide ; des lieux de Terra rencontrèrent les dimensions métaphysiques.
 
 Vothorak voulait préserver son œuvre. Qerath voulait la rendre. Le Tikkun demandait une réparation que nul ne pouvait imposer seul. Entre eux, des êtres de six lignées continueraient de répondre. Les premières vies de cette époque, ses alliances et ses conflits restent à raconter.

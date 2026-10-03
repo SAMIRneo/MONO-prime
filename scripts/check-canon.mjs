@@ -5,10 +5,17 @@ const ids=new Set(d.records.map(e=>e.id));
 const groups=new Set(d.categories.map(g=>g.id));
 const art=JSON.parse(readFileSync('src/data/art.json','utf8'));
 assert.equal(ids.size,d.records.length,'Duplicate record');
+assert.equal(groups.size,d.categories.length,'Duplicate category');
+assert(groups.has('powerscaling'),'Missing Powerscaling category');
+for(const [id,count] of [['sept-voies',7],['inversions-abyssales',7],['lignees-sillage',6]]){
+ const entry=d.records.find(e=>e.id===id);
+ assert(entry?.category==='powerscaling'&&entry.sections.length>=count,id+' incomplete powers guide');
+}
 for(const [group,count] of [['puissances',3],['archanges',7],['revers',7],['lignees',6],['cultes',4]])assert.equal(d.records.filter(r=>r.category===group).length,count,group);
 for(const e of d.records){
  assert(groups.has(e.category),e.id+' unknown category');
  assert(e.title&&e.summary&&e.sections.length,e.id+' incomplete');
+ for(const s of e.sections)assert(s.title&&s.text,e.id+' incomplete section');
  for(const id of e.links)assert(ids.has(id)||groups.has(id),e.id+' broken reference '+id);
  if(e.art){
   const m=art[e.art];

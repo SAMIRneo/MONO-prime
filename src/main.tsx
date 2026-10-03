@@ -17,3 +17,5 @@ import './terra.css';
 import './gallery.css';
 
 import './ambience.css';
+
+import './powerscaling.css';
