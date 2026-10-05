@@ -21,7 +21,7 @@ export default defineConfig({
         }
         cpSync('dist/assets','assets',{recursive:true});
       }
-      for (const name of ['art','fonts','canon','favicon.svg']) {
+      for (const name of ['art','fonts','canon','qa','favicon.svg']) {
         if (existsSync('dist/'+name)) cpSync('dist/'+name,name,{recursive:true});
       }
     }
