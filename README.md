@@ -15,8 +15,8 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 | --- | --- | --- |
 | Accueil | `#/` | Illustration d’AZKAVOTH, trois portes d’entrée — récits, univers, codex —, présentation du Sillage, trois puissances, repères de découverte et sélection des trois mondes. Reprise du dernier chapitre lorsqu’une lecture est enregistrée. |
 | Récits | `#/recits` | Présentation des quatre livres et accès à leur premier chapitre. |
-| Lecture | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et liens vers le codex. |
-| Univers | `#/univers` | Présentation des mondes, comparaison des Archanges et des Revers par principe, quatre cultes, cinq capacités de maîtrise et exploration des lignées. |
+| Lecture | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des quatre livres. |
+| Univers | `#/univers` | Guide en six étapes : origines, mondes, principes, cultes, lignées et Sillage, enjeux. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Tikkun et questions ouvertes du canon. |
 | Terra | `#/terra` | Carte illustrative de style Mercator avec cinq marqueurs, sélection des continents, panoramas, présentation d’Aurenth et liens vers les fondements du monde physique. |
 | Codex | `#/codex` | Catégories avec compteurs, filtre textuel, vues galerie et liste, fiches illustrées et agrandissement des images. La catégorie initiale est « Puissances ». |
 | Fiche | `#/fiche/qerath` | Résumé, illustration, sommaire avec liens directs aux sections, contenu détaillé, questions ouvertes, références associées, fiches précédente et suivante, signet et copie du lien. |
