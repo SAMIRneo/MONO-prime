@@ -270,3 +270,22 @@ img { max-width: 100%; }
   html { scroll-behavior: auto; }
   *, *:before, *:after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Lore: a readable progression from causes to choices. */
+.lore-navigation{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin:0 0 48px}
+.lore-navigation a{display:flex;flex-direction:column;gap:6px;padding:16px;border:1px solid var(--line);border-radius:10px;min-height:74px;color:inherit;text-decoration:none}
+.lore-navigation a span{font-size:11px;letter-spacing:.14em;opacity:.65}
+.lore-navigation a:hover,.lore-navigation a:focus-visible{background:var(--panel);outline:2px solid currentColor;outline-offset:2px}
+.lore-sequence,.lore-stakes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.lore-sequence{list-style:none;padding:0;margin:24px 0}
+.lore-sequence li,.lore-stakes article{min-width:0;padding:28px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.lore-sequence h3,.lore-stakes h3{font-family:var(--serif);font-size:26px;line-height:1.2;margin:12px 0}
+.lore-sequence p,.lore-stakes p,.lore-open p{line-height:1.75;max-width:65ch}
+.lore-sequence .text-link,.lore-stakes .text-link{margin-top:16px}
+.lore-open{margin-top:28px;padding:24px;border:1px solid var(--line);border-radius:12px}
+.lore-open summary{cursor:pointer;font-size:18px;min-height:28px;line-height:1.5}
+.lore-open ul{padding-left:20px}.lore-open li{padding:10px 0;line-height:1.6}.lore-open li span{display:block;margin-top:4px;opacity:.8}.lore-open a{color:inherit}
+[id^="universe-"]{scroll-margin-top:110px;outline-offset:8px}
+.reader-glossary>p{font-size:14px;line-height:1.6;margin:12px 0}
+@media(max-width:900px){.lore-navigation{grid-template-columns:repeat(3,minmax(0,1fr))}.lore-sequence,.lore-stakes{grid-template-columns:1fr;gap:14px}}
+@media(max-width:560px){.lore-navigation{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:32px}.lore-navigation a{padding:13px;min-height:68px}.lore-sequence li,.lore-stakes article{padding:22px}.lore-open{padding:20px}.lore-sequence h3,.lore-stakes h3{font-size:24px}}
