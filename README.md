@@ -137,7 +137,7 @@ La carte entière de Terra reste visible sur téléphone avec ses cinq repères 
 
 **Stack :** React 19.2, React DOM 19.2, TypeScript 5.9 en mode strict et Vite 7.1, selon les plages déclarées dans `package.json`. `package-lock.json` fixe les versions installées. Le routage est géré par fragments et l’état par les hooks React ; aucun routeur ou gestionnaire d’état externe n’est utilisé.
 
-`index.html`, `assets/`, `art/`, `fonts/`, `canon/` et `favicon.svg` à la racine sont des **sorties générées** destinées à la compatibilité avec une publication depuis la branche. `dist/` est le dossier publié par le workflow ; `dist/` et `node_modules/` sont ignorés par Git. Modifier les sources dans `src/`, `public/` et `app.html`, puis compiler. Ne pas éditer les bundles ou le HTML compilé.
+`index.html`, `assets/`, `art/`, `fonts/`, `canon/`, `qa/` et `favicon.svg` à la racine sont des **sorties générées** destinées à la compatibilité avec une publication depuis la branche. `dist/` est le dossier publié par le workflow ; `dist/` et `node_modules/` sont ignorés par Git. Modifier les sources dans `src/`, `public/` et `app.html`, puis compiler. Ne pas éditer les bundles ou le HTML compilé.
 
 ### Images
 
