@@ -13,7 +13,7 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 | Espace | Route | Fonctionnement actuel |
 | --- | --- | --- |
-| Accueil | `#/` | Illustration d’AZKAVOTH, trois portes d’entrée — récits, univers, codex —, présentation du Sillage, trois puissances, repères de découverte et sélection des trois mondes. Reprise du dernier chapitre lorsqu’une lecture est enregistrée. |
+| Accueil | `#/` | Ouverture immersive, trois portes éditoriales en grille asymétrique (récits, guide, Codex), reprise de lecture, atlas des trois mondes, carte des pouvoirs, portraits des trois puissances et invitation au premier chapitre. Widgets empilés sur mobile. |
 | Récits | `#/recits` | Présentation des quatre livres et accès à leur premier chapitre. |
 | Lecture | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des quatre livres. |
 | Univers | `#/univers` | Guide en six étapes : origines, mondes, principes, cultes, lignées et Sillage, enjeux. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Tikkun et questions ouvertes du canon. |
