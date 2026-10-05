@@ -6,7 +6,7 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
-- **État documenté :** interface du 3 octobre 2026 ; canon **V9**, consolidé le **3 octobre 2026**. README actualisé le 4 octobre 2026.
+- **État documenté :** interface du 3 octobre 2026 ; canon **V9**, consolidé le **3 octobre 2026**. Interface mobile et styles consolidés le **5 octobre 2026**.
 - **Contenu actuel :** 57 fiches, 11 catégories, 4 livres et 24 chapitres ; 61 illustrations référencées dans les métadonnées, livrées en 183 fichiers WebP avec leurs variantes.
 
 ## Parcours et fonctionnalités
@@ -95,25 +95,23 @@ La composition comprend une grande illustration d’accueil, un titre MONO en co
 
 ### Organisation réelle des styles
 
-Les styles se cumulent : **l’ordre des imports dans `src/main.tsx` détermine la cascade**. Les deux dernières couches portent l’essentiel de la refonte actuelle ; les précédentes restent actives et fournissent aussi des mises en page et des interactions.
+Les styles sont répartis dans **trois fichiers**, importés dans cet ordre par `src/main.tsx` :
 
-| Ordre | Fichier | Rôle principal |
+| Ordre | Fichier | Rôle |
 | ---: | --- | --- |
-| 1 | `src/style.css` | Base, polices, composants et responsive initial |
-| 2 | `src/refine.css` | Ajustements visuels |
-| 3 | `src/audit.css` | Corrections complémentaires |
-| 4 | `src/experience.css` | Présentation et parcours |
-| 5 | `src/direction.css` | Héritage des folios sacrés et polices de lecture |
-| 6 | `src/atlas.css` | Présentation de l’atlas et du codex |
-| 7 | `src/usability.css` | Navigation et usages |
-| 8 | `src/terra.css` | Carte, continents et Aurenth |
-| 9 | `src/gallery.css` | Galeries et présentation des illustrations |
-| 10 | `src/ambience.css` | Palette minérale antérieure et ajustements de thème |
-| 11 | `src/powerscaling.css` | Guide du Sillage et comparaisons |
-| 12 | `src/modern.css` | Interface immersive, palette actuelle et hiérarchie visuelle |
-| 13 | `src/art-direction.css` | Atmosphères, accents par section et widgets différenciés |
+| 1 | `src/foundation.css` | Polices, composants, mises en page et comportement existant, consolidés depuis les onze premières feuilles |
+| 2 | `src/theme.css` | Palette actuelle, thèmes clair/sombre, atmosphères et compositions illustrées |
+| 3 | `src/responsive.css` | Règles communes de finition et couche de référence pour tablettes et téléphones |
 
-Avant une modification de style, vérifier les règles ultérieures et les media queries : modifier uniquement `style.css` ou `direction.css` peut n’avoir aucun effet visible. La consolidation de cette cascade reste un travail technique possible, pas une refonte déjà réalisée.
+La consolidation conserve l’ordre de cascade initial et retire 1 117 déclarations antérieures devenues redondantes pour un sélecteur, une propriété et une condition identiques. Les adaptations historiques de composants restent dans les deux premières feuilles ; les décisions communes pour mobile se font dans `responsive.css`. Les fichiers sont présentés avec une déclaration par ligne pour faciliter les prochaines modifications.
+
+### Navigation et lecture sur mobile
+
+Sous 900 px, le menu propose les sept espaces, la recherche et les signets. Son ouverture bloque le défilement du fond, rend le contenu et la barre inférieure inertes, déplace le focus dans le menu et retient la navigation au clavier dans l’en-tête. Échap ou le fond assombri ferment le menu ; le changement de route le ferme également. Le menu se ferme si la largeur dépasse 900 px.
+
+La barre inférieure propose **Accueil, Lire, Terra, Codex et Chercher**. Les zones de sécurité de l’écran sont prises en compte grâce à `viewport-fit=cover` et `safe-area-inset-*`. Les signets sont accessibles par le menu. Les catégories du Codex restent visibles dans un ruban horizontal jusqu’à 900 px ; les galeries passent en une colonne sous 620 px, et la vue liste conserve ses miniatures.
+
+La carte entière de Terra reste visible sur téléphone avec ses cinq repères interactifs, une indication d’usage et l’agrandissement existant. Les sélecteurs de continents et de voies défilent horizontalement. Les cartes, textes et commandes de lecture utilisent des tailles adaptées au tactile ; les commandes de lecture ne sont pas collantes sur les petits écrans. Les polices Manrope et EB Garamond sont préchargées. Les mouvements au survol et certains effets décoratifs sont réduits sur téléphone.
 
 ## Architecture du dépôt
 
@@ -175,6 +173,8 @@ npm run preview
 
 Ouvrir `/MONO-prime/` sur l’adresse annoncée par le serveur de prévisualisation, normalement `http://localhost:4173/MONO-prime/`. JavaScript est nécessaire à l’application ; `app.html` contient un message sans JavaScript avec un lien vers le canon Markdown.
 
+Un banc d’aperçu responsive est disponible dans `public/qa/responsive.html` (publié sous `/MONO-prime/qa/responsive.html`). Il affiche le vrai site dans une fenêtre de 320, 390, 620, 820 ou 1 440 px, avec choix du parcours. Il n’est pas lié à la navigation du site et ne collecte aucune donnée. Utiliser cet aperçu pour vérifier les menus, thèmes, filtres, marqueurs de Terra et commandes de lecture.
+
 ### Portée des vérifications
 
 Le contrôle du canon vérifie les identifiants et catégories uniques, les références, les sections requises, les nombres de puissances/Archanges/Revers/lignées/cultes, certains repères V9 et l’absence de formulations obsolètes ciblées. Il contrôle également les métadonnées et la présence de WebP non vides pour les illustrations des fiches, ainsi que la structure des livres et chapitres.
@@ -191,6 +191,6 @@ Pour publier une modification : modifier les sources, exécuter `npm run build`,
 
 ## Continuer le projet
 
-Pour une modification éditoriale, commencer par `src/data/canon.json` et ses questions ouvertes. Pour une modification d’interface, lire `src/app.tsx` et les couches CSS concernées, en conservant les parcours et le canon. Mettre à jour ce README lorsque les fonctionnalités, commandes, données ou direction artistique changent.
+Pour une modification éditoriale, commencer par `src/data/canon.json` et ses questions ouvertes. Pour une modification d’interface, lire `src/app.tsx`, `src/foundation.css`, `src/theme.css` et `src/responsive.css`, en conservant les parcours et le canon. Mettre à jour ce README lorsque les fonctionnalités, commandes, données ou direction artistique changent.
 
 Les sujets encore ouverts comprennent l’histoire des Neuf Lumières et des Royaumes Clos, les scènes détaillées du Grand Rite, les frontières et sociétés du présent, trois prophètes encore sans nom, les règles précises du devenir des âmes et le premier arc choral de l’Éveil des Brisures. Ils ne doivent pas être décrits comme déjà racontés. Les questions propres à chaque fiche sont conservées dans `open_questions` et affichées sur le site.
