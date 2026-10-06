@@ -228,8 +228,8 @@
     "mediumWidth": 840
   },
   "seyra": {
-    "width": 1536,
-    "height": 1024,
+    "width": 1672,
+    "height": 941,
     "smallWidth": 420,
     "mediumWidth": 840
   },
@@ -264,14 +264,14 @@
     "mediumWidth": 840
   },
   "terra": {
-    "width": 506,
-    "height": 1018,
-    "smallWidth": 420,
-    "mediumWidth": 506
-  },
-  "theryn": {
     "width": 1536,
     "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "theryn": {
+    "width": 1672,
+    "height": 941,
     "smallWidth": 420,
     "mediumWidth": 840
   },
@@ -330,14 +330,14 @@
     "mediumWidth": 840
   },
   "seyra-v2": {
-    "width": 1536,
-    "height": 1024,
+    "width": 1672,
+    "height": 941,
     "smallWidth": 420,
     "mediumWidth": 840
   },
   "theryn-v2": {
-    "width": 1536,
-    "height": 1024,
+    "width": 1672,
+    "height": 941,
     "smallWidth": 420,
     "mediumWidth": 840
   },

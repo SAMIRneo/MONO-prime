@@ -141,6 +141,8 @@ La carte entière de Terra reste visible sur téléphone avec ses cinq repères 
 
 ### Images
 
+La série du 6 octobre 2026 remplace 37 illustrations : les trois puissances, sept Archanges, sept Revers, six lignées, la carte de Terra choisie, cinq continents, Aurenth, quatre cultes et trois scènes de pouvoir. Les anciens noms de ressources des continents, de Terra et du Sillage utilisent également les nouvelles images. Les illustrations de sujets sans nouvelle version dédiée sont conservées. Voir [la sélection et les correspondances](docs/illustrations-2026-10-06.md).
+
 Le composant `Art` utilise `srcset`, `sizes`, les dimensions déclarées et le chargement différé ; les images de premier plan peuvent être chargées prioritairement. L’agrandissement affiche l’originale. Les galeries et les fiches adaptent leurs compositions aux images en portrait ou en paysage.
 
 Pour ajouter ou remplacer une illustration, fournir les trois fichiers WebP dans `public/art`, mettre à jour `src/data/art.json`, puis la référence `art` de la fiche si nécessaire. Les variantes ne sont pas fabriquées automatiquement par le build. La validation des images porte sur les illustrations référencées par les fiches ; vérifier aussi les ressources utilisées directement par les vues, comme la carte de Terra.
