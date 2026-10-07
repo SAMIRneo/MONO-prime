@@ -6,24 +6,26 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
-- **État documenté :** interface du 3 octobre 2026 ; canon **V9**, consolidé le **3 octobre 2026**. Interface mobile et styles consolidés le **5 octobre 2026**.
+- **État documenté :** refonte « Fracture » du **6 octobre 2026** ; canon **V9**, consolidé le **3 octobre 2026**.
 - **Contenu actuel :** 57 fiches, 11 catégories, 4 livres et 24 chapitres ; 61 illustrations référencées dans les métadonnées, livrées en 183 fichiers WebP avec leurs variantes.
 
 ## Parcours et fonctionnalités
 
-| Espace | Route | Fonctionnement actuel |
-| --- | --- | --- |
-| Accueil | `#/` | Ouverture immersive, trois portes éditoriales en grille asymétrique (récits, guide, Codex), reprise de lecture, atlas des trois mondes, carte des pouvoirs, portraits des trois puissances et invitation au premier chapitre. Widgets empilés sur mobile. |
-| Récits | `#/recits` | Présentation des quatre livres et accès à leur premier chapitre. |
-| Lecture | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des quatre livres. |
-| Univers | `#/univers` | Guide en six étapes : origines, mondes, principes, cultes, lignées et Sillage, enjeux. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Tikkun et questions ouvertes du canon. |
-| Terra | `#/terra` | Carte illustrative de style Mercator avec cinq marqueurs, sélection des continents, panoramas, présentation d’Aurenth et liens vers les fondements du monde physique. |
-| Codex | `#/codex` | Catégories avec compteurs, filtre textuel, vues galerie et liste, fiches illustrées et agrandissement des images. La catégorie initiale est « Puissances ». |
-| Fiche | `#/fiche/qerath` | Résumé, illustration, sommaire avec liens directs aux sections, contenu détaillé, questions ouvertes, références associées, fiches précédente et suivante, signet et copie du lien. |
-| Pouvoirs | `#/powerscaling` | Guide du Sillage, comparaison des sept voies avec leurs inversions, circulation des six lignées, rapports de force et accès aux fiches de maîtrise, guerre et économie. |
-| Âges | `#/chronologie` | Chronologie du Calendrier de la Déchirure (CD), avec distinction entre événements établis et périodes à développer. |
-| Recherche | `#/chercher` | Recherche dans les fiches et les chapitres ; accepte les accents, les apostrophes et plusieurs termes. Raccourci `Ctrl+K` ou `Cmd+K`. |
-| Signets | `#/signets` | Fiches et livres conservés sur l’appareil, avec possibilité de retrait. |
+Trois destinations composent la navigation permanente : **Explorer**, **Chroniques** et **Codex**. Le logo mène à Explorer. Le guide, l’atlas, le Sillage et les âges sont des parcours contextuels d’Explorer ; la recherche et la collection restent des outils. La même organisation est utilisée dans la barre mobile. Les URL existantes restent valides.
+
+| Espace        | Route              | Fonctionnement actuel                                                                                                                                                                                                                                        |
+| ------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Explorer      | `#/`               | Scène illustrée à trois puissances, reprise de lecture, quatre accès au monde, sélecteur des trois dimensions et exploration des six lignées.                                                                                                                |
+| Chroniques    | `#/recits`         | Bibliothèque illustrée, reprise de lecture, sommaires dépliables et accès direct aux 24 chapitres.                                                                                                                                                           |
+| Lecture       | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des quatre livres.            |
+| Univers       | `#/univers`        | Guide en six étapes : origines, mondes, principes, cultes, lignées et Sillage, enjeux. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Tikkun et questions ouvertes du canon. |
+| Terra         | `#/terra`          | Atlas éditorial illustré avec cinq marqueurs, sélection des continents, panoramas, présentation d’Aurenth et liens vers les fondements du monde physique.                                                                                                    |
+| Codex         | `#/codex`          | Catégories avec compteurs, filtre textuel, vues galerie et liste, fiches illustrées et agrandissement des images. La catégorie initiale est « Puissances ».                                                                                                  |
+| Fiche         | `#/fiche/qerath`   | Résumé, illustration, sommaire avec liens directs aux sections, contenu détaillé, questions ouvertes, références associées, fiches précédente et suivante, signet et copie du lien.                                                                          |
+| Pouvoirs      | `#/powerscaling`   | Guide du Sillage, comparaison des sept voies avec leurs inversions, circulation des six lignées, rapports de force et accès aux fiches de maîtrise, guerre et économie.                                                                                      |
+| Âges          | `#/chronologie`    | Chronologie du Calendrier de la Déchirure (CD), avec distinction entre événements établis et périodes à développer.                                                                                                                                          |
+| Recherche     | `#/chercher`       | Recherche dans les fiches et les chapitres ; accepte les accents, les apostrophes et plusieurs termes. Raccourci `Ctrl+K` ou `Cmd+K`.                                                                                                                        |
+| Ma collection | `#/signets`        | Fiches et livres conservés sur l’appareil, avec possibilité de retrait.                                                                                                                                                                                      |
 
 Les catégories, recherches et certaines sections sont accessibles directement par URL : `#/codex/archanges?q=vision`, `#/chercher?q=sillage`, `#/fiche/qerath?section=0`, `#/powerscaling?section=1` ou `#/terra/khoram`. Les indices de section commencent à zéro ; les numéros de chapitre commencent à un. Des alias de routes anciennes sont maintenus dans `src/navigation.ts` ; une route inconnue affiche un retour vers l’accueil.
 
@@ -39,29 +41,29 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 
 **`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les catégories, les fiches (`records`), les quatre livres (`books`) et la chronologie (`eras`). Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
 
-| Catégorie | Identifiant | Fiches |
-| --- | --- | ---: |
-| Puissances | `puissances` | 3 |
-| Archanges | `archanges` | 7 |
-| Revers | `revers` | 7 |
-| Lignées | `lignees` | 6 |
-| Cultes | `cultes` | 4 |
-| Mondes | `mondes` | 4 |
-| Lieux | `lieux` | 6 |
-| Sillage & puissance | `pouvoir` | 4 |
-| Powerscaling | `powerscaling` | 7 |
-| Figures de l’histoire | `personnages` | 4 |
-| Fondements | `fondements` | 5 |
-| **Total** | | **57** |
+| Catégorie             | Identifiant    | Fiches |
+| --------------------- | -------------- | -----: |
+| Puissances            | `puissances`   |      3 |
+| Archanges             | `archanges`    |      7 |
+| Revers                | `revers`       |      7 |
+| Lignées               | `lignees`      |      6 |
+| Cultes                | `cultes`       |      4 |
+| Mondes                | `mondes`       |      4 |
+| Lieux                 | `lieux`        |      6 |
+| Sillage & puissance   | `pouvoir`      |      4 |
+| Powerscaling          | `powerscaling` |      7 |
+| Figures de l’histoire | `personnages`  |      4 |
+| Fondements            | `fondements`   |      5 |
+| **Total**             |                | **57** |
 
 La catégorie « Mondes » compte quatre fiches parce qu’elle comprend aussi « Éden et les Sept Témoins » : MONO conserve **trois mondes**, Terra, les Cieux et les Abysses.
 
-| Livre | Identifiant | Chapitres |
-| --- | --- | ---: |
-| Avant le Temps | `livre-1` | 6 |
-| Le Banni | `livre-2` | 6 |
-| La Matière et les Vivants | `livre-3` | 6 |
-| Les Sceaux et le Voile | `livre-4` | 6 |
+| Livre                     | Identifiant | Chapitres |
+| ------------------------- | ----------- | --------: |
+| Avant le Temps            | `livre-1`   |         6 |
+| Le Banni                  | `livre-2`   |         6 |
+| La Matière et les Vivants | `livre-3`   |         6 |
+| Les Sceaux et le Voile    | `livre-4`   |         6 |
 
 ### Repères à préserver
 
@@ -87,53 +89,41 @@ Ces exports sont produits depuis la même source JSON et inclus dans la publicat
 
 ## Direction artistique actuelle
 
-La version actuelle associe une interface nocturne immersive à une lecture éditoriale : fond bleu nuit, surfaces bleu ardoise, texte clair, accents cyan et menthe, cuivre, ambre et violet selon les sections. Le thème clair utilise des surfaces gris bleuté et des accents adaptés. L’accueil conserve une composition nocturne illustrée dans les deux thèmes.
+La refonte **Fracture** du 6 octobre 2026 met les nouvelles illustrations au centre d’une composition éditoriale : noir encré, blanc chaud, accent corail, grands titres Manrope et contrepoints en EB Garamond. Les cadres fins, les espaces ouverts et les numéros de parcours remplacent l’accumulation des panneaux arrondis. Le thème clair utilise un fond papier et un corail plus sombre ; la scène d’entrée conserve ses couleurs nocturnes.
 
-Les titres et l’interface utilisent principalement **Manrope** ; les textes longs utilisent **EB Garamond**, déclaré sous le nom `Garamond MONO`. Fraunces et Cormorant restent présents dans les ressources et certaines règles héritées. Les fontes locales et leurs licences sont dans `public/fonts`.
+**src/design.css est l’unique feuille de style active.** Elle contient les tokens, les composants, les états, les animations et les adaptations aux écrans. Les anciennes feuilles foundation.css, theme.css et responsive.css ont été remplacées. Les polices sont locales.
 
-La composition comprend une grande illustration d’accueil, un titre MONO en contour, une navigation flottante, des cartes illustrées, des contrôles segmentés et des panneaux distincts pour mondes, principes, cultes, lignées et pouvoirs. Les fonds associent des illustrations atténuées, des courants, des orbites et un grain décoratif ; les accents varient selon la page ou la catégorie via `data-scene`.
+La scène d’entrée permet de choisir Qerath, AZKAVOTH ou Vothorak sans rotation automatique. Ses fondus et son léger déplacement au pointeur accompagnent l’illustration. Les sections d’Explorer apparaissent au défilement ; les liens, cartes et changements de page ont des transitions courtes. prefers-reduced-motion désactive ces effets, y compris le déplacement au pointeur. Aucun moteur d’animation ni nouvelle dépendance applicative n’est ajouté.
 
-### Organisation réelle des styles
+### Organisation mobile
 
-Les styles sont répartis dans **trois fichiers**, importés dans cet ordre par `src/main.tsx` :
+Sous 900 px, la navigation permanente tient dans trois destinations : **Explorer, Chroniques, Codex**. Recherche et thème restent dans l’en-tête ; la collection est également accessible dans le menu. Son ouverture bloque le fond, rend le contenu inerte et retient le focus. Échap ferme le menu et rend le focus à son bouton.
 
-| Ordre | Fichier | Rôle |
-| ---: | --- | --- |
-| 1 | `src/foundation.css` | Polices, composants, mises en page et comportement existant, consolidés depuis les onze premières feuilles |
-| 2 | `src/theme.css` | Palette actuelle, thèmes clair/sombre, atmosphères et compositions illustrées |
-| 3 | `src/responsive.css` | Règles communes de finition et couche de référence pour tablettes et téléphones |
+Le Codex utilise un sélecteur de catégorie sur mobile et une colonne latérale sur ordinateur. La recherche et les modes galerie/liste sont conservés. Les portraits restent visibles dans leur intégralité dans les galeries et fiches. La bibliothèque propose des sommaires dépliables ; la lecture dispose toujours de ses réglages et de son mode concentration. Les repères de l’atlas et les comparateurs de principes restent interactifs.
 
-La consolidation conserve l’ordre de cascade initial et retire 1 117 déclarations antérieures devenues redondantes pour un sélecteur, une propriété et une condition identiques. Les adaptations historiques de composants restent dans les deux premières feuilles ; les décisions communes pour mobile se font dans `responsive.css`. Les fichiers sont présentés avec une déclaration par ligne pour faciliter les prochaines modifications.
-
-### Navigation et lecture sur mobile
-
-Sous 900 px, le menu propose les sept espaces, la recherche et les signets. Son ouverture bloque le défilement du fond, rend le contenu et la barre inférieure inertes, déplace le focus dans le menu et retient la navigation au clavier dans l’en-tête. Échap ou le fond assombri ferment le menu ; le changement de route le ferme également. Le menu se ferme si la largeur dépasse 900 px.
-
-La barre inférieure propose **Accueil, Lire, Terra, Codex et Chercher**. Les zones de sécurité de l’écran sont prises en compte grâce à `viewport-fit=cover` et `safe-area-inset-*`. Les signets sont accessibles par le menu. Les catégories du Codex restent visibles dans un ruban horizontal jusqu’à 900 px ; les galeries passent en une colonne sous 620 px, et la vue liste conserve ses miniatures.
-
-La carte entière de Terra reste visible sur téléphone avec ses cinq repères interactifs, une indication d’usage et l’agrandissement existant. Les sélecteurs de continents et de voies défilent horizontalement. Les cartes, textes et commandes de lecture utilisent des tailles adaptées au tactile ; les commandes de lecture ne sont pas collantes sur les petits écrans. Les polices Manrope et EB Garamond sont préchargées. Les mouvements au survol et certains effets décoratifs sont réduits sur téléphone.
+Les illustrations du 6 octobre sont documentées dans [la sélection publiée](docs/illustrations-2026-10-06.md). Le compte rendu de cette refonte et ses contrôles se trouvent dans [la note de refonte](docs/refonte-2026-10-06.md).
 
 ## Architecture du dépôt
 
-| Chemin | Rôle |
-| --- | --- |
-| `app.html` | Entrée HTML source de Vite : métadonnées, favicon, préchargements et démarrage de React |
-| `src/main.tsx` | Montage de React et imports des styles |
-| `src/app.tsx` | Vues, composants, navigation d’interface, lecture, thèmes, signets et agrandissement des images |
-| `src/navigation.ts` | Lecture des fragments d’URL, alias, requêtes et validation de la dernière lecture |
-| `src/search.ts` | Normalisation et correspondance des termes recherchés |
-| `src/data/canon.json` | Source éditoriale du canon, des récits et de la chronologie |
-| `src/data/art.json` | Dimensions et largeurs des variantes d’illustrations |
-| `public/art/` | Images WebP sources : originale, `-medium` et `-small` |
-| `public/fonts/` | Polices locales et licences |
-| `public/favicon.svg` | Favicon source |
-| `public/canon/` | Exports Markdown générés par la validation du canon |
-| `scripts/check-canon.mjs` | Contrôles éditoriaux, références, illustrations et génération des exports |
-| `tests/navigation.test.mjs` | Tests des routes, anciennes URL, données de lecture et recherche |
-| `vite.config.js` | Base `/MONO-prime/`, compilation et synchronisation des sorties à la racine |
-| `.github/workflows/pages.yml` | Compilation et publication de `dist` sur GitHub Pages |
-| `docs/sillage-illustrations.md` | Documentation des trois illustrations du Sillage et de leurs prompts |
-| `docs/audit-2026-10-02.md` | Compte rendu historique d’audit ; ne remplace pas l’état du code actuel |
+| Chemin                          | Rôle                                                                                            |
+| ------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `app.html`                      | Entrée HTML source de Vite : métadonnées, favicon, préchargements et démarrage de React         |
+| `src/main.tsx`                  | Montage de React et imports des styles                                                          |
+| `src/app.tsx`                   | Vues, composants, navigation d’interface, lecture, thèmes, signets et agrandissement des images |
+| `src/navigation.ts`             | Lecture des fragments d’URL, alias, requêtes et validation de la dernière lecture               |
+| `src/search.ts`                 | Normalisation et correspondance des termes recherchés                                           |
+| `src/data/canon.json`           | Source éditoriale du canon, des récits et de la chronologie                                     |
+| `src/data/art.json`             | Dimensions et largeurs des variantes d’illustrations                                            |
+| `public/art/`                   | Images WebP sources : originale, `-medium` et `-small`                                          |
+| `public/fonts/`                 | Polices locales et licences                                                                     |
+| `public/favicon.svg`            | Favicon source                                                                                  |
+| `public/canon/`                 | Exports Markdown générés par la validation du canon                                             |
+| `scripts/check-canon.mjs`       | Contrôles éditoriaux, références, illustrations et génération des exports                       |
+| `tests/navigation.test.mjs`     | Tests des routes, anciennes URL, données de lecture et recherche                                |
+| `vite.config.js`                | Base `/MONO-prime/`, compilation et synchronisation des sorties à la racine                     |
+| `.github/workflows/pages.yml`   | Compilation et publication de `dist` sur GitHub Pages                                           |
+| `docs/sillage-illustrations.md` | Documentation des trois illustrations du Sillage et de leurs prompts                            |
+| `docs/audit-2026-10-02.md`      | Compte rendu historique d’audit ; ne remplace pas l’état du code actuel                         |
 
 **Stack :** React 19.2, React DOM 19.2, TypeScript 5.9 en mode strict et Vite 7.1, selon les plages déclarées dans `package.json`. `package-lock.json` fixe les versions installées. Le routage est géré par fragments et l’état par les hooks React ; aucun routeur ou gestionnaire d’état externe n’est utilisé.
 
@@ -158,13 +148,13 @@ npm run dev
 
 Ouvrir l’entrée source **`/MONO-prime/app.html`** sur l’adresse annoncée par Vite, normalement `http://localhost:5173/MONO-prime/app.html`. Cette entrée est distincte de `index.html`, qui contient le résultat compilé. Ne pas ouvrir directement `app.html` en `file://`.
 
-| Commande | Effet réel |
-| --- | --- |
-| `npm run dev` | Lance Vite sur `0.0.0.0` pour le développement |
-| `npm run check` | Vérifie TypeScript, valide le canon, régénère les exports Markdown et exécute les tests |
-| `npm test` | Valide le canon, régénère les exports et exécute les tests, sans vérification TypeScript |
-| `npm run build` | Exécute `check`, compile avec Vite et synchronise les sorties générées à la racine |
-| `npm run preview` | Sert le dernier `dist` compilé sur `0.0.0.0` |
+| Commande          | Effet réel                                                                               |
+| ----------------- | ---------------------------------------------------------------------------------------- |
+| `npm run dev`     | Lance Vite sur `0.0.0.0` pour le développement                                           |
+| `npm run check`   | Vérifie TypeScript, valide le canon, régénère les exports Markdown et exécute les tests  |
+| `npm test`        | Valide le canon, régénère les exports et exécute les tests, sans vérification TypeScript |
+| `npm run build`   | Exécute `check`, compile avec Vite et synchronise les sorties générées à la racine       |
+| `npm run preview` | Sert le dernier `dist` compilé sur `0.0.0.0`                                             |
 
 Pour contrôler la version destinée à la publication :
 
@@ -193,6 +183,6 @@ Pour publier une modification : modifier les sources, exécuter `npm run build`,
 
 ## Continuer le projet
 
-Pour une modification éditoriale, commencer par `src/data/canon.json` et ses questions ouvertes. Pour une modification d’interface, lire `src/app.tsx`, `src/foundation.css`, `src/theme.css` et `src/responsive.css`, en conservant les parcours et le canon. Mettre à jour ce README lorsque les fonctionnalités, commandes, données ou direction artistique changent.
+Pour une modification éditoriale, commencer par `src/data/canon.json` et ses questions ouvertes. Pour une modification d’interface, lire `src/app.tsx`, `src/design.css`, en conservant les parcours et le canon. Mettre à jour ce README lorsque les fonctionnalités, commandes, données ou direction artistique changent.
 
 Les sujets encore ouverts comprennent l’histoire des Neuf Lumières et des Royaumes Clos, les scènes détaillées du Grand Rite, les frontières et sociétés du présent, trois prophètes encore sans nom, les règles précises du devenir des âmes et le premier arc choral de l’Éveil des Brisures. Ils ne doivent pas être décrits comme déjà racontés. Les questions propres à chaque fiche sont conservées dans `open_questions` et affichées sur le site.
