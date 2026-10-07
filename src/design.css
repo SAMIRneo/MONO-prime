@@ -3902,6 +3902,58 @@ figcaption {
     min-width: 34px;
   }
 }
+/* Mobile: comfortable touch targets, compact browsing and immersive reading. */
+@media (max-width: 900px) {
+  input, select, textarea, .mobile-category select { font-size: 16px; }
+  .header-tools > a, .header-tools > button { min-width: 44px; min-height: 44px; }
+  .mobile-dock { bottom: max(10px, env(safe-area-inset-bottom)); padding: 5px 8px; }
+  .mobile-dock a { min-height: 54px; font-size: 11px; }
+  .nav-utilities a, .nav-utilities button { min-height: 44px; font-size: 14px; }
+  .view-switch button, .section-index a { min-height: 44px; font-size: 12px; }
+  .entry-grid:not(.featured-grid):not(.entry-list) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  html[data-input-active="true"] .mobile-dock,
+  html[data-reading-focus="true"] .mobile-dock,
+  html[data-reading-focus="true"] .site-header { display: none; }
+  html[data-reading-focus="true"] { scroll-padding-top: 80px; }
+  html[data-reading-focus="true"] .reading-progress { top: 0; }
+  .reader-focus .reader-top, .reader-focus .reading-controls > label { display: none; }
+  .reader-focus .reading-controls { position: sticky; top: 3px; z-index: 30; padding: 10px 0; background: var(--bg); }
+  .reader-focus .reading-controls button { min-height: 44px; }
+}
+@media (max-width: 620px) {
+  .hero-stage { grid-template-rows: auto auto clamp(300px, 46svh, 400px) auto; padding-top: 18px; }
+  .hero-edition { margin-bottom: 18px; font-size: 9px; }
+  .hero-copy h1 { font-size: clamp(40px, 10.8vw, 56px); }
+  .hero-copy p { font-size: 14px; margin-top: 18px; margin-bottom: 18px; }
+  .hero-bottom { min-height: 72px; }
+  .figure-selector button { min-height: 44px; font-size: 12px; }
+  .page-head { padding-top: 24px; padding-bottom: 22px; }
+  .page-head h1 { font-size: clamp(32px, 8.5vw, 42px); margin-block: 12px; }
+  .page-head p, .section-head p, .world-copy p { font-size: 15px; }
+  .codex-controls { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; }
+  .mobile-category { grid-column: 1; font-size: 10px; }
+  .mobile-category select { margin-top: 4px; min-height: 48px; }
+  .view-switch { grid-column: 2; grid-row: 1; align-self: end; margin: 0; }
+  .view-switch button { padding-inline: 10px; }
+  .codex-controls .search-field { grid-column: 1 / -1; min-height: 48px; }
+  .results-heading { margin-block: 22px 16px; }
+  .card-copy p, .entry-list .card-copy p { font-size: 14px; }
+  .card-copy .eyebrow { font-size: 9px; }
+  .card-copy .text-link { font-size: 12px; min-height: 44px; display: inline-flex; align-items: center; }
+  .featured-grid .card-art { height: 390px; }
+  .reading-controls button { min-height: 48px; font-size: 13px; }
+  .reading-controls select { min-height: 48px; }
+  .reader-top { font-size: 12px; }
+  .story-prose p { font-size: 21px; line-height: 1.7; }
+  .reader-large .story-prose p { font-size: 25px; }
+  .explore-nav a { min-height: 44px; font-size: 12px; }
+}
+@media (max-width: 360px) {
+  .entry-grid:not(.featured-grid):not(.entry-list) { grid-template-columns: minmax(0, 1fr); }
+  .hero-copy h1 { font-size: 40px; }
+  .view-switch button { padding-inline: 8px; font-size: 11px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

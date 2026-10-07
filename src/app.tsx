@@ -116,10 +116,8 @@ const landscapeArt = new Set(
     .filter(([, m]) => m.width > m.height)
     .map(([name]) => name),
 );
-const cardSizes =
-  "(max-width: 560px) calc(100vw - 28px), (max-width: 900px) calc(50vw - 26px), (max-width: 1180px) calc(33vw - 32px), (max-width: 1460px) calc(25vw - 32px), 330px";
-const featuredSizes =
-  "(max-width: 560px) calc(100vw - 28px), (max-width: 900px) calc(50vw - 26px), (max-width: 1460px) calc(33vw - 32px), 450px";
+const cardSizes = "(max-width: 360px) calc(100vw - 36px), (max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1200px) 28vw, 340px";
+const featuredSizes = "(max-width: 620px) calc(100vw - 36px), (max-width: 900px) calc((100vw - 50px) / 2), 420px";
 function Art({
   name,
   alt = "",
@@ -969,6 +967,10 @@ function Reader({
   const [progress, setProgress] = useState(0);
   const [marked, setMarked] = useState(false);
   const article = useRef<HTMLElement>(null);
+  useEffect(() => {
+    document.documentElement.dataset.readingFocus = String(focus);
+    return () => { delete document.documentElement.dataset.readingFocus; };
+  }, [focus]);
   useEffect(() => {
     setFocus(false);
     setMarked(false);
@@ -1847,7 +1849,7 @@ function Codex({
               <Card
                 entry={e}
                 onPortrait={onPortrait}
-                sizes={view === "list" ? "140px" : featuredSizes}
+                sizes={view === "list" ? "140px" : group === "puissances" ? featuredSizes : cardSizes}
                 key={e.id}
               />
             ))}
@@ -2289,6 +2291,25 @@ export default function App() {
   const previousRoute = useRef<Route | null>(null);
   const menuButton = useRef<HTMLButtonElement>(null);
   const [storageNotice, setStorageNotice] = useState("");
+  useEffect(() => {
+    let frame = 0;
+    const update = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        document.documentElement.dataset.inputActive = String(
+          document.activeElement?.matches('input, textarea, select') ?? false,
+        );
+      });
+    };
+    document.addEventListener("focusin", update);
+    document.addEventListener("focusout", update);
+    return () => {
+      cancelAnimationFrame(frame);
+      document.removeEventListener("focusin", update);
+      document.removeEventListener("focusout", update);
+      delete document.documentElement.dataset.inputActive;
+    };
+  }, []);
   useEffect(() => {
     const change = () => {
       setCurrent(route());
