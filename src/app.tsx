@@ -322,302 +322,81 @@ function ReadingTrail() {
   );
 }
 function Home() {
-  const stage = useRef<HTMLElement>(null);
-  useEffect(() => {
-    const node = stage.current;
-    const media = matchMedia(
-      "(hover: hover) and (prefers-reduced-motion: no-preference)",
-    );
-    if (!node) return;
-    let frame = 0;
-    const reset = () => {
-      cancelAnimationFrame(frame);
-      node.style.setProperty("--drift-x", "0px");
-      node.style.setProperty("--drift-y", "0px");
-    };
-    const move = (event: PointerEvent) => {
-      if (!media.matches || event.pointerType !== "mouse") return;
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        const box = node.getBoundingClientRect();
-        node.style.setProperty(
-          "--drift-x",
-          `${((event.clientX - box.left) / box.width - 0.5) * 10}px`,
-        );
-        node.style.setProperty(
-          "--drift-y",
-          `${((event.clientY - box.top) / box.height - 0.5) * 8}px`,
-        );
-      });
-    };
-    node.addEventListener("pointermove", move);
-    node.addEventListener("pointerleave", reset);
-    media.addEventListener("change", reset);
-    return () => {
-      cancelAnimationFrame(frame);
-      node.removeEventListener("pointermove", move);
-      node.removeEventListener("pointerleave", reset);
-      media.removeEventListener("change", reset);
-    };
-  }, []);
-  const [figure, setFigure] = useState("qerath");
-  const figures = [
-    ["qerath", "L’ÉPREUVE", "Il veut rendre le monde au Néant."],
-    ["azkavoth", "LA SOURCE", "Il laisse à chacun la liberté de répondre."],
-    ["vothorak", "LA FORME", "Il façonne un monde qu’il voudrait posséder."],
+  const [figure, setFigure] = useState("azkavoth");
+  const chosen = byId.get(figure)!;
+  const paths = [
+    ["univers", "Les premières clés", "Origines & lois du monde"],
+    ["terra", "L’atlas de Terra", "Cinq continents, une matière"],
+    ["powerscaling", "L’étude du Sillage", "Voies, inversions & maîtrise"],
+    ["chronologie", "Le fil des âges", "Depuis la Déchirure"],
+    ["univers?section=6", "Le petit lexique", "Les mots pour entrer"]
   ];
-  const chosen = figures.find((f) => f[0] === figure)!;
-  const [world, setWorld] = useState("terra");
-  const realm = byId.get(world)!;
-  const [lineage, setLineage] = useState("djinns");
-  const people = byId.get(lineage)!;
+  const excerpts = [canon.books[0],canon.books[1],canon.books[3]];
   return (
-    <div className="discovery">
-      <section
-        ref={stage}
-        className="hero-stage"
-        data-figure={figure}
-        aria-label="Bienvenue dans MONO"
-      >
-        <div className="hero-grid" aria-hidden="true" />
-        <span className="hero-edition">
-          UN UNIVERS ORIGINAL / LE CODEX DE LA DÉCHIRURE
-        </span>
-        <div className="hero-copy">
-          <span className="eyebrow">
-            <span className="live-dot" /> ENTRE MYTHE ET LIBERTÉ
-          </span>
-          <h1>
-            Un monde <br />
-            <em>brisé.</em>
-            <br /> Des êtres libres.
-          </h1>
-          <p>
-            La Source s’est retirée. Le monde demeure.
-            <br />À vous d’en traverser les fractures.
-          </p>
-          <a className="button primary" href="#/lire/livre-1/1">
-            Entrer dans l’histoire <Icon name="arrow" />
-          </a>
-          <a className="hero-guide" href="#/univers">
-            Découvrir les origines <span>↗</span>
-          </a>
-        </div>
-        <div className="hero-gallery">
-          {figures.map(([id]) => (
-            <div
-              key={id}
-              className={`hero-art ${figure === id ? "is-current" : ""}`}
-              aria-hidden={figure !== id}
-            >
-              <Art
-                name={id}
-                alt={figure === id ? byId.get(id)!.title : ""}
-                hero={id === "qerath"}
-                sizes="(max-width: 700px) 100vw, 50vw"
-              />
-            </div>
-          ))}
-          <div className="hero-art-caption" aria-live="polite">
-            <span>{chosen[1]}</span>
-            <a href={href(figure)}>
-              {byId.get(figure)!.title}
-              <Icon name="arrow" />
-            </a>
-            <p>{chosen[2]}</p>
-          </div>
-          <span className="hero-coordinate" aria-hidden="true">
-            MONO — 001 / ∞
-          </span>
-        </div>
-        <div className="hero-bottom">
-          <span className="hero-scroll">
-            DÉFILER POUR EXPLORER <span>↓</span>
-          </span>
-          <div
-            className="figure-selector"
-            role="group"
-            aria-label="Choisir une puissance"
-          >
-            {figures.map(([id], i) => (
-              <button
-                key={id}
-                aria-pressed={figure === id}
-                onClick={() => setFigure(id)}
-              >
-                <span>0{i + 1}</span>
-                {byId.get(id)!.title}
-                <span className="figure-line" />
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
-      <div className="content discovery-content">
-        <div className="passage-bar">
+    <div className="archive-home">
+      <div className="archive-masthead">
+        <span className="archive-kicker">Un monde brisé. Des êtres libres.</span>
+        <div className="archive-title"><span aria-hidden="true">✦</span><h1>MONO</h1><span aria-hidden="true">✦</span></div>
+        <p>Le Codex de la Déchirure</p>
+        <span className="archive-subtitle">Récits · théologies · lieux oubliés · êtres libres</span>
+      </div>
+      <div className="portal-layout">
+        <aside className="portal-left" aria-label="Sommaire des archives">
+          <section className="archive-box">
+            <h2 className="box-title">Les portes du monde</h2>
+            <nav className="archive-directory" aria-label="Parcours du monde">
+              {paths.map(([id,title,description],i)=><a href={`#/${id}`} key={id}><span className="directory-rune" aria-hidden="true">{["◈","⌘","☽","✧","⁂"][i]}</span><span><strong>{title}</strong><small>{description}</small></span></a>)}
+            </nav>
+          </section>
+          <section className="archive-box archive-register">
+            <h2 className="box-title">Inventaire du Codex</h2>
+            <dl><div><dt>Fiches</dt><dd>{entries.length}</dd></div><div><dt>Livres</dt><dd>{canon.books.length}</dd></div><div><dt>Chapitres</dt><dd>{canon.books.reduce((n,b)=>n+b.chapters.length,0)}</dd></div><div><dt>Repères lexicaux</dt><dd>{canon.lexicon.length}</dd></div></dl>
+            <a className="archive-inline" href="#/codex">Consulter le registre →</a>
+          </section>
+          <section className="archive-box margin-note">
+            <Seal />
+            <h2>Au voyageur</h2>
+            <p>Commencez par les origines, ou suivez un nom qui vous intrigue. Les fiches se répondent ; aucun parcours n’est imposé.</p>
+            <a href="#/lire/livre-1/1">Lire « Avant le Temps » →</a>
+          </section>
+        </aside>
+        <div className="portal-journal">
+          <section className="archive-welcome">
+            <Art name="azkavoth" alt="AZKAVOTH, présence du Retrait" hero sizes="(max-width: 760px) 100vw, 600px" />
+            <div className="welcome-copy"><span className="archive-kicker">À la lisière du premier monde</span><h2>La Source s’est retirée.<br /><em>Le monde demeure.</em></h2><p>Bienvenue dans les archives de MONO. Entre les récits et les marges du Codex, cherchez ce que la Déchirure a laissé aux vivants.</p><a className="button primary" href="#/lire/livre-1/1">Ouvrir la première chronique <Icon name="book" /></a></div>
+          </section>
+          <div className="journal-status"><span className="status-lamp" aria-hidden="true" />Canon {canon.version}<span>Consolidé le {canon.updated}</span><a href="#/univers?section=6">Lexique →</a></div>
           <ReadingTrail />
-          <a className="index-shortcut" href="#/codex">
-            <span className="index-number">57</span>
-            <div>
-              <strong>Fragments d’un même monde</strong>
-              <span>Parcourir le Codex illustré</span>
-            </div>
-            <Icon name="arrow" />
-          </a>
+          <section className="archive-box journal-update">
+            <h2 className="box-title">Notes du gardien · dernière révision</h2>
+            <div className="journal-update-copy"><span className="journal-label">08.10.2026 / Les mots et les lois</span><h3>Nommer ce qui relie. Distinguer ce qui sépare.</h3><p>Éclats, Sceaux, Sillage, Concorde : le lexique rassemble les repères essentiels. Le guide distingue la Source, les puissances et les différentes lectures du sacré.</p><div className="journal-links"><a href="#/univers?section=6">Feuilleter le lexique →</a><a href="#/fiche/tikkun">La Concorde →</a></div></div>
+          </section>
+          <section className="journal-entries" aria-label="Extraits des chroniques">
+            <header className="journal-heading"><h2>Feuillets des chroniques</h2><a href="#/recits">Tous les livres →</a></header>
+            {excerpts.map((book,i)=>{
+              const chapter=book.chapters[0];
+              const passage=chapter.paragraphs[0];
+              return <article className="journal-entry" key={book.id}><div className="journal-entry-top"><span>FEUILLET 0{i+1}</span><span>{book.title}</span></div><div className="journal-entry-body"><a className="journal-thumb" href={`#/lire/${book.id}/1`} aria-label={`Lire ${chapter.title}`}><Art name={book.art} sizes="130px" /></a><div><h3><a href={`#/lire/${book.id}/1`}>{chapter.title}</a></h3><p>{passage.length>240?passage.slice(0,240).replace(/\s+\S*$/,"")+"…":passage}</p><a className="archive-inline" href={`#/lire/${book.id}/1`}>Lire le feuillet →</a></div></div></article>
+            })}
+          </section>
+          <section className="archive-box echo-room">
+            <h2 className="box-title">La salle des échos · puissances</h2>
+            <div className="echo-tabs" role="group" aria-label="Choisir une puissance">{["azkavoth","qerath","vothorak"].map(id=><button key={id} aria-pressed={figure===id} onClick={()=>setFigure(id)}>{byId.get(id)!.title}</button>)}</div>
+            <div className="echo-entry"><a href={href(figure)} aria-label={`Fiche de ${chosen.title}`}><Art name={chosen.art} alt={chosen.title} sizes="160px" /></a><div><span className="journal-label">{chosen.subtitle}</span><h3>{chosen.title}</h3><p>{chosen.summary}</p><a className="archive-inline" href={href(figure)}>Consulter la fiche →</a></div></div>
+          </section>
+          <div className="archive-end"><span aria-hidden="true">✦</span> Ici, les réponses demeurent libres. <span aria-hidden="true">✦</span></div>
         </div>
-        <section className="discovery-paths reveal">
-          <SectionHead
-            eyebrow="01 / PRENDRE SES REPÈRES"
-            title="Tout commence par une curiosité."
-          />
-          <div className="discovery-links">
-            {exploreLinks.map(([id, label, copy, art], i) => (
-              <a href={`#/${id}`} key={id}>
-                <div className="discovery-link-art">
-                  <Art name={art} sizes="(max-width: 700px) 50vw, 25vw" />
-                </div>
-                <span className="path-number">0{i + 1}</span>
-                <div>
-                  <h3>{label}</h3>
-                  <p>{copy}</p>
-                </div>
-                <span className="circle-arrow">
-                  <Icon name="arrow" />
-                </span>
-              </a>
-            ))}
-          </div>
-        </section>
-        <section className="world-editorial reveal">
-          <SectionHead
-            eyebrow="02 / AU-DELÀ DES FRONTIÈRES"
-            title="Trois mondes. Une fracture."
-          />
-          <div className="world-workbench">
-            <div className="world-picture" key={world}>
-              <Art
-                name={world === "terra" ? "terra-map-v1" : world}
-                alt={realm.title}
-                sizes="(max-width: 900px) 100vw, 65vw"
-              />
-              <span className="image-label">
-                {world === "terra"
-                  ? "ATLAS ILLUSTRÉ / GÉOGRAPHIE PROPOSÉE"
-                  : "DIMENSION MÉTAPHYSIQUE"}
-              </span>
-            </div>
-            <div className="world-panel">
-              <div
-                className="world-select"
-                role="group"
-                aria-label="Choisir un monde"
-              >
-                {["terra", "cieux", "abysses"].map((id, i) => (
-                  <button
-                    key={id}
-                    onClick={() => setWorld(id)}
-                    aria-pressed={world === id}
-                  >
-                    <span>0{i + 1}</span>
-                    {byId.get(id)!.title}
-                    <span>↗</span>
-                  </button>
-                ))}
-              </div>
-              <div className="world-description" key={world}>
-                <span className="eyebrow">
-                  {world === "terra"
-                    ? "LE MONDE PHYSIQUE"
-                    : "L’AUTRE CÔTÉ DU MONDE"}
-                </span>
-                <h3>{realm.title}</h3>
-                <p>{realm.summary}</p>
-                <LinkArrow to={href(world)}>Traverser {realm.title}</LinkArrow>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="lineage-editorial reveal">
-          <div className="lineage-intro">
-            <span className="eyebrow">03 / CEUX QUI L’HABITENT</span>
-            <h2>
-              Six natures.
-              <br />
-              <em>
-                Mille façons
-                <br />
-                d’exister.
-              </em>
-            </h2>
-            <p>
-              La naissance donne une nature.
-              <br />
-              Elle ne décide pas d’une destinée.
-            </p>
-            <div
-              className="lineage-selector"
-              role="group"
-              aria-label="Découvrir une lignée"
-            >
-              {entries
-                .filter((e) => e.category === "lignees")
-                .map((e) => (
-                  <button
-                    key={e.id}
-                    aria-pressed={lineage === e.id}
-                    onClick={() => setLineage(e.id)}
-                  >
-                    {e.title}
-                  </button>
-                ))}
-            </div>
-            <LinkArrow to="#/codex/lignees">Toutes les lignées</LinkArrow>
-          </div>
-          <div className="lineage-showcase">
-            <div className="lineage-showcase-art" key={lineage}>
-              <Art
-                name={people.art!}
-                alt={people.title}
-                sizes="(max-width: 700px) 100vw, 45vw"
-              />
-            </div>
-            <div className="lineage-showcase-caption" aria-live="polite">
-              <span className="eyebrow">{people.subtitle}</span>
-              <h3>{people.title}</h3>
-              <p>{people.summary}</p>
-              <LinkArrow to={href(lineage)}>
-                Rencontrer les {people.title}
-              </LinkArrow>
-            </div>
-          </div>
-        </section>
-        <section className="story-invitation reveal">
-          <span className="eyebrow">04 / LES CHRONIQUES</span>
-          <div>
-            <h2>
-              Avant les royaumes.
-              <br />
-              <em>Avant le Temps.</em>
-            </h2>
-            <p>
-              Quatre livres pour suivre le fil de la création.
-              <br />
-              Un chapitre suffit pour commencer.
-            </p>
-          </div>
-          <a className="button primary" href="#/recits">
-            Ouvrir les chroniques
-            <Icon name="arrow" />
-          </a>
-          <span className="invitation-mark" aria-hidden="true">
-            M
-          </span>
-        </section>
+        <aside className="portal-right" aria-label="Notes de marge">
+          <section className="archive-box marginalia"><h2 className="box-title">Dans les marges</h2><span className="margin-symbol" aria-hidden="true">☽</span><h3>Le libre arbitre</h3><p>{byId.get("libre-arbitre")?.summary || byId.get("tikkun")!.summary}</p><a className="archive-inline" href="#/fiche/tikkun">Réparer sans contraindre →</a></section>
+          <section className="archive-box"><h2 className="box-title">Les quatre cultes</h2><div className="cult-directory">{entries.filter(e=>e.category==="cultes").map((e,i)=><a href={href(e.id)} key={e.id}><b>{["AZ","KA","VO","TH"][i]}</b><span>{e.title}</span></a>)}</div><p className="box-footnote">Lettre, Souffle et Signe traversent leurs lectures du sacré.</p></section>
+          <section className="archive-box atlas-mini"><h2 className="box-title">Une fenêtre sur Terra</h2><a href="#/terra"><Art name="terra-map-v1" alt="Atlas illustré de Terra" sizes="220px" /><span>Ouvrir l’atlas →</span></a></section>
+          <section className="archive-box"><h2 className="box-title">Six lignées</h2><div className="lineage-directory">{entries.filter(e=>e.category==="lignees").map(e=><a key={e.id} href={href(e.id)}><span aria-hidden="true">◇</span>{e.title}</a>)}</div></section>
+          <div className="archive-badges"><span>MONO<br /><b>UNIVERS ORIGINAL</b></span><a href={`${BASE}canon/MONO_CANON_V9.md`}>CANON<br /><b>{canon.version} · TEXTE INTÉGRAL</b></a></div>
+        </aside>
       </div>
     </div>
   );
 }
-
 function Terra({
   selected = "avarn",
   onPortrait,
@@ -2655,7 +2434,7 @@ export default function App() {
       <header ref={header} className="site-header">
         <a className="brand" href="#/" aria-label="MONO — Explorer">
           <span className="brand-symbol" aria-hidden="true">
-            m.
+            <Seal />
           </span>
           <span>
             MONO<small>LE CODEX DE LA DÉCHIRURE</small>
@@ -2754,6 +2533,7 @@ export default function App() {
           </button>
         </div>
       )}
+      <div inert={menu} className="archive-ribbon"><span>Archives d’un monde après la Déchirure</span><span aria-hidden="true">AZ · KA · VO · TH</span><a href="#/univers">Entrer par les origines →</a></div>
       <main inert={menu} id="main" ref={main} tabIndex={-1}>
         {isExploreDetail && (
           <div className="content">
@@ -2772,7 +2552,7 @@ export default function App() {
           <p>
             Un monde brisé.
             <br />
-            Des réponses libres.
+            Des êtres libres.
           </p>
           <a
             className="back-top"
