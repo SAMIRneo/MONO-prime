@@ -14,10 +14,14 @@ Sur téléphone le texte précède le sommaire. La navigation inférieure devien
 
 ## Matériaux
 
+Le portail emploie désormais une palette prune, rose de vitrail, cuivre et vert patiné. Le logotype vectoriel dessiné pour MONO remplace le mot composé en police. Une trame géométrique gravée habille les marges ; les bordures doubles et les boutons biseautés rappellent les portails personnels anciens. Le miroir latéral fait défiler six fiches canoniques, avec leur portrait, leur résumé et leurs liens. L'ouverture cite le premier livre. Les textes longs gardent un fond uni ; le mode concentration retire la trame.
+
 Le mot MONO porte une coupure dans son premier O, reprise dans le favicon. Un frontispice réunit les illustrations des Cieux, de Terra et des Abysses, avec des raccords irréguliers. Chaque image ouvre sa page ; la légende distingue le monde physique des domaines métaphysiques. Une lettrine marque le début de l’extrait du Livre I. Ces éléments utilisent les textes et illustrations du canon.
 
 Fond d’encre violacée, liens lavande, titres en EB Garamond, corps Verdana, annotations Courier New. Le thème clair utilise un fond de papier. Les illustrations existantes sont conservées. La feuille active est src/design.css ; les sorties de publication sont générées par le build.
 
 ## Contrôles
+
+Pour la version portail : widgets du miroir et du lexique contrôlés, thèmes sombre et clair, accueil/lecture/Terra à 320, 768 et 1280 px sans débordement horizontal, Codex à 320 px. Les nouveaux fichiers SVG sont copiés par le build dans la publication racine, comme le favicon.
 
 TypeScript, canon et neuf tests passent. Accueil, Codex, lecture, guide et Terra contrôlés à 320, 390, 768 et 1280 px. Contrôles des filtres, agrandissements, menu et thèmes. La publication est vérifiée par les Actions du commit et la comparaison des fichiers servis.

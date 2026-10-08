@@ -309,12 +309,18 @@ function ReadingTrail() {
   );
 }
 function Home() {
+  const [passage, setPassage] = useState(0);
+  const [word, setWord] = useState(0);
+  const term = canon.lexicon[word];
+  const passages = ["qerath", "vothorak", "eshar", "aurenth", "cieux", "abysses"];
+  const encounter = byId.get(passages[passage])!;
   const date = new Intl.DateTimeFormat("fr-FR", {day:"numeric",month:"long",year:"numeric"}).format(new Date(canon.updated + "T12:00:00"));
   const book = canon.books[0];
   const chapter = book.chapters[0];
   return (
     <div className="notebook">
       <aside className="notebook-index" aria-label="Index du site">
+        <div className="portal-label">MONO / portes ouvertes</div>
         <nav aria-label="Sommaire">
           <h2>Sommaire</h2>
           <a href="#/univers">Introduction à l’univers</a>
@@ -328,10 +334,13 @@ function Home() {
           <summary>Index des fiches <span>{entries.length}</span></summary>
           <nav aria-label="Fiches par catégorie">{groups.map(group=><a href={"#/codex/"+group.id} key={group.id}>{group.label}<span>{entries.filter(e=>e.category===group.id).length}</span></a>)}</nav>
         </details>
+        <section className="encounter-widget" aria-label="Explorer les figures de MONO"><h2>À travers le miroir</h2><a href={href(encounter.id)} className="encounter-portrait"><Art name={encounter.art} alt={encounter.title} sizes="180px" /></a><div aria-live="polite"><a className="encounter-name" href={href(encounter.id)}>{encounter.title}</a><p>{encounter.summary}</p></div><button onClick={() => setPassage((passage+1)%passages.length)}>Tourner le miroir ↻</button></section>
+        <a className="portal-stamp" href="#/lire/livre-1/1"><span>MONO</span><small>Entrer dans le premier livre</small></a>
+        <section className="lexicon-widget" aria-label="Feuilleter les mots de MONO"><h2>Les mots du Nom</h2><div aria-live="polite"><a href={href(term.record)}>{term.term}</a><p>{term.definition}</p></div><button onClick={() => setWord((word+1)%canon.lexicon.length)}>Feuilleter le lexique →</button></section>
         <div className="index-colophon"><p>Canon {canon.version}<br />{date}</p><a href={BASE+"canon/MONO_CANON_V9.md"}>Texte intégral (.md)</a><a href="#/signets">Mes signets</a></div>
       </aside>
       <div className="notebook-pages">
-        <header className="notebook-intro"><span className="notebook-path">mono / journal</span><h1>Le Codex de la Déchirure</h1><p>La création de MONO commence par un retrait. De là viennent les mondes, leurs puissances et la liberté de leurs habitants. Les récits et les fiches en suivent les conséquences.</p><p className="start-reading">Pour commencer : <a href="#/lire/livre-1/1">Avant le Temps, chapitre I</a>. Pour les repères : <a href="#/univers">l’introduction</a>.</p></header>
+        <header className="notebook-intro"><span className="notebook-path">Un univers de mondes, de mémoire et de libre arbitre</span><img className="portal-wordmark" src={BASE+"mono-mark.svg"} alt="MONO" width="540" height="170" /><h1>Le Codex de la Déchirure</h1><p className="portal-verse">« Avant qu’il y eût un avant,<br />il y avait le Nom. »</p><p className="start-reading"><a href="#/lire/livre-1/1">Ouvrir le premier livre</a><span> / </span><a href="#/univers">Les repères de l’univers</a></p></header>
         <figure className="world-frontispiece">
           <div className="world-impressions">{["cieux", "terra", "abysses"].map(id => {
             const world = byId.get(id)!;
@@ -2404,7 +2413,7 @@ export default function App() {
       <header ref={header} className="site-header">
         <a className="brand" href="#/" aria-label="MONO — Accueil">
           <span>
-            <span className="mono-name">M<span className="broken-o">O</span>NO</span><small>LE CODEX DE LA DÉCHIRURE</small>
+            <img className="header-wordmark" src={BASE+"mono-mark.svg"} alt="MONO" width="540" height="170" /><small>LE CODEX DE LA DÉCHIRURE</small>
           </span>
         </a>
         <nav

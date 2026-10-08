@@ -14,15 +14,15 @@
 :root {
   font-family: Manrope, Arial, sans-serif;
   color-scheme: dark;
-  --bg: #101119;
-  --panel: #191b27;
-  --raised: #262939;
-  --ink: #e7dfc7;
-  --muted: #b3b1ba;
-  --line: #454451;
-  --accent: #b6bfff;
-  --gold: #d2b98c;
-  --copper: #9c7953;
+  --bg: #211322;
+  --panel: #2d1e30;
+  --raised: #413047;
+  --ink: #eadbc1;
+  --muted: #cab6c6;
+  --line: #775565;
+  --accent: #c2d6a1;
+  --gold: #eda2ae;
+  --copper: #b99a65;
   --mono: "Courier New", monospace;
   --serif: "Garamond MONO", Georgia, serif;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -3237,3 +3237,82 @@ h3 { font-size: 25px; }
   *,*:before,*:after { animation: none !important; transition: none !important; }
   .reveal-pending { opacity: 1; transform: none; }
 }
+
+/* Le portail : cuivre gravé, prune et verre rose. */
+body { background-color: var(--bg); background-image: url('/mono-weave.svg'); background-attachment: fixed; }
+.site-header { background: var(--panel); border: 1px solid var(--copper); border-top: 3px double var(--copper); padding: 0 22px; margin-top: 18px; max-width: 1120px; height: 86px; }
+.header-wordmark { width: 130px; height: 41px; object-fit: contain; }
+.brand small { color: var(--muted); font-size: 8px; }
+.main-nav > a { color: var(--accent); font: 15px Georgia,serif; }
+.main-nav > a[aria-current='page'] { color: var(--gold); }
+.notebook { width: min(1080px,calc(100% - 64px)); grid-template-columns: 200px minmax(0,1fr); gap: 32px; margin-top: 28px; }
+.notebook-index { border: 0; padding: 0; }
+.portal-label { padding: 9px; text-align: center; font: 10px var(--mono); color: var(--ink); background: var(--raised); border: 3px double var(--copper); margin-bottom: 14px; }
+.notebook-index > nav { padding: 14px; border: 1px solid var(--line); background: var(--panel); }
+.notebook-index h2 { color: var(--gold); text-align: center; letter-spacing: .07em; }
+.notebook-index nav > a { border-bottom: 1px dotted var(--line); padding-left: 12px; position: relative; }
+.notebook-index nav > a:before { content: '›'; position: absolute; left: 0; color: var(--gold); }
+.notebook-pages { background: var(--bg); border: 1px solid var(--copper); padding: 28px 32px; box-shadow: 5px 5px 0 var(--panel),7px 7px 0 var(--line); }
+.notebook-intro { text-align: center; padding: 6px 0 22px; position: relative; }
+.notebook-path { color: var(--accent); font: 10px/1.7 var(--mono); letter-spacing: .06em; }
+.portal-wordmark { width: min(100%,480px); height: auto; margin: 14px auto 0; }
+.notebook-intro h1 { font: 18px/1.4 var(--serif); color: var(--gold); letter-spacing: .13em; margin: 0 0 22px; }
+.notebook-intro > .portal-verse { font: 27px/1.25 var(--serif); color: var(--ink); margin: auto; }
+.notebook-intro .start-reading { margin-top: 22px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 5px 10px; }
+.start-reading a { min-height: 44px; display: inline-flex; align-items: center; }
+.world-frontispiece { margin-top: 4px; }
+.world-impressions { border: 4px double var(--copper); padding: 3px; background: var(--panel); }
+.world-impression { height: 200px; }
+.world-impression span { color: #f0dab4; font-size: 23px; }
+.world-frontispiece figcaption { text-align: center; }
+.encounter-widget { background: var(--panel); border: 3px double var(--copper); margin-top: 22px; padding: 12px; }
+.encounter-widget h2 { font: 12px var(--mono); margin-bottom: 12px; }
+.encounter-portrait { display: block; width: 140px; height: 170px; margin: 0 auto 14px; border-radius: 50% 50% 3px 3px; border: 1px solid var(--copper); overflow: hidden; background: #110e18; }
+.encounter-portrait img { width: 100%; height: 100%; object-fit: cover; }
+.encounter-name { display: block; text-align: center; font: 25px var(--serif); }
+.encounter-widget p { margin-top: 10px; font: 11px/1.7 Verdana,sans-serif; color: var(--muted); }
+.encounter-widget button { width: 100%; margin-top: 14px; border: 1px solid var(--copper); background: var(--raised); font: 11px var(--mono); color: var(--accent); box-shadow: inset 1px 1px var(--line),inset -1px -1px var(--bg); }
+.encounter-widget button:hover { color: var(--gold); }
+.lexicon-widget { margin-top: 22px; padding: 16px 12px; border-block: 3px double var(--copper); background: var(--bg); }
+.lexicon-widget h2 { font: 11px var(--mono); }
+.lexicon-widget a { font: 22px var(--serif); }
+.lexicon-widget p { color: var(--muted); font: 11px/1.7 Verdana,sans-serif; margin-top: 8px; }
+.lexicon-widget button { font: 10px var(--mono); color: var(--accent); text-decoration: underline; margin-top: 10px; }
+.portal-stamp { display: block; margin-top: 22px; border: 4px double var(--copper); text-align: center; padding: 8px; background: var(--raised); text-decoration: none !important; }
+.portal-stamp span { display: block; font: 24px var(--serif); letter-spacing: .22em; color: var(--gold); }
+.portal-stamp small { display: block; font: 9px/1.7 var(--mono); }
+.notebook-post { border-bottom: 3px double var(--line); }
+.post-date { color: var(--accent); }
+.notebook-post h2 { color: var(--gold); }
+.notebook-post h2 a { color: var(--gold); }
+.content { background: var(--bg); padding-inline: 28px; border-inline: 1px solid var(--line); }
+.page-head { border-bottom: 3px double var(--copper); padding-bottom: 24px; }
+.page-head h1,.detail-heading h1,.story-prose h1 { color: var(--gold); }
+.site-footer { background: var(--panel); padding: 18px; border: 3px double var(--copper); }
+:root[data-theme='paper'] .portal-wordmark,:root[data-theme='paper'] .header-wordmark { filter: brightness(.42) sepia(.5); }
+:root[data-reading-focus='true'] body { background-image: none; }
+@media(max-width:900px) {
+ .site-header { margin-top: 0; border-inline: 0; padding: 0 16px; height: 70px; }
+ .header-wordmark { width: 105px; height: 34px; }
+ .main-nav { background: var(--panel); }
+ .notebook { width: calc(100% - 32px); grid-template-columns: 170px minmax(0,1fr); gap: 20px; }
+ .encounter-portrait { width: 120px; height: 145px; }
+ .notebook-pages { padding: 22px; }
+ .content { padding-inline: 16px; }
+ .mobile-dock { background: var(--panel); border-top: 3px double var(--copper); }
+}
+@media(max-width:760px) {
+ .notebook { gap: 32px; margin-top: 18px; }
+ .notebook-pages { padding: 22px 16px; }
+ .notebook-intro h1 { font-size: 16px; letter-spacing: .07em; }
+ .notebook-intro > .portal-verse { font-size: 25px; }
+ .world-impression { height: 156px; }
+ .world-impression span { font-size: 19px; padding-inline: 2px; }
+ .notebook-index { padding-top: 0; border: 0; }
+ .notebook-index > nav { display: block; }
+ .encounter-portrait { width: 150px; height: 180px; }
+ .encounter-widget { padding: 20px; }
+ .encounter-widget p { font-size: 13px; text-align: center; }
+ .portal-label { font-size: 11px; }
+}
+@media(prefers-reduced-motion:reduce) { .world-impression img { transition: none; } }

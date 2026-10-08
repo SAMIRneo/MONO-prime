@@ -98,7 +98,7 @@ Les récits développent le débat avant le jugement, le départ de Talem et une
 
 ## Direction artistique actuelle
 
-L’interface **Journal et index**, révisée le 8 octobre 2026, privilégie les formes d’un site de lecture personnel : colonne de liens, extraits longs, notes datées, légendes et renvois textuels. Fond d’encre violacée, liens lavande soulignés et titres en EB Garamond ; le thème clair conserve un fond de papier. Les images accompagnent les textes sans bandeau publicitaire.
+L’interface, révisée le 8 octobre 2026, prend la forme d’un portail personnel ésotérique : prune sombre, rose de vitrail, vert patiné et cadres de cuivre. Un logotype vectoriel original et une trame gravée encadrent la lecture. Le miroir fait défiler les figures du lore ; un second widget permet de feuilleter le lexique. Les extraits, notes datées et illustrations restent liés au canon. Le thème clair conserve un fond de papier.
 
 L’accueil ouvre sur le premier livre, puis présente les changements du canon et un repère géographique. Le Codex propose la liste par défaut ; la préférence galerie/liste existante reste respectée. Les résultats de recherche sont des lignes de lecture. Les titres et commandes utilisent les noms des parcours ; les panneaux décoratifs, sigles de navigation, doubles cadres et appels répétés ont été retirés.
 

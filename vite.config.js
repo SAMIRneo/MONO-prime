@@ -17,7 +17,7 @@ export default defineConfig({
       cpSync(resolve(root,'dist/app.html'),resolve(root,'dist/index.html'));
       cpSync(resolve(root,'dist/index.html'),resolve(root,'index.html'));
       for (const name of ['assets','art','fonts','canon','qa']) syncDirectory(root,name);
-      cpSync(resolve(root,'dist/favicon.svg'),resolve(root,'favicon.svg'));
+      for (const name of ['favicon.svg','mono-mark.svg','mono-weave.svg']) cpSync(resolve(root,'dist',name),resolve(root,name));
     }
   }]
 });
