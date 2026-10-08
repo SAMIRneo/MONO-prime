@@ -17,18 +17,6 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
-  "aurenth": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "avarn": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
   "azkavoth": {
     "width": 1024,
     "height": 1536,
@@ -125,12 +113,6 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
-  "khoram": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
   "lien": {
     "width": 1536,
     "height": 1024,
@@ -173,12 +155,6 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
-  "puissance": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
   "qerath": {
     "width": 1024,
     "height": 1536,
@@ -194,12 +170,6 @@
   "rahamiel": {
     "width": 1024,
     "height": 1536,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "sahrun": {
-    "width": 1536,
-    "height": 1024,
     "smallWidth": 420,
     "mediumWidth": 840
   },
@@ -227,18 +197,6 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
-  "seyra": {
-    "width": 1672,
-    "height": 941,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "sillage": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
   "source": {
     "width": 1536,
     "height": 1024,
@@ -260,18 +218,6 @@
   "temoins": {
     "width": 1536,
     "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "terra": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "theryn": {
-    "width": 1672,
-    "height": 941,
     "smallWidth": 420,
     "mediumWidth": 840
   },

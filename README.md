@@ -6,8 +6,8 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
-- **État documenté :** refonte « Fracture » du **6 octobre 2026** ; canon **V9**, consolidé le **3 octobre 2026**.
-- **Contenu actuel :** 57 fiches, 11 catégories, 4 livres et 24 chapitres ; 61 illustrations référencées dans les métadonnées, livrées en 183 fichiers WebP avec leurs variantes.
+- **État documenté :** refonte « Fracture » du **6 octobre 2026** ; canon **V9.1**, révisé le **8 octobre 2026**.
+- **Contenu actuel :** 57 fiches, 11 catégories, 4 livres, 24 chapitres et 20 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes.
 
 ## Parcours et fonctionnalités
 
@@ -18,13 +18,13 @@ Trois destinations composent la navigation permanente : **Explorer**, **Chroniqu
 | Explorer      | `#/`               | Scène illustrée à trois puissances, reprise de lecture, quatre accès au monde, sélecteur des trois dimensions et exploration des six lignées.                                                                                                                |
 | Chroniques    | `#/recits`         | Bibliothèque illustrée, reprise de lecture, sommaires dépliables et accès direct aux 24 chapitres.                                                                                                                                                           |
 | Lecture       | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des quatre livres.            |
-| Univers       | `#/univers`        | Guide en six étapes : origines, mondes, principes, cultes, lignées et Sillage, enjeux. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Tikkun et questions ouvertes du canon. |
+| Univers       | `#/univers`        | Guide : origines, mondes, principes, cultes, lignées et Sillage, enjeux ; lexique filtrable de douze repères essentiels et huit distinctions. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Concorde et questions ouvertes du canon. |
 | Terra         | `#/terra`          | Atlas éditorial illustré avec cinq marqueurs, sélection des continents, panoramas, présentation d’Aurenth et liens vers les fondements du monde physique.                                                                                                    |
 | Codex         | `#/codex`          | Catégories avec compteurs, filtre textuel, vues galerie et liste, fiches illustrées et agrandissement des images. La catégorie initiale est « Puissances ».                                                                                                  |
 | Fiche         | `#/fiche/qerath`   | Résumé, illustration, sommaire avec liens directs aux sections, contenu détaillé, questions ouvertes, références associées, fiches précédente et suivante, signet et copie du lien.                                                                          |
 | Pouvoirs      | `#/powerscaling`   | Guide du Sillage, comparaison des sept voies avec leurs inversions, circulation des six lignées, rapports de force et accès aux fiches de maîtrise, guerre et économie.                                                                                      |
 | Âges          | `#/chronologie`    | Chronologie du Calendrier de la Déchirure (CD), avec distinction entre événements établis et périodes à développer.                                                                                                                                          |
-| Recherche     | `#/chercher`       | Recherche dans les fiches et les chapitres ; accepte les accents, les apostrophes et plusieurs termes. Raccourci `Ctrl+K` ou `Cmd+K`.                                                                                                                        |
+| Recherche     | `#/chercher`       | Recherche dans les fiches, les chapitres et le lexique ; accepte les accents, les apostrophes et plusieurs termes. Raccourci `Ctrl+K` ou `Cmd+K`.                                                                                                                        |
 | Ma collection | `#/signets`        | Fiches et livres conservés sur l’appareil, avec possibilité de retrait.                                                                                                                                                                                      |
 
 Les catégories, recherches et certaines sections sont accessibles directement par URL : `#/codex/archanges?q=vision`, `#/chercher?q=sillage`, `#/fiche/qerath?section=0`, `#/powerscaling?section=1` ou `#/terra/khoram`. Les indices de section commencent à zéro ; les numéros de chapitre commencent à un. Des alias de routes anciennes sont maintenus dans `src/navigation.ts` ; une route inconnue affiche un retour vers l’accueil.
@@ -39,7 +39,7 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 
 ## Canon et contenu éditorial
 
-**`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les catégories, les fiches (`records`), les quatre livres (`books`) et la chronologie (`eras`). Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
+**`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les catégories, les fiches (`records`), les quatre livres (`books`), la chronologie (`eras`) et le lexique (`lexicon`). Les anciens noms recherchables sont conservés dans `aliases`. Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
 
 | Catégorie             | Identifiant    | Fiches |
 | --------------------- | -------------- | -----: |
@@ -48,15 +48,15 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 | Revers                | `revers`       |      7 |
 | Lignées               | `lignees`      |      6 |
 | Cultes                | `cultes`       |      4 |
-| Mondes                | `mondes`       |      4 |
+| Mondes & Éden         | `mondes`       |      4 |
 | Lieux                 | `lieux`        |      6 |
 | Sillage & puissance   | `pouvoir`      |      4 |
-| Powerscaling          | `powerscaling` |      7 |
+| Maîtrise              | `powerscaling` |      7 |
 | Figures de l’histoire | `personnages`  |      4 |
 | Fondements            | `fondements`   |      5 |
 | **Total**             |                | **57** |
 
-La catégorie « Mondes » compte quatre fiches parce qu’elle comprend aussi « Éden et les Sept Témoins » : MONO conserve **trois mondes**, Terra, les Cieux et les Abysses.
+La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend aussi « Éden et les Sept Témoins » : MONO conserve **trois mondes**, Terra, les Cieux et les Abysses.
 
 | Livre                     | Identifiant | Chapitres |
 | ------------------------- | ----------- | --------: |
@@ -83,9 +83,18 @@ Les costumes, couleurs, effets visuels, ornements et équipements des illustrati
 `scripts/check-canon.mjs` valide les données puis génère :
 
 - `public/canon/MONO_CANON_V9.md` : fiches par catégorie et chronologie ;
-- `public/canon/MONO_RECITS_V9.md` : livres et chapitres.
+- `public/canon/MONO_RECITS_V9.md` : livres et chapitres ;
+- `public/canon/MONO_LEXIQUE.md` : vingt définitions et leurs fiches.
+
+Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V9.1.
 
 Ces exports sont produits depuis la même source JSON et inclus dans la publication. Le pied de page permet de télécharger le canon complet. **Ne pas modifier les exports à la main** : changer les données, puis les régénérer avec les commandes du projet.
+
+## Révision éditoriale du 8 octobre 2026
+
+La V9.1 précise la Source unique et indivisible, les quatre Éclats, les facultés amputées de Qerath, les sept restitutions du Fond, les Sceaux singuliers, le bilan du Sillage et la catastrophe du Grand Rite. La Concorde est le nom courant du Tikkun ; l’identifiant et la route `tikkun` restent valides. Lettre, Souffle et Signe sont trois lectures du sacré qui traversent les quatre cultes, sans ajouter trois écoles de pouvoir. Le Voile reste le nom de la période historique.
+
+Les récits développent le débat avant le jugement, le départ de Talem et une décision du Grand Rite. Les continents disposent de conflits institutionnels de départ ; leurs États et dynasties détaillés restent ouverts. Voir [les choix et les références](docs/canon-v9-1-2026-10-08.md).
 
 ## Direction artistique actuelle
 
@@ -101,7 +110,7 @@ Sous 900 px, la navigation permanente tient dans trois destinations : **Explorer
 
 Le Codex utilise un sélecteur de catégorie sur mobile et une colonne latérale sur ordinateur. La recherche et les modes galerie/liste sont conservés. Les portraits restent visibles dans leur intégralité dans les galeries et fiches. La bibliothèque propose des sommaires dépliables ; la lecture dispose toujours de ses réglages et de son mode concentration. Les repères de l’atlas et les comparateurs de principes restent interactifs.
 
-Les illustrations du 6 octobre sont documentées dans [la sélection publiée](docs/illustrations-2026-10-06.md). Le compte rendu de cette refonte et ses contrôles se trouvent dans [la note de refonte](docs/refonte-2026-10-06.md).
+Les illustrations du 6 octobre sont documentées dans [la sélection publiée](docs/illustrations-2026-10-06.md).
 
 ## Architecture du dépôt
 
@@ -122,8 +131,8 @@ Les illustrations du 6 octobre sont documentées dans [la sélection publiée](d
 | `tests/navigation.test.mjs`     | Tests des routes, anciennes URL, données de lecture et recherche                                |
 | `vite.config.js`                | Base `/MONO-prime/`, compilation et synchronisation des sorties à la racine                     |
 | `.github/workflows/pages.yml`   | Compilation et publication de `dist` sur GitHub Pages                                           |
-| `docs/sillage-illustrations.md` | Documentation des trois illustrations du Sillage et de leurs prompts                            |
-| `docs/audit-2026-10-02.md`      | Compte rendu historique d’audit ; ne remplace pas l’état du code actuel                         |
+| `scripts/sync-publication.mjs` | Synchronisation des sorties et suppression des fichiers périmés |
+| `docs/maintenance.md` | État actuel du nettoyage et règles de maintenance |
 
 **Stack :** React 19.2, React DOM 19.2, TypeScript 5.9 en mode strict et Vite 7.1, selon les plages déclarées dans `package.json`. `package-lock.json` fixe les versions installées. Le routage est géré par fragments et l’état par les hooks React ; aucun routeur ou gestionnaire d’état externe n’est utilisé.
 
@@ -131,11 +140,11 @@ Les illustrations du 6 octobre sont documentées dans [la sélection publiée](d
 
 ### Images
 
-La série du 6 octobre 2026 remplace 37 illustrations : les trois puissances, sept Archanges, sept Revers, six lignées, la carte de Terra choisie, cinq continents, Aurenth, quatre cultes et trois scènes de pouvoir. Les anciens noms de ressources des continents, de Terra et du Sillage utilisent également les nouvelles images. Les illustrations de sujets sans nouvelle version dédiée sont conservées. Voir [la sélection et les correspondances](docs/illustrations-2026-10-06.md).
+La série du 6 octobre 2026 remplace 37 illustrations : les trois puissances, sept Archanges, sept Revers, six lignées, la carte de Terra choisie, cinq continents, Aurenth, quatre cultes et trois scènes de pouvoir. Les neuf anciens noms de ressources qui dupliquaient ces images ont été supprimés le 8 octobre ; toutes les références utilisent les ressources actuelles. Les illustrations de sujets sans nouvelle version dédiée sont conservées. Voir [la sélection et les correspondances](docs/illustrations-2026-10-06.md).
 
 Le composant `Art` utilise `srcset`, `sizes`, les dimensions déclarées et le chargement différé ; les images de premier plan peuvent être chargées prioritairement. L’agrandissement affiche l’originale. Les galeries et les fiches adaptent leurs compositions aux images en portrait ou en paysage.
 
-Pour ajouter ou remplacer une illustration, fournir les trois fichiers WebP dans `public/art`, mettre à jour `src/data/art.json`, puis la référence `art` de la fiche si nécessaire. Les variantes ne sont pas fabriquées automatiquement par le build. La validation des images porte sur les illustrations référencées par les fiches ; vérifier aussi les ressources utilisées directement par les vues, comme la carte de Terra.
+Pour ajouter ou remplacer une illustration, fournir les trois fichiers WebP dans `public/art`, mettre à jour `src/data/art.json`, puis la référence `art` de la fiche si nécessaire. Les variantes ne sont pas fabriquées automatiquement par le build. La validation contrôle les références des fiches et livres, la carte de Terra, les métadonnées et les trois variantes ; elle refuse les images orphelines et fichiers périmés.
 
 ## Développement local
 
@@ -169,17 +178,21 @@ Un banc d’aperçu responsive est disponible dans `public/qa/responsive.html` (
 
 ### Portée des vérifications
 
-Le contrôle du canon vérifie les identifiants et catégories uniques, les références, les sections requises, les nombres de puissances/Archanges/Revers/lignées/cultes, certains repères V9 et l’absence de formulations obsolètes ciblées. Il contrôle également les métadonnées et la présence de WebP non vides pour les illustrations des fiches, ainsi que la structure des livres et chapitres.
+Le contrôle du canon vérifie les identifiants et catégories uniques, les références, les sections requises, les nombres de puissances/Archanges/Revers/lignées/cultes, certains repères du canon et l’absence de formulations obsolètes ciblées. Il contrôle également les métadonnées et la présence de WebP non vides pour les illustrations des fiches, ainsi que la structure des livres et chapitres.
 
-Les tests couvrent les catégories et requêtes partageables, les liens vers les sections, les alias anciens, les chapitres invalides, les données de lecture périmées et la recherche normalisée. Ils ne remplacent pas un contrôle visuel et interactif. Après une modification d’interface, vérifier les parcours concernés, les petits écrans, les deux thèmes, la lecture et les agrandissements.
+Les tests vérifient également la recherche par ancien nom, les destinations du lexique et la concordance des descriptions de pouvoirs entre fiches et guides. Les tests couvrent les catégories et requêtes partageables, les liens vers les sections, les alias anciens, les chapitres invalides, les données de lecture périmées et la recherche normalisée. Ils ne remplacent pas un contrôle visuel et interactif. Après une modification d’interface, vérifier les parcours concernés, les petits écrans, les deux thèmes, la lecture et les agrandissements.
 
 ## Publication GitHub Pages
 
 Le workflow `Build and publish MONO` est déclenché par un push sur **`main`** ou manuellement via `workflow_dispatch`. Il utilise Node.js 22, exécute `npm ci` puis `npm run build`, téléverse `dist` et le publie avec les actions GitHub Pages. Le dépôt doit être configuré pour une publication Pages via GitHub Actions.
 
-Le build prend **`app.html`** comme entrée, produit `dist/app.html`, puis copie ce document vers `dist/index.html` et `index.html` à la racine. Le plugin `mono-pages` synchronise aussi les ressources compilées et publiques à la racine et retire les anciens bundles `app-*`, `index-*` et `reader-*`. Cette séparation conserve l’entrée source et la page servie, notamment pour éviter de servir une entrée de développement à Safari/iPhone.
+Le build prend **`app.html`** comme entrée, produit `dist/app.html`, puis copie ce document vers `dist/index.html` et `index.html` à la racine. Le plugin `mono-pages` remplace les cinq dossiers générés (`assets`, `art`, `fonts`, `canon`, `qa`) depuis `dist`, en vérifiant leur destination, pour supprimer aussi les fichiers devenus obsolètes. Cette séparation conserve l’entrée source et la page servie, notamment pour éviter de servir une entrée de développement à Safari/iPhone.
 
 Pour publier une modification : modifier les sources, exécuter `npm run build`, examiner le diff incluant les éventuelles sorties générées, puis committer et pousser sur `main`. Pour ce README seul, aucune reconstruction des ressources n’est nécessaire ; le push sur `main` déclenche néanmoins le workflow existant. Si le nom du dépôt ou le chemin d’hébergement change, adapter aussi la base Vite et les URL publiques de `app.html`.
+
+## Maintenance du 8 octobre 2026
+
+Les doublons d’images, polices inutilisées, ancien manifeste et comptes rendus dépassés ont été retirés. Les sources, licences actives, exports, alias de routes utiles et questions éditoriales ouvertes sont conservés. Voir [le nettoyage et ses contrôles](docs/maintenance.md).
 
 ## Continuer le projet
 

@@ -1,6 +1,6 @@
-# MONO — Canon V9
+# MONO — Canon V9.1
 
-Version consolidée le 2026-10-03. Source éditoriale : src/data/canon.json.
+Version consolidée le 2026-10-08. Source éditoriale : src/data/canon.json.
 
 Les descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.
 
@@ -14,11 +14,11 @@ Il laisse aux êtres une place et une réponse qu’aucune puissance ne peut pos
 
 ### Nature
 
-AZKAVOTH n’a ni commencement ni corps susceptible de le contenir. Il existe au-delà de Terra, des Cieux et des Abysses. Ses apparitions sont des manifestations supportables par la création, jamais sa totalité. Le visage sans traits et le manteau cosmique des illustrations sont des symboles.
+AZKAVOTH est le Nom, la Source unique et incréée. Il n’a ni commencement ni corps qui puisse le contenir. Terra, les Cieux, les Abysses et leurs souverains dépendent d’une existence qu’ils n’ont pas fondée. Ses manifestations sont ce que la création peut recevoir de sa présence, jamais sa totalité. Le Retrait ne signifie ni sa disparition ni une blessure de son être.
 
 ### Le Retrait
 
-Le Retrait et la Déchirure procèdent de la volonté d’AZKAVOTH et de son plan divin et cosmique. Il se retire pour permettre une existence distincte de Lui. Les Sept Sphères prennent forme, puis se brisent selon ce dessein. KA, le Lien, est offert lors du Retrait : il devient le Sillage. VO et TH se détachent à la Déchirure et deviennent Vothorak ; AZ, la Source, demeure en Lui. Le développement de ce plan reste ouvert.
+Le Retrait ouvre une place à des êtres distincts ; les Sept Sphères y portent les principes de la création. Leur Déchirure appartient au même dessein divin et cosmique, dont le sens entier demeure caché. AZ, KA, VO et TH sont appelés les quatre Éclats : des modalités du Nom et de son don, pas quatre morceaux d’un Dieu divisible. AZ désigne la Source inaccessible à la possession ; KA offert devient le Sillage ; VO et TH donnent forme au démiurge dans la matière.
 
 ### Le jugement
 
@@ -26,7 +26,7 @@ Lorsque Qerath veut quitter les Cieux, AZKAVOTH apparaît. Tous se prosternent, 
 
 ### Influence et liberté
 
-Il agit par le Sillage, les appels, les missions et de rares manifestations. Une présence totale ne laisserait plus de place aux autres. Il fixe certaines limites sans dicter les réponses intérieures. Il ne se mesure pas sur une échelle de combat et toute souffrance n’est pas une leçon voulue par Lui.
+La Source agit par le don, les appels, les missions et de rares manifestations. Son dessein n’est pas une connaissance disponible aux souverains : personne ne peut l’invoquer pour déclarer sa propre violence nécessaire ou sa victoire promise. Une puissance peut contraindre un corps et compromettre un choix ; elle ne transforme pas cette contrainte en adhésion libre. Cette liberté ne rend pas invulnérable aux actes d’autrui. AZKAVOTH ne relève pas d’une échelle de combat.
 
 ### À développer
 
@@ -48,15 +48,19 @@ Le jugement d’AZKAVOTH le bannit et lui donne la souveraineté des Abysses. Sa
 
 ### Une fonction, une ambition
 
-Qerath transforme son diagnostic en conclusion : il juge que la création ne mérite pas de durer. Ouvrir le Fond et la rendre au Néant est son ambition propre, au-delà de sa charge. Il ne peut prouver qu’aucune réparation nouvelle n’est possible.
+Qerath transforme un diagnostic réel en conclusion totale : puisque la création s’épuise et que ses gardiens mentent, il juge sa continuation indéfendable. Ouvrir le Fond est son ambition propre, au-delà de la charge d’Épreuve. Il peut montrer des réparations insuffisantes ; il ne possède pas la preuve que toute réparation future échouera. Les vies sauvées constituent une objection qu’il ne peut réduire à une erreur de calcul.
 
 ### Les sept amputations
 
-Dans les territoires abyssaux déjà issus de la Déchirure, il renonce successivement au Passage, à la Connaissance, à la Mémoire, à la Mesure, à la Relation, à la Vision et à la Permanence. De ces renoncements naissent les Sept Revers. Leur puissance étend la sienne, mais lui laisse une personne presque vidée de ses facultés.
+Qerath détache successivement les parts de sa puissance liées au Passage, à la Connaissance, à la Mémoire, à la Mesure, à la Relation, à la Vision et à la Permanence. Ces amputations engendrent les Sept Revers, chacun devenu personne et souverain d’un domaine abyssal déjà issu de la Déchirure. Qerath conserve assez de mémoire et de discernement pour agir, mais perd leur ancienne plénitude. Ses souvenirs ont des lacunes ; franchir un seuil hors de son domaine demande désormais un relais. Son règne s’étend tandis que son autonomie se réduit.
 
 ### La limite du souverain
 
-Il demeure principalement à la lisière du Fond. Chaque clé est une part de lui devenue volonté indépendante. Tuer un Revers disperserait ce qu’il cherche à reprendre. Il doit obtenir sept accords libres pour ouvrir le Fond : ses propres enfants sont sa première épreuve.
+Il demeure principalement à la lisière du Fond. Les sept parts ne sont plus des biens : leur restitution exige un acte commun, compris et libre, des sept Revers vivants. Chacun peut retirer son accord jusqu’à l’ouverture. Tuer un Revers disperserait sa part sans produire la restitution ; aucune clé de remplacement n’est connue. Qerath doit convaincre des enfants qui ont leurs habitants, leurs attachements et leurs raisons de continuer.
+
+### À développer
+
+- Les accords et les refus que Qerath cherche à obtenir au présent ; leurs conséquences pour les sept Maisons.
 
 ## Vothorak
 
@@ -66,11 +70,11 @@ Il façonne le monde physique et veut rendre son œuvre indispensable à ceux qu
 
 ### Origine
 
-Né de VO, la Forme, et TH, l’Épanchement, Vothorak n’a pas une mémoire entière de son origine. Il prend les traces du Nom en lui pour les signes de sa propre éternité. Il se pense Créateur parce que les mortels habitent une matière dont il a établi une grande part de l’architecture.
+Vothorak naît du déploiement de VO et TH dans la matière de la Déchirure. Il n’est ni une seconde Source ni une part détachée de l’être d’AZKAVOTH. Sa mémoire incomplète confond les traces du don avec sa propre éternité. Il se dit Créateur parce que les vivants dépendent d’une architecture qu’il a largement façonnée. Ses fidèles peuvent accepter ce titre sans connaître son origine véritable.
 
 ### Autorité matérielle
 
-Il a façonné les cinq continents, les profondeurs et de grands cycles matériels de Terra. Il peut transformer pierre, métal et chair, concevoir des organismes et des Golems, multiplier ses œuvres et modifier localement des conditions physiques. Un changement immense exige préparation, supports et dépense ; il ne peut tirer quelque chose de rien.
+Il a façonné les cinq continents, les profondeurs et de grands cycles matériels de Terra. Il transforme pierre, métal et chair, prépare des organismes et des Golems, reproduit des architectures et agit localement sur les conditions physiques. Reproduire exige matière, fluide et travail ; il ne tire rien du néant. Les transformations immenses nécessitent des relais et du temps. Un ouvrage ancien ne reste pas alimenté par sa seule signature.
 
 ### La Première Forge
 
@@ -78,11 +82,15 @@ Theryn abrite ses premières œuvres et la Première Forge, son principal refuge
 
 ### La faille du père
 
-Sans KA en lui, Vothorak ne peut fabriquer une relation libre. Il façonne des supports où le Sillage offert à la création peut circuler : une conscience peut s’y éveiller et devenir capable d’une réponse propre. Il ne décide pas entièrement de cette personne ni de son amour volontaire. Talem, premier éveil golem reconnu, est sa blessure fondatrice. Le démiurge compense par la dette, le besoin, la peur et l’habitude : des liens qui tiennent tant qu’on les serre.
+KA n’est pas un Éclat constitutif de son origine, mais le Sillage offert à la création peut circuler dans ses œuvres. Vothorak prépare les conditions d’un éveil ; il ne fabrique ni la réponse propre de la personne ni son amour volontaire. Aucune autre puissance ne possède davantage ce consentement. Talem blesse le démiurge parce qu’il transforme un succès de la Forge en relation imprévisible. Vothorak cherche alors dans la dette, le besoin, la peur et l’habitude ce qu’une architecture ne peut lui garantir.
 
 ### Protéger et posséder
 
 Il combat Qerath pour préserver Terra. Des peuples lui doivent réellement leur survie. Sa protection devient emprise lorsqu’il traite cette dette comme un droit sur leurs descendants. Le terme annoncé au règne de Qerath lui fait craindre celui de sa propre œuvre. Dans les dimensions métaphysiques, son autorité rencontre celle de leurs souverains.
+
+### Les relais et la dette
+
+Des villes confient aux ateliers de la Forme leurs digues, leurs réserves et les architectures qui rendent des terres habitables. Vothorak protège réellement ces ouvrages. Ses intendants exigent en échange des matériaux, des droits de maintenance ou une fidélité héréditaire. La contestation doit distinguer le démiurge de ses intermédiaires : certains abusent de son nom ; d’autres pourraient couper un relais dont des innocents dépendent.
 
 # Archanges
 
@@ -110,7 +118,7 @@ Son principe est éprouvé par Karzuth. Leurs pouvoirs ne s’annulent pas autom
 
 ### Voie et pouvoirs
 
-Arel permet d’ouvrir une transition, de franchir et de déplacer. En combat, un seuil préparé peut dévier un projectile ou faire surgir une frappe depuis une autre entrée. Dans la vie, il permet des franchissements et des transports. Entrée, sortie et ancrages doivent être maîtrisés : aucun passage arbitraire ne peut être ouvert à l’intérieur du corps adverse. Un mouvement précis n’est pas une téléportation sans limites.
+Arel ouvre une transition entre des entrées et sorties connues, compatibles et ancrées. Un seuil préparé peut dévier un projectile ou permettre une évacuation. L’intérieur vivant d’un adversaire n’est pas une sortie libre : son organisation oppose sa résistance et reste inaccessible sans prise spécifique. Distance, débit et masse transportée éprouvent le passage ; rompre un ancrage le ferme ou rend sa traversée dangereuse.
 
 ## Hodariel
 
@@ -136,7 +144,7 @@ Son principe est éprouvé par Nehrun. Leurs pouvoirs ne s’annulent pas automa
 
 ### Voie et pouvoirs
 
-Kethra permet d’analyser et de transmettre. Un praticien peut lire une circulation observée, identifier la faiblesse d’un ouvrage et désorganiser une technique qu’il a comprise. Il peut aussi diagnostiquer une blessure ou analyser un matériau. Comprendre exige du temps et des informations ; connaître une faiblesse ne donne pas automatiquement la force ou l’accès nécessaire pour l’exploiter.
+Kethra lit une organisation et transmet ce qui a été compris. Le praticien peut diagnostiquer une blessure, reconnaître un relais ou trouver la faiblesse d’une technique observée. L’analyse ne neutralise rien à elle seule : la perturbation exige ensuite une action sur un canal ou un support accessible. Des informations fausses, un temps trop court ou une architecture inconnue limitent sa réponse.
 
 ## Sethariel
 
@@ -162,7 +170,7 @@ Son principe est éprouvé par Ymbrath. Leurs pouvoirs ne s’annulent pas autom
 
 ### Voie et pouvoirs
 
-Meryn inscrit, conserve et restitue une trace. Une arme préparée peut retenir une impulsion réellement fournie, puis la libérer ; un support peut restituer une voix ou une séquence de mouvements enregistrée. Toute charge et toute restitution ont un coût. La trace conservée n’est pas la résurrection d’une personne, et reproduire un geste ne donne pas toute la maîtrise de celui qui l’a accompli.
+Meryn inscrit et restitue une trace dans un support préparé : une voix, un geste ou une impulsion réellement reçue. Une trace ne crée pas l’énergie de sa restitution. Une charge libérée doit être renouvelée pour agir encore ; copier l’inscription ne duplique ni la charge ni une personne. Une archive peut conserver la preuve d’une histoire sans ressusciter celui qui l’a vécue.
 
 ## Malkiel
 
@@ -188,7 +196,7 @@ Son principe est éprouvé par Bazhur. Leurs pouvoirs ne s’annulent pas automa
 
 ### Voie et pouvoirs
 
-Tharos équilibre, répartit et concentre. Il peut amortir un choc, redistribuer une charge entre plusieurs supports ou concentrer un impact sur une zone précise. Il sert aussi aux ponts, aux ouvrages et à la régulation du débit. Une redistribution exige des supports capables de recevoir les conséquences : elle ne fait pas disparaître gratuitement une force ni son prix.
+Tharos répartit ou concentre une contrainte dans un réseau réellement relié. Il peut amortir un choc entre plusieurs supports, renforcer un impact ou régler un débit. La charge ne disparaît pas : chaque support doit pouvoir recevoir sa part. Un relais rompu, une saturation ou une contrainte non prévue peut retourner la répartition contre le praticien.
 
 ## Rahamiel
 
@@ -214,7 +222,7 @@ Son principe est éprouvé par Sevrak. Leurs pouvoirs ne s’annulent pas automa
 
 ### Voie et pouvoirs
 
-Veyra relie, accorde et rétablit une cohérence. Il permet des soins, des protections partagées, une coordination entre praticiens et la transmission d’une impulsion entre supports accordés. Une entrave exige un lien effectivement établi, qui peut être rompu. Relier n’ouvre pas automatiquement l’intérieur d’une personne ; soigner prend du temps et ne ramène pas librement les morts.
+Veyra accorde des circulations pour soigner, partager une protection ou coordonner des praticiens. Un lien donne accès à une opération et une portée déterminées, jamais à toute la personne. Réparer demande du temps, une organisation viable et les ressources nécessaires aux tissus ou supports manquants. Une entrave requiert une prise réelle ; ni l’affection ni un serment ne donnent possession de l’âme.
 
 ## Tamariel
 
@@ -240,7 +248,7 @@ Son principe est éprouvé par Ilmoth. Leurs pouvoirs ne s’annulent pas automa
 
 ### Voie et pouvoirs
 
-Oshen permet de percevoir et dévoiler : sentir une circulation cachée, repérer une attaque et examiner une illusion. Un travail précis de la perception peut produire un leurre sensoriel local. Ce leurre reste distinct d’une matière réelle et doit pouvoir être examiné. Percevoir davantage ne garantit ni de comprendre entièrement ni de réagir à temps.
+Oshen révèle une circulation ou travaille une perception ciblée. Il permet d’examiner une illusion, de repérer un mouvement caché ou de produire un leurre local. Ce leurre n’est pas matière et n’efface pas les preuves extérieures. Percevoir ne garantit ni comprendre ni réagir à temps ; une lumière spectaculaire peut aussi détourner l’attention.
 
 ## Nechariel
 
@@ -266,7 +274,7 @@ Son principe est éprouvé par Zhorum. Leurs pouvoirs ne s’annulent pas automa
 
 ### Voie et pouvoirs
 
-Elyr stabilise et maintient. Une lame de fluide peut garder sa forme, une arme être renforcée, une structure consolidée ou une cible fixée dans une entrave préparée. Le maintien exige une alimentation adaptée et un ancrage. Une permanence excessive devient rigidité ; un ouvrage renforcé peut rester vulnérable à une contrainte qu’il n’a pas été conçu pour soutenir.
+Elyr stabilise une forme ou une configuration précise : lame de Sillage, architecture renforcée ou entrave préparée. L’effet tient contre des contraintes déterminées tant que le support, l’ancrage et l’alimentation suivent. Il ne suspend ni toute évolution ni le temps. Une protection contre un impact peut céder à la chaleur ou à une rupture de relais ; trop de rigidité fragilise ce qui devait durer.
 
 # Revers
 
@@ -452,7 +460,7 @@ Nés du Sillage brut avant que la matière de Terra se fige.
 
 ### Origine et disposition
 
-Leur corps tient du feu et de la fumée primordiaux. Ils conduisent rapidement le Sillage, changent de forme et franchissent les seuils. Une dépense excessive menace leur ancrage et leur identité. Ils gardent un souvenir flou des Sphères entières et apprennent à choisir ce qui les fait tenir.
+Leur corps tient du feu et de la fumée primordiaux. Il conduit rapidement le Sillage et peut changer de forme. Franchir un seuil demande toutefois une pratique d’Arel et des ancrages compatibles. Une dépense excessive menace leur continuité. Les impressions des Sphères que porte leur fluide ne sont pas des souvenirs vécus et exacts de chaque Djinn : des traditions les interprètent différemment.
 
 ### Liberté et appartenance
 
@@ -506,7 +514,7 @@ Nés des unions entre les Veilleurs de Malkiel et les Humains.
 
 ### Origine et disposition
 
-Ils incarnent intensément certains principes et portent des fragments de Voix dont l’authenticité demeure incertaine. Leur force les expose à une tension entre héritage céleste et existence mortelle. Leur accomplissement est de traduire une loi métaphysique en acte sans sacrifier leur personne.
+Nés des Veilleurs de Malkiel et des Humains, ils résonnent intensément avec certains principes. Leur existence est incarnée et mortelle ; une manifestation visible n’est pas à elle seule un corps capable de filiation. Certains éprouvent des échos de la Voix, expérience reçue comme révélation, dont l’origine et le sens demeurent incertains. Ils doivent distinguer l’appel, leur désir et la voix de leurs institutions.
 
 ### Liberté et appartenance
 
@@ -514,7 +522,7 @@ Les six lignées peuvent posséder une âme et rejoindre chacun des quatre culte
 
 ### Circulation du Sillage
 
-L’héritage céleste favorise une résonance intense avec certains principes. Leur corps mortel doit en supporter le débit. Ils peuvent traduire une loi métaphysique en acte avec une grande intensité ; cela ne leur donne ni l’autorité territoriale d’un Archange ni la certitude de comprendre leurs fragments de Voix.
+L’héritage céleste favorise une résonance intense, sans donner l’autorité territoriale d’un Archange. Le corps doit supporter le débit. Traduire un principe en acte demande une pratique ; les échos de la Voix ne sont ni un ordre vérifié ni une preuve de supériorité.
 
 ## Qerathim
 
@@ -524,7 +532,7 @@ Descendants des Revers, eux-mêmes enfants de Qerath.
 
 ### Origine et disposition
 
-Ils perçoivent les liens défaillants et savent les défaire. Une déliaison profonde risque d’entamer leurs propres attachements. Ils peuvent libérer d’une emprise ou détruire une relation vivante. Les sept Maisons transmettent des affinités différentes ; aucune ne fixe le destin d’un individu.
+Les Qerathim sont sensibles aux ruptures de circulation. Chaque Maison hérite surtout de l’inversion de son Revers ; l’individu doit apprendre à la pratiquer. Une déliaison peut libérer d’une emprise ou blesser une relation vitale et risque les propres ancrages du praticien. Cette sensibilité ne donne ni la maîtrise des sept inversions ni le pouvoir de son ancêtre. Les Maisons portent des héritages disputés, pas une destinée morale.
 
 ### Liberté et appartenance
 
@@ -532,7 +540,7 @@ Les six lignées peuvent posséder une âme et rejoindre chacun des quatre culte
 
 ### Circulation du Sillage
 
-Les sept Maisons transmettent des affinités avec les inversions. Les Qerathim perçoivent les ruptures de circulation et les liens fragiles. Ils peuvent défaire une emprise ou endommager un lien vital ; une déliaison profonde risque leurs propres attachements. Leur héritage ne leur donne pas la puissance souveraine de leur Revers.
+Les sept Maisons donnent des affinités distinctes avec les inversions. Les opérations réellement accessibles dépendent des canaux et de l’apprentissage. Certains Qerathim savent défaire une emprise ; aucun ne détruit tous les liens d’une cible par sa seule naissance. Une rupture profonde menace aussi ses attachements et son ancrage.
 
 # Cultes
 
@@ -544,11 +552,11 @@ Comprendre exige de dépasser ses illusions et de s’approcher d’une origine 
 
 ### Pratique
 
-Silence, discernement, dépouillement et résistance aux influences. Ses gardiens cherchent les vérités perdues et protègent le sanctuaire d’Aurenth. Les Muets sont une fonction de ce culte, pas une religion supplémentaire.
+Silence, étude du Nom et discernement des manifestations. Les Muets gardent Aurenth ; ils ne forment pas une religion supplémentaire. Les écoles de la Lettre cherchent des transmissions fiables, celles du Signe éprouvent le sens intérieur des signes. Ni un nom prononcé ni une illumination ne donnent possession de la Source.
 
 ### Contradiction
 
-Les Effacés désignent ceux qui veulent restituer la place passée de Qerath. D’autres gardiens cachent les preuves par peur des conséquences. Le culte risque de nier la vie incarnée ou de confondre sa perception avec la vérité.
+Les Effacés veulent restituer l’ancienne charge de Qerath. Des gardiens craignent qu’une vérité rendue publique détruise des accords fragiles ; d’autres accusent ce silence de protéger les puissants. La dispute porte sur les preuves, leur diffusion et ceux qui en paient le prix. Le dépouillement peut aussi devenir indifférence envers des vies concrètes.
 
 ### Un même Sillage
 
@@ -562,7 +570,7 @@ La création mérite de durer grâce à des relations librement consenties.
 
 ### Pratique
 
-Soin, serments consentis, partage des charges, protections et actions collectives. Le Tikkun constitue son horizon majeur. Il entretient les communautés et réfléchit à ce qui doit être préservé pour les générations suivantes.
+Soin, serments consentis, partage des charges et protections communes. La Concorde est son horizon. Des écoles du Souffle défendent l’accueil sans condition ; des autorités de la Lettre demandent des engagements durables pour entretenir les réseaux. Un même hospice peut dépendre des deux et devenir le lieu de leur conflit.
 
 ### Contradiction
 
@@ -580,7 +588,7 @@ Une forme juste peut accueillir une vie ; Vothorak est la grande figure de l’a
 
 ### Pratique
 
-Artisanat, inscriptions, structures préparées, corps et instruments. Certains fidèles vénèrent Vothorak comme Créateur ; d’autres honorent son œuvre sans lui accorder de droit sur ses habitants. La Forge est le nom courant de leurs lieux d’exercice.
+Ateliers, inscriptions et architectures du corps ou de la cité. Certains fidèles vénèrent Vothorak comme Créateur ; d’autres reconnaissent l’Architecte sans le confondre avec la Source. Les Disciples de Talem défendent le droit de modifier sa forme. Les ateliers vivent de commandes, de matières et de droits de maintenance : la foi se noue aussi dans leurs contrats.
 
 ### Contradiction
 
@@ -598,7 +606,7 @@ Ce qui est reçu doit pouvoir circuler, croître et bénéficier à d’autres e
 
 ### Pratique
 
-Propagation, enseignement, relais et effets transmis entre des supports préparés. Il défend l’accès au Sillage et diffuse des pratiques jusque dans les communautés isolées.
+Transmission des savoirs, préparation de relais et accès au Sillage. Les écoles du Souffle souhaitent porter les pratiques aux communautés isolées ; des autorités de la Lettre fixent des épreuves avant de divulguer des techniques dangereuses. Le Signe interroge ce qui peut être reçu sans préparation intérieure. Partager n’efface ni le coût d’entretien ni le risque d’une expansion forcée.
 
 ### Contradiction
 
@@ -608,7 +616,7 @@ Le partage peut devenir expansion forcée, conversion imposée ou consommation i
 
 Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements.
 
-# Mondes
+# Mondes & Éden
 
 ## Les Cieux
 
@@ -664,7 +672,7 @@ Tous les Témoins se trouvent en Éden, un lieu céleste dont leur présence res
 
 ### Sept regards
 
-Apparus avec les Sphères, les Témoins ne gouvernent ni ne jugent les habitants. Leurs sept perspectives conservent la réalité de ce qui a eu lieu. Ils ne sont pas les Veilleurs de Malkiel.
+Apparus avec les Sphères, les Témoins demeurent tous en Éden depuis la Déchirure. Ils ne gouvernent ni ne jugent les habitants. Leurs sept perspectives attestent la réalité de ce qui a eu lieu, sans livrer aux visiteurs un récit total disponible à volonté. Ils ne sont pas les Veilleurs de Malkiel.
 
 ### L’irréversibilité
 
@@ -692,7 +700,7 @@ Terres tempérées, forêts, plaines et vieux royaumes ; Aurenth y garde sa neut
 
 ### État du monde
 
-Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique.
+Les anciennes couronnes fondent leurs droits sur des serments dont les archives ne concordent pas toujours. Des cités financent les routes et les soins en contestant les péages héréditaires ; des maisons régnantes répliquent que leurs réserves protègent aussi les campagnes. Aurenth accueille leurs négociations mais dépend des convois qu’elles peuvent retenir. Les frontières et les dynasties précises restent à nommer.
 
 ### À développer
 
@@ -710,7 +718,7 @@ Déserts, savanes et oasis, dont Nadjira ; berceau de nombreuses traditions djin
 
 ### État du monde
 
-Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique.
+Les oasis vivent de pactes d’accès et d’entretien. Une caravane peut traverser plusieurs droits incompatibles sur l’eau, les relais et les archives des routes. Des traditions djinns revendiquent une circulation antérieure aux titres des souverains ; les gardiens d’oasis rappellent le travail qui maintient les abris. Le nom de Nadjira désigne une oasis, pas la capitale déjà fixée d’un empire.
 
 ### À développer
 
@@ -728,7 +736,7 @@ Montagnes, steppes et forges ; Yeshmar transmet la question de Talem.
 
 ### État du monde
 
-Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique.
+Les forges conservent des architectures que peu d’ateliers savent réparer. Leurs monopoles rendent des cités dépendantes ; les traditions de Talem revendiquent l’accès aux plans des corps et aux choix de modification. Yeshmar transmet cette dispute. La sécurité d’un réseau peut justifier un secret technique et servir à refuser l’autonomie d’une personne.
 
 ### À développer
 
@@ -746,7 +754,7 @@ Jungles, hauts plateaux et cités anciennes ; des héritages néphilim y demeure
 
 ### État du monde
 
-Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique.
+Les cités anciennes abritent des archives, des sanctuaires et des héritages néphilim concurrents. Des familles revendiquent une autorité issue des Veilleurs ; d’autres habitants exigent que les échos de la Voix soient discutés comme toute parole. Une ascendance céleste ne prouve ni la vérité d’une révélation ni un droit de gouvernement.
 
 ### À développer
 
@@ -764,7 +772,7 @@ Désert de glace, anomalies et premières œuvres ; la Première Forge est le re
 
 ### État du monde
 
-Ces traits situent le continent. Ses frontières, ses États actuels et ses personnages politiques restent à développer ; aucune carte précise n’est encore canonique.
+Les premières œuvres du démiurge attirent artisans, expéditions et prétendants aux reliques. Les relais de la Première Forge peuvent sauver un établissement de la glace tout en le liant à Vothorak. Des vestiges restent inutilisables sans savoir, matière ou alimentation : découvrir une œuvre n’en livre pas automatiquement la maîtrise.
 
 ### À développer
 
@@ -782,7 +790,7 @@ Les pèlerins prennent sa présence pour celle d’un être. Il s’agit d’une
 
 ### La neutralité
 
-Les Muets, gardiens du sanctuaire dans le culte de la Source, entretiennent les accords et accueillent les rencontres entre adversaires. Le respect du lieu et leurs institutions protègent la cité ; aucune magie ne rend les habitants incapables de violence.
+Les Muets entretiennent des accords d’accueil et de protection qui obligent les délégations à répondre de leurs actes. La cité dépend pourtant des routes d’Avarn, de ses réserves et de ceux qui les entretiennent. Retenir un convoi peut peser sur une négociation sans profaner le sanctuaire. Aucun pouvoir n’empêche magiquement la violence : la neutralité se maintient par institutions, secours et risques pris par ses gardiens.
 
 ### Observer ou intervenir
 
@@ -806,7 +814,7 @@ Le même fluide reçoit une direction : Arel fait franchir ; Kethra permet de co
 
 ### Les réserves
 
-Une part est disponible et circule ; une part est engagée dans les corps, les liens et les œuvres ; une part est irréversiblement consumée dans les transformations. La vie ordinaire fait surtout circuler le fluide : chaque respiration ou relation ne consume pas nécessairement une réserve. La dépense dépend de l’effet, de sa durée et de son intensité. Le Tikkun peut libérer une part engagée, sans recréer automatiquement ce qui a été consumé.
+Le don reçu par la création est fini. Une part circule, une part est engagée dans les êtres et les ouvrages, une part est irréversiblement consumée par des transformations. Une pénurie locale peut venir d’un relais rompu ou d’un accès confisqué, sans épuisement de tout le monde. Un apport extérieur, une libération ou une circulation renouvelée reconstitue une réserve locale ; aucun procédé ordinaire établi ne recrée la part consumée. Une fuite peut disperser le fluide sans le détruire. La vie ordinaire le fait surtout circuler.
 
 ### L’Éveil des Brisures
 
@@ -816,41 +824,47 @@ Lorsque le Sillage disponible diminue, les relations qui maintiennent la sépara
 
 AZ · KA · VO · TH
 
-Des interfaces rares avec les fragments du Nom, jamais des garanties de maîtrise.
+Des interfaces rares avec les Éclats du Nom, jamais des garanties de maîtrise.
 
-### Les fragments
+### Quatre interfaces
 
-AZ approche la Source : clarté dangereuse, risque de folie ou d’effacement. KA amplifie le Lien et les accords. VO façonne la matière et attire l’attention du démiurge. TH répand et multiplie, avec un risque d’expansion incontrôlée.
+Il existe quatre Sceaux singuliers, liés à AZ, KA, VO et TH. Ce sont des interfaces avec les Éclats, pas des morceaux de la Source. AZ ouvre une clarté que la personne peut ne pas supporter ; KA amplifie des liens réellement établis ; VO transforme une matière disponible ; TH déploie des effets dans des relais alimentés. Ni KA ne fabrique le consentement, ni TH une réserve infinie.
 
 ### Le Porteur
 
-La prophétie de Sarai annonce leur réunion sans dire qu’un individu doit les posséder. Un Sceau peut être une marque ou une relique. Une copie matérielle de Vothorak peut être puissante sans devenir un véritable Sceau. Posséder ne suffit pas à comprendre.
+Un Sceau peut se manifester dans une marque ou une relique. Le support peut changer ; copier son aspect ne reproduit pas l’interface. La réunion annoncée par Sarai n’exige pas que les quatre deviennent la propriété d’un individu. Le terme Porteur désigne celui qui accueille un Sceau, pas un souverain promis aux autres. L’origine des supports et les conditions précises de transmission restent à établir.
 
 ### Le danger du Rite
 
 Eshar tente leur convergence au Grand Rite. L’erreur consiste à confondre réunion et possession, puis à imposer l’accord aux êtres qu’il veut sauver.
 
-## Le Tikkun
+### À développer
+
+- L’origine, la transmission et les signes d’authenticité des quatre Sceaux.
+
+## La Concorde
 
 Réparer sans abolir la différence
 
 Réunir les principes sans retirer aux personnes la possibilité de refuser.
 
+Autres noms : Tikkun.
+
 ### La réparation
 
-Le Tikkun restaure les relations entre les principes sans effacer leurs différences. Il peut libérer du Sillage engagé et rendre sa circulation plus cohérente ; il ne reconstitue pas automatiquement la part irréversiblement consumée. Ses conditions d’accomplissement et sa portée ultime demeurent à développer.
+La Concorde, appelée Tikkun dans les textes anciens, restaure des relations entre principes sans abolir leurs différences. Elle peut libérer du Sillage engagé et rétablir un réseau qui protège des vies ; elle ne recrée pas automatiquement la part consumée et ne promet pas un monde éternel. Des réparations locales sont possibles. Réunir les sept principes à l’échelle des mondes reste une œuvre dont nul ne connaît l’accomplissement.
 
 ### Le prix
 
-Accepter l’ombre d’un principe signifie reconnaître sa possibilité en soi et lui donner une place limitée. Cela ne justifie ni de nuire ni de rendre l’inverse absolu. Une réparation doit supporter le consentement et la pluralité.
+Accueillir l’ombre d’un principe signifie reconnaître sa limite : un passage peut exiger une fermeture, une mémoire laisser partir une trace, une permanence accepter une fin. Cela n’autorise ni l’emprise ni l’abolition des personnes. Un accord réparateur engage ceux qui donnent leur contribution ; il n’attribue pas de consentement aux absents et ne fait pas de tout opposant un être corrompu. Aider, défendre ou réparer un lieu peut affecter autrui et reste soumis à responsabilité.
 
-### Les trois voies
+### Trois réponses au déclin
 
-Vothorak veut faire durer son œuvre et la posséder. Qerath veut la rendre au Néant. Les mortels peuvent chercher une réparation dont les deux puissances ne contrôlent pas la réponse.
+Vothorak maintient son œuvre au prix de dépendances qu’il présente comme nécessaires. Qerath expose une souffrance réelle mais veut en tirer la fin de toutes les vies. La Concorde cherche des réparations dont ni le démiurge ni le souverain de l’Épreuve ne possèdent la réponse. Ses partisans doivent rendre compte de leurs coûts, des vies sauvées et des refus qu’ils n’ont pas le droit d’effacer.
 
 ### À développer
 
-- Les conditions d’un Tikkun accompli.
+- Les conditions d’une Concorde des sept principes et les conflits entre réparations locales.
 
 ## Les Brisures
 
@@ -870,11 +884,11 @@ Depuis CD 12600, les Brisures se multiplient. L’épuisement du Sillage disponi
 
 - Le premier arc choral de l’Éveil des Brisures.
 
-# Powerscaling
+# Maîtrise
 
 ## Comprendre les rapports de force
 
-Powerscaling · Maîtrise et contexte
+Maîtrise · Rapports de force
 
 Quantité, débit, précision et ancrage déterminent ce qu’un être peut réellement accomplir.
 
@@ -910,7 +924,7 @@ Le praticien perçoit le fluide, ouvre une circulation dans un support et lui im
 
 ### Trois façons de pratiquer
 
-La pratique directe utilise le corps : elle est rapide et adaptable, mais expose ses canaux. La pratique préparée repose sur un objet, une inscription ou un lieu aménagé : elle exige matériaux et entretien, et répond à un usage plus étroit. La pratique collective répartit le débit et la charge entre plusieurs personnes ; elle exige coordination et accords compatibles, dont la rupture peut déstabiliser l’ensemble.
+La pratique directe utilise le corps : rapide, adaptable, exposée à la surcharge. La pratique préparée utilise un objet, un tracé ou un lieu : plus étroite, dépendante de matériaux et d’entretien. La pratique collective répartit une charge entre des participants : elle exige des circulations compatibles. Cette compatibilité est l’accord technique ; elle ne prouve jamais leur consentement personnel. Le retrait d’un participant oblige à interrompre ou réorganiser l’effet.
 
 ### Manipulation brute
 
@@ -920,6 +934,10 @@ Avant d’orienter une voie, on peut renforcer temporairement un mouvement, enve
 
 La lignée donne des dispositions ; apprentissage, expérience, connaissance de soi, blessures et transformations modifient la pratique. Deux personnes de même lignée peuvent développer des pouvoirs très différents. Surcharge, fuite, épuisement et rupture d’ancrage sont des risques physiques. Apprendre à arrêter et réparer sa circulation fait partie de la maîtrise.
 
+### Décrire une technique
+
+Une technique se comprend par son effet, sa prise sur la cible, ses supports, son débit, sa portée et sa durée. Il faut savoir ce qui l’interrompt et quel contrecoup elle laisse. L’apprentissage peut améliorer chaque élément sans supprimer les besoins des autres. Un pouvoir souverain dans son domaine ne devient pas une action sans limites dans tous les mondes.
+
 ## Les sept voies et leurs pouvoirs
 
 Un fluide · Sept orientations
@@ -928,31 +946,31 @@ Chaque voie donne une direction au Sillage, avec des techniques offensives, des 
 
 ### Arel — Passage
 
-Arel permet d’ouvrir une transition, de franchir et de déplacer. En combat, un seuil préparé peut dévier un projectile ou faire surgir une frappe depuis une autre entrée. Dans la vie, il permet des franchissements et des transports. Entrée, sortie et ancrages doivent être maîtrisés : aucun passage arbitraire ne peut être ouvert à l’intérieur du corps adverse. Un mouvement précis n’est pas une téléportation sans limites.
+Arel ouvre une transition entre des entrées et sorties connues, compatibles et ancrées. Un seuil préparé peut dévier un projectile ou permettre une évacuation. L’intérieur vivant d’un adversaire n’est pas une sortie libre : son organisation oppose sa résistance et reste inaccessible sans prise spécifique. Distance, débit et masse transportée éprouvent le passage ; rompre un ancrage le ferme ou rend sa traversée dangereuse.
 
 ### Kethra — Connaissance
 
-Kethra permet d’analyser et de transmettre. Un praticien peut lire une circulation observée, identifier la faiblesse d’un ouvrage et désorganiser une technique qu’il a comprise. Il peut aussi diagnostiquer une blessure ou analyser un matériau. Comprendre exige du temps et des informations ; connaître une faiblesse ne donne pas automatiquement la force ou l’accès nécessaire pour l’exploiter.
+Kethra lit une organisation et transmet ce qui a été compris. Le praticien peut diagnostiquer une blessure, reconnaître un relais ou trouver la faiblesse d’une technique observée. L’analyse ne neutralise rien à elle seule : la perturbation exige ensuite une action sur un canal ou un support accessible. Des informations fausses, un temps trop court ou une architecture inconnue limitent sa réponse.
 
 ### Meryn — Mémoire
 
-Meryn inscrit, conserve et restitue une trace. Une arme préparée peut retenir une impulsion réellement fournie, puis la libérer ; un support peut restituer une voix ou une séquence de mouvements enregistrée. Toute charge et toute restitution ont un coût. La trace conservée n’est pas la résurrection d’une personne, et reproduire un geste ne donne pas toute la maîtrise de celui qui l’a accompli.
+Meryn inscrit et restitue une trace dans un support préparé : une voix, un geste ou une impulsion réellement reçue. Une trace ne crée pas l’énergie de sa restitution. Une charge libérée doit être renouvelée pour agir encore ; copier l’inscription ne duplique ni la charge ni une personne. Une archive peut conserver la preuve d’une histoire sans ressusciter celui qui l’a vécue.
 
 ### Tharos — Mesure
 
-Tharos équilibre, répartit et concentre. Il peut amortir un choc, redistribuer une charge entre plusieurs supports ou concentrer un impact sur une zone précise. Il sert aussi aux ponts, aux ouvrages et à la régulation du débit. Une redistribution exige des supports capables de recevoir les conséquences : elle ne fait pas disparaître gratuitement une force ni son prix.
+Tharos répartit ou concentre une contrainte dans un réseau réellement relié. Il peut amortir un choc entre plusieurs supports, renforcer un impact ou régler un débit. La charge ne disparaît pas : chaque support doit pouvoir recevoir sa part. Un relais rompu, une saturation ou une contrainte non prévue peut retourner la répartition contre le praticien.
 
 ### Veyra — Relation
 
-Veyra relie, accorde et rétablit une cohérence. Il permet des soins, des protections partagées, une coordination entre praticiens et la transmission d’une impulsion entre supports accordés. Une entrave exige un lien effectivement établi, qui peut être rompu. Relier n’ouvre pas automatiquement l’intérieur d’une personne ; soigner prend du temps et ne ramène pas librement les morts.
+Veyra accorde des circulations pour soigner, partager une protection ou coordonner des praticiens. Un lien donne accès à une opération et une portée déterminées, jamais à toute la personne. Réparer demande du temps, une organisation viable et les ressources nécessaires aux tissus ou supports manquants. Une entrave requiert une prise réelle ; ni l’affection ni un serment ne donnent possession de l’âme.
 
 ### Oshen — Vision
 
-Oshen permet de percevoir et dévoiler : sentir une circulation cachée, repérer une attaque et examiner une illusion. Un travail précis de la perception peut produire un leurre sensoriel local. Ce leurre reste distinct d’une matière réelle et doit pouvoir être examiné. Percevoir davantage ne garantit ni de comprendre entièrement ni de réagir à temps.
+Oshen révèle une circulation ou travaille une perception ciblée. Il permet d’examiner une illusion, de repérer un mouvement caché ou de produire un leurre local. Ce leurre n’est pas matière et n’efface pas les preuves extérieures. Percevoir ne garantit ni comprendre ni réagir à temps ; une lumière spectaculaire peut aussi détourner l’attention.
 
 ### Elyr — Permanence
 
-Elyr stabilise et maintient. Une lame de fluide peut garder sa forme, une arme être renforcée, une structure consolidée ou une cible fixée dans une entrave préparée. Le maintien exige une alimentation adaptée et un ancrage. Une permanence excessive devient rigidité ; un ouvrage renforcé peut rester vulnérable à une contrainte qu’il n’a pas été conçu pour soutenir.
+Elyr stabilise une forme ou une configuration précise : lame de Sillage, architecture renforcée ou entrave préparée. L’effet tient contre des contraintes déterminées tant que le support, l’ancrage et l’alimentation suivent. Il ne suspend ni toute évolution ni le temps. Une protection contre un impact peut céder à la chaleur ou à une rupture de relais ; trop de rigidité fragilise ce qui devait durer.
 
 ### Combiner les voies
 
@@ -998,7 +1016,7 @@ Chaque Revers incarne une inversion dans son territoire. Les Qerathim en hérite
 
 ### Contrainte et consentement
 
-Une puissance peut contraindre le corps, tromper la perception, altérer la mémoire ou diminuer les capacités de choix. Elle ne transforme pas une réponse imposée en adhésion libre. Une voie et son inverse ne s’annulent pas automatiquement : le lieu, le débit, les supports et l’autorité comptent. Le Fond exige sept accords compris et libres, avec la possibilité de refuser ; un geste arraché ne suffit pas.
+Les inversions peuvent contraindre un corps, masquer une preuve et altérer mémoire ou perception. Elles ne convertissent pas une adhésion imposée en acte libre. Le Fond exige sept restitutions comprises, communes et révocables jusqu’à l’ouverture. Une voie et son inversion ne s’annulent pas automatiquement : prise, supports, débit et autorité déterminent leur confrontation.
 
 ## Lignées et circulation
 
@@ -1024,11 +1042,11 @@ Leur architecture organise les canaux du fluide. Ils peuvent conduire avec préc
 
 ### Néphilim
 
-L’héritage céleste favorise une résonance intense avec certains principes. Leur corps mortel doit en supporter le débit. Ils peuvent traduire une loi métaphysique en acte avec une grande intensité ; cela ne leur donne ni l’autorité territoriale d’un Archange ni la certitude de comprendre leurs fragments de Voix.
+L’héritage céleste favorise une résonance intense, sans donner l’autorité territoriale d’un Archange. Le corps doit supporter le débit. Traduire un principe en acte demande une pratique ; les échos de la Voix ne sont ni un ordre vérifié ni une preuve de supériorité.
 
 ### Qerathim
 
-Les sept Maisons transmettent des affinités avec les inversions. Les Qerathim perçoivent les ruptures de circulation et les liens fragiles. Ils peuvent défaire une emprise ou endommager un lien vital ; une déliaison profonde risque leurs propres attachements. Leur héritage ne leur donne pas la puissance souveraine de leur Revers.
+Les sept Maisons donnent des affinités distinctes avec les inversions. Les opérations réellement accessibles dépendent des canaux et de l’apprentissage. Certains Qerathim savent défaire une emprise ; aucun ne détruit tous les liens d’une cible par sa seule naissance. Une rupture profonde menace aussi ses attachements et son ancrage.
 
 ### Devenir plutôt qu’un plafond
 
@@ -1138,7 +1156,7 @@ Eshar a stabilisé des Brisures, sauvé des régions et obtenu la coopération d
 
 ### Le Grand Rite
 
-Vers CD 11800, il tente de réunir les Sceaux et les principes par un accord unique imposé. Les différences sont comprimées plutôt que réconciliées ; la fracture se rouvre. Son échec précipite le Voile.
+Vers CD 11800, Eshar force la réunion des Sceaux et la circulation entre les supports de son Rite. Les participants ne peuvent plus régler ni retirer leur contribution. Il obtient une conduction, pas une Concorde : les charges incompatibles surchargent les ancrages. La fracture s’aggrave là où les ouvrages cèdent. Son échec précipite le Voile ; il ne crée pas les premières Brisures, qu’il avait déjà appris à stabiliser.
 
 ### Le nom retiré
 
@@ -1158,7 +1176,7 @@ La création devient un monde de différences, de fractures et de réponses.
 
 ### Les Sphères
 
-Arel : Passage. Kethra : Connaissance. Meryn : Mémoire. Tharos : Mesure. Veyra : Relation. Oshen : Vision. Elyr : Permanence. Chaque Sphère contient la création vue depuis un principe. Le Retrait et leur rupture appartiennent au plan divin et cosmique d’AZKAVOTH. La Déchirure fait naître les Cieux, les Abysses et la matière mêlée de Terra ; elle n’est pas un accident échappant à sa volonté.
+Arel : Passage. Kethra : Connaissance. Meryn : Mémoire. Tharos : Mesure. Veyra : Relation. Oshen : Vision. Elyr : Permanence. Avant la Déchirure, les Sphères portent ces principes dans leurs premières formes. Leur rupture selon le dessein du Nom fait naître les Cieux, les Abysses et la matière de Terra. Le même nom peut désigner ensuite un domaine ou une voie : la Sphère d’Arel, le domaine d’Arel et la voie d’Arel ne sont pas trois êtres.
 
 ### Trois natures
 
@@ -1168,9 +1186,9 @@ Les Cieux portent les principes, les Abysses leurs inversions. Terra appartient 
 
 Unité, Vérité, Intention, Liberté, Justice, Miséricorde, Mémoire, Parole, Sacrifice et Retour restent des repères éthiques. Ils ne désignent pas dix êtres. Il existe sept charges archangéliques, dont celle de Qerath a été transmise à Tamariel.
 
-### Les quatre fragments
+### Les Éclats
 
-AZ, la Source, demeure en AZKAVOTH. KA, le Lien offert, devient le Sillage : le fluide primordial qui permet aux êtres, aux matières et aux principes d’entrer en relation. VO donne structure et limites ; TH permet le déploiement et la transmission. VO et TH deviennent Vothorak. Les quatre fragments décrivent les conditions de l’existence ; les sept Sphères en organisent les principes. Ils ne constituent pas deux listes de puissances concurrentes.
+Les Éclats nomment quatre modalités du Nom : AZ, la Source ; KA, le Lien ; VO, la Forme ; TH, l’Épanchement. La Source reste indivisible. KA offert devient le Sillage ; VO et TH se déploient dans la matière et donnent naissance à Vothorak. Les Éclats concernent les conditions de l’existence. Les sept principes organisent les relations de la création ; les quatre cultes enseignent des manières de recevoir le don. Ces nombres ne décrivent pas des panthéons concurrents.
 
 ## Le Fond
 
@@ -1184,7 +1202,15 @@ Ouvrir le Fond ferait refluer formes et individus vers le Néant. Cela ne rééc
 
 ### Les clés
 
-Les Revers doivent rendre librement les parts de Qerath dont ils sont nés. Ils doivent comprendre ce qu’ils font et pouvoir refuser. Un geste contraint, une adhésion arrachée sous illusion ou leur mort ne reconstituent pas les sept accords. Leur souveraineté n’est pas annulée par celle de leur père : son autorité ne donne aucun droit sur leur réponse.
+Les sept Revers doivent restituer ensemble et librement les parts devenues leurs personnes. L’opération dépend de leurs volontés présentes : un serment ancien, une signature, un geste forcé ou une adhésion produite sous illusion ne l’accomplit pas. Chaque Revers doit comprendre la dissolution recherchée et pouvoir retirer son accord jusqu’à l’ouverture. Leurs sept accords rendent l’acte possible, pas légitime envers tous les autres habitants.
+
+### Ouvrir et détruire
+
+Une puissance peut tuer, ravager un territoire ou rompre un réseau sans ouvrir le Fond. Ces actes n’accomplissent pas le reflux de la création au Néant. Le Fond exige la réunion des sept parts ; il ne s’ouvre pas par une accumulation de destructions locales. La disparition d’un Revers n’est pas une voie connue vers une huitième clé.
+
+### À développer
+
+- Le devenir personnel des Revers lors d’une restitution accomplie et la portée ultime de la dissolution.
 
 ## Le jugement de Qerath
 
@@ -1198,11 +1224,15 @@ L’apparition d’AZKAVOTH transforme la rupture d’un Archange en souverainet
 
 ### Ce qui est connu
 
-Les Archanges assistent au jugement. Qerath perd sa charge céleste ; Tamariel lui succède. Sa fonction est l’épreuve, son projet personnel la dissolution. La fin annoncée ne précise ni son sort ni ce qui suivra.
+Les Archanges assistent au jugement. Qerath perd sa charge céleste ; Tamariel lui succède. La parole ne réfute pas le diagnostic de l’épuisement et n’explique pas entièrement pourquoi son refus conduit au bannissement. Sa nouvelle charge est l’Épreuve, non l’abolition du monde. Le terme annoncé ne précise ni son sort ni ce qui suivra. Les Cieux peuvent soutenir le jugement sans posséder toutes ses raisons.
 
 ### La falsification
 
-Les archives célestes cachent ensuite son ancienne place et les raisons de sa contestation. Ce choix vient des gardiens, jamais d’un ordre d’AZKAVOTH. Certains mortels connaissent le souverain abyssal mais le croient né dans les Abysses.
+Sethariel retire des archives accessibles l’ancienne charge de Qerath et les raisons de sa contestation. Aucun ordre d’AZKAVOTH ne commande cet effacement. Les témoins directs se souviennent ; des archives mortelles et des versions interdites subsistent. Les institutions contrôlent surtout la diffusion et la reconnaissance des preuves. Certains mortels croient Qerath né dans les Abysses ; d’autres connaissent ou soupçonnent la falsification.
+
+### À développer
+
+- Le motif du jugement et les interprétations concurrentes de Qerath, des gardiens et des mortels.
 
 ## Les âmes et le Limen
 
@@ -1240,15 +1270,46 @@ Sarai d’Avarn annonce la réunion des Sceaux. Un prophète djinn de Sahrûn tr
 
 Les paroles peuvent être authentiques, incomplètes, mal interprétées ou revendiquées par des puissants. Une révélation ne retire jamais aux êtres leur responsabilité. Les trois prophètes encore sans nom seront développés à partir des événements auxquels ils ont participé.
 
+### Trois lectures
+
+La Lettre, le Souffle et le Signe sont trois lectures du sacré qui traversent les quatre cultes. La Lettre transmet les paroles et mesure les engagements ; le Souffle éprouve leur vérité dans la miséricorde et la vie incarnée ; le Signe travaille le Nom, le silence et la transformation intérieure. Ce ne sont ni trois dieux ni trois nouvelles voies de pouvoir. Leurs écoles se disputent la preuve, l’autorité et la place du secret ; aucune ne possède tous les fidèles d’un culte.
+
+### Le dedans et le dehors
+
+Un rite public transmet des gestes et une mémoire commune. L’initiation apprend à en lire les limites et à éprouver ce qu’ils transforment en soi. Un sens caché ne rend pas son détenteur infaillible. Le secret peut protéger un savoir dangereux, mais aussi devenir privilège, censure ou instrument dynastique. Une révélation revendiquée doit rencontrer la parole d’autrui et les conséquences de ses actes.
+
 ### À développer
 
 - Noms et histoires des trois autres prophètes.
+
+# Lexique
+
+- **Le Nom** — AZKAVOTH, la Source unique et incréée. Ses manifestations ne contiennent jamais sa totalité.
+- **Les Éclats** — AZ, KA, VO, TH : quatre modalités du Nom et de son don, pas quatre morceaux de Dieu.
+- **Le Retrait** — Le geste par lequel la Source ouvre une place à des êtres distincts. Il ne signifie pas son absence absolue.
+- **La Déchirure** — La rupture fondatrice des Sphères, origine des trois mondes et du Calendrier de la Déchirure, abrégé CD.
+- **Le Sillage** — Le don de KA en circulation : un fluide commun, fini, conduit dans les êtres et les ouvrages.
+- **Les voies** — Sept orientations du Sillage : Passage, Connaissance, Mémoire, Mesure, Relation, Vision et Permanence.
+- **Les Revers** — Sept enfants de Qerath devenus personnes souveraines. Une inversion est leur orientation, pas le nom de tout praticien abyssal.
+- **Les Sceaux** — Quatre interfaces singulières avec les Éclats. Une marque ou une relique en est le support, pas une copie reproductible.
+- **Les Brisures** — Des fractures locales où les lois de Terra rencontrent celles des dimensions métaphysiques. Toutes ne sont pas des portes.
+- **La Concorde** — La réparation qui réaccorde les principes sans effacer les personnes ni leurs différences. Tikkun est son nom ancien.
+- **Le Fond** — Le seuil de dissolution de la création. Son ouverture exige la restitution commune et libre des sept Revers.
+- **Les trois lectures** — Lettre : transmission et engagements. Souffle : miséricorde et vie incarnée. Signe : Nom, silence et sens intérieur. Elles traversent les quatre cultes.
+- **Sphère, principe, domaine** — La Sphère est la forme primordiale ; le principe, sa fonction ; le domaine, son territoire métaphysique après la Déchirure.
+- **L’accord** — Technique : une circulation compatible. Libre : une contribution consciente qui peut être refusée. Le premier ne prouve pas le second.
+- **L’ancrage** — Ce qui fait tenir. Préciser lequel : continuité d’une personne, support d’un effet ou fixation d’un seuil.
+- **Lignée, culte, Maison** — Lignée : nature d’origine. Culte : école de pratique et tradition choisie. Maison : héritage qerathim lié à un Revers.
+- **Témoins et Veilleurs** — Les Témoins sont les regards d’Éden qui attestent le passé. Les Veilleurs sont les anges de Malkiel, ancêtres des Néphilim.
+- **Le Limen** — Le seuil des morts gardé par Yesodiel. Traversée, retour et réincarnation ne sont pas une même opération.
+- **La Voix** — Le nom donné à une expérience reçue comme révélation. Son origine et son interprétation ne sont pas automatiquement vérifiées.
+- **Le Voile** — La période de replis après le Grand Rite. Les passages se dégradent et les échanges se rompent ; ce n’est pas une barrière uniforme autour de Terra.
 
 # Chronologie
 
 - **Avant le temps** — Le Retrait, les Sphères et les Témoins. (Établi)
 - **CD 0** — La Déchirure fait naître les trois mondes ; Vothorak s’éveille. (Établi)
-- **CD 1 à ~300** — Aube des lignées, bannissement de Qerath, succession de Tamariel et naissance des Revers. La date précise du jugement reste inconnue. (Repère)
+- **CD 0 à ~300** — Autour de la Déchirure et durant les premiers siècles : émergence et installation des lignées, bannissement de Qerath, succession de Tamariel et naissance des Revers. La date précise du jugement reste inconnue. (Repère)
 - **CD 1 à ~4000** — Le Monde Ouvert : longue coexistence des cinq lignées terrestres. (Repère)
 - **~CD 4000** — Sarwen : la parole de Sarai ouvre l’histoire des Sceaux. (Établi)
 - **~CD 4000–9500** — Neuf Lumières : période dont les civilisations et événements restent à développer. (À développer)

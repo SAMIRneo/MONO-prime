@@ -8,7 +8,7 @@ import {
   primarySection,
   type Route,
 } from "./navigation";
-import { matches } from "./search";
+import { matches, entrySearchText, lexiconSearchText } from "./search";
 
 type Entry = (typeof canon.records)[number];
 type Book = (typeof canon.books)[number];
@@ -1177,7 +1177,7 @@ function LoreOrientation() {
           ],
           [
             "La Déchirure",
-            "VO et TH se détachent du Nom. Vothorak naît de la Forme et de l’Épanchement ; il façonne Terra.",
+            "VO et TH se déploient dans la matière. Vothorak naît de la Forme et de l’Épanchement ; la Source demeure indivisible.",
             "cosmogonie",
           ],
           [
@@ -1196,7 +1196,7 @@ function LoreOrientation() {
       </ol>
       <div className="note compact">
         <p>
-          <strong>Trois rôles distincts.</strong> AZKAVOTH est la Source ;
+          <strong>Une Source, des puissances dérivées.</strong> AZKAVOTH est la Source unique ;
           Vothorak est le démiurge de Terra ; Qerath est le souverain banni des
           Abysses. Ces rôles ne forment pas un classement de puissance.
         </p>
@@ -1217,7 +1217,7 @@ function LoreStakes() {
           [
             "qerath",
             "Une charge devenue ambition",
-            "L’épreuve est sa fonction. Ouvrir le Fond pour anéantir la création est son projet personnel. Il lui faut l’accord libre des sept Revers : les tuer ne remplace pas leur consentement.",
+            "Qerath expose un déclin réel, puis en tire la fin de toutes les vies. Ouvrir le Fond exige la restitution libre des sept Revers. Leur accord rendrait l’acte possible ; il ne serait pas celui de tous les habitants.",
           ],
           [
             "vothorak",
@@ -1227,7 +1227,7 @@ function LoreStakes() {
           [
             "tikkun",
             "Réparer sans imposer le salut",
-            "Le Sillage est fini. Le Tikkun cherche une réparation qui préserve la différence et le droit de refuser. Un salut imposé reproduirait le problème qu’il prétend résoudre.",
+            "La Concorde, appelée Tikkun dans les textes anciens, réaccorde les principes sans effacer les personnes. Elle peut sauver un lieu et libérer du Sillage engagé ; elle ne promet pas une réserve infinie ni un monde éternel.",
           ],
         ].map(([id, title, copy]) => (
           <article key={id}>
@@ -1259,6 +1259,38 @@ function LoreStakes() {
     </section>
   );
 }
+function Lexicon() {
+  const [query, setQuery] = useState("");
+  const filtered = canon.lexicon.filter((term) => matches(lexiconSearchText(term), query));
+  const terms = (items: typeof canon.lexicon) => (
+    <dl className="lexicon-grid">
+      {items.map((term) => (
+        <div className="lexicon-term" key={term.id}>
+          <dt><a href={href(term.record)}>{term.term}<Icon name="arrow" /></a></dt>
+          <dd>{term.definition}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+  return (
+    <section id="universe-6" tabIndex={-1}>
+      <SectionHead eyebrow="LE LEXIQUE" title="Un nom. Un sens." copy="Douze repères pour entrer dans MONO. Les distinctions viennent ensuite." />
+      <label className="search-field lexicon-search">
+        <Icon name="search" />
+        <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Sillage, Sceau, Concorde…" aria-label="Filtrer le lexique" />
+      </label>
+      <p className="lexicon-status" role="status">{query.trim() ? `${filtered.length} repère${filtered.length > 1 ? "s" : ""}` : "12 repères essentiels · 8 distinctions"}</p>
+      {terms(query.trim() ? filtered : filtered.filter((term) => term.essential))}
+      {!query.trim() && (
+        <details className="lore-open">
+          <summary>Huit distinctions pour aller plus loin</summary>
+          {terms(filtered.filter((term) => !term.essential))}
+        </details>
+      )}
+      {query.trim() && filtered.length === 0 && <p>Aucun repère. Essayez un nom ou une idée.</p>}
+    </section>
+  );
+}
 function Universe() {
   const [pair, setPair] = useState("ophriel");
   const angel = byId.get(pair)!;
@@ -1285,6 +1317,7 @@ function Universe() {
           "Cultes",
           "Lignées & Sillage",
           "Enjeux",
+          "Lexique",
         ].map((label, i) => (
           <a key={label} href={`#/univers?section=${i}`}>
             <span>{String(i + 1).padStart(2, "0")}</span>
@@ -1457,6 +1490,7 @@ function Universe() {
         </LinkArrow>
       </section>
       <LoreStakes />
+      <Lexicon />
       <section>
         <SectionHead
           eyebrow="LES FONDEMENTS"
@@ -1735,9 +1769,7 @@ function Codex({
     (e) =>
       (group === "tout" || e.category === group) &&
       matches(
-        [e.title, e.subtitle, e.summary, ...e.sections.map((s) => s.text)].join(
-          " ",
-        ),
+        entrySearchText(e),
         query,
       ),
   );
@@ -2104,12 +2136,7 @@ function Search({ query }: { query: string }) {
   const results = active
     ? entries.filter((e) =>
         matches(
-          [
-            e.title,
-            e.subtitle,
-            e.summary,
-            ...e.sections.map((s) => s.text),
-          ].join(" "),
+          entrySearchText(e),
           value,
         ),
       )
@@ -2140,13 +2167,14 @@ function Search({ query }: { query: string }) {
     "sceaux",
     "temoins",
   ].map((id) => byId.get(id)!);
-  const count = results.length + chapters.length;
+  const lexical = active ? canon.lexicon.filter((term) => matches(lexiconSearchText(term), value)) : [];
+  const count = results.length + chapters.length + lexical.length;
   return (
     <div className="content">
       <PageHead
         eyebrow="Recherche"
         title="Suivre un nom, un lieu, une idée."
-        copy={`Cherchez dans les ${entries.length} fiches du Codex et les ${canon.books.reduce((n, b) => n + b.chapters.length, 0)} chapitres des quatre livres.`}
+        copy={`Cherchez dans les ${entries.length} fiches, les ${canon.books.reduce((n, b) => n + b.chapters.length, 0)} chapitres et les ${canon.lexicon.length} repères du lexique.`}
       />
       <div className="search-field search-big">
         <Icon name="search" />
@@ -2165,7 +2193,7 @@ function Search({ query }: { query: string }) {
       </div>
       <p className="search-status" role="status">
         {active
-          ? `${count} résultat${count > 1 ? "s" : ""} · ${results.length} fiche${results.length > 1 ? "s" : ""} et ${chapters.length} chapitre${chapters.length > 1 ? "s" : ""}`
+          ? `${count} résultat${count > 1 ? "s" : ""} · ${results.length} fiche${results.length > 1 ? "s" : ""}, ${chapters.length} chapitre${chapters.length > 1 ? "s" : ""}, ${lexical.length} repère${lexical.length > 1 ? "s" : ""}`
           : "Quelques portes d’entrée"}
       </p>
       {(!active || results.length > 0) && (
@@ -2206,9 +2234,24 @@ function Search({ query }: { query: string }) {
           </div>
         </>
       )}
+      {lexical.length > 0 && (
+        <>
+          <h2 className="search-group">Dans le lexique</h2>
+          <div className="search-results">
+            {lexical.map((term) => (
+              <a key={term.id} className="search-result" href={href(term.record)}>
+                <span className="eyebrow">REPÈRE DU LEXIQUE</span>
+                <h3>{term.term}</h3>
+                <p>{term.definition}</p>
+                <Icon name="arrow" />
+              </a>
+            ))}
+          </div>
+        </>
+      )}
       {active && !count && (
         <div className="empty">
-          <p>Aucun résultat. Essayez un principe ou un fragment du nom.</p>
+          <p>Aucun résultat. Essayez un principe, un Éclat ou un nom du lexique.</p>
           <LinkArrow to="#/codex">Parcourir le Codex</LinkArrow>
         </div>
       )}

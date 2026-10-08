@@ -1,5 +1,9 @@
 import { defineConfig } from 'vite';
-import { cpSync, existsSync, readdirSync, rmSync } from 'node:fs';
+import { cpSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { resolve } from 'node:path';
+import { syncDirectory } from './scripts/sync-publication.mjs';
+const root = fileURLToPath(new URL('.', import.meta.url));
 
 export default defineConfig({
   base:'/MONO-prime/',
@@ -10,20 +14,10 @@ export default defineConfig({
   plugins:[{
     name:'mono-pages',
     closeBundle(){
-      const built = existsSync('dist/app.html') ? 'dist/app.html' : 'dist/index.html';
-      if (existsSync(built)) {
-        cpSync(built,'dist/index.html');
-        cpSync(built,'index.html');
-      }
-      if (existsSync('dist/assets')) {
-        for (const entry of readdirSync('assets',{withFileTypes:true})) {
-          if (entry.isFile() && /^(app|index|reader)-/.test(entry.name)) rmSync('assets/'+entry.name);
-        }
-        cpSync('dist/assets','assets',{recursive:true});
-      }
-      for (const name of ['art','fonts','canon','qa','favicon.svg']) {
-        if (existsSync('dist/'+name)) cpSync('dist/'+name,name,{recursive:true});
-      }
+      cpSync(resolve(root,'dist/app.html'),resolve(root,'dist/index.html'));
+      cpSync(resolve(root,'dist/index.html'),resolve(root,'index.html'));
+      for (const name of ['assets','art','fonts','canon','qa']) syncDirectory(root,name);
+      cpSync(resolve(root,'dist/favicon.svg'),resolve(root,'favicon.svg'));
     }
   }]
 });

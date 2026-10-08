@@ -1,6 +1,6 @@
 # MONO — Illustrations du 6 octobre 2026
 
-La nouvelle sélection reprend les versions 3D peintes travaillées autour d’Arcane, du graphisme de Spider-Verse et du mystère de Sandman. Les images restent des interprétations artistiques du canon V9.
+La nouvelle sélection reprend les versions 3D peintes travaillées autour d’Arcane, du graphisme de Spider-Verse et du mystère de Sandman. Les images restent des interprétations artistiques du canon V9.1.
 
 ## Sélection publiée
 
@@ -14,7 +14,7 @@ La nouvelle sélection reprend les versions 3D peintes travaillées autour d’A
 | Cultes | La Source, Le Lien, La Forme, L’Épanchement |
 | Pouvoir | Le Sillage, La Puissance, Les Brisures |
 
-37 illustrations distinctes sont remplacées. Les ressources historiques `terra`, `avarn`, `sahrun`, `khoram`, `seyra`, `theryn`, `aurenth`, `sillage` et `puissance` reprennent également les nouvelles versions pour éviter d’afficher une ancienne image via ces noms.
+37 illustrations distinctes sont remplacées. Les neuf ressources historiques qui dupliquaient exactement les nouvelles versions ont été retirées le 8 octobre 2026, après comparaison SHA-256 des trois variantes. Les fiches et vues pointent vers les noms actuels.
 
 ## Carte retenue
 

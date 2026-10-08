@@ -1,9 +1,20 @@
-import { readFileSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync, statSync, mkdirSync, writeFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 const d=JSON.parse(readFileSync('src/data/canon.json','utf8'));
 const ids=new Set(d.records.map(e=>e.id));
 const groups=new Set(d.categories.map(g=>g.id));
 const art=JSON.parse(readFileSync('src/data/art.json','utf8'));
+const usedArt=new Set([...d.records.map(e=>e.art),...d.books.map(b=>b.art),'terra-map-v1'].filter(Boolean));
+assert.deepEqual(Object.keys(art).sort(),[...usedArt].sort(),'Unused or missing illustration metadata');
+const expectedArt=[...usedArt].flatMap(name=>['','-small','-medium'].map(suffix=>name+suffix+'.webp'));
+assert.deepEqual(readdirSync('public/art').sort(),expectedArt.sort(),'Missing or obsolete illustration files');
+assert(Array.isArray(d.lexicon)&&d.lexicon.length>0,'Missing lexicon');
+assert.equal(new Set(d.lexicon.map(term=>term.id)).size,d.lexicon.length,'Duplicate lexicon identifier');
+for(const term of d.lexicon){
+ assert(term.id&&term.term&&term.definition,'Incomplete lexicon entry');
+ assert(ids.has(term.record),'Broken lexicon reference '+term.id);
+ assert(typeof term.essential==='boolean','Missing lexicon visibility '+term.id);
+}
 assert.equal(ids.size,d.records.length,'Duplicate record');
 assert.equal(groups.size,d.categories.length,'Duplicate category');
 assert(groups.has('powerscaling'),'Missing Powerscaling category');
@@ -15,6 +26,7 @@ for(const [group,count] of [['puissances',3],['archanges',7],['revers',7],['lign
 for(const e of d.records){
  assert(groups.has(e.category),e.id+' unknown category');
  assert(e.title&&e.summary&&e.sections.length,e.id+' incomplete');
+ assert(Array.isArray(e.aliases)&&e.aliases.every(alias=>typeof alias==='string'&&alias.trim()),e.id+' invalid aliases');
  for(const s of e.sections)assert(s.title&&s.text,e.id+' incomplete section');
  for(const id of e.links)assert(ids.has(id)||groups.has(id),e.id+' broken reference '+id);
  if(e.art){
@@ -43,7 +55,11 @@ assert(d.records.find(e=>e.id==='eshar').open_questions.length>0);
 mkdirSync('public/canon',{recursive:true});
 const header=`# MONO — Canon ${d.version}\n\nVersion consolidée le ${d.updated}. Source éditoriale : src/data/canon.json.\n\nLes descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.\n\n`;
 let lore=header;
-for(const g of d.categories){lore+=`# ${g.label}\n\n`;for(const e of d.records.filter(e=>e.category===g.id)){lore+=`## ${e.title}\n\n${e.subtitle}\n\n${e.summary}\n\n`;for(const s of e.sections)lore+=`### ${s.title}\n\n${s.text}\n\n`;if(e.open_questions.length)lore+=`### À développer\n\n${e.open_questions.map(q=>'- '+q).join('\n')}\n\n`;}}
+for(const g of d.categories){lore+=`# ${g.label}\n\n`;for(const e of d.records.filter(e=>e.category===g.id)){lore+=`## ${e.title}\n\n${e.subtitle}\n\n${e.summary}\n\n`;if(e.aliases.length)lore+=`Autres noms : ${e.aliases.join(', ')}.\n\n`;for(const s of e.sections)lore+=`### ${s.title}\n\n${s.text}\n\n`;if(e.open_questions.length)lore+=`### À développer\n\n${e.open_questions.map(q=>'- '+q).join('\n')}\n\n`;}}
+let lexicon=header+'# Lexique\n\n';
+for(const term of d.lexicon)lexicon+=`## ${term.term}\n\n${term.definition}\n\nFiche : ${d.records.find(e=>e.id===term.record).title}.\n\n`;
+lore+='# Lexique\n\n'+d.lexicon.map(term=>`- **${term.term}** — ${term.definition}`).join('\n')+'\n\n';
+writeFileSync('public/canon/MONO_LEXIQUE.md',lexicon.trimEnd()+'\n');
 lore+='# Chronologie\n\n'+d.eras.map(e=>`- **${e.date}** — ${e.text} (${e.status})`).join('\n')+'\n';
 writeFileSync('public/canon/MONO_CANON_V9.md',lore);
 let stories=header;for(const b of d.books){stories+=`# ${b.title}\n\n${b.subtitle}\n\n`;for(const c of b.chapters)stories+=`## ${c.title}\n\n${c.paragraphs.join('\n\n')}\n\n`;}

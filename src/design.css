@@ -3954,6 +3954,20 @@ figcaption {
   .view-switch button { padding-inline: 8px; font-size: 11px; }
 }
 
+.lexicon-search { max-width: 540px; }
+.lexicon-status { margin: 12px 0 20px; color: var(--muted); font-size: 13px; }
+.lexicon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; margin: 0; }
+.lexicon-term { min-width: 0; padding: 20px 0; border-top: 1px solid var(--line); }
+.lexicon-term dt { font-size: 18px; font-weight: 650; }
+.lexicon-term dt a { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; }
+.lexicon-term dt a:hover { color: var(--accent); }
+.lexicon-term dt svg { width: 16px; height: 16px; flex-shrink: 0; }
+.lexicon-term dd { margin: 8px 0 0; color: var(--muted); overflow-wrap: anywhere; }
+@media (max-width: 620px) {
+  .lexicon-grid { grid-template-columns: minmax(0, 1fr); }
+  .lexicon-term { padding-block: 16px; }
+  .lexicon-term dd { font-size: 15px; }
+}
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
