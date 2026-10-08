@@ -6,16 +6,16 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
-- **État documenté :** direction « Archives du Retrait » du **8 octobre 2026** ; canon **V9.1**, révisé le **8 octobre 2026**.
+- **État documenté :** interface « Journal et index » du **8 octobre 2026** ; canon **V9.1**, révisé le **8 octobre 2026**.
 - **Contenu actuel :** 57 fiches, 11 catégories, 4 livres, 24 chapitres et 20 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes.
 
 ## Parcours et fonctionnalités
 
-Trois destinations composent la navigation permanente : **Explorer**, **Chroniques** et **Codex**. Le logo mène à Explorer. Le guide, l’atlas, le Sillage et les âges sont des parcours contextuels d’Explorer ; la recherche et la collection restent des outils. La même organisation est utilisée dans la barre mobile. Les URL existantes restent valides.
+Trois destinations composent la navigation permanente : **Accueil**, **Chroniques** et **Codex**. Le logo mène à Explorer. Le guide, l’atlas, le Sillage et les âges sont des parcours contextuels d’Explorer ; la recherche et la collection restent des outils. La même organisation est utilisée dans la barre mobile. Les URL existantes restent valides.
 
 | Espace        | Route              | Fonctionnement actuel                                                                                                                                                                                                                                        |
 | ------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Explorer | `#/` | Portail de lore en trois colonnes : portes du monde, inventaire, journal éditorial, extraits des chroniques, puissances interactives, notes de marge, cultes, atlas et lignées. |
+| Accueil | `#/` | Journal de lecture avec sommaire latéral, extrait du premier livre, notes de révision du canon, Aurenth et fiches associées. |
 | Chroniques    | `#/recits`         | Bibliothèque illustrée, reprise de lecture, sommaires dépliables et accès direct aux 24 chapitres.                                                                                                                                                           |
 | Lecture       | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des quatre livres.            |
 | Univers       | `#/univers`        | Guide : origines, mondes, principes, cultes, lignées et Sillage, enjeux ; lexique filtrable de douze repères essentiels et huit distinctions. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Concorde et questions ouvertes du canon. |
@@ -98,13 +98,11 @@ Les récits développent le débat avant le jugement, le départ de Talem et une
 
 ## Direction artistique actuelle
 
-La direction **Archives du Retrait**, adoptée le 8 octobre 2026, s’inspire des portails de MMO et blogs de lore de la fin des années 90 : fond nocturne tramé, cuivre vieilli, vert spectral, typographie de grimoire, petits index à chasse fixe et panneaux à relief discret. Le thème clair prend la forme d’un registre de papier ancien.
+L’interface **Journal et index**, révisée le 8 octobre 2026, privilégie les formes d’un site de lecture personnel : colonne de liens, extraits longs, notes datées, légendes et renvois textuels. Fond d’encre violacée, liens lavande soulignés et titres en EB Garamond ; le thème clair conserve un fond de papier. Les images accompagnent les textes sans bandeau publicitaire.
 
-L’accueil est un journal de lore en trois colonnes. Les extraits viennent des chapitres du canon ; les compteurs reflètent les données réelles. Les notes de révision ne simulent ni communauté, ni activité, ni visiteurs. Les marges réunissent cultes, lignées, atlas et chemins de lecture. Sur téléphone, le journal précède les index. Le Codex, les livres, les fiches, le guide, l’atlas et la lecture partagent cette palette et ces cadres.
+L’accueil ouvre sur le premier livre, puis présente les changements du canon et un repère géographique. Le Codex propose la liste par défaut ; la préférence galerie/liste existante reste respectée. Les résultats de recherche sont des lignes de lecture. Les titres et commandes utilisent les noms des parcours ; les panneaux décoratifs, sigles de navigation, doubles cadres et appels répétés ont été retirés.
 
-**src/design.css est l’unique feuille de style active.** Les styles de l’ancien accueil ont été retirés. EB Garamond porte les titres et les récits ; Verdana et Courier New servent les textes d’interface et les annotations. Les polices locales et leurs licences restent disponibles. Les illustrations existantes sont conservées.
-
-La salle des échos permet de choisir AZKAVOTH, Qerath ou Vothorak. Les liens, la recherche, les agrandissements, les signets et la lecture conservent leurs fonctions. Aucun moteur d’animation ni nouvelle dépendance applicative n’est ajouté. Voir [la direction et ses contrôles](docs/archives-du-retrait-2026-10-08.md).
+**src/design.css reste l’unique feuille de style active.** Aucun ajout au canon ou nouvelle dépendance applicative. Voir [les choix d’interface et les contrôles](docs/interface-journal-2026-10-08.md).
 
 ### Organisation mobile
 
