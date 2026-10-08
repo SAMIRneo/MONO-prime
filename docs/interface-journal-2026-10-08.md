@@ -14,6 +14,8 @@ Sur téléphone le texte précède le sommaire. La navigation inférieure devien
 
 ## Matériaux
 
+Le mot MONO porte une coupure dans son premier O, reprise dans le favicon. Un frontispice réunit les illustrations des Cieux, de Terra et des Abysses, avec des raccords irréguliers. Chaque image ouvre sa page ; la légende distingue le monde physique des domaines métaphysiques. Une lettrine marque le début de l’extrait du Livre I. Ces éléments utilisent les textes et illustrations du canon.
+
 Fond d’encre violacée, liens lavande, titres en EB Garamond, corps Verdana, annotations Courier New. Le thème clair utilise un fond de papier. Les illustrations existantes sont conservées. La feuille active est src/design.css ; les sorties de publication sont générées par le build.
 
 ## Contrôles

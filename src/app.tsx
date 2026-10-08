@@ -332,6 +332,13 @@ function Home() {
       </aside>
       <div className="notebook-pages">
         <header className="notebook-intro"><span className="notebook-path">mono / journal</span><h1>Le Codex de la Déchirure</h1><p>La création de MONO commence par un retrait. De là viennent les mondes, leurs puissances et la liberté de leurs habitants. Les récits et les fiches en suivent les conséquences.</p><p className="start-reading">Pour commencer : <a href="#/lire/livre-1/1">Avant le Temps, chapitre I</a>. Pour les repères : <a href="#/univers">l’introduction</a>.</p></header>
+        <figure className="world-frontispiece">
+          <div className="world-impressions">{["cieux", "terra", "abysses"].map(id => {
+            const world = byId.get(id)!;
+            return <a key={id} href={href(id)} className={"world-impression world-"+id}><Art name={world.art} hero sizes="(max-width: 760px) 33vw, 260px" /><span>{world.title}</span></a>;
+          })}</div>
+          <figcaption>Terra est physique ; les Cieux et les Abysses sont métaphysiques.<br /><a href="#/univers">Lire la cosmologie</a></figcaption>
+        </figure>
         <ReadingTrail />
         <article className="notebook-post chronicle-excerpt">
           <div className="post-date"><span>Lecture / Livre I</span><a href="#/recits">Sommaire des livres</a></div>
@@ -2397,7 +2404,7 @@ export default function App() {
       <header ref={header} className="site-header">
         <a className="brand" href="#/" aria-label="MONO — Accueil">
           <span>
-            MONO<small>LE CODEX DE LA DÉCHIRURE</small>
+            <span className="mono-name">M<span className="broken-o">O</span>NO</span><small>LE CODEX DE LA DÉCHIRURE</small>
           </span>
         </a>
         <nav
