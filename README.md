@@ -6,7 +6,7 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
-- **État documenté :** interface « Journal et index » du **8 octobre 2026** ; canon **V9.1**, révisé le **8 octobre 2026**.
+- **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V9.2**, révisé le **9 octobre 2026**.
 - **Contenu actuel :** 57 fiches, 11 catégories, 4 livres, 24 chapitres et 20 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes.
 
 ## Parcours et fonctionnalités
@@ -86,11 +86,15 @@ Les costumes, couleurs, effets visuels, ornements et équipements des illustrati
 - `public/canon/MONO_RECITS_V9.md` : livres et chapitres ;
 - `public/canon/MONO_LEXIQUE.md` : vingt définitions et leurs fiches.
 
-Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V9.1.
+Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V9.2.
 
 Ces exports sont produits depuis la même source JSON et inclus dans la publication. Le pied de page permet de télécharger le canon complet. **Ne pas modifier les exports à la main** : changer les données, puis les régénérer avec les commandes du projet.
 
-## Révision éditoriale du 8 octobre 2026
+## Révision éditoriale du 9 octobre 2026
+
+La V9.2 corrige l'abstention de Nehrun devant le Fond, distingue les facultés de Qerath de sa charge céleste, donne à Tamariel des actes de révélation et leurs conséquences, précise les bilans du Sillage et établit les premières règles pratiques des Sceaux. Fiches, récits et lexique sont synchronisés. Le casting du présent et les grands mystères restent ouverts. Voir [les correctifs et leurs limites](docs/canon-v9-2-2026-10-09.md).
+
+### Révision précédente du 8 octobre 2026
 
 La V9.1 précise la Source unique et indivisible, les quatre Éclats, les facultés amputées de Qerath, les sept restitutions du Fond, les Sceaux singuliers, le bilan du Sillage et la catastrophe du Grand Rite. La Concorde est le nom courant du Tikkun ; l’identifiant et la route `tikkun` restent valides. Lettre, Souffle et Signe sont trois lectures du sacré qui traversent les quatre cultes, sans ajouter trois écoles de pouvoir. Le Voile reste le nom de la période historique.
 

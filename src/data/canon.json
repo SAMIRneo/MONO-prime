@@ -1,7 +1,7 @@
 {
-  "version": "V9.1",
+  "version": "V9.2",
   "title": "Le Codex de la Déchirure",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "records": [
     {
       "id": "azkavoth",
@@ -64,6 +64,10 @@
         {
           "title": "La limite du souverain",
           "text": "Il demeure principalement à la lisière du Fond. Les sept parts ne sont plus des biens : leur restitution exige un acte commun, compris et libre, des sept Revers vivants. Chacun peut retirer son accord jusqu’à l’ouverture. Tuer un Revers disperserait sa part sans produire la restitution ; aucune clé de remplacement n’est connue. Qerath doit convaincre des enfants qui ont leurs habitants, leurs attachements et leurs raisons de continuer."
+        },
+        {
+          "title": "Charge, facultés et souveraineté",
+          "text": "Garder Oshen ne signifiait pas être constitué de la seule Vision. Comme les autres Archanges, Qerath pouvait se souvenir, apprendre, nouer des relations, se déplacer et maintenir sa continuité ; exercer ces facultés ne lui donnait pas la souveraineté des six autres domaines célestes. Sa charge désignait la garde de la Vision. Le jugement lui confie ensuite les Abysses, dont les sept territoires existaient depuis la Déchirure. Ses amputations y font de parts de puissance des personnes capables de gouverner les inversions : elles ne lui attribuent pas rétroactivement sept charges célestes. Aucun rite reproductible permettant à un autre être de créer sept Revers n’est établi."
         }
       ],
       "art": "qerath",
@@ -74,7 +78,8 @@
         "jugement"
       ],
       "open_questions": [
-        "Les accords et les refus que Qerath cherche à obtenir au présent ; leurs conséquences pour les sept Maisons."
+        "Les accords et les refus que Qerath cherche à obtenir au présent ; leurs conséquences pour les sept Maisons.",
+        "Le mécanisme singulier par lequel les amputations ont donné naissance aux Revers, distinct de la transmission d’une charge."
       ],
       "aliases": []
     },
@@ -336,6 +341,10 @@
         {
           "title": "Voie et pouvoirs",
           "text": "Oshen révèle une circulation ou travaille une perception ciblée. Il permet d’examiner une illusion, de repérer un mouvement caché ou de produire un leurre local. Ce leurre n’est pas matière et n’efface pas les preuves extérieures. Percevoir ne garantit ni comprendre ni réagir à temps ; une lumière spectaculaire peut aussi détourner l’attention."
+        },
+        {
+          "title": "Ce qu’il a rendu public",
+          "text": "Après la succession, Tamariel fait transmettre des relevés de réserves avec leurs conditions de mesure et les incertitudes des prévisions. Des ateliers et des communautés en conservent des copies : le déclin ne demeure pas un secret intégral. Il conteste aussi les versions qui présentent Qerath comme né dans les Abysses. Sa garde d’Oshen ne lui donne pourtant ni la maîtrise des archives de Meryn ni le gouvernement des institutions terrestres. Des autorités refusent les pièces, en limitent la diffusion ou les utilisent pour confisquer des réserves. Ses révélations rendent des décisions possibles sans imposer une histoire reconnue partout. Il doit répondre des dangers de leur diffusion et de ceux qu’un retard expose."
         }
       ],
       "art": "tamariel",
@@ -345,7 +354,9 @@
         "jugement",
         "sept-voies"
       ],
-      "open_questions": [],
+      "open_questions": [
+        "Les communautés qui conservent ses relevés et les conflits du présent autour de leur reconnaissance."
+      ],
       "aliases": []
     },
     {
@@ -434,7 +445,7 @@
         },
         {
           "title": "Devant le Fond",
-          "text": "Il refuse de connaître tout le projet de Qerath. Son abstention protège son calme et laisse les autres décider."
+          "text": "Il refuse de connaître tout le projet de Qerath. Son abstention protège son calme et laisse les autres mener leurs conflits, mais elle ne vaut pas accord. Tant qu’il ne comprend pas la dissolution recherchée et ne choisit pas sa restitution, l’ouverture du Fond demeure impossible. Qerath doit obtenir une réponse de celui qui refuse même la question."
         },
         {
           "title": "La Maison",
@@ -1282,7 +1293,7 @@
         },
         {
           "title": "La falsification",
-          "text": "Sethariel retire des archives accessibles l’ancienne charge de Qerath et les raisons de sa contestation. Aucun ordre d’AZKAVOTH ne commande cet effacement. Les témoins directs se souviennent ; des archives mortelles et des versions interdites subsistent. Les institutions contrôlent surtout la diffusion et la reconnaissance des preuves. Certains mortels croient Qerath né dans les Abysses ; d’autres connaissent ou soupçonnent la falsification."
+          "text": "Sethariel retire des archives accessibles l’ancienne charge de Qerath et les raisons de sa contestation. Aucun ordre d’AZKAVOTH ne commande cet effacement. Les témoins directs se souviennent ; des archives mortelles et des versions interdites subsistent. Les institutions contrôlent surtout la diffusion et la reconnaissance des preuves. Certains mortels croient Qerath né dans les Abysses ; d’autres connaissent ou soupçonnent la falsification. Tamariel conteste cet effacement et transmet des relevés du déclin ; la circulation de pièces contradictoires ne suffit pas à faire reconnaître partout la même histoire."
         }
       ],
       "art": "jugement",
@@ -1318,6 +1329,14 @@
         {
           "title": "L’Éveil des Brisures",
           "text": "Lorsque le Sillage disponible diminue, les relations qui maintiennent la séparation des dimensions deviennent instables. Des tensions concentrent localement le fluide : cette recompression peut provoquer une Brisure. Une fracture peut ouvrir une réserve jusque-là inaccessible, mais aussi exposer le lieu à d’autres lois métaphysiques. Elle ne garantit ni salut ni destruction immédiate."
+        },
+        {
+          "title": "Circuler, engager, consumer",
+          "text": "Dans un circuit de conservation, une part du fluide demeure engagée tant que le support fonctionne ; démonter correctement l’ouvrage peut en rendre une partie disponible. Une rupture peut au contraire disperser du fluide encore existant mais difficile à récupérer. Certaines transformations incorporent irréversiblement une part du don à leur effet : cette part ne revient pas à la réserve lorsque l’effet cesse. Toute dépense apparente n’est donc pas une disparition. Le bilan d’une technique distingue le fluide restitué, engagé, dispersé et consumé ; ses pertes ne se déduisent pas de sa seule apparence."
+        },
+        {
+          "title": "Constater le déclin",
+          "text": "Des ateliers comparent les apports, les retraits et le fluide récupérable d’un même réseau dans des conditions comparables. Une baisse isolée peut révéler un relais défaillant ou un détournement ; des bilans concordants sur plusieurs réseaux étayent un déclin plus large. Qerath découvre une tendance durable, pas une date certaine de la fin du monde. Des réserves encore abondantes, des réparations locales et des accès inégaux permettent une longue coexistence avec cette baisse. L’accumulation des pertes et des immobilisations rend ensuite les réseaux plus fragiles ; guerres, monopoles et entretien insuffisant aggravent certaines crises sans être la cause unique de l’épuisement."
         }
       ],
       "art": "sillage-fluide-v1",
@@ -1327,7 +1346,9 @@
         "lignees-sillage",
         "economie-sillage",
         "tikkun",
-        "brisures"
+        "brisures",
+        "qerath",
+        "tamariel"
       ],
       "open_questions": [],
       "aliases": []
@@ -1385,11 +1406,19 @@
         },
         {
           "title": "Le Porteur",
-          "text": "Un Sceau peut se manifester dans une marque ou une relique. Le support peut changer ; copier son aspect ne reproduit pas l’interface. La réunion annoncée par Sarai n’exige pas que les quatre deviennent la propriété d’un individu. Le terme Porteur désigne celui qui accueille un Sceau, pas un souverain promis aux autres. L’origine des supports et les conditions précises de transmission restent à établir."
+          "text": "Un Sceau peut se manifester dans une marque ou une relique. Chaque interface singulière ne possède qu’un support actif à la fois ; copier son aspect ne la reproduit pas. Le support peut changer sans que deux copies deviennent deux Sceaux du même Éclat. Le terme Porteur désigne celui qui accueille un Sceau, pas un souverain promis aux autres. Détenir une relique ne suffit pas à devenir Porteur. La réunion annoncée par Sarai n’exige pas que les quatre deviennent la propriété d’un individu."
         },
         {
           "title": "Le danger du Rite",
           "text": "Eshar tente leur convergence au Grand Rite. L’erreur consiste à confondre réunion et possession, puis à imposer l’accord aux êtres qu’il veut sauver."
+        },
+        {
+          "title": "Accueillir, refuser, transmettre",
+          "text": "Un Porteur peut refuser d’engager sa contribution ; un accord antérieur n’autorise pas à la maintenir contre sa volonté présente. Ce refus ne détruit pas le Sceau et n’efface pas un effet déjà accompli. Des corps et des relais peuvent être contraints à conduire, comme au Grand Rite, mais cette conduite ne produit pas une adhésion libre. La mort d’un Porteur ne transmet automatiquement le Sceau ni au meurtrier ni à un héritier. Tant qu’aucun nouveau support actif n’est établi, sa disponibilité reste inconnue : une succession ne peut être déduite d’un titre ou de la possession du corps. Les conditions précises de changement de support restent ouvertes."
+        },
+        {
+          "title": "Reconnaître une interface",
+          "text": "Une marque, une lumière ou un effet puissant ne constitue pas une preuve suffisante. L’examen confronte la provenance du support, les témoignages et des effets observables compatibles avec l’Éclat, en recherchant les relais cachés et les illusions. Un effet isolé peut être imité par une pratique ordinaire ; aucun test infaillible n’est établi. Une technique apprise organise le Sillage dans des canaux préparés ; un Sceau donne une liaison singulière avec un Éclat, que l’apprentissage et la copie ne fabriquent pas. Cette liaison ne fournit ni réserve infinie, ni maîtrise universelle, ni autorité sur les personnes."
         }
       ],
       "art": "sceaux",
@@ -1400,7 +1429,8 @@
         "tikkun"
       ],
       "open_questions": [
-        "L’origine, la transmission et les signes d’authenticité des quatre Sceaux."
+        "L’origine des supports et les conditions précises de changement de Porteur.",
+        "Le devenir d’un Sceau après la mort de son Porteur et les procédures d’authentification encore disputées."
       ],
       "aliases": []
     },
@@ -1875,7 +1905,7 @@
       "sections": [
         {
           "title": "Des réserves locales",
-          "text": "Le Sillage disponible est inégalement accessible. Des supports préparés peuvent retenir une quantité limitée de fluide, puis la délivrer. Le stockage perd progressivement une part de sa disponibilité et exige de l’entretien ; il ne permet ni accumulation parfaite ni transport gratuit. Une réserve ne remplace pas la capacité à conduire son débit."
+          "text": "Le Sillage disponible est inégalement accessible. Des supports préparés peuvent retenir une quantité limitée de fluide, puis la délivrer. Le stockage perd progressivement une part de sa disponibilité et exige de l’entretien ; il ne permet ni accumulation parfaite ni transport gratuit. Une réserve ne remplace pas la capacité à conduire son débit. Une baisse de disponibilité ne prouve pas à elle seule une consommation irréversible : une inspection doit rechercher immobilisation, dispersion, défaut de relais ou confiscation. Les relevés distinguent ces causes avant de justifier un rationnement."
         },
         {
           "title": "Ce qui s’échange",
@@ -1954,7 +1984,8 @@
           "title": "Les sept gardes",
           "paragraphs": [
             "Sept charges veillèrent sur les principes célestes. Ophriel garda Arel ; Hodariel, Kethra ; Sethariel, Meryn ; Malkiel, Tharos ; Rahamiel, Veyra ; Qerath, Oshen ; Nechariel, Elyr.",
-            "Ils pouvaient quitter leurs domaines, mais n’emportaient pas toute leur autorité avec eux. Les anges transmettaient leurs appels. Les mortels pouvaient y répondre, les discuter ou les refuser. Garder la création ne donnait pas le droit de posséder ses habitants."
+            "Ils pouvaient quitter leurs domaines, mais n’emportaient pas toute leur autorité avec eux. Les anges transmettaient leurs appels. Les mortels pouvaient y répondre, les discuter ou les refuser. Garder la création ne donnait pas le droit de posséder ses habitants.",
+            "Une charge ne résumait pas tout l’être qui la portait. Le gardien de la Vision pouvait apprendre et se souvenir sans gouverner les domaines de la Connaissance et de la Mémoire. Les facultés d’une personne et l’autorité d’un territoire demeuraient distinctes."
           ]
         }
       ]
@@ -1969,7 +2000,7 @@
           "id": "livre-2-1",
           "title": "Ce que Qerath avait vu",
           "paragraphs": [
-            "Qerath fit porter une tablette au conseil. Les réserves qu’elle décrivait n’étaient pas encore vides ; elles diminuaient d’une manière que les soins et les ouvrages ne suffisaient plus à compenser. Il posa le relevé devant Hodariel.",
+            "Qerath fit porter une tablette au conseil. Elle confrontait les apports, les retraits et le fluide récupérable de plusieurs réseaux. Les réserves n’étaient pas encore vides ; leurs bilans diminuaient d’une manière que les réparations locales ne suffisaient plus à compenser. Une route coupée n’expliquait pas toutes les pertes. Il posa le relevé devant Hodariel.",
             "« Qu’avons-nous promis aux vivants ? » demanda-t-il. Hodariel répondit que les chiffres demandaient encore une lecture commune. Malkiel voulait que les ateliers et les soigneurs soient avertis. D’autres gardiens craignaient qu’un souverain terrestre saisisse les réserves de son voisin avant même de comprendre le relevé.",
             "« Si nous parlons ce soir, des villes peuvent se battre demain », dit Hodariel. Qerath retourna la tablette. Sur son revers figuraient les charges déjà refusées à des communautés sans défense. « Et si nous nous taisons, qui paie cette nuit ? »",
             "Il ne proposait pas encore le Fond. Il demandait une parole vérifiable, avec les limites des prévisions. Lorsqu’aucune date d’annonce ne fut convenue, il refusa de poursuivre sa charge dans ce silence et déclara qu’il quitterait les Cieux."
@@ -1990,7 +2021,8 @@
           "title": "La succession et l’effacement",
           "paragraphs": [
             "Tamariel avait appris de Qerath à distinguer la vérité du désir de croire. Il reçut Oshen après son départ. Il reconnaissait les fractures ; il refusait d’en conclure que toute existence devait finir.",
-            "Sethariel retira des archives la place ancienne de Qerath et les raisons de sa contestation. Il croyait préserver l’ordre. Il ne pouvait effacer les faits, ni oublier son propre acte. Les Cieux conservèrent une histoire officielle ; les mondes, des traces qui la contredisaient."
+            "Sethariel retira des archives la place ancienne de Qerath et les raisons de sa contestation. Il croyait préserver l’ordre. Il ne pouvait effacer les faits, ni oublier son propre acte. Les Cieux conservèrent une histoire officielle ; les mondes, des traces qui la contredisaient.",
+            "Tamariel fit porter aux ateliers des copies des relevés, avec leurs limites. Certains réduisirent leurs pertes ; d’autres virent leurs réserves saisies au nom du danger annoncé. Il contesta les récits qui faisaient naître Qerath dans les Abysses. Mais Oshen ne lui donnait pas les clés des archives de Meryn, et sa parole ne gouvernait pas les cités. Des communautés gardèrent ses pièces ; des autorités refusèrent de les reconnaître. Dire la vérité ouvrait un conflit dont il devait aussi assumer les conséquences."
           ]
         },
         {
@@ -1998,6 +2030,7 @@
           "title": "Les sept amputations",
           "paragraphs": [
             "Qerath descendit dans les territoires abyssaux. Il détacha sa puissance de Passage : Karzuth naquit. Il céda la part du savoir qu’il ne voulait plus porter : Nehrun naquit. Puis vinrent Ymbrath, Bazhur, Sevrak, Ilmoth et Zhorum.",
+            "Il ne s’était pas autrefois partagé les sept charges des Cieux. Dans les Abysses qui lui avaient été confiés, il renonçait à la plénitude de facultés dont sa garde de la Vision n’avait jamais été l’unique composante. Les parts devenues personnes reçurent une existence et des domaines propres. Aucun autre gardien ne connaissait de méthode pour répéter cet acte.",
             "Chaque enfant était une part de puissance devenue quelqu’un. Qerath conserva une mémoire et une lucidité blessées ; il ne pouvait plus les exercer dans leur ancienne plénitude. Des souvenirs lui échappaient. Pour atteindre un domaine éloigné, il devait demander un seuil qu’il aurait autrefois ouvert.",
             "Leurs domaines étendaient son règne. Leurs décisions limitaient désormais ses actes. Il leur avait donné une existence, pas un devoir de la lui rendre."
           ]
@@ -2016,7 +2049,8 @@
           "paragraphs": [
             "Qerath voulait rendre la création au Néant. Son jugement lui avait confié l’Épreuve ; il en tirait désormais la conviction que rien ne méritait de durer.",
             "Le Fond demandait sept restitutions accomplies ensemble. Chacun de ses enfants devait comprendre l’acte et pouvoir encore le refuser. Un ordre exécuté n’aurait pas réuni les parts devenues personnes.",
-            "Karzuth avait des refuges à garder ; Sevrak, des domaines ; les autres, des raisons que Qerath ne pouvait plus résumer par son propre désespoir. Même leur accord n’aurait pas été celui des habitants qu’ils auraient condamnés. Le souverain pouvait rechercher l’ouverture ; il ne pouvait l’appeler le consentement de la création."
+            "Karzuth avait des refuges à garder ; Sevrak, des domaines ; les autres, des raisons que Qerath ne pouvait plus résumer par son propre désespoir. Même leur accord n’aurait pas été celui des habitants qu’ils auraient condamnés. Le souverain pouvait rechercher l’ouverture ; il ne pouvait l’appeler le consentement de la création.",
+            "Nehrun pouvait laisser ses frères discuter ; il ne pouvait leur déléguer sa compréhension de l’acte. Son abstention empêchait sa restitution. Tant qu’il refusait la question, leur volonté commune ne pouvait être réunie."
           ]
         }
       ]
@@ -2108,7 +2142,8 @@
           "title": "La parole de Sarai",
           "paragraphs": [
             "À l’aube de Sarwen, Sarai d’Avarn annonça : « Les Sceaux se rejoindront lorsque personne ne pourra plus les tenir pour siens. »",
-            "Les souverains entendirent la promesse d’un Porteur unique. Ils cherchèrent des héritiers, des reliques et des preuves. D’autres y virent un usage partagé. Une prophétie offrait une possibilité et ses conditions ; elle ne retirait à personne la liberté de mal la comprendre."
+            "Les souverains entendirent la promesse d’un Porteur unique. Ils cherchèrent des héritiers, des reliques et des preuves. D’autres y virent un usage partagé. Une prophétie offrait une possibilité et ses conditions ; elle ne retirait à personne la liberté de mal la comprendre.",
+            "Une marque copiée et une relique saisie ne suffisaient pas. Chaque Sceau n’avait qu’un support actif ; devenir Porteur ne se déduisait ni d’une naissance ni d’un titre. Les effets pouvaient être examinés, mais un prodige isolé ne prouvait pas leur origine. Une transmission exigeait davantage que le récit de ceux qui la revendiquaient."
           ]
         },
         {
@@ -2292,7 +2327,7 @@
     {
       "id": "sceaux",
       "term": "Les Sceaux",
-      "definition": "Quatre interfaces singulières avec les Éclats. Une marque ou une relique en est le support, pas une copie reproductible.",
+      "definition": "Quatre interfaces singulières avec les Éclats, chacune liée à un seul support actif. Détenir ou copier une relique ne suffit pas à devenir Porteur.",
       "record": "sceaux",
       "essential": true
     },

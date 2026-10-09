@@ -1,6 +1,6 @@
-# MONO — Canon V9.1
+# MONO — Canon V9.2
 
-Version consolidée le 2026-10-08. Source éditoriale : src/data/canon.json.
+Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
 Les descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.
 
@@ -58,9 +58,14 @@ Qerath détache successivement les parts de sa puissance liées au Passage, à l
 
 Il demeure principalement à la lisière du Fond. Les sept parts ne sont plus des biens : leur restitution exige un acte commun, compris et libre, des sept Revers vivants. Chacun peut retirer son accord jusqu’à l’ouverture. Tuer un Revers disperserait sa part sans produire la restitution ; aucune clé de remplacement n’est connue. Qerath doit convaincre des enfants qui ont leurs habitants, leurs attachements et leurs raisons de continuer.
 
+### Charge, facultés et souveraineté
+
+Garder Oshen ne signifiait pas être constitué de la seule Vision. Comme les autres Archanges, Qerath pouvait se souvenir, apprendre, nouer des relations, se déplacer et maintenir sa continuité ; exercer ces facultés ne lui donnait pas la souveraineté des six autres domaines célestes. Sa charge désignait la garde de la Vision. Le jugement lui confie ensuite les Abysses, dont les sept territoires existaient depuis la Déchirure. Ses amputations y font de parts de puissance des personnes capables de gouverner les inversions : elles ne lui attribuent pas rétroactivement sept charges célestes. Aucun rite reproductible permettant à un autre être de créer sept Revers n’est établi.
+
 ### À développer
 
 - Les accords et les refus que Qerath cherche à obtenir au présent ; leurs conséquences pour les sept Maisons.
+- Le mécanisme singulier par lequel les amputations ont donné naissance aux Revers, distinct de la transmission d’une charge.
 
 ## Vothorak
 
@@ -250,6 +255,14 @@ Son principe est éprouvé par Ilmoth. Leurs pouvoirs ne s’annulent pas automa
 
 Oshen révèle une circulation ou travaille une perception ciblée. Il permet d’examiner une illusion, de repérer un mouvement caché ou de produire un leurre local. Ce leurre n’est pas matière et n’efface pas les preuves extérieures. Percevoir ne garantit ni comprendre ni réagir à temps ; une lumière spectaculaire peut aussi détourner l’attention.
 
+### Ce qu’il a rendu public
+
+Après la succession, Tamariel fait transmettre des relevés de réserves avec leurs conditions de mesure et les incertitudes des prévisions. Des ateliers et des communautés en conservent des copies : le déclin ne demeure pas un secret intégral. Il conteste aussi les versions qui présentent Qerath comme né dans les Abysses. Sa garde d’Oshen ne lui donne pourtant ni la maîtrise des archives de Meryn ni le gouvernement des institutions terrestres. Des autorités refusent les pièces, en limitent la diffusion ou les utilisent pour confisquer des réserves. Ses révélations rendent des décisions possibles sans imposer une histoire reconnue partout. Il doit répondre des dangers de leur diffusion et de ceux qu’un retard expose.
+
+### À développer
+
+- Les communautés qui conservent ses relevés et les conflits du présent autour de leur reconnaissance.
+
 ## Nechariel
 
 Elyr · Permanence
@@ -312,7 +325,7 @@ Né du savoir que Qerath ne veut plus supporter, Nehrun peut soustraire une cons
 
 ### Devant le Fond
 
-Il refuse de connaître tout le projet de Qerath. Son abstention protège son calme et laisse les autres décider.
+Il refuse de connaître tout le projet de Qerath. Son abstention protège son calme et laisse les autres mener leurs conflits, mais elle ne vaut pas accord. Tant qu’il ne comprend pas la dissolution recherchée et ne choisit pas sa restitution, l’ouverture du Fond demeure impossible. Qerath doit obtenir une réponse de celui qui refuse même la question.
 
 ### La Maison
 
@@ -820,6 +833,14 @@ Le don reçu par la création est fini. Une part circule, une part est engagée 
 
 Lorsque le Sillage disponible diminue, les relations qui maintiennent la séparation des dimensions deviennent instables. Des tensions concentrent localement le fluide : cette recompression peut provoquer une Brisure. Une fracture peut ouvrir une réserve jusque-là inaccessible, mais aussi exposer le lieu à d’autres lois métaphysiques. Elle ne garantit ni salut ni destruction immédiate.
 
+### Circuler, engager, consumer
+
+Dans un circuit de conservation, une part du fluide demeure engagée tant que le support fonctionne ; démonter correctement l’ouvrage peut en rendre une partie disponible. Une rupture peut au contraire disperser du fluide encore existant mais difficile à récupérer. Certaines transformations incorporent irréversiblement une part du don à leur effet : cette part ne revient pas à la réserve lorsque l’effet cesse. Toute dépense apparente n’est donc pas une disparition. Le bilan d’une technique distingue le fluide restitué, engagé, dispersé et consumé ; ses pertes ne se déduisent pas de sa seule apparence.
+
+### Constater le déclin
+
+Des ateliers comparent les apports, les retraits et le fluide récupérable d’un même réseau dans des conditions comparables. Une baisse isolée peut révéler un relais défaillant ou un détournement ; des bilans concordants sur plusieurs réseaux étayent un déclin plus large. Qerath découvre une tendance durable, pas une date certaine de la fin du monde. Des réserves encore abondantes, des réparations locales et des accès inégaux permettent une longue coexistence avec cette baisse. L’accumulation des pertes et des immobilisations rend ensuite les réseaux plus fragiles ; guerres, monopoles et entretien insuffisant aggravent certaines crises sans être la cause unique de l’épuisement.
+
 ## Les quatre Sceaux
 
 AZ · KA · VO · TH
@@ -832,15 +853,24 @@ Il existe quatre Sceaux singuliers, liés à AZ, KA, VO et TH. Ce sont des inter
 
 ### Le Porteur
 
-Un Sceau peut se manifester dans une marque ou une relique. Le support peut changer ; copier son aspect ne reproduit pas l’interface. La réunion annoncée par Sarai n’exige pas que les quatre deviennent la propriété d’un individu. Le terme Porteur désigne celui qui accueille un Sceau, pas un souverain promis aux autres. L’origine des supports et les conditions précises de transmission restent à établir.
+Un Sceau peut se manifester dans une marque ou une relique. Chaque interface singulière ne possède qu’un support actif à la fois ; copier son aspect ne la reproduit pas. Le support peut changer sans que deux copies deviennent deux Sceaux du même Éclat. Le terme Porteur désigne celui qui accueille un Sceau, pas un souverain promis aux autres. Détenir une relique ne suffit pas à devenir Porteur. La réunion annoncée par Sarai n’exige pas que les quatre deviennent la propriété d’un individu.
 
 ### Le danger du Rite
 
 Eshar tente leur convergence au Grand Rite. L’erreur consiste à confondre réunion et possession, puis à imposer l’accord aux êtres qu’il veut sauver.
 
+### Accueillir, refuser, transmettre
+
+Un Porteur peut refuser d’engager sa contribution ; un accord antérieur n’autorise pas à la maintenir contre sa volonté présente. Ce refus ne détruit pas le Sceau et n’efface pas un effet déjà accompli. Des corps et des relais peuvent être contraints à conduire, comme au Grand Rite, mais cette conduite ne produit pas une adhésion libre. La mort d’un Porteur ne transmet automatiquement le Sceau ni au meurtrier ni à un héritier. Tant qu’aucun nouveau support actif n’est établi, sa disponibilité reste inconnue : une succession ne peut être déduite d’un titre ou de la possession du corps. Les conditions précises de changement de support restent ouvertes.
+
+### Reconnaître une interface
+
+Une marque, une lumière ou un effet puissant ne constitue pas une preuve suffisante. L’examen confronte la provenance du support, les témoignages et des effets observables compatibles avec l’Éclat, en recherchant les relais cachés et les illusions. Un effet isolé peut être imité par une pratique ordinaire ; aucun test infaillible n’est établi. Une technique apprise organise le Sillage dans des canaux préparés ; un Sceau donne une liaison singulière avec un Éclat, que l’apprentissage et la copie ne fabriquent pas. Cette liaison ne fournit ni réserve infinie, ni maîtrise universelle, ni autorité sur les personnes.
+
 ### À développer
 
-- L’origine, la transmission et les signes d’authenticité des quatre Sceaux.
+- L’origine des supports et les conditions précises de changement de Porteur.
+- Le devenir d’un Sceau après la mort de son Porteur et les procédures d’authentification encore disputées.
 
 ## La Concorde
 
@@ -1082,7 +1112,7 @@ Soigner, transporter, conserver et bâtir demandent du fluide, des supports et d
 
 ### Des réserves locales
 
-Le Sillage disponible est inégalement accessible. Des supports préparés peuvent retenir une quantité limitée de fluide, puis la délivrer. Le stockage perd progressivement une part de sa disponibilité et exige de l’entretien ; il ne permet ni accumulation parfaite ni transport gratuit. Une réserve ne remplace pas la capacité à conduire son débit.
+Le Sillage disponible est inégalement accessible. Des supports préparés peuvent retenir une quantité limitée de fluide, puis la délivrer. Le stockage perd progressivement une part de sa disponibilité et exige de l’entretien ; il ne permet ni accumulation parfaite ni transport gratuit. Une réserve ne remplace pas la capacité à conduire son débit. Une baisse de disponibilité ne prouve pas à elle seule une consommation irréversible : une inspection doit rechercher immobilisation, dispersion, défaut de relais ou confiscation. Les relevés distinguent ces causes avant de justifier un rationnement.
 
 ### Ce qui s’échange
 
@@ -1228,7 +1258,7 @@ Les Archanges assistent au jugement. Qerath perd sa charge céleste ; Tamariel l
 
 ### La falsification
 
-Sethariel retire des archives accessibles l’ancienne charge de Qerath et les raisons de sa contestation. Aucun ordre d’AZKAVOTH ne commande cet effacement. Les témoins directs se souviennent ; des archives mortelles et des versions interdites subsistent. Les institutions contrôlent surtout la diffusion et la reconnaissance des preuves. Certains mortels croient Qerath né dans les Abysses ; d’autres connaissent ou soupçonnent la falsification.
+Sethariel retire des archives accessibles l’ancienne charge de Qerath et les raisons de sa contestation. Aucun ordre d’AZKAVOTH ne commande cet effacement. Les témoins directs se souviennent ; des archives mortelles et des versions interdites subsistent. Les institutions contrôlent surtout la diffusion et la reconnaissance des preuves. Certains mortels croient Qerath né dans les Abysses ; d’autres connaissent ou soupçonnent la falsification. Tamariel conteste cet effacement et transmet des relevés du déclin ; la circulation de pièces contradictoires ne suffit pas à faire reconnaître partout la même histoire.
 
 ### À développer
 
@@ -1291,7 +1321,7 @@ Un rite public transmet des gestes et une mémoire commune. L’initiation appre
 - **Le Sillage** — Le don de KA en circulation : un fluide commun, fini, conduit dans les êtres et les ouvrages.
 - **Les voies** — Sept orientations du Sillage : Passage, Connaissance, Mémoire, Mesure, Relation, Vision et Permanence.
 - **Les Revers** — Sept enfants de Qerath devenus personnes souveraines. Une inversion est leur orientation, pas le nom de tout praticien abyssal.
-- **Les Sceaux** — Quatre interfaces singulières avec les Éclats. Une marque ou une relique en est le support, pas une copie reproductible.
+- **Les Sceaux** — Quatre interfaces singulières avec les Éclats, chacune liée à un seul support actif. Détenir ou copier une relique ne suffit pas à devenir Porteur.
 - **Les Brisures** — Des fractures locales où les lois de Terra rencontrent celles des dimensions métaphysiques. Toutes ne sont pas des portes.
 - **La Concorde** — La réparation qui réaccorde les principes sans effacer les personnes ni leurs différences. Tikkun est son nom ancien.
 - **Le Fond** — Le seuil de dissolution de la création. Son ouverture exige la restitution commune et libre des sept Revers.

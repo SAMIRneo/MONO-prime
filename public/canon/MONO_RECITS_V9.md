@@ -1,6 +1,6 @@
-# MONO — Canon V9.1
+# MONO — Canon V9.2
 
-Version consolidée le 2026-10-08. Source éditoriale : src/data/canon.json.
+Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
 Les descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.
 
@@ -44,13 +44,15 @@ Sept charges veillèrent sur les principes célestes. Ophriel garda Arel ; Hodar
 
 Ils pouvaient quitter leurs domaines, mais n’emportaient pas toute leur autorité avec eux. Les anges transmettaient leurs appels. Les mortels pouvaient y répondre, les discuter ou les refuser. Garder la création ne donnait pas le droit de posséder ses habitants.
 
+Une charge ne résumait pas tout l’être qui la portait. Le gardien de la Vision pouvait apprendre et se souvenir sans gouverner les domaines de la Connaissance et de la Mémoire. Les facultés d’une personne et l’autorité d’un territoire demeuraient distinctes.
+
 # Le Banni
 
 Le jugement et les sept épreuves
 
 ## Ce que Qerath avait vu
 
-Qerath fit porter une tablette au conseil. Les réserves qu’elle décrivait n’étaient pas encore vides ; elles diminuaient d’une manière que les soins et les ouvrages ne suffisaient plus à compenser. Il posa le relevé devant Hodariel.
+Qerath fit porter une tablette au conseil. Elle confrontait les apports, les retraits et le fluide récupérable de plusieurs réseaux. Les réserves n’étaient pas encore vides ; leurs bilans diminuaient d’une manière que les réparations locales ne suffisaient plus à compenser. Une route coupée n’expliquait pas toutes les pertes. Il posa le relevé devant Hodariel.
 
 « Qu’avons-nous promis aux vivants ? » demanda-t-il. Hodariel répondit que les chiffres demandaient encore une lecture commune. Malkiel voulait que les ateliers et les soigneurs soient avertis. D’autres gardiens craignaient qu’un souverain terrestre saisisse les réserves de son voisin avant même de comprendre le relevé.
 
@@ -74,9 +76,13 @@ Tamariel avait appris de Qerath à distinguer la vérité du désir de croire. I
 
 Sethariel retira des archives la place ancienne de Qerath et les raisons de sa contestation. Il croyait préserver l’ordre. Il ne pouvait effacer les faits, ni oublier son propre acte. Les Cieux conservèrent une histoire officielle ; les mondes, des traces qui la contredisaient.
 
+Tamariel fit porter aux ateliers des copies des relevés, avec leurs limites. Certains réduisirent leurs pertes ; d’autres virent leurs réserves saisies au nom du danger annoncé. Il contesta les récits qui faisaient naître Qerath dans les Abysses. Mais Oshen ne lui donnait pas les clés des archives de Meryn, et sa parole ne gouvernait pas les cités. Des communautés gardèrent ses pièces ; des autorités refusèrent de les reconnaître. Dire la vérité ouvrait un conflit dont il devait aussi assumer les conséquences.
+
 ## Les sept amputations
 
 Qerath descendit dans les territoires abyssaux. Il détacha sa puissance de Passage : Karzuth naquit. Il céda la part du savoir qu’il ne voulait plus porter : Nehrun naquit. Puis vinrent Ymbrath, Bazhur, Sevrak, Ilmoth et Zhorum.
+
+Il ne s’était pas autrefois partagé les sept charges des Cieux. Dans les Abysses qui lui avaient été confiés, il renonçait à la plénitude de facultés dont sa garde de la Vision n’avait jamais été l’unique composante. Les parts devenues personnes reçurent une existence et des domaines propres. Aucun autre gardien ne connaissait de méthode pour répéter cet acte.
 
 Chaque enfant était une part de puissance devenue quelqu’un. Qerath conserva une mémoire et une lucidité blessées ; il ne pouvait plus les exercer dans leur ancienne plénitude. Des souvenirs lui échappaient. Pour atteindre un domaine éloigné, il devait demander un seuil qu’il aurait autrefois ouvert.
 
@@ -95,6 +101,8 @@ Qerath voulait rendre la création au Néant. Son jugement lui avait confié l�
 Le Fond demandait sept restitutions accomplies ensemble. Chacun de ses enfants devait comprendre l’acte et pouvoir encore le refuser. Un ordre exécuté n’aurait pas réuni les parts devenues personnes.
 
 Karzuth avait des refuges à garder ; Sevrak, des domaines ; les autres, des raisons que Qerath ne pouvait plus résumer par son propre désespoir. Même leur accord n’aurait pas été celui des habitants qu’ils auraient condamnés. Le souverain pouvait rechercher l’ouverture ; il ne pouvait l’appeler le consentement de la création.
+
+Nehrun pouvait laisser ses frères discuter ; il ne pouvait leur déléguer sa compréhension de l’acte. Son abstention empêchait sa restitution. Tant qu’il refusait la question, leur volonté commune ne pouvait être réunie.
 
 # La Matière et les Vivants
 
@@ -165,6 +173,8 @@ Les Muets du culte de la Source gardèrent le lieu, les rencontres et les accord
 À l’aube de Sarwen, Sarai d’Avarn annonça : « Les Sceaux se rejoindront lorsque personne ne pourra plus les tenir pour siens. »
 
 Les souverains entendirent la promesse d’un Porteur unique. Ils cherchèrent des héritiers, des reliques et des preuves. D’autres y virent un usage partagé. Une prophétie offrait une possibilité et ses conditions ; elle ne retirait à personne la liberté de mal la comprendre.
+
+Une marque copiée et une relique saisie ne suffisaient pas. Chaque Sceau n’avait qu’un support actif ; devenir Porteur ne se déduisait ni d’une naissance ni d’un titre. Les effets pouvaient être examinés, mais un prodige isolé ne prouvait pas leur origine. Une transmission exigeait davantage que le récit de ceux qui la revendiquaient.
 
 ## Eshar et le salut imposé
 

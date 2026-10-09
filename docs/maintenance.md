@@ -1,6 +1,6 @@
-# Maintenance — 8 octobre 2026
+# Maintenance — 9 octobre 2026
 
-Le dépôt contient le canon V9.1 : 57 fiches, 24 chapitres et 20 définitions. Les choix éditoriaux et sujets encore ouverts sont documentés dans `canon-v9-1-2026-10-08.md`.
+Le dépôt contient le canon V9.2 : 57 fiches, 24 chapitres et 20 définitions. Les premiers correctifs et les sujets encore ouverts sont documentés dans `canon-v9-2-2026-10-09.md` ; la révision précédente reste documentée dans `canon-v9-1-2026-10-08.md`.
 
 ## Nettoyage
 

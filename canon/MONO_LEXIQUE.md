@@ -1,6 +1,6 @@
-# MONO — Canon V9.1
+# MONO — Canon V9.2
 
-Version consolidée le 2026-10-08. Source éditoriale : src/data/canon.json.
+Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
 Les descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.
 
@@ -50,7 +50,7 @@ Fiche : Les inversions abyssales.
 
 ## Les Sceaux
 
-Quatre interfaces singulières avec les Éclats. Une marque ou une relique en est le support, pas une copie reproductible.
+Quatre interfaces singulières avec les Éclats, chacune liée à un seul support actif. Détenir ou copier une relique ne suffit pas à devenir Porteur.
 
 Fiche : Les quatre Sceaux.
 

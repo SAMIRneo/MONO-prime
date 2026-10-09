@@ -358,9 +358,15 @@ function Home() {
         </article>
         <article className="notebook-post" id="revision">
           <div className="post-date"><time dateTime={canon.updated}>{date}</time><a href="#/univers?section=6">Canon {canon.version}</a></div>
-          <h2>Éclats, Sceaux et Concorde</h2>
-          <p>Quelques mots ont changé ; certaines règles demandaient à être précisées. Voici les repères de cette révision :</p>
-          <ul className="revision-list"><li><a href="#/fiche/azkavoth">La Source</a> demeure unique et indivisible. Les Éclats ne sont pas des morceaux de Dieu.</li><li><a href="#/fiche/sceaux">Les quatre Sceaux</a> donnent accès aux Éclats ; ils ne garantissent pas la maîtrise.</li><li><a href="#/fiche/tikkun">La Concorde</a> est le nom courant du Tikkun : réparer sans retirer la possibilité de refuser.</li></ul>
+          <h2>Les accords, les preuves et le don</h2>
+          <p>Cette révision précise les décisions des personnages et les limites de leurs pouvoirs :</p>
+          <ul className="revision-list">
+            <li><a href="#/fiche/nehrun">Nehrun</a> ne délègue pas son accord : son abstention bloque l’ouverture du Fond.</li>
+            <li><a href="#/fiche/qerath">Qerath</a> possède plusieurs facultés sans avoir détenu les sept charges célestes.</li>
+            <li><a href="#/fiche/tamariel">Tamariel</a> diffuse des relevés et conteste l’effacement ; il ne gouverne pas leur reconnaissance.</li>
+            <li><a href="#/fiche/sillage">Le Sillage</a> peut circuler, être engagé, dispersé ou irréversiblement consumé.</li>
+            <li><a href="#/fiche/sceaux">Les Sceaux</a> ont chacun un seul support actif. Posséder une relique ne suffit pas à devenir Porteur.</li>
+          </ul>
           <p className="post-reference"><a href="#/univers?section=6">Les vingt définitions du lexique</a> · <a href="#/powerscaling">Les règles du Sillage</a></p>
         </article>
         <article className="notebook-post atlas-notes">
