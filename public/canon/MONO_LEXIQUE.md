@@ -1,4 +1,4 @@
-# MONO — Canon V9.2
+# MONO — Canon V9.3
 
 Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 

@@ -1,4 +1,4 @@
-# MONO — Canon V9.2
+# MONO — Canon V9.3
 
 Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
@@ -198,4 +198,16 @@ Aucune frontière ne fut inscrite dans une lignée. Les héritiers d’anciennes
 
 À partir de CD 12600, les Brisures se multiplièrent. À mesure que le Sillage disponible diminuait, les relations entre les dimensions devenaient instables. Leurs tensions concentraient localement le fluide ; des lieux de Terra rencontrèrent les dimensions métaphysiques.
 
-Vothorak voulait préserver son œuvre. Qerath voulait la rendre. La Concorde demandait une réparation que nul ne pouvait imposer seul. Entre eux, des êtres de six lignées continueraient de répondre. Les premières vies de cette époque, ses alliances et ses conflits restent à raconter.
+Vothorak voulait préserver son œuvre. Qerath voulait la rendre. La Concorde demandait une réparation que nul ne pouvait imposer seul. Entre eux, des êtres de six lignées devaient encore décider quelles vies protéger, quels ouvrages maintenir et quelles dettes reconnaître.
+
+À Aurenth, dans les premières années de l’Éveil, un seuil de protection se mit à rendre l’écho d’une pièce qui n’existait pas dans ses plans. Sava arrêta la charge de son outil. Derrière le mur, des habitants attendaient que l’on ouvre la porte. L’atelier avait refusé le nouvel apport tant que son contrat ne serait pas reconnu.
+
+Maëra posa deux copies sur la table. L’une donnait un terme aux droits de maintenance ; l’autre liait aussi les descendants. Elle connaissait la main qui avait négocié la première. Sur la seconde, elle n’avait pas encore établi qui avait prolongé la dette. Elle écrivit : « On peut contester cette pièce. » Sava répondit : « Le mur n’attendra pas le jugement. »
+
+Iri entra avec le document de retenue du convoi. Son frère était encore sur la route. « Je peux ouvrir un passage pour quelques personnes. Je ne peux pas faire venir leurs caisses. » Sava lui montra un seuil préparé de l’autre côté de la cour. Le sauver engagerait la réserve qui devait alimenter son prochain départ.
+
+Maëra refusa d’apposer le cachet de la cité sur la copie contestée. Elle signa une demande de secours distincte, qui conservait le litige, et en fit remettre une copie aux habitants. Iri engagea une part de sa réserve. Sava répartit les charges sur les supports inspectés ; personne ne promit de tenir au-delà du signal d’arrêt.
+
+Le passage permit une évacuation partielle. Quand un support commença à céder, elles interrompirent l’effet au lieu de le reporter sur les corps. Un dépôt fut endommagé et des habitants durent attendre les secours par la cour. Les relevés avaient été mis à l’abri ; les matériaux du relais, eux, étaient perdus.
+
+À l’aube, le quartier pouvait être secouru par une autre entrée. Le convoi restait retenu, la réserve d’Iri était réduite et l’atelier réclamait le prix des supports. Maëra publia les deux copies. Sava ajouta le bilan de leur intervention, y compris les pertes. Elles avaient empêché une aggravation ; elles n’avaient ni résolu la dette ni expliqué la Brisure.

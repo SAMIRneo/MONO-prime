@@ -358,15 +358,16 @@ function Home() {
         </article>
         <article className="notebook-post" id="revision">
           <div className="post-date"><time dateTime={canon.updated}>{date}</time><a href="#/univers?section=6">Canon {canon.version}</a></div>
-          <h2>Les accords, les preuves et le don</h2>
-          <p>Cette révision précise les décisions des personnages et les limites de leurs pouvoirs :</p>
+          <h2>Des puissances aux vies d’Aurenth</h2>
+          <p>Les rapports de force deviennent plus concrets ; trois personnes entrent dans le présent de MONO :</p>
           <ul className="revision-list">
-            <li><a href="#/fiche/nehrun">Nehrun</a> ne délègue pas son accord : son abstention bloque l’ouverture du Fond.</li>
-            <li><a href="#/fiche/qerath">Qerath</a> possède plusieurs facultés sans avoir détenu les sept charges célestes.</li>
-            <li><a href="#/fiche/tamariel">Tamariel</a> diffuse des relevés et conteste l’effacement ; il ne gouverne pas leur reconnaissance.</li>
-            <li><a href="#/fiche/sillage">Le Sillage</a> peut circuler, être engagé, dispersé ou irréversiblement consumé.</li>
-            <li><a href="#/fiche/sceaux">Les Sceaux</a> ont chacun un seul support actif. Posséder une relique ne suffit pas à devenir Porteur.</li>
+            <li><a href="#/fiche/puissance">Les rapports de force</a> distinguent réserve, prise, réseau et manifestation. Repousser une intervention ne détruit pas son souverain.</li>
+            <li><a href="#/fiche/tikkun">La Concorde</a> demande un diagnostic, des contributions précises et un arrêt préparé ; la bonne intention ne suffit pas.</li>
+            <li><a href="#/fiche/maera">Maëra</a> confronte les copies d’une dette dont sa famille porte l’histoire.</li>
+            <li><a href="#/fiche/sava">Sava</a> réclame les plans des relais, tout en devant répondre de ses propres erreurs.</li>
+            <li><a href="#/fiche/iri">Iri</a> doit choisir entre secourir le quartier et garder les moyens de rejoindre son convoi.</li>
           </ul>
+          <p><a href="#/lire/livre-4/6">Lire leur première crise à Aurenth</a></p>
           <p className="post-reference"><a href="#/univers?section=6">Les vingt définitions du lexique</a> · <a href="#/powerscaling">Les règles du Sillage</a></p>
         </article>
         <article className="notebook-post atlas-notes">
@@ -922,7 +923,7 @@ const readingGuides: Record<string, string[]> = {
   "livre-1": ["azkavoth", "cosmogonie", "temoins", "sillage"],
   "livre-2": ["qerath", "jugement", "tamariel", "fond"],
   "livre-3": ["vothorak", "talem", "golems", "malkiel"],
-  "livre-4": ["sceaux", "sarai", "eshar", "tikkun", "brisures"],
+  "livre-4": ["sceaux", "sarai", "eshar", "tikkun", "brisures", "maera", "sava", "iri"],
 };
 function LoreOrientation() {
   return (

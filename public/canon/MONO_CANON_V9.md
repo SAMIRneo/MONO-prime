@@ -1,4 +1,4 @@
-# MONO — Canon V9.2
+# MONO — Canon V9.3
 
 Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
@@ -62,6 +62,10 @@ Il demeure principalement à la lisière du Fond. Les sept parts ne sont plus de
 
 Garder Oshen ne signifiait pas être constitué de la seule Vision. Comme les autres Archanges, Qerath pouvait se souvenir, apprendre, nouer des relations, se déplacer et maintenir sa continuité ; exercer ces facultés ne lui donnait pas la souveraineté des six autres domaines célestes. Sa charge désignait la garde de la Vision. Le jugement lui confie ensuite les Abysses, dont les sept territoires existaient depuis la Déchirure. Ses amputations y font de parts de puissance des personnes capables de gouverner les inversions : elles ne lui attribuent pas rétroactivement sept charges célestes. Aucun rite reproductible permettant à un autre être de créer sept Revers n’est établi.
 
+### Convaincre ceux qui veulent continuer
+
+Qerath ne peut négocier les sept réponses comme des parts d’un même bien. Karzuth demande ce que deviendraient ses refuges ; Sevrak veut conserver des sujets ; Nehrun refuse le savoir nécessaire à son accord. Une concession à l’un peut confirmer la méfiance d’un autre. Les réparations locales contestent la conclusion du souverain sans réfuter à elles seules le déclin général. Il lui faut expliquer pourquoi des vies encore possibles devraient être abolies ; sa charge d’Épreuve et la faute des Cieux ne donnent pas cette réponse à sa place.
+
 ### À développer
 
 - Les accords et les refus que Qerath cherche à obtenir au présent ; leurs conséquences pour les sept Maisons.
@@ -96,6 +100,10 @@ Il combat Qerath pour préserver Terra. Des peuples lui doivent réellement leur
 ### Les relais et la dette
 
 Des villes confient aux ateliers de la Forme leurs digues, leurs réserves et les architectures qui rendent des terres habitables. Vothorak protège réellement ces ouvrages. Ses intendants exigent en échange des matériaux, des droits de maintenance ou une fidélité héréditaire. La contestation doit distinguer le démiurge de ses intermédiaires : certains abusent de son nom ; d’autres pourraient couper un relais dont des innocents dépendent.
+
+### Une protection dont on peut sortir
+
+Une cité peut chercher à remplacer un relais de la Forge par ses propres ateliers, mais doit obtenir plans, matières, compétences et réserve avant de couper l’ancien soutien. Une indépendance déclarée qui laisse mourir les habitants n’accomplit pas l’autonomie recherchée. Vothorak peut accepter un remplacement, imposer des conditions ou défendre son ouvrage ; ses intendants ne répondent pas tous de la même manière. La dette devient un conflit politique lorsque le service rendu justifie un droit sans terme sur les corps, le travail ou les descendants.
 
 # Archanges
 
@@ -809,6 +817,10 @@ Les Muets entretiennent des accords d’accueil et de protection qui obligent le
 
 Leur silence impose de voir avant de juger. Mais une victime peut avoir besoin d’une intervention immédiate. La neutralité devient une responsabilité disputée, au cœur d’une ville avec quartiers, commerces et conflits.
 
+### Les premières tensions de l’Éveil
+
+Dans les premières années après CD 12600, une Brisure atteint un réseau de protection proche des lieux d’accueil. Les ateliers réclament la reconnaissance d’un contrat de maintenance contesté avant de livrer un apport. Maëra en tient les copies ; Sava connaît le réseau ; Iri porte la pièce liée à un convoi retenu. La cité doit secourir les habitants, maintenir les accueils et examiner une dette dont les bénéficiaires peuvent couper le soutien. L’origine exacte de cette Brisure n’est pas encore attribuée à un souverain.
+
 # Sillage & puissance
 
 ## Le Sillage
@@ -840,6 +852,10 @@ Dans un circuit de conservation, une part du fluide demeure engagée tant que le
 ### Constater le déclin
 
 Des ateliers comparent les apports, les retraits et le fluide récupérable d’un même réseau dans des conditions comparables. Une baisse isolée peut révéler un relais défaillant ou un détournement ; des bilans concordants sur plusieurs réseaux étayent un déclin plus large. Qerath découvre une tendance durable, pas une date certaine de la fin du monde. Des réserves encore abondantes, des réparations locales et des accès inégaux permettent une longue coexistence avec cette baisse. L’accumulation des pertes et des immobilisations rend ensuite les réseaux plus fragiles ; guerres, monopoles et entretien insuffisant aggravent certaines crises sans être la cause unique de l’épuisement.
+
+### Des coûts visibles dans les ouvrages
+
+Stabiliser un pont engage une circulation et immobilise une part de réserve ; poursuivre la conduction use les canaux et peut disperser du fluide. Arrêter l’ouvrage ne récupère que ce qui est encore disponible, et le pont perd la protection fournie. Une transformation irréversible de matière peut consumer une part du don, distincte des matériaux employés : démonter le résultat ne reconstitue pas cette part. Un soin réorganise des tissus avec matière, fluide et temps ; il ne restitue automatiquement ni un membre absent ni une réserve consumée. Les techniques doivent annoncer leurs postes de coût au lieu de supposer une récupération intégrale après chaque usage.
 
 ## Les quatre Sceaux
 
@@ -892,6 +908,14 @@ Accueillir l’ombre d’un principe signifie reconnaître sa limite : un passag
 
 Vothorak maintient son œuvre au prix de dépendances qu’il présente comme nécessaires. Qerath expose une souffrance réelle mais veut en tirer la fin de toutes les vies. La Concorde cherche des réparations dont ni le démiurge ni le souverain de l’Épreuve ne possèdent la réponse. Ses partisans doivent rendre compte de leurs coûts, des vies sauvées et des refus qu’ils n’ont pas le droit d’effacer.
 
+### Une réparation locale vérifiable
+
+Une Concorde locale commence par un diagnostic des supports et des charges, puis un accord portant sur une contribution précise. Les participants connaissent l’effet recherché, les risques et les limites ; un retrait oblige à interrompre ou réorganiser la circulation. Le retrait ne fait pas disparaître une charge déjà engagée : prévoir sa redistribution et les secours fait partie de la responsabilité du groupe. La réparation réussit si le réseau retrouve une fonction viable sans supprimer la possibilité de discuter ou de refuser les contributions futures. Une intention bienveillante ne remplace ni matériaux, ni maîtrise, ni mesures ; une réussite technique ne suffit pas à prouver un accord libre.
+
+### Réparer et répartir le prix
+
+Réparer un seuil peut déplacer une tension vers un autre quartier ; libérer une réserve peut priver un ouvrage de sa fonction. Les personnes affectées doivent pouvoir faire connaître ces conséquences, même lorsqu’elles ne fournissent pas le fluide. Une urgence peut imposer une décision de protection sans attendre un accord universel, mais n’efface ni les victimes, ni la dette de réparation, ni le contrôle ultérieur. La Concorde n’est pas un vote capable de rendre toutes les pertes justes. Ses institutions doivent publier les bilans, répondre aux contestations et revoir les arrangements devenus nuisibles.
+
 ### À développer
 
 - Les conditions d’une Concorde des sept principes et les conflits entre réparations locales.
@@ -908,11 +932,12 @@ Une pièce peut répéter un moment, contenir un espace impossible ou laisser en
 
 ### Au présent
 
-Depuis CD 12600, les Brisures se multiplient. L’épuisement du Sillage disponible fragilise les relations qui séparent les dimensions ; les tensions en concentrent localement les courants, jusqu’à une rupture. Cette recompression peut rendre une réserve accessible tout en exposant un lieu aux lois d’un autre monde. Étude, fermeture et traversée exigent compréhension et ancrage. La situation politique précise de cette époque demeure à écrire.
+Depuis CD 12600, les Brisures se multiplient. L’épuisement du Sillage disponible fragilise les relations qui séparent les dimensions ; les tensions en concentrent localement les courants, jusqu’à une rupture. Cette recompression peut rendre une réserve accessible tout en exposant un lieu aux lois d’un autre monde. Étude, fermeture et traversée exigent compréhension et ancrage. À Aurenth, une première crise met en conflit secours, maintenance et reconnaissance des dettes ; l’identité d’une influence rencontrée ne peut être déduite de la seule apparence de la fracture.
 
 ### À développer
 
-- Le premier arc choral de l’Éveil des Brisures.
+- La suite du premier conflit d’Aurenth et l’éventuelle influence derrière sa Brisure.
+- Les autres arcs de l’Éveil et les liens entre leurs crises locales.
 
 # Maîtrise
 
@@ -942,6 +967,18 @@ Sur Terra, les mortels agissent selon leur maîtrise et leurs supports. Vothorak
 
 Un fort débit peut surcharger les canaux, provoquer une fuite du fluide, blesser un support ou rompre l’ancrage. Il faut compter la consommation, le contrecoup et la dérive du principe utilisé sans nuance. Un adversaire peut attaquer les supports, épuiser la réserve, couper un relais ou forcer une pratique mal maîtrisée. Une voie et son inverse ne s’annulent jamais automatiquement.
 
+### Échelles d’action et objectifs
+
+Une pratique directe agit à l’échelle de ses canaux et de sa réserve ; un ouvrage préparé étend certaines opérations ; un réseau coordonne plusieurs supports ; une manifestation souveraine engage une puissance dérivée à travers une prise locale. Ces formes décrivent des moyens, pas quatre rangs universels. Un réseau peut soutenir un effet qu’aucun de ses membres ne pourrait maintenir seul, tout en restant vulnérable à un relais. Repousser une manifestation, sauver un convoi ou rendre un ouvrage inutilisable n’équivaut pas à vaincre personnellement son souverain. Le résultat doit préciser l’objectif atteint, les moyens perdus et les conséquences qui restent.
+
+### La prise précède la puissance
+
+Toute technique dérivée doit atteindre une cible par un contact, une perception opérante, un support ou un relais approprié. Savoir qu’une personne existe, connaître son nom ou la voir dans une archive ne crée pas une prise sur son corps ou son âme. La portée dépend de la continuité du canal, de sa stabilité et du débit disponible ; une relation passée n’est pas un accès permanent à toutes les facultés. Les pouvoirs de grande portée demandent préparation et entretien. Une surcharge, un relais détruit, un déplacement ou une information fausse peut rendre une opération impossible avant que la réserve soit épuisée.
+
+### Résister à une autorité
+
+Un Archange ou un Revers gouverne réellement les opérations de son principe dans son domaine ; il ne devient ni omniscient ni auteur de toutes les volontés qui s’y trouvent. Un visiteur ne supprime pas cette autorité par une technique ordinaire, mais peut chercher un refuge, rompre une prise locale, obtenir un passage ou convaincre le souverain. Sur Terra, défaire le support d’une manifestation peut limiter ou interrompre son action. Cela ne détruit pas automatiquement l’être dont elle dépend, et une nouvelle intervention demande de nouvelles conditions. Les puissances dérivées ne tirent pas du néant les moyens matériels de leurs actes.
+
 ## Maîtriser le Sillage
 
 Sentir · Conduire · Orienter
@@ -967,6 +1004,14 @@ La lignée donne des dispositions ; apprentissage, expérience, connaissance de 
 ### Décrire une technique
 
 Une technique se comprend par son effet, sa prise sur la cible, ses supports, son débit, sa portée et sa durée. Il faut savoir ce qui l’interrompt et quel contrecoup elle laisse. L’apprentissage peut améliorer chaque élément sans supprimer les besoins des autres. Un pouvoir souverain dans son domaine ne devient pas une action sans limites dans tous les mondes.
+
+### Temps, attention et apprentissage
+
+Le débit n’est pas la vitesse de pensée ni la vitesse de réaction. Une opération doit être perçue, choisie et réglée ; plusieurs effets indépendants divisent l’attention ou exigent des dispositifs préparés. Passer d’une voie à une autre oblige à réaccorder les canaux ; un praticien entraîné le fait mieux, jamais sans tenir compte de leurs contraintes. Les combinaisons s’apprennent opération par opération : comprendre un soin ne donne pas la maîtrise d’un portail. Fatigue, blessure et surcharge réduisent la précision autant que la réserve. L’entraînement améliore la pratique ; il ne rend pas les besoins physiques facultatifs.
+
+### Défendre, contraindre et obtenir un accord
+
+La liberté intérieure n’est pas une protection magique contre les attaques. Une technique peut arrêter un assaillant, immobiliser un corps ou détourner un effet malgré un refus. Une circulation imposée peut aussi fonctionner un temps. Ces faits ne transforment pas une soumission en adhésion libre et ne prouvent ni justice ni légitimité. Un praticien doit distinguer empêcher un dommage, utiliser une contribution et prétendre posséder la réponse d’une personne. Une opération collective tenue par la force peut être matériellement stable sans être une Concorde ; ses dommages et ses dépendances restent réels.
 
 ## Les sept voies et leurs pouvoirs
 
@@ -1104,6 +1149,10 @@ Un portail exige des points compatibles et ne déplace pas une armée vers une s
 
 Réserves, ateliers, transports, soignants et équipes d’entretien rendent une campagne possible. Les armes ordinaires, le terrain, le ravitaillement et les décisions restent décisifs. Dépenser les réserves d’une cité pour son siège peut ensuite priver ses habitants de soins, d’eau acheminée ou d’ouvrages entretenus. Un praticien puissant peut perdre face à un adversaire préparé.
 
+### Trois confrontations
+
+Un Djinn peut libérer plus vite du fluide qu’un Humain ; un archer préparé peut pourtant viser avant qu’il ait choisi et ancré sa réponse. L’issue dépend de la détection, du couvert et des moyens réellement prêts. Face à une enceinte d’Elyr, un spécialiste de Kethra peut repérer un défaut, mais doit encore atteindre un relais pour agir ; comprendre n’est pas neutraliser. Devant une manifestation de Vothorak, une équipe peut évacuer un quartier et rompre son relais local sans avoir la force de détruire le démiurge. Ces possibilités donnent des objectifs de scène ; aucune ne garantit une victoire par un seul mot de pouvoir.
+
 ## Le Sillage dans la vie et l’économie
 
 Réserves · Travail · Infrastructures
@@ -1126,7 +1175,7 @@ Une cave maintient les récoltes ; un pont demande l’inspection de ses ancrage
 
 Une cité peut financer des soins et protections collectifs ; une autre réserver le fluide aux palais, aux forges ou aux armées. Le secret des techniques d’entretien peut créer une dépendance. L’épuisement oblige à choisir les œuvres maintenues, les vies secourues et les usages limités. Ces règles ouvrent des conflits politiques ; elles ne fixent pas encore les États actuels de Terra.
 
-# Figures de l’histoire
+# Figures & personnages
 
 ## Talem
 
@@ -1195,6 +1244,84 @@ Les chroniques effacent son nom après le Rite. Sa responsabilité est établie 
 ### À développer
 
 - Sort d’Eshar et scènes détaillées du Grand Rite.
+
+## Maëra
+
+Humaine · Greffière d’Aurenth
+
+Elle veut que les accords protègent encore ceux qui ne savent pas les écrire.
+
+### Une place dans la cité
+
+Dans les premières années de l’Éveil, Maëra tient les copies d’accueil et les actes de maintenance auprès des Muets d’Aurenth. Elle suit la Lettre au sein du culte de la Source. Sa fonction lui donne accès à des pièces et à des procédures, pas le gouvernement de la ville. Sa mère a négocié un contrat qui a sauvé des ouvrages en confiant leur entretien à un atelier extérieur.
+
+### Ce qu’elle cache
+
+Maëra a découvert qu’une copie du contrat prolonge les droits de maintenance au-delà de ce qui avait été négocié. Elle n’a pas encore rendu cette divergence publique : elle craint le retrait du soutien et la mise en cause de sa mère. Son silence laisse pourtant les détenteurs de la copie réclamer davantage. Elle doit distinguer protéger une personne et couvrir un acte.
+
+### Une pratique étroite
+
+Elle utilise Meryn pour conserver des traces reçues dans des feuillets préparés et Kethra pour comparer leur organisation. Une copie garde une trace, pas une charge infinie ni la preuve de l’intention d’un signataire. Les supports peuvent être perdus ou altérés ; établir une falsification exige provenance, témoins et confrontation des pièces. Elle est vulnérable au combat et doit préparer ses inscriptions.
+
+### Au seuil de la crise
+
+Sava reconnaît les réparations que le contrat décrit ; Iri porte des pièces venues de la route où un convoi est retenu. Maëra peut faire circuler les preuves sans garantir que les autorités les reconnaîtront. Elle doit accepter que d’autres lisent les conséquences d’un accord qu’elle pensait pouvoir protéger seule.
+
+### À développer
+
+- La reconnaissance des copies du contrat et la responsabilité de sa mère.
+
+## Sava
+
+Golem · Réparatrice de relais
+
+Elle veut ouvrir les plans des ouvrages dont les habitants et son propre corps dépendent.
+
+### L’atelier et le corps
+
+Sava entretient des relais d’Aurenth pour un atelier du culte de la Forme. Ses canaux ont été modifiés à plusieurs reprises ; une pièce de son bras reste dépendante d’un procédé que son atelier garde secret. Elle suit la tradition de Talem sans l’avoir rencontré. Elle veut transmettre les plans, mais connaît les dégâts d’une réparation mal comprise.
+
+### Le prix d’une fuite
+
+Elle a déjà tenté une modification sans documenter toutes les charges ; l’accident a blessé une autre ouvrière. Son atelier se sert de cet échec pour lui refuser les plans, tout en continuant de lui confier les travaux dangereux. Sava doit publier ses erreurs avec les savoirs qu’elle réclame, au risque de perdre la confiance qui rend leur transmission possible.
+
+### Une précision limitée
+
+Elle pratique Kethra pour diagnostiquer des circuits, Tharos pour répartir une charge et Elyr pour stabiliser des supports connus. Sa précision dépend d’outils, de schémas et d’une alimentation préparée. Un réseau inconnu exige une étude ; maintenir plusieurs charges surcharge ses propres canaux. Sa nature golem ne la rend ni infatigable ni capable de réparer tout ouvrage de la Forge.
+
+### Au seuil de la crise
+
+Maëra possède une copie qui contredit les exigences de l’atelier ; Iri peut chercher un apport ou une voie d’évacuation. Sava refuse d’être l’unique support d’une réparation collective. Pour sauver le réseau sans refaire de son corps une propriété, elle doit apprendre à partager le diagnostic et à préparer un arrêt.
+
+### À développer
+
+- L’accès au procédé de son bras et les comptes à rendre à l’ouvrière blessée.
+
+## Iri
+
+Djinn · Courrière des routes de Sahrûn
+
+Elle veut faire passer son convoi sans promettre la route à ceux qui le retiennent.
+
+### Des routes et des engagements
+
+Iri transporte pièces, remèdes et correspondances entre des communautés de Sahrûn et Avarn. Elle appartient au culte de l’Épanchement et préfère juger un enseignement par ce qu’il permet de transmettre. Un convoi comprenant son frère est retenu sur une route d’Avarn pour des droits de maintenance contestés. Elle a promis son arrivée avant de connaître cette nouvelle exigence.
+
+### Une promesse trop rapide
+
+Pour gagner du temps, elle a accepté que son nom garantisse une livraison qu’elle ne pouvait assurer seule. Ce contrat ne lie pas magiquement sa volonté, mais expose ses partenaires à des saisies et à la perte d’accès aux routes. Elle veut dégager son frère et craint qu’avouer l’incertitude ruine la confiance de ceux qui lui confient leurs biens.
+
+### Passer ne suffit pas
+
+Iri pratique Arel entre des seuils qu’elle a repérés et préparés, avec de petites charges ; elle ne peut déplacer le convoi entier par un geste. Oshen l’aide à lire une circulation proche et à reconnaître certains leurres, sans lui donner une connaissance certaine de leur auteur. Son débit rapide menace sa continuité lorsqu’elle est épuisée. Les routes inconnues exigent observation et ancrage.
+
+### Au seuil de la crise
+
+Elle apporte à Maëra la pièce qui justifie la retenue du convoi et cherche auprès de Sava une réserve compatible. Aider le quartier peut retarder les secours destinés à son frère. Un passage sûr pour quelques personnes ne résout ni les droits de route ni le transport des vivres ; elle doit choisir ce qu’elle engage et expliquer ce qu’elle laisse attendre.
+
+### À développer
+
+- La libération du convoi et les engagements qu’elle peut encore tenir.
 
 # Fondements
 
@@ -1282,6 +1409,10 @@ Yesodiel garde le Limen. L’orientation d’une âme dépend de ce qu’elle es
 
 Les conditions précises d’une réincarnation, la perte de mémoire et le devenir d’une âme sans ancrage restent à définir avant d’en faire le ressort d’un récit.
 
+### Le prix d’un retour
+
+Réparer un corps encore vivant, restituer une trace et ramener une personne morte sont trois opérations distinctes. Une inscription peut reproduire des paroles sans rendre présent celui qui les a prononcées. Un corps réparé n’atteste pas à lui seul le retour de la même âme. Aucune pratique ordinaire établie ne permet de rappeler à volonté les morts ou d’annuler une mort par une réserve suffisante. Le Limen demeure un passage dont les conditions de retour sont ouvertes ; les récits ne peuvent utiliser cette ouverture comme une résurrection automatique.
+
 ### À développer
 
 - Réincarnation et continuité des souvenirs.
@@ -1307,6 +1438,10 @@ La Lettre, le Souffle et le Signe sont trois lectures du sacré qui traversent l
 ### Le dedans et le dehors
 
 Un rite public transmet des gestes et une mémoire commune. L’initiation apprend à en lire les limites et à éprouver ce qu’ils transforment en soi. Un sens caché ne rend pas son détenteur infaillible. Le secret peut protéger un savoir dangereux, mais aussi devenir privilège, censure ou instrument dynastique. Une révélation revendiquée doit rencontrer la parole d’autrui et les conséquences de ses actes.
+
+### Le Nom et la preuve
+
+Nommer un être permet de le désigner et d’étudier des traces, pas de le posséder. Une parole sacrée peut organiser un rite ou une attention ; son efficacité dépend des opérations réellement apprises et des supports engagés. Une expérience de la Voix n’accorde ni vision de tous les futurs ni exemption de la contradiction. Les écoles de la Lettre, du Souffle et du Signe peuvent conserver des preuves différentes d’un même événement et en discuter la portée. Leur secret ne remplace pas le contrôle de ce qu’elles font subir aux autres.
 
 ### À développer
 
@@ -1346,4 +1481,4 @@ Un rite public transmet des gestes et une mémoire commune. L’initiation appre
 - **~CD 9500–11800** — Royaumes Clos : montée des frontières et des pouvoirs ; histoire détaillée ouverte. (À développer)
 - **~CD 11800** — Le Grand Rite d’Eshar : accord imposé, échec, fracture rouverte. (Établi)
 - **~CD 11800–12600** — Le Voile : échanges rompus et regroupements historiques des peuples. (Repère)
-- **CD 12600 → présent** — Éveil des Brisures. Le premier arc choral et la politique du présent restent à écrire. (À développer)
+- **CD 12600 → présent** — Éveil des Brisures. À Aurenth, Maëra, Sava et Iri affrontent une crise de secours, de maintenance et de dettes. La suite de ce conflit et la politique plus large du présent restent ouvertes. (Repère)

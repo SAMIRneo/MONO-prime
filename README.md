@@ -6,8 +6,8 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
-- **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V9.2**, révisé le **9 octobre 2026**.
-- **Contenu actuel :** 57 fiches, 11 catégories, 4 livres, 24 chapitres et 20 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes.
+- **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V9.3**, révisé le **9 octobre 2026**.
+- **Contenu actuel :** 60 fiches, 11 catégories, 4 livres, 24 chapitres et 20 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes. Maëra, Sava et Iri disposent de fiches sans portrait dédié.
 
 ## Parcours et fonctionnalités
 
@@ -52,9 +52,9 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 | Lieux                 | `lieux`        |      6 |
 | Sillage & puissance   | `pouvoir`      |      4 |
 | Maîtrise              | `powerscaling` |      7 |
-| Figures de l’histoire | `personnages`  |      4 |
+| Figures & personnages | `personnages`  |      7 |
 | Fondements            | `fondements`   |      5 |
-| **Total**             |                | **57** |
+| **Total**             |                | **60** |
 
 La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend aussi « Éden et les Sept Témoins » : MONO conserve **trois mondes**, Terra, les Cieux et les Abysses.
 
@@ -86,13 +86,15 @@ Les costumes, couleurs, effets visuels, ornements et équipements des illustrati
 - `public/canon/MONO_RECITS_V9.md` : livres et chapitres ;
 - `public/canon/MONO_LEXIQUE.md` : vingt définitions et leurs fiches.
 
-Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V9.2.
+Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V9.3.
 
 Ces exports sont produits depuis la même source JSON et inclus dans la publication. Le pied de page permet de télécharger le canon complet. **Ne pas modifier les exports à la main** : changer les données, puis les régénérer avec les commandes du projet.
 
 ## Révision éditoriale du 9 octobre 2026
 
-La V9.2 corrige l'abstention de Nehrun devant le Fond, distingue les facultés de Qerath de sa charge céleste, donne à Tamariel des actes de révélation et leurs conséquences, précise les bilans du Sillage et établit les premières règles pratiques des Sceaux. Fiches, récits et lexique sont synchronisés. Le casting du présent et les grands mystères restent ouverts. Voir [les correctifs et leurs limites](docs/canon-v9-2-2026-10-09.md).
+La V9.3 précise les prises, manifestations, objectifs locaux, temps de réaction, apprentissage, coûts des ouvrages et conditions d'une réparation collective. Maëra, Sava et Iri entrent dans les premières années de l'Éveil par une crise à Aurenth : secours, contrat contesté et convoi retenu. Le dernier chapitre du Livre IV ouvre leur conflit sans en résoudre toutes les conséquences. Voir [l'approfondissement et ses limites](docs/canon-v9-3-2026-10-09.md).
+
+La V9.2 avait corrigé l'abstention de Nehrun devant le Fond, distingué les facultés de Qerath de sa charge céleste, donné à Tamariel des actes de révélation et leurs conséquences, précisé les bilans du Sillage et établi les premières règles pratiques des Sceaux. Voir [les premiers correctifs](docs/canon-v9-2-2026-10-09.md).
 
 ### Révision précédente du 8 octobre 2026
 
@@ -202,4 +204,4 @@ Les doublons d’images, polices inutilisées, ancien manifeste et comptes rendu
 
 Pour une modification éditoriale, commencer par `src/data/canon.json` et ses questions ouvertes. Pour une modification d’interface, lire `src/app.tsx`, `src/design.css`, en conservant les parcours et le canon. Mettre à jour ce README lorsque les fonctionnalités, commandes, données ou direction artistique changent.
 
-Les sujets encore ouverts comprennent l’histoire des Neuf Lumières et des Royaumes Clos, les scènes détaillées du Grand Rite, les frontières et sociétés du présent, trois prophètes encore sans nom, les règles précises du devenir des âmes et le premier arc choral de l’Éveil des Brisures. Ils ne doivent pas être décrits comme déjà racontés. Les questions propres à chaque fiche sont conservées dans `open_questions` et affichées sur le site.
+Les sujets encore ouverts comprennent l’histoire des Neuf Lumières et des Royaumes Clos, les scènes détaillées du Grand Rite, les frontières et sociétés du présent, trois prophètes encore sans nom, les règles précises du devenir des âmes et la suite du premier conflit d'Aurenth. Son ouverture est racontée ; l'arc complet ne l'est pas. Les questions propres à chaque fiche sont conservées dans `open_questions` et affichées sur le site.
