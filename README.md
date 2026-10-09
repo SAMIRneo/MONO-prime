@@ -7,7 +7,7 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
 - **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V9.4**, révisé le **9 octobre 2026**.
-- **Contenu actuel :** 66 fiches, 11 catégories, 5 livres, 30 chapitres et 20 repères lexicaux ; 58 illustrations référencées dans les métadonnées, livrées en 174 fichiers WebP avec leurs variantes. Maëra, Sava et Iri disposent de fiches sans portrait dédié.
+- **Contenu actuel :** 67 fiches, 11 catégories, 5 livres, 30 chapitres et 20 repères lexicaux ; 58 illustrations référencées dans les métadonnées, livrées en 174 fichiers WebP avec leurs variantes. Maëra, Sava et Iri disposent de fiches sans portrait dédié.
 
 ## Parcours et fonctionnalités
 
@@ -52,9 +52,9 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 | Lieux                 | `lieux`        |      7 |
 | Sillage & puissance   | `pouvoir`      |      4 |
 | Maîtrise              | `powerscaling` |      7 |
-| Figures & personnages | `personnages`  |     12 |
+| Figures & personnages | `personnages`  |     13 |
 | Fondements            | `fondements`   |      5 |
-| **Total**             |                | **66** |
+| **Total**             |                | **67** |
 
 La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend aussi « Éden et les Sept Témoins » : MONO conserve **trois mondes**, Terra, les Cieux et les Abysses.
 
@@ -64,7 +64,7 @@ La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend
 | Le Banni                  | `livre-2`   |         6 |
 | La Matière et les Vivants | `livre-3`   |         6 |
 | Les Sceaux et le Voile    | `livre-4`   |         6 |
-| La ville qui refusait ses morts | `livre-5` | 6 |
+| Ce qui marche entre les arbres | `livre-5` | 6 |
 
 ### Repères à préserver
 
@@ -93,7 +93,7 @@ Ces exports sont produits depuis la même source JSON et inclus dans la publicat
 
 ## Révision éditoriale du 9 octobre 2026
 
-La V9.4 ouvre **La ville qui refusait ses morts**, premier arc en six chapitres illustrés, vers CD 12100 pendant le Voile. Oran, Tess, Veyl, Edrane, Lise et Serekh disposent de fiches. Six nouvelles planches narratives sont proposées en trois tailles WebP ; les dénouements des fiches sont repliés. Voir [la note éditoriale et visuelle](docs/arc-oran-2026-10-09.md).
+La V9.4 ouvre **Ce qui marche entre les arbres**, premier arc en six chapitres illustrés, vers CD 12100 pendant le Voile. Naël, Tess, Veyl, Sorane, Rém, Edrane et le Bois de Nacre disposent de fiches. L’enquête débute par un cortège qui bouleverse les distances dans une forêt et ouvre des mystères cosmologiques antérieurs au Grand Rite. Les six nouvelles planches reprennent les volumes peints d’Arcane, la rupture graphique de Spider-Verse et l’étrangeté de Sandman. Voir [la note éditoriale et visuelle](docs/arc-nael-2026-10-09.md).
 
 La V9.3 précise les prises, manifestations, objectifs locaux, temps de réaction, apprentissage, coûts des ouvrages et conditions d'une réparation collective. Maëra, Sava et Iri entrent dans les premières années de l'Éveil par une crise à Aurenth : secours, contrat contesté et convoi retenu. Le dernier chapitre du Livre IV ouvre leur conflit sans en résoudre toutes les conséquences. Voir [l'approfondissement et ses limites](docs/canon-v9-3-2026-10-09.md).
 

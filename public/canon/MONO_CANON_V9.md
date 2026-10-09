@@ -723,6 +723,10 @@ Terres tempérées, forêts, plaines et vieux royaumes ; Aurenth y garde sa neut
 
 Les anciennes couronnes fondent leurs droits sur des serments dont les archives ne concordent pas toujours. Des cités financent les routes et les soins en contestant les péages héréditaires ; des maisons régnantes répliquent que leurs réserves protègent aussi les campagnes. Aurenth accueille leurs négociations mais dépend des convois qu’elles peuvent retenir. Les frontières et les dynasties précises restent à nommer.
 
+### Le Bois de Nacre pendant le Voile
+
+Vers CD 12100, le Bois de Nacre et le relais des Lisières abritent le premier arc de Naël. Une anomalie locale fait apparaître des voisinages incompatibles et les traces d’un ouvrage antérieur au Grand Rite. Elle ne fixe ni les frontières des royaumes ni une carte certaine des dimensions.
+
 ### À développer
 
 - Frontières et sociétés du présent.
@@ -758,10 +762,6 @@ Montagnes, steppes et forges ; Yeshmar transmet la question de Talem.
 ### État du monde
 
 Les forges conservent des architectures que peu d’ateliers savent réparer. Leurs monopoles rendent des cités dépendantes ; les traditions de Talem revendiquent l’accès aux plans des corps et aux choix de modification. Yeshmar transmet cette dispute. La sécurité d’un réseau peut justifier un secret technique et servir à refuser l’autonomie d’une personne.
-
-### Serekh pendant le Voile
-
-Vers CD 12100, les ateliers et comptes de maintenance de Serekh rendent visibles des dépendances anciennes : certaines protections nécessaires sont financées par des contributions impossibles à retirer. Cette histoire locale ne fixe pas les frontières des États ni les institutions de tout Khoram.
 
 ### À développer
 
@@ -825,27 +825,32 @@ Leur silence impose de voir avant de juger. Mais une victime peut avoir besoin d
 
 Dans les premières années après CD 12600, une Brisure atteint un réseau de protection proche des lieux d’accueil. Les ateliers réclament la reconnaissance d’un contrat de maintenance contesté avant de livrer un apport. Maëra en tient les copies ; Sava connaît le réseau ; Iri porte la pièce liée à un convoi retenu. La cité doit secourir les habitants, maintenir les accueils et examiner une dette dont les bénéficiaires peuvent couper le soutien. L’origine exacte de cette Brisure n’est pas encore attribuée à un souverain.
 
-## Serekh
+## Le Bois de Nacre
 
-Khoram · Cité de terrasses · Le Voile
+Avarn · Forêt de Terra · Le Voile
 
-Une ville de quais et d’aqueducs dont les protections dépendent de contributions devenues héréditaires.
+Un frêne interrompu laisse entrevoir un cortège et des voisinages que les chemins ordinaires ne relient plus.
 
-### Une géographie locale
+### Une forêt terrestre
 
-Serekh est située dans une gorge de Khoram, autour d’une rivière et de terrasses renforcées. Sa localisation exacte sur la carte de Terra reste à établir. Pendant le Voile, les grands passages incertains et les droits de maintenance rendent les ateliers, routes et relais indispensables.
+Situé en Avarn vers CD 12100, le Bois de Nacre est une forêt physique traversée par des routes de relais. Sa localisation cartographique précise reste ouverte. Le relais des Lisières accueille gardes et voyageurs ; l’événement du frêne concerne un secteur local, pas tous les bois du continent.
 
-### La Chambre des Restes
+### Le cortège et les voisinages
 
-Le dépôt situé sous les quais conserve comptes, plans et traces reçues. Les morts n’alimentent aucun réseau : leur nom maintenu ouvert justifie des prélèvements sur les foyers vivants. Une archive peut porter un titre abusif tout en conservant les preuves qui le contredisent. Les empreintes de cachets peuvent être copiées sans créer l’accord dont elles prétendent témoigner.
+Naël et le groupe observent un frêne dont la cime reste suspendue et un cortège apparent dans l’intervalle de son tronc. Les distances et prises changent ; un ancien pont revient sans charge matérielle. Mémoire et contact entre dimensions sont des pistes étayées, mais l’identité des présences et leur domaine restent inconnus. Aucun nouveau monde ni principe supplémentaire n’est établi.
+
+### Sous les racines
+
+Un ouvrage comportant conduites et bagues préparées maintient encore une circulation locale. Le groupe reconnaît des fonctions de répartition et de tenue sans pouvoir attribuer toute l’intention de ses bâtisseurs. Un relevé antérieur au Grand Rite présente un motif comparable. Le blanc central n’atteste pas une manifestation d’AZKAVOTH.
 
 ### Après l’arc
 
-Les comptes sont examinés dans un dépôt dont les ateliers ne détiennent plus seuls les clés. Des noms sont clôturés et les contributions futures redeviennent contestables. Le réseau est réduit, des quais sont perdus et un garde est mort. Ni une audience ni une réparation ne supprime ces conséquences.
+Rém est sauvé ; une prise se perd et une bande du bois reste inaccessible par leur trajet. Un détour et des repères sont organisés. Le cortège continue hors de leur accès, et la forêt n’est pas annoncée réparée.
 
 ### À développer
 
-- La localisation cartographique précise et les suites institutionnelles de l’examen des comptes.
+- Qui ou quoi forme le cortège ? Pourquoi une silhouette s’arrête-t-elle ?
+- La fonction d’origine de l’ouvrage et son rapport aux autres relevés antérieurs au Grand Rite.
 
 # Sillage & puissance
 
@@ -959,6 +964,10 @@ Une pièce peut répéter un moment, contenir un espace impossible ou laisser en
 ### Au présent
 
 Depuis CD 12600, les Brisures se multiplient. L’épuisement du Sillage disponible fragilise les relations qui séparent les dimensions ; les tensions en concentrent localement les courants, jusqu’à une rupture. Cette recompression peut rendre une réserve accessible tout en exposant un lieu aux lois d’un autre monde. Étude, fermeture et traversée exigent compréhension et ancrage. À Aurenth, une première crise met en conflit secours, maintenance et reconnaissance des dettes ; l’identité d’une influence rencontrée ne peut être déduite de la seule apparence de la fracture.
+
+### Un contact pendant le Voile
+
+Les Brisures existaient avant leur multiplication au début de l’Éveil. Vers CD 12100, Naël et ses compagnons observent au Bois de Nacre des changements de voisinage, une rémanence sans charge et un ancien ouvrage de tenue. Le cortège apparent reste sans identification. Trois perspectives incompatibles n’attestent pas un quatrième monde ; reconnaître un effet de Mémoire ne suffit pas à attribuer le phénomène à un Archange.
 
 ### À développer
 
@@ -1269,7 +1278,7 @@ Les chroniques effacent son nom après le Rite. Sa responsabilité est établie 
 
 ### Trois siècles plus tard
 
-Dans le premier arc de Serekh, le Grand Rite et les dernières paroles publiques d’Eshar constituent le repère distant d’environ trois siècles. Cet intervalle ne fixe pas une date de mort ni le sort du prophète. Oran n’est pas annoncé comme son successeur.
+Le premier arc de Naël, vers CD 12100 pendant le Voile, prend pour repère le Grand Rite et les dernières paroles publiques d’Eshar, environ trois siècles auparavant. Aucun décès du prophète n’est daté. Le relevé du Bois de Nacre ouvre une piste antérieure au Rite, sans résoudre le sort d’Eshar ni faire de Naël son successeur.
 
 ### À développer
 
@@ -1353,107 +1362,121 @@ Elle apporte à Maëra la pièce qui justifie la retenue du convoi et cherche au
 
 - La libération du convoi et les engagements qu’elle peut encore tenir.
 
-## Oran
+## Naël
 
-Humain · Jaugeur des morts · Le Voile
+Humain · Guide des chemins forestiers
 
-À Serekh, il ferme les comptes des défunts. Un acte annonce sa propre mort pour le lendemain.
+Un événement impossible dans le Bois de Nacre l’amène à chercher ce que les routes ordinaires ne permettent pas de comprendre.
 
-### Vers CD 12100
+### Avant la forêt
 
-Oran est un homme de quarante-trois ans vivant à Serekh, en Khoram, pendant le Voile. Trois siècles le séparent du Grand Rite d’Eshar, dernière grande parole prophétique publique retenue comme repère de cet arc. Il vérifie les décès et la clôture des contributions de maintenance attachées aux foyers. Il se rattache à la Lettre sans détenir une autorité religieuse sur les habitants.
+Naël a vingt-neuf ans, vers CD 12100, pendant le Voile. Il guide des voyageurs et transporte des fournitures entre des relais d’Avarn. Sa connaissance vient de trajets, de gestes et de repères terrestres ; il n’a reçu ni Sceau, ni charge prophétique, ni réserve exceptionnelle.
 
-### Le métier et la limite
+### Ce qu’il a vu
 
-Il utilise Kethra pour examiner des circuits connus et Meryn pour conserver des traces dans des supports préparés. Sa chaîne, son cachet et ses relevés ne lisent ni une âme ni une intention. Une empreinte peut être copiée ; établir une responsabilité exige provenance, témoins et confrontation des pièces. Il n’a pas la réserve pour soutenir un ouvrage monumental et reste vulnérable à la violence.
+Il découvre un frêne dont le tronc est interrompu sans chute de la cime. Dans l’intervalle, un cortège apparent modifie les voisinages du paysage. Rém, garde du bois, disparaît de son chemin accessible. Naël distingue ensuite une phrase répétée d’une silhouette dont le mouvement semble répondre : elles ne prouvent pas la même chose.
 
-### Une perte encore présente
+### Apprendre à chercher
 
-Sa fille Lise est morte sept ans avant l’arc, lors d’une surcharge de protection à l’hospice. Oran croit connaître les circonstances enregistrées. La restitution d’une bande de mémoire l’oblige à examiner ce qu’il a demandé, entendu et signé. Lise ne revient pas lui parler : une voix ancienne, reçue de son vivant, peut seulement être restituée.
+Tess lui apprend à relever les prises d’un ouvrage ; Veyl prépare les limites du retour ; Sorane utilise un signal entretenu avec Rém. Naël apporte ses gestes de guide et sa capacité à suivre une matière continue. Sa curiosité l’expose au désir d’avancer avant de savoir revenir.
 
 ### Après l’arc
 
-Oran rend publique sa responsabilité et participe à une évacuation qui ne sauve pas tous les biens ni toutes les vies. Sa main gauche conserve une blessure qui limite sa précision. Les comptes sont examinés sous plusieurs gardes ; la ville tient sur un réseau réduit. Une demande d’inspection extérieure lui ouvre un travail à poursuivre, sans promettre une réparation universelle.
+Rém revient vivant avec une atteinte du regard ; une partie du bois reste inaccessible. Naël commence une enquête vers des ouvrages évoqués par un feuillet antérieur au Grand Rite. Il sait transmettre des observations partielles sans en faire une révélation complète. Son départ ne fait pas de lui un successeur d’Eshar.
 
 ### À développer
 
-- Les suites de l’inspection extérieure et de l’examen des responsabilités de Serekh.
+- L’origine du cortège, la fonction de la silhouette arrêtée et ce qui peut être appris des autres ouvrages.
 
 ## Tess
 
-Golem · Réparatrice des supports
+Golem · Réparatrice et releveuse de routes
 
-Elle veut récupérer les comptes et les plans avant que le greffe ne les révise.
+Elle sait faire une carte utile sans prétendre que le monde doit s’y conformer.
 
-### Le corps réparé
+### Le corps et la pratique
 
-Tess entretient des bracelets de conduite et des supports de mémoire à Serekh. Elle appartient au culte de la Forme. Ses réparations lui ont donné une autonomie réelle mais l’accès aux pièces de son corps dépend encore de son atelier. Ses joints de bronze et sa porcelaine sont sa forme actuelle, pas une anatomie obligatoire des Golems.
+Golem itinérante, Tess entretient ses articulations et des supports de relais. Son visage de porcelaine ivoire, ses réparations métalliques et ses vêtements pratiques sont une interprétation visuelle, pas de nouvelles facultés de lignée. Elle pratique Kethra pour étudier, Meryn pour recevoir certaines traces et des opérations de Mesure et de Permanence sur des supports connus.
 
-### Une preuve, pas une revenante
+### La carte et les prises
 
-Elle retrouve une trace de Lise et la pièce préparée pour clôturer le compte d’Oran. Elle les lui fait porter pour obtenir une inspection avant la révision du greffe. La restitution exige un canal, une alimentation et une durée mesurée. Elle conserve et compare ; elle ne fabrique ni l’énergie d’une copie ni la personne dont la voix a été inscrite.
+Elle relève ce qui permet de rejoindre un endroit plutôt que d’imposer des distances fixes à une Brisure. Un diagnostic demande outils, comparaisons, temps et alimentation. Savoir nommer un principe n’établit pas la source de tous ses effets. Ses feuillets conservent des traces partielles, pas une énergie dupliquée ni la totalité d’un lieu.
 
-### Réparer sans purifier
+### La responsabilité
 
-Tess pratique Kethra, Tharos et des opérations préparées d’Elyr sur les supports qu’elle sait inspecter. Elle refuse de brûler les archives : titres abusifs, plans nécessaires et preuves des demandes d’arrêt s’y trouvent ensemble. Ses charges ont des limites ; son refus de les dépasser peut sauver la circulation sans sauver tous les ouvrages.
-
-### À développer
-
-- L’accès indépendant aux pièces et aux procédés de réparation.
+Tess consigne la réserve disponible, la charge engagée, la dispersion et les pertes consumées. Elle prépare un retrait et refuse de présenter le sauvetage de Rém comme une réparation de toute la forêt. Elle ne maîtrise pas chaque ouvrage ancien qu’elle rencontre.
 
 ## Veyl
 
-Qerathim · Refuge de Serekh · Maison de Karzuth
+Qerathim · Gardien de refuges
 
-Il protège un refuge dont les portes ont aussi laissé des personnes dehors.
+Il cherche un bord qui tienne assez longtemps pour que les autres puissent revenir.
 
-### Protéger un lieu
+### Une origine, des décisions
 
-Veyl descend de la Maison de Karzuth et garde un refuge pour des familles dont les contributions restent ouvertes. Son ascendance n’en fait ni un serviteur obligé de Qerath ni un souverain abyssal. Il tient des passages physiques préparés et organise des prises locales d’Enfermement.
+Issu de la Maison de Karzuth, Veyl garde des refuges sur les routes d’Avarn pendant le Voile. Son ascendance ne décide ni sa fidélité ni la valeur de ses choix. Il sait qu’une fermeture peut protéger ceux qui sont dedans en laissant les autres dehors.
 
-### Ce qu’une porte ne sauve pas
+### Une limite préparée
 
-Fermer peut arrêter une poursuite ou contenir des débris. La charge doit rester compatible avec la porte et ses ancrages ; Veyl ne contient pas une crue entière par sa volonté. Les personnes restées dehors peuvent contester sa protection. Il demande que ses pertes de route et d’approvisionnement soient reconnues, au lieu de devenir le prix invisible d’une autre victoire.
-
-### Une réponse propre
-
-Il accepte d’aider Oran à accéder aux pièces mais exige qu’on conserve aussi celles qui mettent Oran en cause. Durant l’évacuation, il annonce sa limite et demande le retrait de sa contribution. Ce choix ne le rend pas invulnérable : il oblige les autres à arrêter ou à reprendre réellement la charge.
-
-## Edrane
-
-Humaine · Magistrate de l’entretien
-
-Elle protège des ouvrages indispensables en acceptant des contributions que leurs foyers ne peuvent plus refuser.
-
-### Des lits aux comptes
-
-Ancienne soignante de l’hospice, Edrane gouverne une part des procédures d’entretien de Serekh. Elle connaît la pénurie, les risques des terrasses et les refus d’apports extérieurs. Ces contraintes réelles ne l’exemptent pas des prolongations qu’elle laisse le greffe imposer.
-
-### La justification et la faute
-
-Le greffe maintient les noms de personnes mortes ouverts et reporte leurs contributions sur leurs foyers. Les archives des anciens accords servent de titre, pas d’alimentation miraculeuse. Les bracelets, dépendances et gardes obtiennent une conduite réelle sans fabriquer un consentement. Edrane peut rendre une dette à une famille et pourtant laisser le système qui la reproduit.
+Sa pratique de l’Enfermement exige fermoirs, prises, supports et une réserve finie. Il peut contenir un contact local qu’il a étudié et signaler sa perte de tenue. Il ne crée pas à volonté une sortie sûre de tout territoire métaphysique ; une réussite locale ne lui donne aucune souveraineté sur les Abysses.
 
 ### Après l’arc
 
-Elle suspend l’ordre de ramener Oran au relais et ouvre une réserve haute pour l’évacuation. Ces décisions peuvent être justes sans effacer ses actes antérieurs. Elle perd provisoirement sa charge pendant l’examen des comptes. L’audience doit déterminer les responsabilités, y compris celle des autres autorités qui ont refusé des apports.
+Veyl tient un bord préparé pendant le retour de Rém. Ses supports et sa propre peau restent abîmés. Il accepte d’examiner d’autres seuils avec Naël et Tess, à condition d’organiser le retrait. Il n’a pas vaincu ni identifié le cortège.
 
-### À développer
+## Edrane
 
-- L’issue de l’examen des comptes et les responsabilités du conseil et des ateliers.
+Humaine · Gardienne du relais des Lisières
 
-## Lise
+Elle demande aux témoins ce qu’ils peuvent soutenir, puis garde aussi leurs incertitudes.
 
-Humaine · Soigneuse de l’hospice
+### Le relais
 
-Sa demande d’arrêt a laissé une trace que les comptes officiels ne reconnaissent pas.
+Ancienne copiste, Edrane soigne et accueille les voyageurs au relais des Lisières, au bord du Bois de Nacre. Elle conserve les lettres et relevés interrompus par les routes du Voile. Sa fonction lui donne des documents et des contacts, pas une connaissance omnisciente des dimensions.
 
-### Avant la surcharge
+### Avant le Grand Rite
 
-Lise, fille d’Oran, s’est engagée comme soigneuse à l’hospice de Serekh. Elle veut continuer à protéger les malades sans maintenir une charge devenue dangereuse. Sa demande porte sur une redistribution et un arrêt, pas sur l’abandon de ceux qu’elle aide.
+Elle transmet un feuillet daté de CD 11436 qui décrit une anomalie de voisinage et un motif de trois arcs autour d’un blanc. Une provenance partielle est établie dans les archives des relais. Les renvois vers d’autres lieux doivent encore être authentifiés. La pièce ouvre une piste antérieure à Eshar ; elle ne révèle pas le sens ultime de son Rite.
 
-### La mort et la trace
+### Transmettre sans remplir les blancs
 
-Elle meurt sept ans avant le début de l’arc, lors de la surcharge. Une bande préparée a enregistré sa voix pendant qu’elle était vivante. Cette trace peut être incomplète et demande une alimentation ; elle ne contient pas une âme disponible aux questions. Reconnaître sa mort n’efface ni les pertes consumées ni la responsabilité des décisions.
+Elle distingue observations et interprétations avec Naël. Elle soigne Rém sans promettre de rendre tout son regard et finance le premier trajet d’enquête en demandant un relevé qui conserve aussi les erreurs.
+
+## Sorane
+
+Djinn · Compagne des routes forestières
+
+Un signal reçu peut l’aider à retrouver Rém ; il ne lui apprend pas tout ce qu’il est devenu.
+
+### Une présence incarnée
+
+Sorane est une Djinn vivant sur les routes d’Avarn pendant le Voile. Son apparence opalescente et les contours colorés de l’illustration ne lui donnent ni invulnérabilité ni accès automatique aux Cieux. Elle entretient avec Rém des dispositifs de signalisation et des gestes partagés.
+
+### Un lien étroit
+
+Par la Relation, elle reconnaît certaines réponses entre les anneaux de Rém et son bracelet, lorsqu’une prise demeure accessible. Elle ne lit pas ses pensées et ne peut l’extraire seule d’une Brisure. Un silence ne constitue ni une preuve de mort ni un accord pour continuer. La conduite demande une réserve qu’elle doit aussi garder pour le retour.
+
+### Après l’arc
+
+Sorane aide Rém à revenir et reste auprès de lui pendant sa convalescence. Elle remet une copie de leurs signaux au groupe, sans céder sa propre prochaine route. Naël, Tess et Veyl partent sans faire de son aide une obligation de les suivre.
+
+## Rém
+
+Humain · Garde du Bois de Nacre
+
+Il suit un signal qui lui est familier et perd l’accès à son chemin de retour.
+
+### La garde du bois
+
+Rém inspecte des routes et cherche des voyageurs manquants près du relais des Lisières. Il a entretenu des signaux de conduite avec Sorane. Dans l’événement du frêne, une voix reproduit un signal ancien des gardes ; cette reconnaissance suffit à le faire approcher, pas à établir qui l’appelle.
+
+### Le sauvetage
+
+Il demeure vivant dans une distance devenue inaccessible et maintient une prise physique sur une branche. Les signaux préparés permettent au groupe de le retrouver. Il comprend les conditions du retrait et demande de ne pas prendre son silence pour un accord.
+
+### Après l’arc
+
+Rém revient vivant, avec une atteinte du regard que les soins ne promettent pas d’effacer entièrement. Son témoignage est précieux mais partiel : le lieu et la voix qu’il a perçus ne deviennent pas, par sa survie, une cartographie certaine des Cieux ou des Abysses.
 
 # Fondements
 
@@ -1613,5 +1636,5 @@ Nommer un être permet de le désigner et d’étudier des traces, pas de le pos
 - **~CD 9500–11800** — Royaumes Clos : montée des frontières et des pouvoirs ; histoire détaillée ouverte. (À développer)
 - **~CD 11800** — Le Grand Rite d’Eshar : accord imposé, échec, fracture rouverte. (Établi)
 - **~CD 11800–12600** — Le Voile : échanges rompus et regroupements historiques des peuples. (Repère)
-- **~CD 12100** — Pendant le Voile, trois siècles après le Grand Rite : Oran et la crise des comptes de Serekh. Premier arc raconté ; le sort ultime d’Eshar reste inconnu. (Établi)
+- **~CD 12100** — Pendant le Voile, trois siècles après le Grand Rite : Naël observe le cortège du Bois de Nacre. Le sauvetage de Rém ouvre une enquête sur des ouvrages antérieurs à Eshar. L’origine du phénomène et le sort du prophète restent inconnus. (Établi)
 - **CD 12600 → présent** — Éveil des Brisures. À Aurenth, Maëra, Sava et Iri affrontent une crise de secours, de maintenance et de dettes. La suite de ce conflit et la politique plus large du présent restent ouvertes. (Repère)

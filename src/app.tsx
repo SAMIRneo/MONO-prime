@@ -348,7 +348,7 @@ function Home() {
           })}</div>
           <figcaption>Terra est physique ; les Cieux et les Abysses sont métaphysiques.<br /><a href="#/univers">Lire la cosmologie</a></figcaption>
         </figure>
-        <article className="arc-feature"><a className="arc-cover" href="#/lire/livre-5/1" aria-label="Lire La ville qui refusait ses morts"><Art name="oran-cover-v1" alt="Oran sur les quais de Serekh, son registre à la main" hero sizes="(max-width: 760px) 100vw, 700px" /></a><div className="arc-copy"><span className="eyebrow">PREMIER ARC · SIX CHAPITRES ILLUSTRÉS</span><h2><a href="#/lire/livre-5/1">La ville qui refusait ses morts</a></h2><p>Oran clôt les comptes des morts. Un matin, il reçoit le sien. La date est celle du lendemain.</p><p className="arc-period">Serekh, vers CD 12100 · Trois siècles après les dernières paroles publiques d’Eshar.</p><LinkArrow to="#/lire/livre-5/1">Entrer dans l’histoire</LinkArrow></div></article>
+        <article className="arc-feature"><a className="arc-cover" href="#/lire/livre-5/1" aria-label="Lire Ce qui marche entre les arbres"><Art name="nael-forest-v1" alt="Naël face au cortège impossible du Bois de Nacre" hero sizes="(max-width: 760px) 100vw, 700px" /></a><div className="arc-copy"><span className="eyebrow">PREMIER ARC · SIX CHAPITRES ILLUSTRÉS</span><h2><a href="#/lire/livre-5/1">Ce qui marche entre les arbres</a></h2><p>Dans la forêt, Naël voit un arbre perdre le milieu de son tronc. Une procession traverse l’intervalle — et les distances du monde changent avec chacun de ses pas.</p><p className="arc-period">Avarn, vers CD 12100 · Trois siècles après les dernières paroles publiques d’Eshar.</p><LinkArrow to="#/lire/livre-5/1">Entrer dans l’histoire</LinkArrow></div></article>
         <ReadingTrail />
         <article className="notebook-post chronicle-excerpt">
           <div className="post-date"><span>Lecture / Livre I</span><a href="#/recits">Sommaire des livres</a></div>
@@ -705,7 +705,7 @@ function Stories() {
       <aside className="note">
         <h3>Deux époques, un même monde.</h3>
         <p>
-          Oran vit pendant le Voile, vers CD 12100. La crise de Maëra, Sava et Iri à Aurenth se déroule environ cinq siècles plus tard, au début de l’Éveil.
+          Naël vit pendant le Voile, vers CD 12100. La crise de Maëra, Sava et Iri à Aurenth se déroule environ cinq siècles plus tard, au début de l’Éveil.
         </p>
         <LinkArrow to="#/chronologie">Situer les événements</LinkArrow>
       </aside>
@@ -926,7 +926,7 @@ function Reader({
   );
 }
 const readingGuides: Record<string, string[]> = {
-  "livre-5": ["oran", "tess", "veyl", "edrane", "lise", "serekh", "sillage"],
+  "livre-5": ["nael", "tess", "veyl", "sorane", "rem", "edrane", "bois-nacre", "brisures", "sillage"],
   "livre-1": ["azkavoth", "cosmogonie", "temoins", "sillage"],
   "livre-2": ["qerath", "jugement", "tamariel", "fond"],
   "livre-3": ["vothorak", "talem", "golems", "malkiel"],

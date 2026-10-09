@@ -212,166 +212,168 @@ Le passage permit une évacuation partielle. Quand un support commença à céde
 
 À l’aube, le quartier pouvait être secouru par une autre entrée. Le convoi restait retenu, la réserve d’Iri était réduite et l’atelier réclamait le prix des supports. Maëra publia les deux copies. Sava ajouta le bilan de leur intervention, y compris les pertes. Elles avaient empêché une aggravation ; elles n’avaient ni résolu la dette ni expliqué la Brisure.
 
-# La ville qui refusait ses morts
+# Ce qui marche entre les arbres
 
 Premier arc · Le Voile, vers CD 12100
 
-## Le lendemain
+## L’arbre qui n’était plus à sa place
 
-![Oran ouvre un registre sous la pluie, devant les aqueducs et les quais de Serekh.](../art/oran-cover-v1.webp)
+![Naël découvre un tronc interrompu par une procession impossible dans une forêt aux perspectives disjointes.](../art/nael-forest-v1.webp)
 
-*Serekh · Un acte préparé pour une mort qui n’a pas encore eu lieu.*
+*Le Bois de Nacre · L’arbre reste immobile. Ce qui change, c’est la distance entre les choses.*
 
-Oran reçut son acte de décès un jeudi de pluie. La date était celle du vendredi. Sous son nom, quelqu’un avait imprimé son propre cachet.
+Naël connaissait cette forêt assez bien pour y marcher en pensant à autre chose. Il avait vingt-neuf ans, une cape qui laissait entrer la pluie par une couture et six jours pour livrer une besace de remèdes de l’autre côté du Bois de Nacre. Trois siècles avaient passé depuis les dernières paroles publiques d’Eshar. Les gens du relais comptaient les années ; Naël comptait les passages praticables.
 
-Le garçon qui avait apporté la caisse attendait encore sur le seuil. Oran lui demanda où se trouvait le corps. Le garçon regarda ses bottes. Il ne connaissait que le trajet, la porte et la pièce de cuivre qu’on lui avait promise. Oran le paya. Il le regarda courir entre les gouttes, avec cette colère absurde contre les jambes d’un autre qui savaient encore partir.
+Il remarqua d’abord le cerf. L’animal broutait à trente pas, entre deux hêtres, mais son souffle lui arrivait contre la joue. Naël s’arrêta. Il attendit une rafale. Aucune branche ne bougea. Le cerf leva la tête, recula d’un pas et se retrouva au bord de la rivière, que Naël aurait dû atteindre une heure plus tard.
 
-Dans la caisse, à côté de l’acte, il y avait une bande de laiton et un morceau de ruban rouge. Oran ne toucha pas le ruban. Il connaissait le point cousu à son bord : une reprise maladroite, faite sept ans plus tôt par sa fille pour empêcher l’étoffe de se défaire. Il avait enterré ce ruban avec elle. Du moins, c’était ce qu’il avait cru.
+Il posa sa besace. Il ne cria pas : enfant, il avait appris qu’un animal inquiet pouvait vous donner une bonne raison de vous taire. Le chemin était encore sous ses pieds. La marque qu’il avait entaillée au printemps restait sur le même arbre. Pourtant, cet arbre se trouvait maintenant derrière le cerf.
 
-Il gagnait sa vie à fermer les comptes des morts. Il vérifiait un nom, un corps, des témoins ; puis il rompait le cachet qui permettait à une dette de maintenance de rester attachée à un foyer. Il ne parlait pas aux âmes. Il savait seulement ce qu’une famille risquait lorsqu’une administration refusait de reconnaître une mort.
+Une feuille descendit devant lui. Elle passa deux fois à hauteur de son visage sans remonter. Naël suivit sa chute et aperçut le grand frêne. Une tranche manquait au milieu de son tronc. La cime demeurait suspendue au-dessus de la souche ; aucune fibre ne reliait les deux. Dans l’espace où sa main aurait à peine tenu, quelqu’un marchait.
 
-Serekh avait été bâtie dans une gorge de Khoram, autour d’une rivière noire et de terrasses qu’un réseau d’ouvrages empêchait de glisser. Trois cents ans avaient passé depuis le Grand Rite d’Eshar. Les grands passages demeuraient incertains. Ici, on entretenait les vieux relais parce qu’on n’avait pas d’autre ville où aller.
+Puis quelqu’un d’autre. Puis une file dont il ne voyait pas la fin. Les silhouettes paraissaient minces à en couper la lumière. Certaines portaient ce qui ressemblait à des voiles ; d’autres n’avaient qu’une limite autour d’un vide. Leurs pas n’écrasaient rien. À chaque mouvement, un arbre proche devenait lointain, une branche séparait deux pans du ciel, la rivière changeait de voisin.
 
-Sur l’acte figurait une cause : accident de conduction. Une heure : la neuvième. Un lieu : la Chambre des Restes. L’autorisation portait le contre-cachet du greffe. Ce n’était pas une vision. Quelqu’un avait préparé un dossier dont il attendait que le monde remplisse les cases.
+Naël chercha un reflet, une peinture, une fumée. La profondeur s’étendait au-delà de ce qu’un tronc pouvait contenir. Il avait entendu raconter les Cieux au-dessus des nuages et les Abysses sous les morts. Devant lui, il n’y avait ni dessus ni dessous. Il y avait un endroit qui ne se laissait pas placer.
 
-Oran sortit sa chaîne de mesure. La dernière empreinte de son outil possédait une bavure ; il l’avait laissée exprès, pour reconnaître les copies. La bavure était là. On n’avait pas volé le cachet. On avait restitué l’une de ses anciennes empreintes dans un support préparé.
+Une des silhouettes s’arrêta. Le mouvement du cortège continua autour d’elle. Naël n’aurait su dire où se trouvait son visage ; il sut pourtant qu’elle s’était tournée vers lui. Il recula. Son talon heurta une racine et sa paume trouva l’écorce du hêtre marqué. Il resta là, la main posée sur un morceau du monde qu’il reconnaissait.
 
-À midi, les cloches d’entretien sonnèrent sous la pluie. Elles n’annonçaient pas un office : le quartier bas devait régler sa contribution. Des ouvriers sortirent leurs bracelets de conduite. Une femme referma le manteau de son fils sur le sien.
+De l’autre côté du frêne, un homme appela. Rém, le garde du bois. Naël reconnaissait sa veste rousse. Il était près de la souche, puis à plusieurs arbres de là, sans avoir changé de posture. « Ne suis pas le sentier ! » cria Naël. Rém tourna la tête. Il semblait entendre autre chose.
 
-Oran replia l’acte et prit la bande de laiton. Au dos, trois mots avaient été gravés à la pointe : Faites-la écouter. Il posa le ruban dans la poche intérieure de son manteau. Avant de partir, il barra sur son registre l’heure à laquelle il avait promis de fermer les comptes. Pour la première fois depuis sept ans, il ne savait plus lesquels.
+Le garde leva le pied. Le cortège reprit sa marche. La place où il se tenait devint un intervalle entre deux branches ; sa voix arriva encore, si près que Naël lui répondit. Aucun corps ne tomba. Le chemin vide ne disait même pas dans quelle direction chercher.
 
-## Ce qui reste d’une voix
+Naël déroula sa corde de mesure autour du hêtre, avec un nœud qu’il savait refaire les yeux fermés. Il avança de prise en prise, sans quitter longtemps l’écorce. Quand il revit enfin la borne du relais, le soleil était encore au-dessus de la colline. Cela ne lui apprit pas combien de temps il avait marché.
 
-![Tess, Golem au visage de porcelaine réparée, examine un support de mémoire avec Oran dans son atelier.](../art/oran-workshop-v1.webp)
+À la porte, Edrane prit la besace humide. Elle demanda où était Rém. Naël voulut raconter le frêne, la cime et la file entière. Il commença par la seule phrase qu’il pouvait soutenir : « Il était vivant quand je l’ai perdu de vue. »
 
-*L’atelier de Tess · Une trace alimentée restitue une voix ; elle ne rappelle pas une âme.*
+## Ce qu’un témoin peut promettre
 
-Tess reconnut la bande avant de reconnaître Oran. Ses doigts de bronze cessèrent de classer les pièces. Elle avait le visage d’une porcelaine réparée tant de fois que les jointures formaient une seconde expression, plus méfiante que la première.
+![Naël, Tess, Veyl et Sorane examinent une branche et un relevé au relais, sous des ombres discordantes.](../art/nael-witnesses-v1.webp)
 
-« Tu l’as envoyée », dit-il. Elle posa une chaise entre eux. « Si je t’avais appelé, tu aurais demandé un ordre du greffe. » Il ne répondit pas. Ils avaient déjà eu cette conversation, sept ans plus tôt, avec un lit derrière la porte et sa fille dessus.
+*Le relais des Lisières · Quatre témoins, des outils, aucune interprétation qui suffise à elle seule.*
 
-Le ruban était resté parmi les effets retenus par le greffe, au lieu de rejoindre le cercueil. Tess l’avait retrouvé dans la même boîte que la bande. Oran n’avait pas demandé à voir le paquet remis aux fossoyeurs. Cette négligence minuscule lui revint avec une précision qui le blessa presque autant que le reste.
+Edrane avait quitté les salles de copie pour tenir ce relais. Elle soignait, notait les passages et gardait les lettres que les routes rompues empêchaient de remettre. Elle écouta Naël sans l’interrompre. Puis elle lui fit recommencer, en séparant ce qu’il avait vu de ce qu’il avait pensé voir.
 
-Tess réparait les bracelets et les supports des ateliers. La bande venait d’un dispositif de Meryn : elle avait reçu une voix pendant qu’elle avait encore un corps pour parler. Rien de plus. Une réserve préparée permettrait de restituer quelques secondes. Après, il faudrait l’alimenter à nouveau. Aucun mort ne recevrait leurs questions.
+Il se fâcha au mot « silhouettes ». Il avait vu des êtres. Edrane posa la plume. « Tu as vu quelque chose qui s’est tourné. Je l’écris. Leur nom, leur origine, ce qu’ils voulaient : peux-tu l’écrire sans inventer ? » Naël regarda la porte où Rém aurait dû rentrer. Il finit par secouer la tête.
 
-Elle ouvrit un logement dans l’établi, inspecta le canal, puis prévint Oran que la trace pouvait être incomplète. Il acquiesça sans l’écouter. Quand la voix revint, il reconnut d’abord un souffle impatient, celui que Lise retenait avant de lui dire qu’il avait oublié quelque chose.
+Tess se trouvait dans la cour, occupée à refaire un genou. La Golem avait un visage de porcelaine ivoire dont les réparations métalliques dessinaient une seconde expression. Sa main droite possédait trois longs doigts de métal et deux outils escamotés. Elle écouta l’histoire, remit son genou en charge, puis apporta une caisse étroite. « Si les distances changent, la carte ne nous servira pas seule. »
 
-« Père, le huitième relais ne tient pas. J’ai demandé l’arrêt. Ils disent que la fermeture emportera l’hospice. Je ne veux pas quitter les malades. Je veux qu’on change la charge. Tu m’entends ? »
+Naël reconnut les bobines et demanda si elle pouvait ouvrir un passage. « Je peux entretenir certains supports, dit Tess. Je n’ai pas appris à traverser ce que tu décris. » Elle lui montra deux fioles préparées. Le fluide qui restait disponible dans l’une ne suffirait pas à alimenter tous les instruments de la caisse. Elle en choisit trois et laissa les autres au relais.
 
-Le logement redevint silencieux. Oran attendit. Il avait passé sept ans à imaginer une dernière parole plus douce. Tess lui laissait la place de recevoir celle qui avait vraiment été dite.
+Veyl accepta de les accompagner après avoir inspecté les portes. Qerathim issu de la Maison de Karzuth, il portait une peau de pierre brune parcourue de fines lignes ivoire. Son métier consistait à garder des refuges ; il savait préparer une limite et sentir quand elle cessait de tenir. Il avait aussi connu des fermetures qui protégeaient les uns en abandonnant les autres.
 
-Lise s’était engagée comme soigneuse. Le soir de l’accident, une terrasse avait commencé à céder ; trois salles de l’hospice dépendaient de la protection. Oran avait autorisé huit heures de conduction supplémentaires. Sur le registre officiel, la surcharge était survenue avant toute demande d’arrêt. Il avait signé ce registre aussi.
+La quatrième personne arriva avant le départ. Sorane, une Djinn des routes forestières, avait un corps opalescent dont les bords changeaient avec la lumière. Elle portait les anneaux de cuivre de Rém, ses repères de conduite. « Il me les laisse quand il part seul. » Naël voulut la rassurer. Sorane posa les anneaux à plat. « Aide-moi à chercher. Pour le reste, attends de savoir. »
 
-« Tu savais ? » Tess rapprocha de lui la bande. « J’avais entendu une demande. Je n’avais pas la pièce qui prouvait qu’elle avait été reçue. La Chambre des Restes a enregistré les deux côtés du canal. » Oran regarda sa main. La voix de sa fille n’était pas une accusation nouvelle. Elle rendait une ancienne certitude impossible.
+Au bord du bois, elle prépara une relation étroite entre son bracelet et les anneaux. Rém l’avait entretenue avec elle pendant des années. Elle pouvait reconnaître une réponse du dispositif, s’il restait accessible ; elle ne pouvait lire la pensée du garde ni tirer son corps à travers un espace inconnu. Le silence pourrait signifier trop de choses pour servir de verdict.
 
-Tess lui montra un second objet : le numéro d’entretien retiré de son propre bras. Dans les comptes de Serekh, son corps appartenait encore à l’atelier qui avait payé sa dernière réparation. Elle pouvait marcher dehors ; elle ne pouvait acheter les pièces dont ses canaux avaient besoin sans renouveler cet engagement.
+Ils posèrent trois bornes sur la lisière et laissèrent un signal au relais. Veyl montra l’itinéraire de retrait, que chacun répéta. Tess attribua les réserves : observer, chercher, revenir. Naël demanda combien de temps ils avaient. « Je peux compter ce que nos outils dépensent, répondit-elle. Ce qui se passe dedans, nous allons l’apprendre. »
 
-« Si nous détruisons les registres, dit Oran, leurs titres disparaissent. — Les plans aussi. Et les gardes savent trouver nos maisons sans papier. » Tess ne lui proposait pas une purification. Elle voulait les comptes entiers, avec les plans et les demandes d’arrêt, avant la révision annoncée pour le lendemain.
+Edrane leur remit une vieille feuille. Des gardes morts bien avant sa naissance avaient noté une forêt où les pas ne mesuraient plus les chemins. Elle n’en fit pas un oracle. « Cela peut être un récit. Cela peut être une mauvaise copie. Cherchez ce qui résiste à la comparaison. » Au bas, une date : CD 11436. Avant le Grand Rite.
 
-Elle avait copié son acte préparé dans une liasse de maintenance. L’accident prévu clôturerait sa responsabilité et ferait de l’inspection un dossier déjà réglé. Quelqu’un comptait sur sa mort ; personne ne connaissait encore la façon dont on la provoquerait. Oran rangea la bande. « Qui peut nous faire entrer ? » Tess tourna vers lui une clé carrée. « Quelqu’un à qui tu as refusé des morts. »
+Naël entra le premier, parce qu’il reconnaissait encore les arbres. Il choisit son ancien hêtre. Au pied du tronc, le nœud qu’il avait laissé était intact. À trois pas, sa propre corde passait derrière un arbre situé de l’autre côté de la rivière.
 
-## La porte qui protège
+## Une carte pour ce qui ne tient pas en place
 
-![Oran et Veyl inspectent des plaques de noms suspendues au-dessus de l’eau dans la Chambre des Restes.](../art/oran-archive-v1.webp)
+![Tess mesure une clairière fracturée tandis que Naël et Sorane découvrent plusieurs profondeurs dans les mêmes arbres.](../art/nael-map-v1.webp)
 
-*La Chambre des Restes · Les morts ne conduisent rien. Les vivants paient sous leurs noms.*
+*Une clairière, plusieurs voisinages · Tess relève des prises ; le paysage ne devient pas une carte certaine des Cieux.*
 
-Le refuge de Veyl n’avait pas de cloche. On frappait trois fois, puis on attendait que quelqu’un observe par la fente. Le battant était large, les gonds doublés. Quand la rivière montait, fermer cette porte sauvait ceux qui étaient dedans. Ceux qui attendaient dehors le savaient aussi.
+Tess étendit sa carte. La rive, le sentier et le hêtre formaient une figure simple. Elle compara cette figure aux trois points qu’ils pouvaient toucher. Aucun déplacement des repères sur le papier ne suffisait. Elle referma le carnet. « Nous allons noter ce qui mène à quoi. Nous mesurerons les longueurs ensuite. »
 
-Veyl portait sur le visage de fines fissures pâles et, sur son manteau, les marques d’anciens fermoirs. Il descendait de la Maison de Karzuth. Cette origine ne disait ni ce qu’il avait fait ni ce qu’il ferait. Oran connaissait la première chose : Veyl avait accueilli des familles dont la ville ne voulait pas fermer les comptes.
+Le hêtre permettait de rejoindre la borne blanche tant qu’ils maintenaient une prise continue sur les racines. Le sentier visible n’y conduisait pas. Une souche ouvrait vers la rivière lorsque les anneaux de Sorane répondaient ; lorsque leur réponse faiblissait, la rive disparaissait derrière des fougères. Ils testèrent chaque relation sans supposer qu’elle durerait.
 
-« Je t’ai apporté un acte », dit Oran. Veyl le lut, regarda la date et lui rendit la feuille. « Tu viens parce que le tien est faux. » Oran sentit sa première défense lui monter à la bouche. Il la ravala. « Oui. »
+Naël avait l’habitude de dire qu’un chemin était bon. Il dut apprendre à préciser pour qui, à partir de quoi et pendant combien de temps. Tess appelait cela des prises. Les principes agissaient à travers des corps, des supports, des relations. Reconnaître le principe ne donnait pas toutes les mains nécessaires pour s’en servir.
 
-Veyl les conduisit sous les terrasses par une galerie d’entretien. Il n’avait pas créé un passage : il avait obtenu une clé et préparé deux fermetures. À la première alerte, il pourrait contenir une poursuite. Il ne pourrait pas soutenir indéfiniment la poussée de l’eau contre les portes.
+Dans une clairière, ils virent le pont que Naël avait aidé à démonter deux hivers plus tôt. Le bois portait encore une entaille faite par son couteau. Naël s’en approcha. Tess lui prit le poignet avant qu’il ne mette le pied sur une planche. Sous le pont, les feuilles continuaient à flotter à travers les montants.
 
-La Chambre des Restes s’étendait dans l’espace évidé sous les quais. Des plaques d’ivoire pendaient aux rails de cuivre, entre les ponts d’entretien. Chaque nom avait un foyer, une réserve et une contribution associés. L’eau reflétait leurs alignements jusqu’à donner l’impression que la ville reposait sur une population retournée.
+Elle prépara un feuillet pour recevoir une trace, puis alimenta brièvement son instrument. La réponse reproduisit un son de marteau et l’ombre d’une main. Rien ne leur répondit lorsqu’ils appelèrent. « Une mémoire peut revenir dans un lieu sans rendre son passé habitable », dit Tess. Elle arrêta l’outil avant que la deuxième fiole ne commence à baisser.
 
-Tess compara les numéros. Les personnes mortes demeuraient ouvertes dans les comptes. Leurs contributions n’étaient pas fournies par des cadavres : on les prélevait sur les foyers restants. Les héritiers continuaient de tenir des charges que les registres attribuaient à un don ancien, renouvelé pour la sécurité commune. Les bracelets et les gardes faisaient le reste.
+Veyl demanda si Meryn touchait la forêt. Tess regarda la feuille, puis le pont. La Mémoire constituait une piste sérieuse. Un support terrestre pouvait aussi conserver des traces ; une influence pouvait les employer. La précision du souvenir ne leur donnait ni le nom d’un Archange ni la preuve que toute la scène venait des Cieux.
 
-Oran trouva Lise. Sa plaque portait une marque de réengagement ajoutée après sa mort. En dessous, la pièce de décision conservait son propre cachet. Il avait accepté de reporter la clôture des comptes du quartier pendant la remise en état. On lui avait dit : une semaine. Les travaux n’avaient jamais été déclarés finis.
+Les anneaux de Rém frémirent. Sorane s’accroupit et tira une partie de sa réserve dans le bracelet. Elle attendit, répéta le geste que le garde utilisait pour demander l’arrêt, puis reçut deux réponses courtes. Ses épaules descendirent. « Ce signal-là, nous l’avons préparé ensemble. Il sait encore s’en servir. » Elle ne dit pas qu’elle le sentait dans son âme.
 
-Un autre feuillet précisait que les demandes d’arrêt n’avaient pas été transmises. Oran sentit le froid lui serrer les tempes. Tess trouva la contre-trace du canal. L’appel de Lise était arrivé à son poste. Il se souvenait maintenant du levier sous sa paume, des lits dessinés sur le plan et de sa décision d’attendre encore quelques minutes.
+Naël voulut suivre la réponse aussitôt. Veyl lui montra le bord de la clairière : les trois pierres avaient pris la forme d’une seule ombre. Le retour était en train de changer. Ils préparèrent une autre limite avant de continuer. Sorane dut réduire sa conduite pour garder assez de moyens au retour. La réponse devint moins nette. Ils avancèrent avec cela.
 
-« Je l’ai entendu », dit-il. Tess ne détourna pas les yeux. Veyl posa sa lampe assez loin pour que les trois puissent voir la pièce. « Alors on emporte aussi celle-là. »
+La rive apparut derrière le frêne coupé. Le cortège cheminait toujours dans son intervalle. Cette fois, Naël distingua une silhouette qui marchait contre le mouvement des autres. Une manche rousse, un coude replié, puis un homme qui s’agrippait à une branche. Rém était là. La branche traversait trois distances sans cesser d’être une branche.
 
-Oran avait imaginé revenir avec une preuve qui laverait sa fille et le laisserait intact. Il détacha le feuillet portant son ordre. Une inscription du passé ne pouvait être défaite en refusant de la regarder. Il copia les numéros de dépôt ; Tess prépara les traces qu’ils pourraient réellement alimenter devant témoins.
+Tess retourna la feuille de CD 11436. Sous la poussière, un dessinateur avait noté la même disposition : trois arcs qui s’approchaient d’un blanc central sans le remplir. Elle plaça son relevé à côté. La ressemblance n’expliquait rien à elle seule. Elle suffisait à leur donner une raison de regarder plus bas.
 
-La première porte claqua au-dessus d’eux. Des bottes frappèrent la galerie. Veyl posa les deux mains sur le fermoir intérieur. « Prenez les plans. » Oran voulut l’aider. « Tu tiendras mieux une feuille qu’une porte », dit Veyl. Ce n’était pas du mépris. C’était la mesure exacte de ce qu’il savait faire.
+## La place laissée vide
 
-## Le prix des vivants
+![Naël découvre sous les racines trois perspectives incompatibles et un vide central que rien ne remplit.](../art/nael-depths-v1.webp)
 
-![Oran présente des pièces à Edrane, magistrate de Serekh, devant une maquette chargée de poids.](../art/oran-tribunal-v1.webp)
+*Sous le frêne · Matière, rémanences et profondeur sombre se rencontrent. Leur source reste à établir.*
 
-*Le tribunal d’entretien · Sauver une ville ne donne pas un droit sans terme sur ses habitants.*
+Sous les racines, Tess trouva du travail humain. Des bagues de céramique enserraient la pierre, des conduites anciennes descendaient dans le sol et trois prises restaient visibles. Le cortège n’avait pas fabriqué cet ouvrage sous leurs yeux. Quelqu’un, autrefois, avait entretenu une relation avec ce lieu.
 
-Ils sortirent par un quai de réparation. Veyl avait abandonné une porte pour sauver l’autre ; la fuite avait rempli la galerie derrière eux. Son refuge perdait l’accès qui permettait aux ateliers de livrer les provisions. Il refusa de laisser Oran appeler cela un simple dommage matériel.
+Naël descendit seulement jusqu’à la prise que Veyl pouvait garder. Là, il vit la forêt de profil. La terre conservait sa masse ; au-delà, une galerie claire changeait d’étendue chaque fois qu’un geste ancien revenait sur ses murs ; plus loin encore, une profondeur sombre rapprochait des silhouettes qu’aucun pas terrestre n’aurait réunies. Il cherchait un horizon. Il n’en trouvait pas un seul.
 
-Edrane les attendait au tribunal d’entretien. Elle avait exercé dans l’hospice avant de prendre la charge de magistrate. Sur sa table, les modèles des terrasses étaient lestés de petites pierres. Oran savait ce que chacun de ces poids représentait. Il avait appris à ne plus y voir des lits.
+Au centre, rien. Une place nette, sans objet, sans corps, sans parole. Les trois directions s’arrêtaient autour. Naël pensa au Retrait dont sa mère parlait lorsqu’elle allumait la lampe. Il sentit monter un mélange de terreur et de joie, puis l’envie de prononcer le Nom.
 
-Elle ne nia pas les prolongations. « La ville d’en haut a refusé trois apports. Les ateliers de l’extérieur réclamaient nos plans en garantie. Le quartier bas a tenu. » Tess posa le feuillet de Lise. « Il n’a pas tenu tout seul. »
+Veyl le vit lever la main. « Tu peux prier, dit-il. Pour ce que nous avons trouvé, il faudra encore des preuves. » Naël garda la main ouverte. Ce blanc pouvait avoir été ménagé par un artisan, produit par une rupture ou reçu autrement. Même un lieu qui touchait plusieurs dimensions ne pouvait lui livrer la Source entière.
 
-Edrane regarda la pièce, puis Oran. « Tu as signé. » Il répondit oui. Le mot ne le délivra de rien. Il rendit seulement plus difficile la possibilité de parler ensuite comme un homme qui aurait découvert la faute des autres.
+Le silence se rompit. « Laisse la route prendre son cours. » La phrase vint de la galerie, avec plusieurs voix qui n’arrivaient pas exactement ensemble. Rém lâcha une main. Le cortège se rapprocha de la place vide. Tess reçut un fragment de l’énoncé dans son feuillet, puis coupa : la réserve baissait trop vite.
 
-Le greffe avait préparé sa clôture avant sa visite à la Chambre. Oran demanda si l’accident annoncé était un ordre de le tuer. Edrane fit venir le commis responsable. Il reconnut avoir traité comme acquise l’issue d’une intervention jugée sans retour, afin de retirer l’inspecteur des comptes avant la révision. Une escouade avait reçu ordre de le ramener au relais. Personne ne promit qu’il en sortirait. Edrane suspendit cet ordre. Oran ne sut pas si elle venait d’empêcher un meurtre ou d’éloigner de sa table une preuve supplémentaire.
+Naël demanda qui parlait. La phrase recommença, avec le même souffle au même endroit. Une trace, pensa-t-il. Alors la silhouette arrêtée se tourna de nouveau. Cette fois, son mouvement ne suivait pas la répétition. Ils avaient au moins deux choses à distinguer : l’énoncé qui revenait et la présence qui semblait répondre. Leur faire porter le même nom aurait été facile. Tess nota leur différence.
 
-« Donnez-moi les copies, dit-elle. Je fermerai le nom de Lise et ton compte. » Il aurait pu rentrer avec une tombe entière et l’affirmation que sa vie lui appartenait de nouveau. Derrière lui, Tess tenait son bras réparé contre sa poitrine. Veyl ne s’était pas assis.
+Rém cria. Il arrivait par les anneaux de Sorane et par la branche, avec deux distances entre ses mots. Il avait suivi une voix qui reproduisait un ancien signal des gardes. Il croyait chercher des voyageurs perdus. « Je ne peux plus retrouver le bord. » Sorane répondit avec leur signal d’arrêt. Le garde serra la branche et attendit.
 
-« Et les autres ? — Si nous retirons toutes les contributions aujourd’hui, la protection cède. Tu connais les plans. » Edrane poussa vers lui le modèle du quartier bas. Elle disait vrai sur les charges. Cette vérité avait servi à rendre les mêmes corps indispensables pendant sept ans.
+Une bague sous la racine portait trois arcs identiques à ceux de la feuille. Tess reconnut la fonction de deux pièces : elles répartissaient une charge et limitaient une circulation. La troisième restait trop altérée pour qu’elle en déduise l’intention. La réserve disponible y était réelle, mais l’ouvrage la dépensait pour contenir le contact. La vider pour ouvrir une grande voie risquait de défaire ce qui retenait encore les bords.
 
-Oran consulta le bilan de Tess. Les terrasses hautes avaient gardé une réserve de précaution et des ouvrages de prestige pendant que les foyers bas renouvelaient leurs journées. La réduire ne sauverait pas tout ; elle donnerait le temps d’évacuer plusieurs rues et de remplacer certains supports. Edrane répondit que le conseil ne l’autoriserait pas.
+Naël aperçut des marches derrière Rém. Il aurait pu atteindre le garde en trois enjambées, si ces marches formaient ce qu’il pensait. Veyl posa sa paume sur la première et la retira, la peau fendillée. Leur limite ne suivait pas ce trajet. Les apparences lui donnaient une invitation ; leurs outils ne leur donnaient pas encore un retour.
 
-« Alors qu’il refuse devant ceux qu’il veut laisser tenir », dit Oran. Il demanda une audience ouverte et une répartition publiée. Il ne demandait pas aux gardes d’attendre l’accord de chaque habitant avant de protéger un mur. Il leur demandait de ne plus appeler contribution libre une charge dont personne ne pouvait sortir.
+La silhouette immobile leva ce qui ressemblait à un bras. Les autres continuèrent. Naël eut la certitude violente qu’il pouvait aller plus loin. Il ne sut pas si elle venait de lui, d’une influence ou de l’espoir de comprendre enfin. Il demanda à Tess : « Qu’est-ce qu’on sait sauver ? » Elle regarda la branche tenue par Rém. « Une prise. Peut-être un homme. Le reste, aujourd’hui, je ne sais pas. »
 
-Edrane tarda à répondre. Au loin, une cloche sonna une fois, puis resta suspendue dans son silence. La révision des comptes avait commencé à déplacer les circulations du vieux réseau. Un relais venait de sortir de sa plage. La magistrate prit le modèle et se leva. « Venez me montrer les rues que vous pouvez sauver. »
+## Garder un retour
 
-## L’heure d’arrêter
+![Naël et Sorane ramènent Rém par une branche entre des perspectives brisées, pendant que Tess et Veyl tiennent leurs prises.](../art/nael-return-v1.webp)
 
-![Oran, Tess et Veyl dirigent une évacuation au milieu des relais de cuivre et des quais qui cèdent.](../art/oran-relay-v1.webp)
+*Le retrait · Une voie tenue à plusieurs, une réserve finie et le signal qui oblige à changer le geste.*
 
-*Le réseau bas · Une limite annoncée doit pouvoir devenir un arrêt réel.*
+Ils choisirent la branche, parce qu’elle traversait encore les distances sans changer de matière. Naël pouvait en suivre l’écorce. Tess prépara deux supports pour stabiliser ses attaches. Veyl maintiendrait une limite à la racine ; Sorane garderait le signal de Rém. Aucun d’eux ne recevrait une prise sur tout le phénomène.
 
-Les ouvriers n’applaudirent pas quand Oran arriva. Ils regardèrent le cachet à sa ceinture. Plusieurs se souvenaient des huit heures supplémentaires. Il leur dit que l’appel avait été reçu, qu’il avait retardé l’arrêt et que les copies seraient déposées hors du greffe. Une femme demanda le nom du dépôt avant de croire le reste.
+Ils répétèrent le retrait une fois sans avancer. Si Veyl perdait la limite, Tess libérerait le second support vers la première prise. Si le bracelet de Sorane cessait de répondre, Naël reviendrait avec ce qu’il pourrait encore toucher. Rém entendit les conditions. Il demanda qu’on essaye. Il demanda aussi qu’on ne confonde pas son silence avec un accord pour continuer.
 
-Edrane fit ouvrir la réserve haute pour l’évacuation. Elle signa l’ordre et en remit une copie au représentant du quartier. Le conseil pourrait la poursuivre pour cet usage. Il pourrait aussi lire les charges qu’elle avait accepté de maintenir jusque-là. Elle ne réclama pas qu’un acte efface l’autre.
+Tess alimenta le premier support. Une partie du fluide disponible passa dans l’ouvrage ; une autre se dispersa dans les fibres anciennes. Elle ne pouvait récupérer les deux de la même manière. Naël sentit la branche cesser de vibrer. Il avança à plat ventre, une main toujours posée sur la même nervure.
 
-Tess répartit les opérations sur les supports inspectés. Les appareils d’Elyr devaient tenir les joints ; les réglages de Tharos, partager une charge précise. Les équipes annoncèrent ce qu’elles pouvaient conduire et le temps qu’elles estimaient tenir. Veyl prépara l’enceinte qui contiendrait les débris pendant le passage des familles. Sa porte ne serait pas une sortie : deux escaliers demeuraient à dégager.
+À moitié du trajet, il vit le cortège à hauteur de son visage. Les silhouettes n’avaient plus la même taille. Une forme immense passait derrière une silhouette minuscule sans que l’une soit plus loin. Il eut envie de fermer les yeux. Il regarda sa main. Une écharde, une tache de résine, une nervure qu’il pouvait continuer à suivre.
 
-Oran resta au poste des signaux. Il connaissait les réponses du réseau et la manière dont un ordre pouvait se perdre entre deux bureaux. Il fit répéter le geste d’arrêt, puis demanda qu’un second poste le voie. Sa réserve n’aurait pas soutenu une terrasse. Ses outils pouvaient maintenir une transmission étroite, tant que le canal restait accessible.
+Rém tendit le poignet. Naël passa sa corde, attendit que le garde ajuste le nœud, puis lui montra la nervure. Rém ne la voyait plus. Une lumière sèche avait brûlé une partie de son regard. Il se fia à la main de Naël, au signal de Sorane et au corps de la branche. Ils commencèrent à revenir.
 
-La première rue fut vidée. Dans la deuxième, un vieil homme refusa de quitter son atelier avant d’avoir récupéré un coffre. Un voisin revint l’aider. Le relais ne savait rien de leurs raisons ; sa charge augmentait quand même. Tess annonça une dérive. Edrane ordonna que l’on cesse de faire entrer des groupes sur le pont supérieur.
+Au-dessous, la voix répéta qu’il fallait laisser la route prendre son cours. La silhouette arrêtée se pencha vers eux. Naël sentit de nouveau cette promesse sans mots : une réponse entière, au-delà du prochain pas. Il avait voulu sauver Rém. Il voulait maintenant voir. Il reconnut qu’il s’agissait de deux désirs différents.
 
-Puis une traverse céda derrière Veyl. Il demanda de reprendre sa contribution. Il pouvait tenir encore un choc, pas le suivant. La réserve haute n’avait pas le débit nécessaire pour remplacer aussitôt cette prise. On pouvait attendre : quelques familles supplémentaires atteindraient l’escalier. On pouvait arrêter : le quai serait perdu.
+Le signal de Veyl frappa la racine. Arrêt. Naël avait presque atteint la prise suivante. Il pouvait gagner un bras de distance en continuant. Il se souvenait du genou que Tess avait réparé le matin même, de la peau de Veyl qui s’ouvrait sur la pierre. Il cessa de tirer et changea la position de la corde.
 
-Oran vit la même hésitation qu’autrefois, rendue presque raisonnable par ceux qui n’étaient pas encore sortis. Il n’entendit aucune voix de sa fille. Il entendit celle de Veyl, vivant, qui avait décrit sa limite.
+Tess libéra le second support. L’ouvrage céda une partie de sa tenue ; les perspectives se rabattirent. Sorane dut interrompre la réponse des anneaux et prendre le bras de Rém de ses propres mains. Elle avait gardé une réserve pour cela. Veyl recula sur la borne et la limite se referma sur un passage plus étroit. Il n’avait pas vaincu ce qui marchait dedans. Il avait tenu assez longtemps un bord qu’ils avaient préparé.
 
-Il donna le signal d’arrêt. Le second poste le répéta. Tess ramena la charge vers les supports préparés pour la recevoir. Un joint rompu projeta de la chaleur à travers le levier ; Oran lâcha trop tard. Sa main gauche se referma sans lui. Il resta au poste avec la droite et confirma l’interruption.
+La branche craqua. Naël, Rém et Sorane tombèrent sur la terre, du même côté. Derrière eux, une bande de forêt disparut de leur chemin praticable. Le frêne n’avait pas repris sa place. Le cortège continuait quelque part qu’ils ne pouvaient plus rejoindre de là.
 
-L’enceinte de Veyl s’ouvrit dans la direction prévue pour les débris. Le quai descendit dans l’eau avec trois ateliers, des outils et une partie des registres dont les copies avaient été faites. Le vieil homme et son voisin sortirent par l’escalier inférieur, blessés. Un garde manquait encore. On retrouva son corps à la nuit. Aucun bilan ne rendrait cela acceptable à sa famille.
+Rém respirait. Il distinguait la cape de Naël, mais pas les arbres derrière. Tess ferma les fioles. Ce qu’ils avaient consommé ne reviendrait pas en les remplissant d’eau. Elle regarda le relevé partiel et la prise perdue. « Nous avons un retour, dit-elle. Nous n’avons pas réparé le bois. »
 
-La ville tint sur un réseau réduit. Des rues ne pourraient pas être réoccupées. Tess coupa l’alimentation de son propre logement pour soutenir un abri collectif pendant le froid. Elle demanda qu’on inscrive la durée et que quelqu’un lui rappelle l’heure d’arrêter. Cette fois, Oran fit porter la copie à ceux qui dormiraient sous sa protection.
+Au relais, Edrane leur ouvrit avant qu’ils frappent. Naël posa la besace de remèdes sur la table. Deux flacons avaient cassé. Il avait promis de livrer le tout ; quelqu’un de l’autre côté attendait encore. Pour la première fois depuis l’arbre, il pensa aux personnes que son sauvetage ne lui avait pas permis d’aider.
 
-## Une place pour les absents
+## Les chemins qui restent
 
-![Oran, la main gauche bandée, pose un ruban rouge sur une pierre funéraire au-dessus de la ville à l’aube.](../art/oran-dawn-v1.webp)
+![Naël et ses compagnons prennent la route à l’aube ; un dessin incomplet laisse trois directions autour d’un blanc.](../art/nael-horizon-v1.webp)
 
-*Après l’hiver · Reconnaître une mort ne rend pas celui qu’on a perdu.*
+*L’aube aux Lisières · Le relevé devient un départ. Le cortège, son intention et le blanc central restent sans nom.*
 
-Le vendredi passa sans qu’Oran meure. L’acte préparé fut conservé avec la déclaration du commis et les ordres de l’escouade. Ce qui n’avait pas eu lieu constituait désormais la preuve de ce que certains avaient accepté de traiter comme décidé.
+Ils restèrent huit jours au relais. Edrane soigna Rém sans lui promettre que son regard reviendrait entièrement. Veyl refit les fermoirs que sa propre conduite avait abîmés. Tess consigna les pertes et déposa une copie du relevé avec les gardes. Sorane s’assit chaque soir avec Rém devant une fenêtre qu’il distinguait encore.
 
-On ouvrit les comptes sous les halles hautes, où les ateliers ne possédaient pas seuls les clés. Fermer les noms des morts ne rendait pas le Sillage consumé et ne réparait pas les quais. Les foyers n’en reçurent pas moins un droit qu’on leur avait refusé : discuter les nouvelles contributions sans qu’une voix enregistrée de leur parent passe pour leur accord.
+Naël retourna seulement jusqu’à la lisière. Le cerf passa sur une pente ordinaire. Cela ne prouvait pas que toute la forêt l’était redevenue. Ils fermèrent l’ancien sentier, organisèrent un détour et inscrivirent les prises perdues. Le bois continuerait d’affecter ceux qui en vivaient, bien après leur départ.
 
-Oran fit inscrire Lise avec sa date de mort réelle. Le feuillet de sa demande d’arrêt fut joint au sien. Il demanda aussi l’inscription de sa propre décision et des prolongations qu’il avait autorisées. Le greffier lui proposa de séparer les pièces pour épargner les familles. Oran demanda aux familles ce qu’elles voulaient. Certaines exigèrent tout. D’autres refusèrent d’entendre les voix. On conserva leurs refus sans retirer les preuves du dépôt.
+Au troisième soir, un desservant demanda si Naël avait vu des anges. Un marchand demanda s’il y avait du fluide à recueillir. Un enfant voulut savoir si Rém s’était retrouvé sous la terre. Naël répondit différemment à chacun. Il s’aperçut que la même histoire pouvait devenir une certitude, un permis d’exploiter ou une peur qui empêcherait de dormir.
 
-Le nom du garde mort au quai fut ajouté. Sa sœur ne voulut pas serrer la main d’Oran. Il la laissa partir. Il avait empêché une répétition ; il n’était pas devenu innocent de tout ce qui avait suivi.
+Avec Edrane, il conserva deux pages séparées. Sur la première, les observations : le frêne, les prises, le pont sans charge, la phrase répétée, la silhouette qui se tournait et le signal préparé de Rém. Sur la seconde, les interprétations. Mémoire, influence, ancien passage contenu. Personne ne raya le mot « inconnu » pour rendre le récit plus facile à transmettre.
 
-Edrane perdit provisoirement sa charge pendant l’examen des comptes. Plusieurs soutiens du conseil parlèrent de sabotage. Les ateliers voulurent garder les procédés de réparation hors du dépôt. Tess obtint qu’une équipe indépendante inspecte les supports, puis dut négocier l’accès aux pièces qui la maintenaient en état. Veyl réclama une route de livraison pour son refuge. Chacun avait autre chose à faire que de servir la fin de l’histoire d’Oran.
+La feuille de CD 11436 trouva une provenance partielle. Elle avait été copiée dans un inventaire des relais, avant le Grand Rite. Trois renvois accompagnaient le dessin : un ouvrage côtier d’Avarn, des marches ensevelies à Khoram et une pièce d’entretien venue de Theryn. Edrane pouvait établir le trajet du feuillet jusqu’au relais ; elle ne pouvait encore authentifier chacun des lieux qu’il désignait.
 
-La main gauche d’Oran ne retrouva pas sa précision. Il pouvait tenir une tasse ; il ne pouvait plus régler seul certains tracés. Une jeune ouvrière vint l’aider à recopier les actes. Il dut lui apprendre sa méthode et accepter qu’elle corrige ses mesures.
+Naël avait grandi avec l’idée qu’Eshar avait brisé tous les chemins. La feuille et l’ouvrage sous les racines lui imposaient une question plus ancienne. Le prophète avait-il tenté de réparer des contacts qui existaient déjà ? Certains mainteneurs savaient-ils ce qu’ils contenaient ? Ce que le Grand Rite avait changé demeurait grave. Cela ne suffisait plus à expliquer tout ce qu’ils avaient trouvé.
 
-À la fin de l’hiver, il porta le ruban au cimetière. La tombe de Lise n’avait pas changé de place. Il ne déposa pas la bande de mémoire dans la terre : elle faisait partie des preuves communes, et il n’en était pas le seul destinataire. Il posa seulement le ruban sur la pierre.
+Tess confronta le fragment enregistré à la copie. La phrase « laisse la route prendre son cours » n’y figurait pas. Trois arcs y revenaient, autour d’une place que le copiste avait laissée vide. « Si nous remplissons ce blanc avec notre première réponse, dit-elle, nous ne saurons plus reconnaître ce qu’il manque. »
 
-Il avait longtemps demandé à ce lieu une parole qui lui permettrait de repartir. Cette fois, il n’en attendit aucune. Le vent souleva un bord de l’étoffe ; il le rabattit avec sa main droite et resta jusqu’à ce que ses doigts aient froid.
+Veyl refusa de suivre le cortège sur la seule foi d’une promesse. Il accepta de chercher d’autres seuils avec eux, à condition de préparer chaque retrait. Sorane n’avait pas décidé de partir. Elle resta auprès de Rém et remit à Naël une copie de leurs signaux. Le lien qui les avait aidés à sauver le garde ne leur donnait pas un droit sur sa prochaine route.
 
-Sur le chemin du retour, Tess lui remit une feuille venue d’un atelier extérieur. Des comptes de maintenance portaient le même dispositif de prolongation que ceux de Serekh. Il y avait des noms, une provenance et une demande d’inspection. Rien qui prouvât encore une faute. Oran demanda les conditions du voyage, puis le temps dont les autres auraient besoin pour préparer leur réponse.
+Avant le départ, Naël demanda au relais une avance de réserve, du papier et des pointes pour refaire les bornes. Edrane lui accorda de quoi atteindre le premier renvoi côtier, en échange d’un relevé qui nommerait aussi leurs erreurs. Il ne deviendrait pas l’homme à qui une forêt avait révélé le monde. Il pourrait devenir celui qui revenait dire ce qu’il avait réellement trouvé.
 
-Il ne promit pas de réparer tous les mondes. Il prit la feuille.
+À l’aube, Tess déplia une dernière fois son feuillet préparé. Une trace du frêne y tint quelques secondes : la file marchait ; au bord du cortège, la silhouette demeurait arrêtée. Dans leur premier relevé, elle avait regardé Naël. Dans celui reçu plus bas, elle faisait face à l’autre bord. « Elle surveille peut-être quelque chose », dit Veyl. Tess nota : hypothèse.
+
+Naël regarda la route vers la mer. Derrière eux, des gardes posaient les panneaux du détour. Il demanda à Tess combien de papier il leur restait. Elle lui tendit le paquet. Cette fois, il prit aussi de quoi tracer le chemin du retour.
