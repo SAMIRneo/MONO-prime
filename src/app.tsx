@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import canon from "./data/canon.json";
 import artData from "./data/art.json";
 import {
@@ -324,7 +324,7 @@ function Home() {
         <nav aria-label="Sommaire">
           <h2>Sommaire</h2>
           <a href="#/univers">Introduction à l’univers</a>
-          <a href="#/recits">Les quatre livres</a>
+          <a href="#/recits">La bibliothèque</a>
           <a href="#/terra">Carte de Terra</a>
           <a href="#/powerscaling">Sillage et maîtrise</a>
           <a href="#/chronologie">Chronologie</a>
@@ -348,6 +348,7 @@ function Home() {
           })}</div>
           <figcaption>Terra est physique ; les Cieux et les Abysses sont métaphysiques.<br /><a href="#/univers">Lire la cosmologie</a></figcaption>
         </figure>
+        <article className="arc-feature"><a className="arc-cover" href="#/lire/livre-5/1" aria-label="Lire La ville qui refusait ses morts"><Art name="oran-cover-v1" alt="Oran sur les quais de Serekh, son registre à la main" hero sizes="(max-width: 760px) 100vw, 700px" /></a><div className="arc-copy"><span className="eyebrow">PREMIER ARC · SIX CHAPITRES ILLUSTRÉS</span><h2><a href="#/lire/livre-5/1">La ville qui refusait ses morts</a></h2><p>Oran clôt les comptes des morts. Un matin, il reçoit le sien. La date est celle du lendemain.</p><p className="arc-period">Serekh, vers CD 12100 · Trois siècles après les dernières paroles publiques d’Eshar.</p><LinkArrow to="#/lire/livre-5/1">Entrer dans l’histoire</LinkArrow></div></article>
         <ReadingTrail />
         <article className="notebook-post chronicle-excerpt">
           <div className="post-date"><span>Lecture / Livre I</span><a href="#/recits">Sommaire des livres</a></div>
@@ -358,8 +359,8 @@ function Home() {
         </article>
         <article className="notebook-post" id="revision">
           <div className="post-date"><time dateTime={canon.updated}>{date}</time><a href="#/univers?section=6">Canon {canon.version}</a></div>
-          <h2>Des puissances aux vies d’Aurenth</h2>
-          <p>Les rapports de force deviennent plus concrets ; trois personnes entrent dans le présent de MONO :</p>
+          <h2>Les vies d’Aurenth, cinq siècles plus tard</h2>
+          <p>Au début de l’Éveil, une autre crise se noue à Aurenth. Retrouvez ses premiers acteurs et les règles de leurs pouvoirs :</p>
           <ul className="revision-list">
             <li><a href="#/fiche/puissance">Les rapports de force</a> distinguent réserve, prise, réseau et manifestation. Repousser une intervention ne détruit pas son souverain.</li>
             <li><a href="#/fiche/tikkun">La Concorde</a> demande un diagnostic, des contributions précises et un arrêt préparé ; la bonne intention ne suffit pas.</li>
@@ -652,28 +653,29 @@ function Terra({
 }
 
 function Stories() {
+  const orderedBooks = [...canon.books.filter(b => b.kind === "arc"), ...canon.books.filter(b => b.kind !== "arc")];
   return (
     <div className="content stories-page">
       <PageHead
         eyebrow="Chroniques"
         title="Les chroniques"
-        copy="Quatre livres. Un fil continu, des origines du monde à l’Éveil des Brisures."
+        copy="Un premier arc illustré pendant le Voile. Quatre livres pour découvrir les origines du monde et les débuts de l’Éveil."
       />
       <ReadingTrail />
       <div className="book-grid">
-        {canon.books.map((b, i) => (
-          <article key={b.id} className="book-card">
+        {orderedBooks.map((b) => (
+          <article key={b.id} className={`book-card ${b.kind === "arc" ? "arc-card" : ""}`}>
             <a
               href={`#/lire/${b.id}/1`}
               className="book-image"
               aria-label={`Lire ${b.title}`}
             >
               <Art name={b.art} sizes="(max-width: 700px) 100vw, 45vw" />
-              <span className="book-roman">{["I", "II", "III", "IV"][i]}</span>
+              <span className="book-roman">{["I", "II", "III", "IV", "V"][canon.books.findIndex(book => book.id === b.id)]}</span>
             </a>
             <div className="book-copy">
               <span className="eyebrow">
-                LIVRE 0{i + 1} / {b.chapters.length} CHAPITRES
+                {b.kind === "arc" ? "PREMIER ARC ILLUSTRÉ" : "RÉCIT FONDATEUR"} / {b.chapters.length} CHAPITRES
               </span>
               <h2>
                 <a href={`#/lire/${b.id}/1`}>{b.title}</a>
@@ -701,15 +703,18 @@ function Stories() {
         ))}
       </div>
       <aside className="note">
-        <h3>Les origines, puis le présent.</h3>
+        <h3>Deux époques, un même monde.</h3>
         <p>
-          Les grandes périodes dessinent la suite. Leurs histoires restent à
-          développer.
+          Oran vit pendant le Voile, vers CD 12100. La crise de Maëra, Sava et Iri à Aurenth se déroule environ cinq siècles plus tard, au début de l’Éveil.
         </p>
         <LinkArrow to="#/chronologie">Situer les événements</LinkArrow>
       </aside>
     </div>
   );
+}
+
+function ChapterPlate({plate}: {plate: {art: string; alt: string; caption: string}}) {
+  return <figure className="chapter-plate"><a href={asset(plate.art)} target="_blank" rel="noopener" aria-label={"Agrandir : " + plate.alt}><Art name={plate.art} alt={plate.alt} hero sizes="(max-width: 760px) 100vw, 740px" /></a><figcaption>{plate.caption}<span>Agrandir ↗</span></figcaption></figure>;
 }
 
 function Reader({
@@ -793,10 +798,10 @@ function Reader({
       </div>
       <div className="reader-top">
         <a href="#/recits" className="crumb">
-          ← Les quatre livres
+          ← La bibliothèque
         </a>
         <span className="eyebrow">
-          LIVRE {["I", "II", "III", "IV"][bi]} · CHAPITRE {index + 1}/
+          LIVRE {["I", "II", "III", "IV", "V"][bi]} · CHAPITRE {index + 1}/
           {book.chapters.length}
         </span>
       </div>
@@ -859,8 +864,9 @@ function Reader({
               </span>
             </div>
             <div className="chapter-divider">✦</div>
+            {ch.illustrations.filter(plate => plate.after === -1).map(plate => <ChapterPlate key={plate.art} plate={plate} />)}
             {ch.paragraphs.map((p, i) => (
-              <p key={i}>{p}</p>
+              <Fragment key={i}><p>{p}</p>{ch.illustrations.filter(plate => plate.after === i).map(plate => <ChapterPlate key={plate.art} plate={plate} />)}</Fragment>
             ))}
           </article>
           <div className="reader-actions">
@@ -920,6 +926,7 @@ function Reader({
   );
 }
 const readingGuides: Record<string, string[]> = {
+  "livre-5": ["oran", "tess", "veyl", "edrane", "lise", "serekh", "sillage"],
   "livre-1": ["azkavoth", "cosmogonie", "temoins", "sillage"],
   "livre-2": ["qerath", "jugement", "tamariel", "fond"],
   "livre-3": ["vothorak", "talem", "golems", "malkiel"],
@@ -1773,7 +1780,7 @@ function EntryPage({
             ))}
           </nav>
           <div className="prose">
-            {entry.sections.map((s, i) => (
+            {entry.sections.map((s, i) => s.title === "Après l’arc" ? <details className="story-spoiler" key={s.title} id={`section-${i}`}><summary>Après l’arc · dévoiler le dénouement</summary><p>{s.text}</p></details> : (
               <section key={s.title} id={`section-${i}`} tabIndex={-1}>
                 <h2>{s.title}</h2>
                 <p>{s.text}</p>

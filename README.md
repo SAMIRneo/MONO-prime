@@ -6,8 +6,8 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
-- **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V9.3**, révisé le **9 octobre 2026**.
-- **Contenu actuel :** 60 fiches, 11 catégories, 4 livres, 24 chapitres et 20 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes. Maëra, Sava et Iri disposent de fiches sans portrait dédié.
+- **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V9.4**, révisé le **9 octobre 2026**.
+- **Contenu actuel :** 66 fiches, 11 catégories, 5 livres, 30 chapitres et 20 repères lexicaux ; 58 illustrations référencées dans les métadonnées, livrées en 174 fichiers WebP avec leurs variantes. Maëra, Sava et Iri disposent de fiches sans portrait dédié.
 
 ## Parcours et fonctionnalités
 
@@ -16,8 +16,8 @@ Trois destinations composent la navigation permanente : **Accueil**, **Chronique
 | Espace        | Route              | Fonctionnement actuel                                                                                                                                                                                                                                        |
 | ------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Accueil | `#/` | Journal de lecture avec sommaire latéral, extrait du premier livre, notes de révision du canon, Aurenth et fiches associées. |
-| Chroniques    | `#/recits`         | Bibliothèque illustrée, reprise de lecture, sommaires dépliables et accès direct aux 24 chapitres.                                                                                                                                                           |
-| Lecture       | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des quatre livres.            |
+| Chroniques    | `#/recits`         | Bibliothèque illustrée, reprise de lecture, sommaires dépliables et accès direct aux 30 chapitres.                                                                                                                                                           |
+| Lecture       | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des cinq livres.            |
 | Univers       | `#/univers`        | Guide : origines, mondes, principes, cultes, lignées et Sillage, enjeux ; lexique filtrable de douze repères essentiels et huit distinctions. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Concorde et questions ouvertes du canon. |
 | Terra         | `#/terra`          | Atlas éditorial illustré avec cinq marqueurs, sélection des continents, panoramas, présentation d’Aurenth et liens vers les fondements du monde physique.                                                                                                    |
 | Codex         | `#/codex`          | Catégories avec compteurs, filtre textuel, vues galerie et liste, fiches illustrées et agrandissement des images. La catégorie initiale est « Puissances ».                                                                                                  |
@@ -39,7 +39,7 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 
 ## Canon et contenu éditorial
 
-**`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les catégories, les fiches (`records`), les quatre livres (`books`), la chronologie (`eras`) et le lexique (`lexicon`). Les anciens noms recherchables sont conservés dans `aliases`. Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
+**`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les catégories, les fiches (`records`), les cinq livres (`books`), la chronologie (`eras`) et le lexique (`lexicon`). Les anciens noms recherchables sont conservés dans `aliases`. Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
 
 | Catégorie             | Identifiant    | Fiches |
 | --------------------- | -------------- | -----: |
@@ -49,12 +49,12 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 | Lignées               | `lignees`      |      6 |
 | Cultes                | `cultes`       |      4 |
 | Mondes & Éden         | `mondes`       |      4 |
-| Lieux                 | `lieux`        |      6 |
+| Lieux                 | `lieux`        |      7 |
 | Sillage & puissance   | `pouvoir`      |      4 |
 | Maîtrise              | `powerscaling` |      7 |
-| Figures & personnages | `personnages`  |      7 |
+| Figures & personnages | `personnages`  |     12 |
 | Fondements            | `fondements`   |      5 |
-| **Total**             |                | **60** |
+| **Total**             |                | **66** |
 
 La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend aussi « Éden et les Sept Témoins » : MONO conserve **trois mondes**, Terra, les Cieux et les Abysses.
 
@@ -64,6 +64,7 @@ La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend
 | Le Banni                  | `livre-2`   |         6 |
 | La Matière et les Vivants | `livre-3`   |         6 |
 | Les Sceaux et le Voile    | `livre-4`   |         6 |
+| La ville qui refusait ses morts | `livre-5` | 6 |
 
 ### Repères à préserver
 
@@ -86,11 +87,13 @@ Les costumes, couleurs, effets visuels, ornements et équipements des illustrati
 - `public/canon/MONO_RECITS_V9.md` : livres et chapitres ;
 - `public/canon/MONO_LEXIQUE.md` : vingt définitions et leurs fiches.
 
-Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V9.3.
+Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V9.4.
 
 Ces exports sont produits depuis la même source JSON et inclus dans la publication. Le pied de page permet de télécharger le canon complet. **Ne pas modifier les exports à la main** : changer les données, puis les régénérer avec les commandes du projet.
 
 ## Révision éditoriale du 9 octobre 2026
+
+La V9.4 ouvre **La ville qui refusait ses morts**, premier arc en six chapitres illustrés, vers CD 12100 pendant le Voile. Oran, Tess, Veyl, Edrane, Lise et Serekh disposent de fiches. Six nouvelles planches narratives sont proposées en trois tailles WebP ; les dénouements des fiches sont repliés. Voir [la note éditoriale et visuelle](docs/arc-oran-2026-10-09.md).
 
 La V9.3 précise les prises, manifestations, objectifs locaux, temps de réaction, apprentissage, coûts des ouvrages et conditions d'une réparation collective. Maëra, Sava et Iri entrent dans les premières années de l'Éveil par une crise à Aurenth : secours, contrat contesté et convoi retenu. Le dernier chapitre du Livre IV ouvre leur conflit sans en résoudre toutes les conséquences. Voir [l'approfondissement et ses limites](docs/canon-v9-3-2026-10-09.md).
 

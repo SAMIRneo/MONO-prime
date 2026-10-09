@@ -1,4 +1,4 @@
-# MONO — Canon V9.3
+# MONO — Canon V9.4
 
 Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
@@ -211,3 +211,167 @@ Maëra refusa d’apposer le cachet de la cité sur la copie contestée. Elle si
 Le passage permit une évacuation partielle. Quand un support commença à céder, elles interrompirent l’effet au lieu de le reporter sur les corps. Un dépôt fut endommagé et des habitants durent attendre les secours par la cour. Les relevés avaient été mis à l’abri ; les matériaux du relais, eux, étaient perdus.
 
 À l’aube, le quartier pouvait être secouru par une autre entrée. Le convoi restait retenu, la réserve d’Iri était réduite et l’atelier réclamait le prix des supports. Maëra publia les deux copies. Sava ajouta le bilan de leur intervention, y compris les pertes. Elles avaient empêché une aggravation ; elles n’avaient ni résolu la dette ni expliqué la Brisure.
+
+# La ville qui refusait ses morts
+
+Premier arc · Le Voile, vers CD 12100
+
+## Le lendemain
+
+![Oran ouvre un registre sous la pluie, devant les aqueducs et les quais de Serekh.](../art/oran-cover-v1.webp)
+
+*Serekh · Un acte préparé pour une mort qui n’a pas encore eu lieu.*
+
+Oran reçut son acte de décès un jeudi de pluie. La date était celle du vendredi. Sous son nom, quelqu’un avait imprimé son propre cachet.
+
+Le garçon qui avait apporté la caisse attendait encore sur le seuil. Oran lui demanda où se trouvait le corps. Le garçon regarda ses bottes. Il ne connaissait que le trajet, la porte et la pièce de cuivre qu’on lui avait promise. Oran le paya. Il le regarda courir entre les gouttes, avec cette colère absurde contre les jambes d’un autre qui savaient encore partir.
+
+Dans la caisse, à côté de l’acte, il y avait une bande de laiton et un morceau de ruban rouge. Oran ne toucha pas le ruban. Il connaissait le point cousu à son bord : une reprise maladroite, faite sept ans plus tôt par sa fille pour empêcher l’étoffe de se défaire. Il avait enterré ce ruban avec elle. Du moins, c’était ce qu’il avait cru.
+
+Il gagnait sa vie à fermer les comptes des morts. Il vérifiait un nom, un corps, des témoins ; puis il rompait le cachet qui permettait à une dette de maintenance de rester attachée à un foyer. Il ne parlait pas aux âmes. Il savait seulement ce qu’une famille risquait lorsqu’une administration refusait de reconnaître une mort.
+
+Serekh avait été bâtie dans une gorge de Khoram, autour d’une rivière noire et de terrasses qu’un réseau d’ouvrages empêchait de glisser. Trois cents ans avaient passé depuis le Grand Rite d’Eshar. Les grands passages demeuraient incertains. Ici, on entretenait les vieux relais parce qu’on n’avait pas d’autre ville où aller.
+
+Sur l’acte figurait une cause : accident de conduction. Une heure : la neuvième. Un lieu : la Chambre des Restes. L’autorisation portait le contre-cachet du greffe. Ce n’était pas une vision. Quelqu’un avait préparé un dossier dont il attendait que le monde remplisse les cases.
+
+Oran sortit sa chaîne de mesure. La dernière empreinte de son outil possédait une bavure ; il l’avait laissée exprès, pour reconnaître les copies. La bavure était là. On n’avait pas volé le cachet. On avait restitué l’une de ses anciennes empreintes dans un support préparé.
+
+À midi, les cloches d’entretien sonnèrent sous la pluie. Elles n’annonçaient pas un office : le quartier bas devait régler sa contribution. Des ouvriers sortirent leurs bracelets de conduite. Une femme referma le manteau de son fils sur le sien.
+
+Oran replia l’acte et prit la bande de laiton. Au dos, trois mots avaient été gravés à la pointe : Faites-la écouter. Il posa le ruban dans la poche intérieure de son manteau. Avant de partir, il barra sur son registre l’heure à laquelle il avait promis de fermer les comptes. Pour la première fois depuis sept ans, il ne savait plus lesquels.
+
+## Ce qui reste d’une voix
+
+![Tess, Golem au visage de porcelaine réparée, examine un support de mémoire avec Oran dans son atelier.](../art/oran-workshop-v1.webp)
+
+*L’atelier de Tess · Une trace alimentée restitue une voix ; elle ne rappelle pas une âme.*
+
+Tess reconnut la bande avant de reconnaître Oran. Ses doigts de bronze cessèrent de classer les pièces. Elle avait le visage d’une porcelaine réparée tant de fois que les jointures formaient une seconde expression, plus méfiante que la première.
+
+« Tu l’as envoyée », dit-il. Elle posa une chaise entre eux. « Si je t’avais appelé, tu aurais demandé un ordre du greffe. » Il ne répondit pas. Ils avaient déjà eu cette conversation, sept ans plus tôt, avec un lit derrière la porte et sa fille dessus.
+
+Le ruban était resté parmi les effets retenus par le greffe, au lieu de rejoindre le cercueil. Tess l’avait retrouvé dans la même boîte que la bande. Oran n’avait pas demandé à voir le paquet remis aux fossoyeurs. Cette négligence minuscule lui revint avec une précision qui le blessa presque autant que le reste.
+
+Tess réparait les bracelets et les supports des ateliers. La bande venait d’un dispositif de Meryn : elle avait reçu une voix pendant qu’elle avait encore un corps pour parler. Rien de plus. Une réserve préparée permettrait de restituer quelques secondes. Après, il faudrait l’alimenter à nouveau. Aucun mort ne recevrait leurs questions.
+
+Elle ouvrit un logement dans l’établi, inspecta le canal, puis prévint Oran que la trace pouvait être incomplète. Il acquiesça sans l’écouter. Quand la voix revint, il reconnut d’abord un souffle impatient, celui que Lise retenait avant de lui dire qu’il avait oublié quelque chose.
+
+« Père, le huitième relais ne tient pas. J’ai demandé l’arrêt. Ils disent que la fermeture emportera l’hospice. Je ne veux pas quitter les malades. Je veux qu’on change la charge. Tu m’entends ? »
+
+Le logement redevint silencieux. Oran attendit. Il avait passé sept ans à imaginer une dernière parole plus douce. Tess lui laissait la place de recevoir celle qui avait vraiment été dite.
+
+Lise s’était engagée comme soigneuse. Le soir de l’accident, une terrasse avait commencé à céder ; trois salles de l’hospice dépendaient de la protection. Oran avait autorisé huit heures de conduction supplémentaires. Sur le registre officiel, la surcharge était survenue avant toute demande d’arrêt. Il avait signé ce registre aussi.
+
+« Tu savais ? » Tess rapprocha de lui la bande. « J’avais entendu une demande. Je n’avais pas la pièce qui prouvait qu’elle avait été reçue. La Chambre des Restes a enregistré les deux côtés du canal. » Oran regarda sa main. La voix de sa fille n’était pas une accusation nouvelle. Elle rendait une ancienne certitude impossible.
+
+Tess lui montra un second objet : le numéro d’entretien retiré de son propre bras. Dans les comptes de Serekh, son corps appartenait encore à l’atelier qui avait payé sa dernière réparation. Elle pouvait marcher dehors ; elle ne pouvait acheter les pièces dont ses canaux avaient besoin sans renouveler cet engagement.
+
+« Si nous détruisons les registres, dit Oran, leurs titres disparaissent. — Les plans aussi. Et les gardes savent trouver nos maisons sans papier. » Tess ne lui proposait pas une purification. Elle voulait les comptes entiers, avec les plans et les demandes d’arrêt, avant la révision annoncée pour le lendemain.
+
+Elle avait copié son acte préparé dans une liasse de maintenance. L’accident prévu clôturerait sa responsabilité et ferait de l’inspection un dossier déjà réglé. Quelqu’un comptait sur sa mort ; personne ne connaissait encore la façon dont on la provoquerait. Oran rangea la bande. « Qui peut nous faire entrer ? » Tess tourna vers lui une clé carrée. « Quelqu’un à qui tu as refusé des morts. »
+
+## La porte qui protège
+
+![Oran et Veyl inspectent des plaques de noms suspendues au-dessus de l’eau dans la Chambre des Restes.](../art/oran-archive-v1.webp)
+
+*La Chambre des Restes · Les morts ne conduisent rien. Les vivants paient sous leurs noms.*
+
+Le refuge de Veyl n’avait pas de cloche. On frappait trois fois, puis on attendait que quelqu’un observe par la fente. Le battant était large, les gonds doublés. Quand la rivière montait, fermer cette porte sauvait ceux qui étaient dedans. Ceux qui attendaient dehors le savaient aussi.
+
+Veyl portait sur le visage de fines fissures pâles et, sur son manteau, les marques d’anciens fermoirs. Il descendait de la Maison de Karzuth. Cette origine ne disait ni ce qu’il avait fait ni ce qu’il ferait. Oran connaissait la première chose : Veyl avait accueilli des familles dont la ville ne voulait pas fermer les comptes.
+
+« Je t’ai apporté un acte », dit Oran. Veyl le lut, regarda la date et lui rendit la feuille. « Tu viens parce que le tien est faux. » Oran sentit sa première défense lui monter à la bouche. Il la ravala. « Oui. »
+
+Veyl les conduisit sous les terrasses par une galerie d’entretien. Il n’avait pas créé un passage : il avait obtenu une clé et préparé deux fermetures. À la première alerte, il pourrait contenir une poursuite. Il ne pourrait pas soutenir indéfiniment la poussée de l’eau contre les portes.
+
+La Chambre des Restes s’étendait dans l’espace évidé sous les quais. Des plaques d’ivoire pendaient aux rails de cuivre, entre les ponts d’entretien. Chaque nom avait un foyer, une réserve et une contribution associés. L’eau reflétait leurs alignements jusqu’à donner l’impression que la ville reposait sur une population retournée.
+
+Tess compara les numéros. Les personnes mortes demeuraient ouvertes dans les comptes. Leurs contributions n’étaient pas fournies par des cadavres : on les prélevait sur les foyers restants. Les héritiers continuaient de tenir des charges que les registres attribuaient à un don ancien, renouvelé pour la sécurité commune. Les bracelets et les gardes faisaient le reste.
+
+Oran trouva Lise. Sa plaque portait une marque de réengagement ajoutée après sa mort. En dessous, la pièce de décision conservait son propre cachet. Il avait accepté de reporter la clôture des comptes du quartier pendant la remise en état. On lui avait dit : une semaine. Les travaux n’avaient jamais été déclarés finis.
+
+Un autre feuillet précisait que les demandes d’arrêt n’avaient pas été transmises. Oran sentit le froid lui serrer les tempes. Tess trouva la contre-trace du canal. L’appel de Lise était arrivé à son poste. Il se souvenait maintenant du levier sous sa paume, des lits dessinés sur le plan et de sa décision d’attendre encore quelques minutes.
+
+« Je l’ai entendu », dit-il. Tess ne détourna pas les yeux. Veyl posa sa lampe assez loin pour que les trois puissent voir la pièce. « Alors on emporte aussi celle-là. »
+
+Oran avait imaginé revenir avec une preuve qui laverait sa fille et le laisserait intact. Il détacha le feuillet portant son ordre. Une inscription du passé ne pouvait être défaite en refusant de la regarder. Il copia les numéros de dépôt ; Tess prépara les traces qu’ils pourraient réellement alimenter devant témoins.
+
+La première porte claqua au-dessus d’eux. Des bottes frappèrent la galerie. Veyl posa les deux mains sur le fermoir intérieur. « Prenez les plans. » Oran voulut l’aider. « Tu tiendras mieux une feuille qu’une porte », dit Veyl. Ce n’était pas du mépris. C’était la mesure exacte de ce qu’il savait faire.
+
+## Le prix des vivants
+
+![Oran présente des pièces à Edrane, magistrate de Serekh, devant une maquette chargée de poids.](../art/oran-tribunal-v1.webp)
+
+*Le tribunal d’entretien · Sauver une ville ne donne pas un droit sans terme sur ses habitants.*
+
+Ils sortirent par un quai de réparation. Veyl avait abandonné une porte pour sauver l’autre ; la fuite avait rempli la galerie derrière eux. Son refuge perdait l’accès qui permettait aux ateliers de livrer les provisions. Il refusa de laisser Oran appeler cela un simple dommage matériel.
+
+Edrane les attendait au tribunal d’entretien. Elle avait exercé dans l’hospice avant de prendre la charge de magistrate. Sur sa table, les modèles des terrasses étaient lestés de petites pierres. Oran savait ce que chacun de ces poids représentait. Il avait appris à ne plus y voir des lits.
+
+Elle ne nia pas les prolongations. « La ville d’en haut a refusé trois apports. Les ateliers de l’extérieur réclamaient nos plans en garantie. Le quartier bas a tenu. » Tess posa le feuillet de Lise. « Il n’a pas tenu tout seul. »
+
+Edrane regarda la pièce, puis Oran. « Tu as signé. » Il répondit oui. Le mot ne le délivra de rien. Il rendit seulement plus difficile la possibilité de parler ensuite comme un homme qui aurait découvert la faute des autres.
+
+Le greffe avait préparé sa clôture avant sa visite à la Chambre. Oran demanda si l’accident annoncé était un ordre de le tuer. Edrane fit venir le commis responsable. Il reconnut avoir traité comme acquise l’issue d’une intervention jugée sans retour, afin de retirer l’inspecteur des comptes avant la révision. Une escouade avait reçu ordre de le ramener au relais. Personne ne promit qu’il en sortirait. Edrane suspendit cet ordre. Oran ne sut pas si elle venait d’empêcher un meurtre ou d’éloigner de sa table une preuve supplémentaire.
+
+« Donnez-moi les copies, dit-elle. Je fermerai le nom de Lise et ton compte. » Il aurait pu rentrer avec une tombe entière et l’affirmation que sa vie lui appartenait de nouveau. Derrière lui, Tess tenait son bras réparé contre sa poitrine. Veyl ne s’était pas assis.
+
+« Et les autres ? — Si nous retirons toutes les contributions aujourd’hui, la protection cède. Tu connais les plans. » Edrane poussa vers lui le modèle du quartier bas. Elle disait vrai sur les charges. Cette vérité avait servi à rendre les mêmes corps indispensables pendant sept ans.
+
+Oran consulta le bilan de Tess. Les terrasses hautes avaient gardé une réserve de précaution et des ouvrages de prestige pendant que les foyers bas renouvelaient leurs journées. La réduire ne sauverait pas tout ; elle donnerait le temps d’évacuer plusieurs rues et de remplacer certains supports. Edrane répondit que le conseil ne l’autoriserait pas.
+
+« Alors qu’il refuse devant ceux qu’il veut laisser tenir », dit Oran. Il demanda une audience ouverte et une répartition publiée. Il ne demandait pas aux gardes d’attendre l’accord de chaque habitant avant de protéger un mur. Il leur demandait de ne plus appeler contribution libre une charge dont personne ne pouvait sortir.
+
+Edrane tarda à répondre. Au loin, une cloche sonna une fois, puis resta suspendue dans son silence. La révision des comptes avait commencé à déplacer les circulations du vieux réseau. Un relais venait de sortir de sa plage. La magistrate prit le modèle et se leva. « Venez me montrer les rues que vous pouvez sauver. »
+
+## L’heure d’arrêter
+
+![Oran, Tess et Veyl dirigent une évacuation au milieu des relais de cuivre et des quais qui cèdent.](../art/oran-relay-v1.webp)
+
+*Le réseau bas · Une limite annoncée doit pouvoir devenir un arrêt réel.*
+
+Les ouvriers n’applaudirent pas quand Oran arriva. Ils regardèrent le cachet à sa ceinture. Plusieurs se souvenaient des huit heures supplémentaires. Il leur dit que l’appel avait été reçu, qu’il avait retardé l’arrêt et que les copies seraient déposées hors du greffe. Une femme demanda le nom du dépôt avant de croire le reste.
+
+Edrane fit ouvrir la réserve haute pour l’évacuation. Elle signa l’ordre et en remit une copie au représentant du quartier. Le conseil pourrait la poursuivre pour cet usage. Il pourrait aussi lire les charges qu’elle avait accepté de maintenir jusque-là. Elle ne réclama pas qu’un acte efface l’autre.
+
+Tess répartit les opérations sur les supports inspectés. Les appareils d’Elyr devaient tenir les joints ; les réglages de Tharos, partager une charge précise. Les équipes annoncèrent ce qu’elles pouvaient conduire et le temps qu’elles estimaient tenir. Veyl prépara l’enceinte qui contiendrait les débris pendant le passage des familles. Sa porte ne serait pas une sortie : deux escaliers demeuraient à dégager.
+
+Oran resta au poste des signaux. Il connaissait les réponses du réseau et la manière dont un ordre pouvait se perdre entre deux bureaux. Il fit répéter le geste d’arrêt, puis demanda qu’un second poste le voie. Sa réserve n’aurait pas soutenu une terrasse. Ses outils pouvaient maintenir une transmission étroite, tant que le canal restait accessible.
+
+La première rue fut vidée. Dans la deuxième, un vieil homme refusa de quitter son atelier avant d’avoir récupéré un coffre. Un voisin revint l’aider. Le relais ne savait rien de leurs raisons ; sa charge augmentait quand même. Tess annonça une dérive. Edrane ordonna que l’on cesse de faire entrer des groupes sur le pont supérieur.
+
+Puis une traverse céda derrière Veyl. Il demanda de reprendre sa contribution. Il pouvait tenir encore un choc, pas le suivant. La réserve haute n’avait pas le débit nécessaire pour remplacer aussitôt cette prise. On pouvait attendre : quelques familles supplémentaires atteindraient l’escalier. On pouvait arrêter : le quai serait perdu.
+
+Oran vit la même hésitation qu’autrefois, rendue presque raisonnable par ceux qui n’étaient pas encore sortis. Il n’entendit aucune voix de sa fille. Il entendit celle de Veyl, vivant, qui avait décrit sa limite.
+
+Il donna le signal d’arrêt. Le second poste le répéta. Tess ramena la charge vers les supports préparés pour la recevoir. Un joint rompu projeta de la chaleur à travers le levier ; Oran lâcha trop tard. Sa main gauche se referma sans lui. Il resta au poste avec la droite et confirma l’interruption.
+
+L’enceinte de Veyl s’ouvrit dans la direction prévue pour les débris. Le quai descendit dans l’eau avec trois ateliers, des outils et une partie des registres dont les copies avaient été faites. Le vieil homme et son voisin sortirent par l’escalier inférieur, blessés. Un garde manquait encore. On retrouva son corps à la nuit. Aucun bilan ne rendrait cela acceptable à sa famille.
+
+La ville tint sur un réseau réduit. Des rues ne pourraient pas être réoccupées. Tess coupa l’alimentation de son propre logement pour soutenir un abri collectif pendant le froid. Elle demanda qu’on inscrive la durée et que quelqu’un lui rappelle l’heure d’arrêter. Cette fois, Oran fit porter la copie à ceux qui dormiraient sous sa protection.
+
+## Une place pour les absents
+
+![Oran, la main gauche bandée, pose un ruban rouge sur une pierre funéraire au-dessus de la ville à l’aube.](../art/oran-dawn-v1.webp)
+
+*Après l’hiver · Reconnaître une mort ne rend pas celui qu’on a perdu.*
+
+Le vendredi passa sans qu’Oran meure. L’acte préparé fut conservé avec la déclaration du commis et les ordres de l’escouade. Ce qui n’avait pas eu lieu constituait désormais la preuve de ce que certains avaient accepté de traiter comme décidé.
+
+On ouvrit les comptes sous les halles hautes, où les ateliers ne possédaient pas seuls les clés. Fermer les noms des morts ne rendait pas le Sillage consumé et ne réparait pas les quais. Les foyers n’en reçurent pas moins un droit qu’on leur avait refusé : discuter les nouvelles contributions sans qu’une voix enregistrée de leur parent passe pour leur accord.
+
+Oran fit inscrire Lise avec sa date de mort réelle. Le feuillet de sa demande d’arrêt fut joint au sien. Il demanda aussi l’inscription de sa propre décision et des prolongations qu’il avait autorisées. Le greffier lui proposa de séparer les pièces pour épargner les familles. Oran demanda aux familles ce qu’elles voulaient. Certaines exigèrent tout. D’autres refusèrent d’entendre les voix. On conserva leurs refus sans retirer les preuves du dépôt.
+
+Le nom du garde mort au quai fut ajouté. Sa sœur ne voulut pas serrer la main d’Oran. Il la laissa partir. Il avait empêché une répétition ; il n’était pas devenu innocent de tout ce qui avait suivi.
+
+Edrane perdit provisoirement sa charge pendant l’examen des comptes. Plusieurs soutiens du conseil parlèrent de sabotage. Les ateliers voulurent garder les procédés de réparation hors du dépôt. Tess obtint qu’une équipe indépendante inspecte les supports, puis dut négocier l’accès aux pièces qui la maintenaient en état. Veyl réclama une route de livraison pour son refuge. Chacun avait autre chose à faire que de servir la fin de l’histoire d’Oran.
+
+La main gauche d’Oran ne retrouva pas sa précision. Il pouvait tenir une tasse ; il ne pouvait plus régler seul certains tracés. Une jeune ouvrière vint l’aider à recopier les actes. Il dut lui apprendre sa méthode et accepter qu’elle corrige ses mesures.
+
+À la fin de l’hiver, il porta le ruban au cimetière. La tombe de Lise n’avait pas changé de place. Il ne déposa pas la bande de mémoire dans la terre : elle faisait partie des preuves communes, et il n’en était pas le seul destinataire. Il posa seulement le ruban sur la pierre.
+
+Il avait longtemps demandé à ce lieu une parole qui lui permettrait de repartir. Cette fois, il n’en attendit aucune. Le vent souleva un bord de l’étoffe ; il le rabattit avec sa main droite et resta jusqu’à ce que ses doigts aient froid.
+
+Sur le chemin du retour, Tess lui remit une feuille venue d’un atelier extérieur. Des comptes de maintenance portaient le même dispositif de prolongation que ceux de Serekh. Il y avait des noms, une provenance et une demande d’inspection. Rien qui prouvât encore une faute. Oran demanda les conditions du voyage, puis le temps dont les autres auraient besoin pour préparer leur réponse.
+
+Il ne promit pas de réparer tous les mondes. Il prit la feuille.

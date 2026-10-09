@@ -4,7 +4,7 @@ const d=JSON.parse(readFileSync('src/data/canon.json','utf8'));
 const ids=new Set(d.records.map(e=>e.id));
 const groups=new Set(d.categories.map(g=>g.id));
 const art=JSON.parse(readFileSync('src/data/art.json','utf8'));
-const usedArt=new Set([...d.records.map(e=>e.art),...d.books.map(b=>b.art),'terra-map-v1'].filter(Boolean));
+const usedArt=new Set([...d.records.map(e=>e.art),...d.books.map(b=>b.art),...d.books.flatMap(b=>b.chapters.flatMap(c=>(c.illustrations||[]).map(p=>p.art))),'terra-map-v1'].filter(Boolean));
 assert.deepEqual(Object.keys(art).sort(),[...usedArt].sort(),'Unused or missing illustration metadata');
 const expectedArt=[...usedArt].flatMap(name=>['','-small','-medium'].map(suffix=>name+suffix+'.webp'));
 assert.deepEqual(readdirSync('public/art').sort(),expectedArt.sort(),'Missing or obsolete illustration files');
@@ -44,7 +44,21 @@ for(const b of d.books){
  assert(b.chapters.length>0,'Empty book');
  assert(d.records.some(e=>e.art===b.art),'Unknown book art '+b.art);
  assert(new Set(b.chapters.map(c=>c.id)).size===b.chapters.length,'Duplicate chapter');
- for(const c of b.chapters)assert(c.title&&c.paragraphs.length,'Empty chapter');
+ for(const c of b.chapters){
+  assert(c.title&&c.paragraphs.length,'Empty chapter');
+  assert(Array.isArray(c.illustrations),'Missing chapter illustration list');
+  for(const p of c.illustrations){
+   assert(art[p.art]&&p.alt&&p.caption,'Incomplete chapter illustration '+c.id);
+   assert(Number.isInteger(p.after)&&p.after>=-1&&p.after<c.paragraphs.length,'Invalid plate position '+c.id);
+  }
+ }
+}
+for(const name of usedArt){
+ const m=art[name];assert(m.width>0&&m.height>0&&m.smallWidth>0&&m.mediumWidth>=m.smallWidth&&m.width>=m.mediumWidth,'Invalid dimensions '+name);
+ for(const suffix of ['', '-small', '-medium']){
+  const path='public/art/'+name+suffix+'.webp';assert(existsSync(path)&&statSync(path).size>0,'Missing illustration '+path);
+  const bytes=readFileSync(path);assert(bytes.subarray(0,4).toString()==='RIFF'&&bytes.subarray(8,12).toString()==='WEBP','Invalid WebP '+path);
+ }
 }
 const text=JSON.stringify(d);
 for(const phrase of ['Onzième primordial','Dix Primordiaux','seul Archange à avoir quitté','Les 7 étages célestes','Trois dans les Cieux','Trois dans les Abysses'])assert(!text.includes(phrase),'Obsolete canon '+phrase);
@@ -62,6 +76,6 @@ lore+='# Lexique\n\n'+d.lexicon.map(term=>`- **${term.term}** — ${term.definit
 writeFileSync('public/canon/MONO_LEXIQUE.md',lexicon.trimEnd()+'\n');
 lore+='# Chronologie\n\n'+d.eras.map(e=>`- **${e.date}** — ${e.text} (${e.status})`).join('\n')+'\n';
 writeFileSync('public/canon/MONO_CANON_V9.md',lore);
-let stories=header;for(const b of d.books){stories+=`# ${b.title}\n\n${b.subtitle}\n\n`;for(const c of b.chapters)stories+=`## ${c.title}\n\n${c.paragraphs.join('\n\n')}\n\n`;}
+let stories=header;for(const b of d.books){stories+=`# ${b.title}\n\n${b.subtitle}\n\n`;for(const c of b.chapters){stories+=`## ${c.title}\n\n`;const plates=after=>c.illustrations.filter(p=>p.after===after).map(p=>`![${p.alt}](../art/${p.art}.webp)\n\n*${p.caption}*\n\n`).join('');stories+=plates(-1);c.paragraphs.forEach((p,i)=>{stories+=p+'\n\n'+plates(i);});}}
 writeFileSync('public/canon/MONO_RECITS_V9.md',stories.trimEnd()+'\n');
 console.log(`Canon ${d.version} validé : ${d.records.length} fiches, ${d.books.reduce((n,b)=>n+b.chapters.length,0)} chapitres, références et illustrations vérifiées.`);

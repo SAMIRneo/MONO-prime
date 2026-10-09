@@ -17,6 +17,18 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
+  "aurenth-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "avarn-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
   "azkavoth": {
     "width": 1024,
     "height": 1536,
@@ -113,6 +125,12 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
+  "khoram-v2": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
   "lien": {
     "width": 1536,
     "height": 1024,
@@ -149,6 +167,42 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
+  "oran-archive-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "oran-cover-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "oran-dawn-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "oran-relay-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "oran-tribunal-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "oran-workshop-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
   "propheties": {
     "width": 1536,
     "height": 1024,
@@ -170,6 +224,12 @@
   "rahamiel": {
     "width": 1024,
     "height": 1536,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sahrun-v2": {
+    "width": 1536,
+    "height": 1024,
     "smallWidth": 420,
     "mediumWidth": 840
   },
@@ -197,6 +257,30 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
+  "seyra-v2": {
+    "width": 1672,
+    "height": 941,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sillage-combat-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sillage-fluide-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "sillage-revers-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
   "source": {
     "width": 1536,
     "height": 1024,
@@ -218,6 +302,18 @@
   "temoins": {
     "width": 1536,
     "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "terra-map-v1": {
+    "width": 1536,
+    "height": 1024,
+    "smallWidth": 420,
+    "mediumWidth": 840
+  },
+  "theryn-v2": {
+    "width": 1672,
+    "height": 941,
     "smallWidth": 420,
     "mediumWidth": 840
   },
@@ -248,66 +344,6 @@
   "zhorum": {
     "width": 1024,
     "height": 1536,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "terra-map-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "avarn-v2": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "sahrun-v2": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "khoram-v2": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "seyra-v2": {
-    "width": 1672,
-    "height": 941,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "theryn-v2": {
-    "width": 1672,
-    "height": 941,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "aurenth-v2": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "sillage-fluide-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "sillage-combat-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "sillage-revers-v1": {
-    "width": 1536,
-    "height": 1024,
     "smallWidth": 420,
     "mediumWidth": 840
   }

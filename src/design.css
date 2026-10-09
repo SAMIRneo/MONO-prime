@@ -3316,3 +3316,22 @@ body { background-color: var(--bg); background-image: url('/mono-weave.svg'); ba
  .portal-label { font-size: 11px; }
 }
 @media(prefers-reduced-motion:reduce) { .world-impression img { transition: none; } }
+
+/* Le premier arc : planches narratives et respiration de lecture. */
+.arc-feature { margin: 36px 0 54px; border-block: 1px solid var(--line); }
+.arc-cover { display: block; }
+.arc-cover img { display: block; width: 100%; height: auto; }
+.arc-copy { padding: 26px 0 30px; }
+.arc-copy h2 { font-family: var(--serif); font-size: clamp(27px, 4vw, 46px); line-height: 1.12; margin: 14px 0; }
+.arc-copy p { max-width: 580px; line-height: 1.7; }
+.arc-copy .arc-period { font-size: 12px; color: var(--muted); }
+.arc-card { grid-column: 1 / -1; grid-template-columns: minmax(0, 1fr); }
+.arc-card .book-image { height: auto; max-height: none; }
+.arc-card .book-image img { width: 100%; height: auto; max-height: none; aspect-ratio: 3 / 2; object-fit: contain; }
+.chapter-plate { margin: 28px 0 38px; }
+.chapter-plate a, .chapter-plate img { display: block; width: 100%; height: auto; }
+.chapter-plate figcaption { font-family: inherit; font-size: 12px; line-height: 1.6; color: var(--muted); padding-top: 12px; }
+.chapter-plate figcaption span { display: block; color: var(--accent); font-size: 10px; margin-top: 5px; }
+.story-spoiler { margin: 28px 0; border-block: 1px solid var(--line); padding: 20px 0; }
+.story-spoiler summary { cursor: pointer; color: var(--accent); }
+@media (max-width: 620px) { .arc-copy { padding-top: 20px; } .chapter-plate { margin-inline: 0; } }

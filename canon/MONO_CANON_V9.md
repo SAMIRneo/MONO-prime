@@ -1,4 +1,4 @@
-# MONO — Canon V9.3
+# MONO — Canon V9.4
 
 Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
@@ -759,6 +759,10 @@ Montagnes, steppes et forges ; Yeshmar transmet la question de Talem.
 
 Les forges conservent des architectures que peu d’ateliers savent réparer. Leurs monopoles rendent des cités dépendantes ; les traditions de Talem revendiquent l’accès aux plans des corps et aux choix de modification. Yeshmar transmet cette dispute. La sécurité d’un réseau peut justifier un secret technique et servir à refuser l’autonomie d’une personne.
 
+### Serekh pendant le Voile
+
+Vers CD 12100, les ateliers et comptes de maintenance de Serekh rendent visibles des dépendances anciennes : certaines protections nécessaires sont financées par des contributions impossibles à retirer. Cette histoire locale ne fixe pas les frontières des États ni les institutions de tout Khoram.
+
 ### À développer
 
 - Frontières et sociétés du présent.
@@ -820,6 +824,28 @@ Leur silence impose de voir avant de juger. Mais une victime peut avoir besoin d
 ### Les premières tensions de l’Éveil
 
 Dans les premières années après CD 12600, une Brisure atteint un réseau de protection proche des lieux d’accueil. Les ateliers réclament la reconnaissance d’un contrat de maintenance contesté avant de livrer un apport. Maëra en tient les copies ; Sava connaît le réseau ; Iri porte la pièce liée à un convoi retenu. La cité doit secourir les habitants, maintenir les accueils et examiner une dette dont les bénéficiaires peuvent couper le soutien. L’origine exacte de cette Brisure n’est pas encore attribuée à un souverain.
+
+## Serekh
+
+Khoram · Cité de terrasses · Le Voile
+
+Une ville de quais et d’aqueducs dont les protections dépendent de contributions devenues héréditaires.
+
+### Une géographie locale
+
+Serekh est située dans une gorge de Khoram, autour d’une rivière et de terrasses renforcées. Sa localisation exacte sur la carte de Terra reste à établir. Pendant le Voile, les grands passages incertains et les droits de maintenance rendent les ateliers, routes et relais indispensables.
+
+### La Chambre des Restes
+
+Le dépôt situé sous les quais conserve comptes, plans et traces reçues. Les morts n’alimentent aucun réseau : leur nom maintenu ouvert justifie des prélèvements sur les foyers vivants. Une archive peut porter un titre abusif tout en conservant les preuves qui le contredisent. Les empreintes de cachets peuvent être copiées sans créer l’accord dont elles prétendent témoigner.
+
+### Après l’arc
+
+Les comptes sont examinés dans un dépôt dont les ateliers ne détiennent plus seuls les clés. Des noms sont clôturés et les contributions futures redeviennent contestables. Le réseau est réduit, des quais sont perdus et un garde est mort. Ni une audience ni une réparation ne supprime ces conséquences.
+
+### À développer
+
+- La localisation cartographique précise et les suites institutionnelles de l’examen des comptes.
 
 # Sillage & puissance
 
@@ -1241,6 +1267,10 @@ Vers CD 11800, Eshar force la réunion des Sceaux et la circulation entre les su
 
 Les chroniques effacent son nom après le Rite. Sa responsabilité est établie dans cette version ; le sort d’Eshar et le déroulement détaillé de l’événement restent inconnus.
 
+### Trois siècles plus tard
+
+Dans le premier arc de Serekh, le Grand Rite et les dernières paroles publiques d’Eshar constituent le repère distant d’environ trois siècles. Cet intervalle ne fixe pas une date de mort ni le sort du prophète. Oran n’est pas annoncé comme son successeur.
+
 ### À développer
 
 - Sort d’Eshar et scènes détaillées du Grand Rite.
@@ -1322,6 +1352,108 @@ Elle apporte à Maëra la pièce qui justifie la retenue du convoi et cherche au
 ### À développer
 
 - La libération du convoi et les engagements qu’elle peut encore tenir.
+
+## Oran
+
+Humain · Jaugeur des morts · Le Voile
+
+À Serekh, il ferme les comptes des défunts. Un acte annonce sa propre mort pour le lendemain.
+
+### Vers CD 12100
+
+Oran est un homme de quarante-trois ans vivant à Serekh, en Khoram, pendant le Voile. Trois siècles le séparent du Grand Rite d’Eshar, dernière grande parole prophétique publique retenue comme repère de cet arc. Il vérifie les décès et la clôture des contributions de maintenance attachées aux foyers. Il se rattache à la Lettre sans détenir une autorité religieuse sur les habitants.
+
+### Le métier et la limite
+
+Il utilise Kethra pour examiner des circuits connus et Meryn pour conserver des traces dans des supports préparés. Sa chaîne, son cachet et ses relevés ne lisent ni une âme ni une intention. Une empreinte peut être copiée ; établir une responsabilité exige provenance, témoins et confrontation des pièces. Il n’a pas la réserve pour soutenir un ouvrage monumental et reste vulnérable à la violence.
+
+### Une perte encore présente
+
+Sa fille Lise est morte sept ans avant l’arc, lors d’une surcharge de protection à l’hospice. Oran croit connaître les circonstances enregistrées. La restitution d’une bande de mémoire l’oblige à examiner ce qu’il a demandé, entendu et signé. Lise ne revient pas lui parler : une voix ancienne, reçue de son vivant, peut seulement être restituée.
+
+### Après l’arc
+
+Oran rend publique sa responsabilité et participe à une évacuation qui ne sauve pas tous les biens ni toutes les vies. Sa main gauche conserve une blessure qui limite sa précision. Les comptes sont examinés sous plusieurs gardes ; la ville tient sur un réseau réduit. Une demande d’inspection extérieure lui ouvre un travail à poursuivre, sans promettre une réparation universelle.
+
+### À développer
+
+- Les suites de l’inspection extérieure et de l’examen des responsabilités de Serekh.
+
+## Tess
+
+Golem · Réparatrice des supports
+
+Elle veut récupérer les comptes et les plans avant que le greffe ne les révise.
+
+### Le corps réparé
+
+Tess entretient des bracelets de conduite et des supports de mémoire à Serekh. Elle appartient au culte de la Forme. Ses réparations lui ont donné une autonomie réelle mais l’accès aux pièces de son corps dépend encore de son atelier. Ses joints de bronze et sa porcelaine sont sa forme actuelle, pas une anatomie obligatoire des Golems.
+
+### Une preuve, pas une revenante
+
+Elle retrouve une trace de Lise et la pièce préparée pour clôturer le compte d’Oran. Elle les lui fait porter pour obtenir une inspection avant la révision du greffe. La restitution exige un canal, une alimentation et une durée mesurée. Elle conserve et compare ; elle ne fabrique ni l’énergie d’une copie ni la personne dont la voix a été inscrite.
+
+### Réparer sans purifier
+
+Tess pratique Kethra, Tharos et des opérations préparées d’Elyr sur les supports qu’elle sait inspecter. Elle refuse de brûler les archives : titres abusifs, plans nécessaires et preuves des demandes d’arrêt s’y trouvent ensemble. Ses charges ont des limites ; son refus de les dépasser peut sauver la circulation sans sauver tous les ouvrages.
+
+### À développer
+
+- L’accès indépendant aux pièces et aux procédés de réparation.
+
+## Veyl
+
+Qerathim · Refuge de Serekh · Maison de Karzuth
+
+Il protège un refuge dont les portes ont aussi laissé des personnes dehors.
+
+### Protéger un lieu
+
+Veyl descend de la Maison de Karzuth et garde un refuge pour des familles dont les contributions restent ouvertes. Son ascendance n’en fait ni un serviteur obligé de Qerath ni un souverain abyssal. Il tient des passages physiques préparés et organise des prises locales d’Enfermement.
+
+### Ce qu’une porte ne sauve pas
+
+Fermer peut arrêter une poursuite ou contenir des débris. La charge doit rester compatible avec la porte et ses ancrages ; Veyl ne contient pas une crue entière par sa volonté. Les personnes restées dehors peuvent contester sa protection. Il demande que ses pertes de route et d’approvisionnement soient reconnues, au lieu de devenir le prix invisible d’une autre victoire.
+
+### Une réponse propre
+
+Il accepte d’aider Oran à accéder aux pièces mais exige qu’on conserve aussi celles qui mettent Oran en cause. Durant l’évacuation, il annonce sa limite et demande le retrait de sa contribution. Ce choix ne le rend pas invulnérable : il oblige les autres à arrêter ou à reprendre réellement la charge.
+
+## Edrane
+
+Humaine · Magistrate de l’entretien
+
+Elle protège des ouvrages indispensables en acceptant des contributions que leurs foyers ne peuvent plus refuser.
+
+### Des lits aux comptes
+
+Ancienne soignante de l’hospice, Edrane gouverne une part des procédures d’entretien de Serekh. Elle connaît la pénurie, les risques des terrasses et les refus d’apports extérieurs. Ces contraintes réelles ne l’exemptent pas des prolongations qu’elle laisse le greffe imposer.
+
+### La justification et la faute
+
+Le greffe maintient les noms de personnes mortes ouverts et reporte leurs contributions sur leurs foyers. Les archives des anciens accords servent de titre, pas d’alimentation miraculeuse. Les bracelets, dépendances et gardes obtiennent une conduite réelle sans fabriquer un consentement. Edrane peut rendre une dette à une famille et pourtant laisser le système qui la reproduit.
+
+### Après l’arc
+
+Elle suspend l’ordre de ramener Oran au relais et ouvre une réserve haute pour l’évacuation. Ces décisions peuvent être justes sans effacer ses actes antérieurs. Elle perd provisoirement sa charge pendant l’examen des comptes. L’audience doit déterminer les responsabilités, y compris celle des autres autorités qui ont refusé des apports.
+
+### À développer
+
+- L’issue de l’examen des comptes et les responsabilités du conseil et des ateliers.
+
+## Lise
+
+Humaine · Soigneuse de l’hospice
+
+Sa demande d’arrêt a laissé une trace que les comptes officiels ne reconnaissent pas.
+
+### Avant la surcharge
+
+Lise, fille d’Oran, s’est engagée comme soigneuse à l’hospice de Serekh. Elle veut continuer à protéger les malades sans maintenir une charge devenue dangereuse. Sa demande porte sur une redistribution et un arrêt, pas sur l’abandon de ceux qu’elle aide.
+
+### La mort et la trace
+
+Elle meurt sept ans avant le début de l’arc, lors de la surcharge. Une bande préparée a enregistré sa voix pendant qu’elle était vivante. Cette trace peut être incomplète et demande une alimentation ; elle ne contient pas une âme disponible aux questions. Reconnaître sa mort n’efface ni les pertes consumées ni la responsabilité des décisions.
 
 # Fondements
 
@@ -1481,4 +1613,5 @@ Nommer un être permet de le désigner et d’étudier des traces, pas de le pos
 - **~CD 9500–11800** — Royaumes Clos : montée des frontières et des pouvoirs ; histoire détaillée ouverte. (À développer)
 - **~CD 11800** — Le Grand Rite d’Eshar : accord imposé, échec, fracture rouverte. (Établi)
 - **~CD 11800–12600** — Le Voile : échanges rompus et regroupements historiques des peuples. (Repère)
+- **~CD 12100** — Pendant le Voile, trois siècles après le Grand Rite : Oran et la crise des comptes de Serekh. Premier arc raconté ; le sort ultime d’Eshar reste inconnu. (Établi)
 - **CD 12600 → présent** — Éveil des Brisures. À Aurenth, Maëra, Sava et Iri affrontent une crise de secours, de maintenance et de dettes. La suite de ce conflit et la politique plus large du présent restent ouvertes. (Repère)
