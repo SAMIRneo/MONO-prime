@@ -3335,3 +3335,114 @@ body { background-color: var(--bg); background-image: url('/mono-weave.svg'); ba
 .story-spoiler { margin: 28px 0; border-block: 1px solid var(--line); padding: 20px 0; }
 .story-spoiler summary { cursor: pointer; color: var(--accent); }
 @media (max-width: 620px) { .arc-copy { padding-top: 20px; } .chapter-plate { margin-inline: 0; } }
+
+/* Lecture et découverte : une hiérarchie commune, des parcours explicites. */
+.reading-home > section { margin: 48px 0; }
+.reading-home > .home-story { margin: 0; }
+.reading-home > .home-discoveries { margin-bottom: 0; }
+.reading-home .eyebrow,.organized-library .eyebrow { font-size: 10px; }
+.reading-home .reading-trail,.organized-library .reading-trail { max-width: none; width: 100%; padding: 16px 0; }
+.reading-home .reading-trail .trail-icon { width: 36px; height: 36px; }
+.organized-library .page-head { margin-bottom: 20px; }
+.organized-library .reading-trail { margin: 0 0 20px; }
+.organized-library .library-jump { margin: 0 0 26px; }
+.site-header { margin-top: 0; height: 76px; border: 0; border-bottom: 1px solid var(--copper); box-shadow: none; }
+.content { width: min(1120px, calc(100% - 48px)); padding-inline: 28px; }
+.reading-home { border-inline: 0; background: transparent; padding: 32px 0 60px; }
+.reading-home > .reading-trail { margin: 0 0 26px; }
+.home-story { display: grid; grid-template-columns: 1.25fr 1fr; background: var(--bg); border-block: 1px solid var(--copper); align-items: center; }
+.home-story-art { display: block; min-width: 0; }
+.home-story-art img { display: block; width: 100%; height: auto; }
+.home-story-copy { padding: 30px; }
+.home-story h1 { font: clamp(32px,3.6vw,48px)/1.05 var(--serif); color: var(--gold); margin: 15px 0 20px; }
+.home-story-copy > p { font-size: 15px; line-height: 1.75; }
+.home-story-copy .story-context { color: var(--muted); font-size: 11px; margin: 18px 0; }
+.reading-cta { display: inline-flex; gap: 18px; font-size: 13px; padding: 13px 17px; min-height: 46px; background: var(--gold); color: var(--bg); border-color: var(--gold); }
+.story-duration { display: block; font-size: 11px; color: var(--muted); margin-top: 13px; }
+.home-paths,.home-explore { margin-top: 64px; }
+.reading-path-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px; }
+.reading-path-grid > a { display: block; border-top: 1px solid var(--copper); padding: 22px 0; }
+.reading-path-grid h3 { font: 25px/1.2 var(--serif); margin: 15px 0 12px; }
+.reading-path-grid p { font-size: 14px; line-height: 1.75; color: var(--muted); }
+.reading-path-grid > a > span:last-child { display: block; font-size: 12px; margin-top: 22px; color: var(--accent); }
+.home-origins { display: grid; grid-template-columns: minmax(0,1fr) 210px; gap: 40px; align-items: center; margin-top: 40px; padding: 32px; background: var(--panel); border-block: 1px solid var(--line); }
+.home-origins h2 { font: clamp(28px,3vw,38px)/1.15 var(--serif); margin: 12px 0 16px; }
+.home-origins p { font-size: 15px; line-height: 1.8; max-width: 560px; }
+.home-origins img { display: block; max-height: 220px; width: 100%; object-fit: contain; }
+.exploration-links { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 30px; }
+.exploration-links > a { display: grid; grid-template-columns: 80px minmax(0,1fr) 16px; gap: 20px; align-items: center; border-bottom: 1px solid var(--line); padding: 20px 0; }
+.exploration-links img { width: 80px; height: 95px; object-fit: contain; }
+.exploration-links h3 { font: 23px var(--serif); margin: 0 0 7px; }
+.exploration-links p { font-size: 12px; color: var(--muted); margin: 0; }
+.home-discoveries { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 36px; margin-top: 60px; border-top: 1px solid var(--copper); padding-top: 28px; }
+.home-discoveries .encounter-widget,.home-discoveries .lexicon-widget { padding: 0; background: none; border: 0; }
+.home-discoveries h2 { text-align: left; font: 23px var(--serif); margin: 0 0 20px; color: var(--gold); }
+.home-discoveries .encounter-widget > a { display: grid; grid-template-columns: 95px minmax(0,1fr); gap: 18px; align-items: start; }
+.home-discoveries .encounter-widget img { width: 95px; height: 130px; object-fit: contain; }
+.home-discoveries h3 { font: 23px var(--serif); margin: 0 0 8px; }
+.home-discoveries p { font-size: 13px; line-height: 1.75; text-align: left; }
+.home-discoveries button { margin-top: 18px; min-height: 44px; }
+.lexicon-all { display: block; font-size: 12px; margin-top: 15px; }
+.library-jump { display: flex; gap: 12px 24px; flex-wrap: wrap; margin-bottom: 40px; padding-block: 16px; border-bottom: 1px solid var(--line); font-size: 13px; }
+.organized-library > section { margin-top: 50px; scroll-margin-top: 12px; }
+.library-arc { display: grid; grid-template-columns: 1.15fr 1fr; gap: 30px; align-items: start; }
+.library-arc .book-image { height: auto; min-height: 0; }
+.library-arc .book-image img { width: 100%; max-height: none; height: auto; }
+.library-arc .book-copy { padding: 0; }
+.book-copy h3 { font: 30px/1.15 var(--serif); margin: 13px 0; color: var(--gold); }
+.book-copy p { font-size: 14px; line-height: 1.8; }
+.book-copy .book-facts { font-size: 11px; color: var(--muted); margin: 16px 0; }
+.origins-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px; }
+.library-origin { grid-template-columns: 120px minmax(0,1fr); gap: 20px; align-items: start; }
+.library-origin .book-image { height: 190px; min-height: 0; }
+.library-origin .book-image img { height: 190px; width: 100%; max-height: none; object-fit: contain; }
+.library-origin .book-copy { padding: 0; }
+.library-origin h3 { font-size: 24px; }
+.book-contents summary { min-height: 44px; align-content: center; }
+.book-contents li a { min-height: 44px; }
+.library-context { padding: 26px 0; border-top: 1px solid var(--copper); }
+.library-context h2 { font: 30px var(--serif); margin: 14px 0; }
+.library-context p { font-size: 15px; line-height: 1.8; max-width: 650px; }
+.library-context > div { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 22px; }
+.reader-layout { grid-template-columns: 200px minmax(0,780px); gap: 42px; }
+.reader-toc { top: 104px; }
+.reading-controls { margin-bottom: 26px; }
+.reading-controls button { min-height: 44px; }
+.reading-progress { top: 76px; }
+.story-prose > p { max-width: 65ch; margin-inline: auto; font-size: 21px; line-height: 1.8; margin-bottom: 26px; }
+.story-prose p:first-of-type:first-letter { font-size: 54px; }
+.reader-large .story-prose > p { font-size: 25px; }
+.story-prose h1 { font-size: clamp(31px,4vw,48px); line-height: 1.12; }
+.chapter-divider { margin: 24px 0; }
+.reader-reference-drawer { border-top: 1px solid var(--line); background: none; padding: 20px 0; }
+.reader-reference-drawer summary { min-height: 44px; align-content: center; cursor: pointer; color: var(--accent); font-size: 13px; }
+.reader-reference-drawer > .eyebrow { display: block; margin-top: 18px; }
+html[data-reading-focus='true'] .site-header,html[data-reading-focus='true'] .mobile-dock { display: none; }
+html[data-reading-focus='true'] .reading-progress { top: 0; }
+html[data-reading-focus='true'] .reader-focus .reading-controls { top: 0; }
+@media(max-width:1000px) { .reader-layout { grid-template-columns: 175px minmax(0,1fr); gap: 25px; } .origins-grid { grid-template-columns: minmax(0,1fr); } }
+@media(max-width:900px) { .site-header { height: 68px; } .reading-progress { top: 68px; } .home-story-copy { padding: 24px; } }
+@media(max-width:760px) {
+ .content { width: calc(100% - 24px); padding-inline: 16px; }
+ .reading-home { padding-inline: 0; padding-top: 20px; }
+ .home-story { grid-template-columns: minmax(0,1fr); }
+ .home-story-copy { padding: 24px 20px 30px; }
+ .home-story h1 { font-size: clamp(32px,7vw,44px); }
+ .reading-path-grid,.home-discoveries,.exploration-links { grid-template-columns: minmax(0,1fr); gap: 0; }
+ .home-paths,.home-explore { margin-top: 40px; }
+ .home-origins { grid-template-columns: minmax(0,1fr) 100px; padding: 24px 18px; gap: 18px; }
+ .home-origins img { max-height: 150px; }
+ .home-discoveries { margin-top: 38px; gap: 32px; }
+ .library-arc { grid-template-columns: minmax(0,1fr); gap: 22px; }
+ .library-origin { grid-template-columns: 90px minmax(0,1fr); gap: 16px; }
+ .library-origin .book-image,.library-origin .book-image img { height: 150px; }
+ .reader.content { width: 100%; border-inline: 0; padding-inline: 20px; }
+ .reader-layout { grid-template-columns: minmax(0,1fr); gap: 0; }
+ .reader-top { gap: 14px; margin-bottom: 24px; }
+ .story-prose > p { font-size: 20px; line-height: 1.8; }
+ .reader-large .story-prose > p { font-size: 23px; }
+ .reading-controls > label { flex-basis: 100%; }
+ .chapter-plate figcaption { font-size: 11px; }
+ .chapter-navigation { gap: 16px; }
+}
+@media(max-width:360px) { .home-origins { grid-template-columns: minmax(0,1fr); } .home-origins > a { display: none; } .library-origin h3 { font-size: 22px; } .reader.content { padding-inline: 16px; } }

@@ -129,3 +129,23 @@ export function readingPosition(
     chapter: Math.min(value.chapter, book.chapters.length),
   };
 }
+
+/** Keep chapter navigation within one reading sequence, even when books mix eras. */
+export function chapterNeighbours(
+  books: readonly { id: string; kind?: string; chapters: readonly { title: string }[] }[],
+  id: string,
+  chapter: number,
+): { previous: { href: string; title: string } | null; next: { href: string; title: string } | null } {
+  const book = books.find(b => b.id === id);
+  if (!book || !book.chapters.length) return { previous: null, next: null };
+  const group = books.filter(b => (b.kind || "origins") === (book.kind || "origins"));
+  const position = group.findIndex(b => b.id === id);
+  const number = Number.isSafeInteger(chapter) ? Math.min(book.chapters.length, Math.max(1, chapter)) : 1;
+  const link = (target: (typeof books)[number] | undefined, n: number) =>
+    target?.chapters[n - 1] ? { href: `#/lire/${target.id}/${n}`, title: target.chapters[n - 1].title } : null;
+  const previousBook = group[position - 1];
+  return {
+    previous: number > 1 ? link(book, number - 1) : link(previousBook, previousBook?.chapters.length || 1),
+    next: number < book.chapters.length ? link(book, number + 1) : link(group[position + 1], 1),
+  };
+}

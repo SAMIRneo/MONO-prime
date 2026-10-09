@@ -5,6 +5,7 @@ import {
   queryHash,
   readingPosition,
   primarySection,
+  chapterNeighbours,
 } from "../src/navigation.ts";
 import { matches } from "../src/search.ts";
 
@@ -32,6 +33,22 @@ test("deep links belong to one primary destination, while utilities stay indepen
     assert.equal(primarySection(parseRoute(hash)), "codex");
   for (const hash of ["#/chercher?q=sillage", "#/signets", "#/inconnu"])
     assert.equal(primarySection(parseRoute(hash)), null);
+});
+
+test("reading sequences never jump from origins to an unrelated arc", () => {
+  const books = [
+    { id: "old-1", kind: "origins", chapters: [{ title: "A" }, { title: "B" }] },
+    { id: "arc", kind: "arc", chapters: [{ title: "Forest" }, { title: "Return" }] },
+    { id: "old-2", kind: "origins", chapters: [{ title: "C" }] },
+  ];
+  assert.equal(chapterNeighbours(books, "old-1", 2).next.href, "#/lire/old-2/1");
+  assert.equal(chapterNeighbours(books, "old-2", 1).next, null);
+  assert.equal(chapterNeighbours(books, "arc", 1).previous, null);
+  assert.equal(chapterNeighbours(books, "arc", 2).next, null);
+  assert.equal(chapterNeighbours(books, "arc", 1).next.href, "#/lire/arc/2");
+  assert.equal(chapterNeighbours(books, "missing", 1).next, null);
+  assert.equal(chapterNeighbours(books, "arc", Infinity).previous, null);
+  assert.equal(chapterNeighbours(books, "arc", 99).previous.href, "#/lire/arc/1");
 });
 
 test("Codex category and query survive a shared URL", () => {

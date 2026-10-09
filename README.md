@@ -11,13 +11,15 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 ## Parcours et fonctionnalités
 
-Trois destinations composent la navigation permanente : **Accueil**, **Chroniques** et **Codex**. Le logo mène à Explorer. Le guide, l’atlas, le Sillage et les âges sont des parcours contextuels d’Explorer ; la recherche et la collection restent des outils. La même organisation est utilisée dans la barre mobile. Les URL existantes restent valides.
+La réorganisation du 9 octobre fait de la lecture le point d’entrée : l’arc de Naël et les origines constituent deux séquences distinctes. Les anciennes routes restent compatibles. Voir [les choix d’organisation et la validation](docs/organisation-lecture-2026-10-09.md).
+
+Trois destinations composent la navigation permanente : **Accueil**, **Lire** et **Codex**. Le logo mène à l’accueil. Le guide, l’atlas, le Sillage et les âges sont des parcours contextuels de découverte ; la recherche et la collection restent des outils. La même organisation est utilisée dans la barre mobile. Les URL existantes restent valides.
 
 | Espace        | Route              | Fonctionnement actuel                                                                                                                                                                                                                                        |
 | ------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Accueil | `#/` | Journal de lecture avec sommaire latéral, extrait du premier livre, notes de révision du canon, Aurenth et fiches associées. |
-| Chroniques    | `#/recits`         | Bibliothèque illustrée, reprise de lecture, sommaires dépliables et accès direct aux 30 chapitres.                                                                                                                                                           |
-| Lecture       | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres et entre livres, signet du livre et repères du codex adaptés à chacun des cinq livres.            |
+| Accueil | `#/` | Arc de Naël en ouverture, reprise du dernier chapitre, trois parcours explicites, récits fondateurs, outils de découverte et rencontres. |
+| Lire / bibliothèque | `#/recits` | Arc illustré et quatre récits fondateurs séparés ; sommaires, temps de lecture, reprise et accès directs aux sections. |
+| Lecture       | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres d’une même séquence, signet du livre et repères du Codex repliables.            |
 | Univers       | `#/univers`        | Guide : origines, mondes, principes, cultes, lignées et Sillage, enjeux ; lexique filtrable de douze repères essentiels et huit distinctions. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Concorde et questions ouvertes du canon. |
 | Terra         | `#/terra`          | Atlas éditorial illustré avec cinq marqueurs, sélection des continents, panoramas, présentation d’Aurenth et liens vers les fondements du monde physique.                                                                                                    |
 | Codex         | `#/codex`          | Catégories avec compteurs, filtre textuel, vues galerie et liste, fiches illustrées et agrandissement des images. La catégorie initiale est « Puissances ».                                                                                                  |

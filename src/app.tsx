@@ -6,6 +6,7 @@ import {
   queryHash,
   readingPosition,
   primarySection,
+  chapterNeighbours,
   type Route,
 } from "./navigation";
 import { matches, entrySearchText, lexiconSearchText } from "./search";
@@ -270,19 +271,21 @@ function ExploreNav({ page }: { page: string }) {
     </nav>
   );
 }
-function ReadingTrail() {
+function ReadingTrail({ onlyResume = false }: { onlyResume?: boolean }) {
   const position = readingPosition(
     read<unknown>("mono-v9-reading", null),
     canon.books,
   );
   const book = canon.books.find((b) => b.id === position?.book);
+  if (onlyResume && !book) return null;
+  const start = canon.books.find(b => b.kind === "arc") || canon.books[0];
   return (
     <a
       className="reading-trail"
       href={
         book && position
           ? `#/lire/${book.id}/${position.chapter}`
-          : "#/lire/livre-1/1"
+          : `#/lire/${start.id}/1`
       }
     >
       <span className="trail-icon">
@@ -295,10 +298,10 @@ function ReadingTrail() {
         <strong>
           {book && position
             ? book.chapters[position.chapter - 1].title
-            : "Avant le Temps"}
+            : start.title}
         </strong>
         <span>
-          {book ? book.title : "La création commence par un retrait."}
+          {book ? book.title : "Entrez dans le monde avec Naël."}
         </span>
       </div>
       <span className="trail-action">
@@ -309,79 +312,26 @@ function ReadingTrail() {
   );
 }
 function Home() {
+  const arc = canon.books.find(b => b.kind === "arc")!;
   const [passage, setPassage] = useState(0);
   const [word, setWord] = useState(0);
+  const figure = byId.get(["nael", "tess", "veyl", "qerath", "tamariel", "vothorak"][passage])!;
   const term = canon.lexicon[word];
-  const passages = ["qerath", "vothorak", "eshar", "aurenth", "cieux", "abysses"];
-  const encounter = byId.get(passages[passage])!;
-  const date = new Intl.DateTimeFormat("fr-FR", {day:"numeric",month:"long",year:"numeric"}).format(new Date(canon.updated + "T12:00:00"));
-  const book = canon.books[0];
-  const chapter = book.chapters[0];
-  return (
-    <div className="notebook">
-      <aside className="notebook-index" aria-label="Index du site">
-        <div className="portal-label">MONO / portes ouvertes</div>
-        <nav aria-label="Sommaire">
-          <h2>Sommaire</h2>
-          <a href="#/univers">Introduction à l’univers</a>
-          <a href="#/recits">La bibliothèque</a>
-          <a href="#/terra">Carte de Terra</a>
-          <a href="#/powerscaling">Sillage et maîtrise</a>
-          <a href="#/chronologie">Chronologie</a>
-          <a href="#/univers?section=6">Lexique</a>
-        </nav>
-        <details className="notebook-categories">
-          <summary>Index des fiches <span>{entries.length}</span></summary>
-          <nav aria-label="Fiches par catégorie">{groups.map(group=><a href={"#/codex/"+group.id} key={group.id}>{group.label}<span>{entries.filter(e=>e.category===group.id).length}</span></a>)}</nav>
-        </details>
-        <section className="encounter-widget" aria-label="Explorer les figures de MONO"><h2>À travers le miroir</h2><a href={href(encounter.id)} className="encounter-portrait"><Art name={encounter.art} alt={encounter.title} sizes="180px" /></a><div aria-live="polite"><a className="encounter-name" href={href(encounter.id)}>{encounter.title}</a><p>{encounter.summary}</p></div><button onClick={() => setPassage((passage+1)%passages.length)}>Tourner le miroir ↻</button></section>
-        <a className="portal-stamp" href="#/lire/livre-1/1"><span>MONO</span><small>Entrer dans le premier livre</small></a>
-        <section className="lexicon-widget" aria-label="Feuilleter les mots de MONO"><h2>Les mots du Nom</h2><div aria-live="polite"><a href={href(term.record)}>{term.term}</a><p>{term.definition}</p></div><button onClick={() => setWord((word+1)%canon.lexicon.length)}>Feuilleter le lexique →</button></section>
-        <div className="index-colophon"><p>Canon {canon.version}<br />{date}</p><a href={BASE+"canon/MONO_CANON_V9.md"}>Texte intégral (.md)</a><a href="#/signets">Mes signets</a></div>
-      </aside>
-      <div className="notebook-pages">
-        <header className="notebook-intro"><span className="notebook-path">Un univers de mondes, de mémoire et de libre arbitre</span><img className="portal-wordmark" src={BASE+"mono-mark.svg"} alt="MONO" width="540" height="170" /><h1>Le Codex de la Déchirure</h1><p className="portal-verse">« Avant qu’il y eût un avant,<br />il y avait le Nom. »</p><p className="start-reading"><a href="#/lire/livre-1/1">Ouvrir le premier livre</a><span> / </span><a href="#/univers">Les repères de l’univers</a></p></header>
-        <figure className="world-frontispiece">
-          <div className="world-impressions">{["cieux", "terra", "abysses"].map(id => {
-            const world = byId.get(id)!;
-            return <a key={id} href={href(id)} className={"world-impression world-"+id}><Art name={world.art} hero sizes="(max-width: 760px) 33vw, 260px" /><span>{world.title}</span></a>;
-          })}</div>
-          <figcaption>Terra est physique ; les Cieux et les Abysses sont métaphysiques.<br /><a href="#/univers">Lire la cosmologie</a></figcaption>
-        </figure>
-        <article className="arc-feature"><a className="arc-cover" href="#/lire/livre-5/1" aria-label="Lire Ce qui marche entre les arbres"><Art name="nael-forest-v1" alt="Naël face au cortège impossible du Bois de Nacre" hero sizes="(max-width: 760px) 100vw, 700px" /></a><div className="arc-copy"><span className="eyebrow">PREMIER ARC · SIX CHAPITRES ILLUSTRÉS</span><h2><a href="#/lire/livre-5/1">Ce qui marche entre les arbres</a></h2><p>Dans la forêt, Naël voit un arbre perdre le milieu de son tronc. Une procession traverse l’intervalle — et les distances du monde changent avec chacun de ses pas.</p><p className="arc-period">Avarn, vers CD 12100 · Trois siècles après les dernières paroles publiques d’Eshar.</p><LinkArrow to="#/lire/livre-5/1">Entrer dans l’histoire</LinkArrow></div></article>
-        <ReadingTrail />
-        <article className="notebook-post chronicle-excerpt">
-          <div className="post-date"><span>Lecture / Livre I</span><a href="#/recits">Sommaire des livres</a></div>
-          <h2><a href={"#/lire/"+book.id+"/1"}>{chapter.title}</a></h2>
-          <figure className="chronicle-plate"><Art name={book.art} alt={book.title} sizes="(max-width: 620px) 130px, 190px" /><figcaption>{book.title}<br />Chapitre I</figcaption></figure>
-          <blockquote>{chapter.paragraphs.slice(0,2).map((paragraph,i)=><p key={i}>{paragraph}</p>)}</blockquote>
-          <a className="continue-reading" href={"#/lire/"+book.id+"/1"}>Lire le chapitre</a>
-        </article>
-        <article className="notebook-post" id="revision">
-          <div className="post-date"><time dateTime={canon.updated}>{date}</time><a href="#/univers?section=6">Canon {canon.version}</a></div>
-          <h2>Les vies d’Aurenth, cinq siècles plus tard</h2>
-          <p>Au début de l’Éveil, une autre crise se noue à Aurenth. Retrouvez ses premiers acteurs et les règles de leurs pouvoirs :</p>
-          <ul className="revision-list">
-            <li><a href="#/fiche/puissance">Les rapports de force</a> distinguent réserve, prise, réseau et manifestation. Repousser une intervention ne détruit pas son souverain.</li>
-            <li><a href="#/fiche/tikkun">La Concorde</a> demande un diagnostic, des contributions précises et un arrêt préparé ; la bonne intention ne suffit pas.</li>
-            <li><a href="#/fiche/maera">Maëra</a> confronte les copies d’une dette dont sa famille porte l’histoire.</li>
-            <li><a href="#/fiche/sava">Sava</a> réclame les plans des relais, tout en devant répondre de ses propres erreurs.</li>
-            <li><a href="#/fiche/iri">Iri</a> doit choisir entre secourir le quartier et garder les moyens de rejoindre son convoi.</li>
-          </ul>
-          <p><a href="#/lire/livre-4/6">Lire leur première crise à Aurenth</a></p>
-          <p className="post-reference"><a href="#/univers?section=6">Les vingt définitions du lexique</a> · <a href="#/powerscaling">Les règles du Sillage</a></p>
-        </article>
-        <article className="notebook-post atlas-notes">
-          <div className="post-date"><span>Géographie / Avarn</span><a href="#/terra">Atlas</a></div>
-          <h2>Aurenth n’est pas Éden</h2>
-          <p>Aurenth est une cité terrestre d’Avarn. Son sanctuaire conserve l’empreinte du regard d’Éden ; Éden et les Sept Témoins demeurent dans les Cieux.</p>
-          <figure><a href="#/fiche/aurenth" aria-label="Lire la fiche d’Aurenth"><Art name={byId.get("aurenth")!.art} alt="Aurenth, cité sainte terrestre" sizes="(max-width: 760px) 100vw, 700px" /></a><figcaption>Aurenth. Illustration du sanctuaire et des quartiers de la cité.</figcaption></figure>
-          <p className="post-reference"><a href="#/fiche/aurenth">Aurenth</a> · <a href="#/fiche/temoins">Éden et les Sept Témoins</a> · <a href="#/fiche/avarn">Avarn</a></p>
-        </article>
-        <section className="notebook-crossrefs"><h2>Autres dossiers</h2><dl>{["qerath","vothorak","eshar"].map(id=>{const entry=byId.get(id)!;return <div key={id}><dt><a href={href(id)}>{entry.title}</a></dt><dd>{entry.summary}</dd></div>})}</dl></section>
-      </div>
-    </div>
-  );
+  return <div className="content reading-home">
+    <ReadingTrail onlyResume />
+    <section className="home-story" aria-labelledby="home-title">
+      <a className="home-story-art" href={"#/lire/"+arc.id+"/1"} aria-label={"Lire " + arc.title}><Art name={arc.art} alt="Naël devant le cortège impossible du Bois de Nacre" hero sizes="(max-width: 760px) 100vw, 680px" /></a>
+      <div className="home-story-copy"><span className="eyebrow">MONO · PREMIER ARC ILLUSTRÉ</span><h1 id="home-title">{arc.title}</h1><p>Un arbre perd le milieu de son tronc. Une procession traverse l’intervalle. Et les distances du monde changent avec chacun de ses pas.</p><p className="story-context">Avarn · Le Voile · Vers CD 12100</p><a className="button reading-cta" href={"#/lire/"+arc.id+"/1"}>Lire le premier chapitre <Icon name="arrow" /></a><span className="story-duration">{arc.chapters.length} chapitres · {minutes(arc.chapters.flatMap(c=>c.paragraphs).join(" "))} min de lecture</span></div>
+    </section>
+    <section className="home-paths" aria-label="Choisir un parcours"><SectionHead eyebrow="À VOTRE RYTHME" title="Choisissez votre chemin" /><div className="reading-path-grid">
+      <a href="#/recits"><span className="eyebrow">01 · LES RÉCITS</span><h3>Suivre une histoire</h3><p>L’arc de Naël et les quatre livres fondateurs, avec leurs sommaires.</p><span>Ouvrir la bibliothèque →</span></a>
+      <a href="#/univers"><span className="eyebrow">02 · LE GUIDE</span><h3>Comprendre le monde</h3><p>Trois mondes, six lignées, une Source et les règles qui les relient.</p><span>Les premiers repères →</span></a>
+      <a href="#/codex"><span className="eyebrow">03 · LE CODEX</span><h3>Approfondir une question</h3><p>Personnages, puissances, lieux et pratiques du Sillage.</p><span>Consulter les fiches →</span></a>
+    </div></section>
+    <section className="home-origins"><div><span className="eyebrow">LES RÉCITS FONDATEURS</span><h2>Avant la forêt, la Déchirure.</h2><p>Le Retrait, le bannissement de Qerath, la matière et le Grand Rite. Quatre livres pour suivre les origines du monde, jusqu’à l’ouverture de l’Éveil.</p><LinkArrow to="#/recits?section=1">Découvrir les origines</LinkArrow></div><a href="#/lire/livre-1/1" aria-label="Lire Avant le Temps"><Art name={canon.books[0].art} alt="Interprétation du Retrait Premier" sizes="(max-width: 620px) 120px, 260px" /></a></section>
+    <section className="home-explore"><SectionHead eyebrow="EXPLORER MONO" title="Des repères pour aller plus loin" /><div className="exploration-links">{exploreLinks.map(([id,label,copy,art])=><a key={id} href={"#/"+id}><Art name={art} sizes="(max-width: 620px) 72px, 120px" /><div><h3>{label}</h3><p>{copy}</p></div><Icon name="arrow" /></a>)}</div></section>
+    <section className="home-discoveries" aria-label="Rencontres et lexique"><div className="encounter-widget"><h2>À travers le miroir</h2><a href={href(figure.id)}><Art name={figure.art} alt={figure.title} sizes="120px" /><div><h3>{figure.title}</h3><p>{figure.summary}</p></div></a><button onClick={()=>setPassage((passage+1)%6)}>Une autre rencontre ↻</button></div><div className="lexicon-widget"><h2>Les mots du Nom</h2><div aria-live="polite"><a href={href(term.record)}>{term.term}</a><p>{term.definition}</p></div><button onClick={()=>setWord((word+1)%canon.lexicon.length)}>Le mot suivant →</button><a className="lexicon-all" href="#/univers?section=6">Le lexique complet</a></div></section>
+  </div>;
 }
 
 function Terra({
@@ -652,65 +602,22 @@ function Terra({
   );
 }
 
+function StoryCard({book, featured = false}: {book: Book; featured?: boolean}) {
+  const origins = canon.books.filter(b => b.kind !== "arc");
+  return <article className={"book-card " + (featured ? "library-arc" : "library-origin")}>
+    <a href={"#/lire/"+book.id+"/1"} className="book-image" aria-label={"Lire " + book.title}><Art name={book.art} alt={book.title} hero={featured} sizes={featured ? "(max-width: 760px) 100vw, 620px" : "(max-width: 620px) 110px, 180px"} /></a>
+    <div className="book-copy"><span className="eyebrow">{featured ? "PREMIER ARC · LE VOILE" : "LIVRE "+["I","II","III","IV"][origins.findIndex(b=>b.id===book.id)]}</span><h3><a href={"#/lire/"+book.id+"/1"}>{book.title}</a></h3><p>{featured ? "Naël découvre un cortège qui bouleverse les distances d’une forêt. Retrouver un homme disparu ouvre une enquête sur les premiers mystères du monde." : book.subtitle}</p><p className="book-facts">{book.chapters.length} chapitres · {minutes(book.chapters.flatMap(c=>c.paragraphs).join(" "))} min{featured ? " · Six planches originales" : ""}</p><LinkArrow to={"#/lire/"+book.id+"/1"}>{featured ? "Commencer l’arc" : "Ouvrir ce livre"}</LinkArrow><details className="book-contents"><summary>Voir les chapitres <span>+</span></summary><ol>{book.chapters.map((ch,n)=><li key={ch.id}><a href={"#/lire/"+book.id+"/"+(n+1)}><span>{String(n+1).padStart(2,"0")}</span>{ch.title}<Icon name="arrow" /></a></li>)}</ol></details></div>
+  </article>;
+}
 function Stories() {
-  const orderedBooks = [...canon.books.filter(b => b.kind === "arc"), ...canon.books.filter(b => b.kind !== "arc")];
-  return (
-    <div className="content stories-page">
-      <PageHead
-        eyebrow="Chroniques"
-        title="Les chroniques"
-        copy="Un premier arc illustré pendant le Voile. Quatre livres pour découvrir les origines du monde et les débuts de l’Éveil."
-      />
-      <ReadingTrail />
-      <div className="book-grid">
-        {orderedBooks.map((b) => (
-          <article key={b.id} className={`book-card ${b.kind === "arc" ? "arc-card" : ""}`}>
-            <a
-              href={`#/lire/${b.id}/1`}
-              className="book-image"
-              aria-label={`Lire ${b.title}`}
-            >
-              <Art name={b.art} sizes="(max-width: 700px) 100vw, 45vw" />
-              <span className="book-roman">{["I", "II", "III", "IV", "V"][canon.books.findIndex(book => book.id === b.id)]}</span>
-            </a>
-            <div className="book-copy">
-              <span className="eyebrow">
-                {b.kind === "arc" ? "PREMIER ARC ILLUSTRÉ" : "RÉCIT FONDATEUR"} / {b.chapters.length} CHAPITRES
-              </span>
-              <h2>
-                <a href={`#/lire/${b.id}/1`}>{b.title}</a>
-              </h2>
-              <p>{b.subtitle}</p>
-              <LinkArrow to={`#/lire/${b.id}/1`}>Commencer le livre</LinkArrow>
-              <details className="book-contents">
-                <summary>
-                  Feuilleter les chapitres <span>+</span>
-                </summary>
-                <ol>
-                  {b.chapters.map((ch, n) => (
-                    <li key={ch.id}>
-                      <a href={`#/lire/${b.id}/${n + 1}`}>
-                        <span>0{n + 1}</span>
-                        {ch.title}
-                        <Icon name="arrow" />
-                      </a>
-                    </li>
-                  ))}
-                </ol>
-              </details>
-            </div>
-          </article>
-        ))}
-      </div>
-      <aside className="note">
-        <h3>Deux époques, un même monde.</h3>
-        <p>
-          Naël vit pendant le Voile, vers CD 12100. La crise de Maëra, Sava et Iri à Aurenth se déroule environ cinq siècles plus tard, au début de l’Éveil.
-        </p>
-        <LinkArrow to="#/chronologie">Situer les événements</LinkArrow>
-      </aside>
-    </div>
-  );
+  return <div className="content stories-page organized-library">
+    <PageHead eyebrow="Les récits" title="La bibliothèque" copy="Commencez une aventure, explorez les origines ou reprenez votre dernier chapitre." />
+    <ReadingTrail onlyResume />
+    <nav className="library-jump" aria-label="Dans la bibliothèque"><a href="#/recits?section=0">L’arc de Naël</a><a href="#/recits?section=1">Les origines</a><a href="#/recits?section=2">Se repérer</a></nav>
+    <section id="stories-arcs" tabIndex={-1}><SectionHead eyebrow="01 · VIVRE UNE HISTOIRE" title="Le premier arc" copy="Pendant le Voile, trois siècles après les dernières paroles publiques d’Eshar." />{canon.books.filter(b=>b.kind==="arc").map(book=><StoryCard key={book.id} book={book} featured />)}</section>
+    <section id="stories-origins" tabIndex={-1}><SectionHead eyebrow="02 · COMPRENDRE LES ORIGINES" title="Les récits fondateurs" copy="À lire dans l’ordre pour suivre la création, ses fractures et les grands rites, jusqu’à l’ouverture de l’Éveil." /><div className="origins-grid">{canon.books.filter(b=>b.kind!=="arc").map(book=><StoryCard key={book.id} book={book} />)}</div></section>
+    <section id="stories-reperes" tabIndex={-1} className="library-context"><span className="eyebrow">03 · SE REPÉRER</span><h2>Des époques distinctes, un même monde.</h2><p>L’arc de Naël se déroule vers CD 12100. La dernière scène du Livre IV ouvre la crise d’Aurenth vers CD 12600, environ cinq siècles plus tard.</p><div><LinkArrow to="#/chronologie">Voir la chronologie</LinkArrow><LinkArrow to="#/univers">Comprendre l’univers</LinkArrow></div></section>
+  </div>;
 }
 
 function ChapterPlate({plate}: {plate: {art: string; alt: string; caption: string}}) {
@@ -766,22 +673,12 @@ function Reader({
     window.addEventListener("scroll", update, { passive: true });
     return () => window.removeEventListener("scroll", update);
   }, [book.id, index]);
-  const bi = canon.books.findIndex((b) => b.id === book.id);
-  const prev = index
-    ? `#/lire/${book.id}/${index}`
-    : bi > 0
-      ? `#/lire/${canon.books[bi - 1].id}/${canon.books[bi - 1].chapters.length}`
-      : null;
-  const next =
-    index < book.chapters.length - 1
-      ? `#/lire/${book.id}/${index + 2}`
-      : bi < canon.books.length - 1
-        ? `#/lire/${canon.books[bi + 1].id}/1`
-        : null;
-  const nextTitle =
-    index < book.chapters.length - 1
-      ? book.chapters[index + 1].title
-      : canon.books[bi + 1]?.chapters[0].title;
+  const siblings = canon.books.filter(b => b.kind === book.kind);
+  const sequenceIndex = siblings.findIndex(b => b.id === book.id);
+  const neighbors = chapterNeighbours(canon.books, book.id, index + 1);
+  const prev = neighbors.previous?.href;
+  const next = neighbors.next?.href;
+  const nextTitle = neighbors.next?.title;
   return (
     <div
       className={`content reader ${large ? "reader-large" : ""} ${focus ? "reader-focus" : ""}`}
@@ -801,7 +698,7 @@ function Reader({
           ← La bibliothèque
         </a>
         <span className="eyebrow">
-          LIVRE {["I", "II", "III", "IV", "V"][bi]} · CHAPITRE {index + 1}/
+          {book.kind === "arc" ? "PREMIER ARC" : "LIVRE " + ["I", "II", "III", "IV"][sequenceIndex]} · CHAPITRE {index + 1}/
           {book.chapters.length}
         </span>
       </div>
@@ -900,12 +797,13 @@ function Reader({
                 <Icon name="arrow" />
               </a>
             ) : (
-              <a href="#/chronologie">
-                Explorer les âges <Icon name="arrow" />
+              <a href="#/recits">
+                Revenir aux récits <Icon name="arrow" />
               </a>
             )}
           </nav>
-          <aside className="reader-glossary">
+          <details className="reader-glossary reader-reference-drawer">
+            <summary>Les repères du Codex pour ce récit</summary>
             <span className="eyebrow">REPÈRES DE CE LIVRE</span>
             <p>
               Retrouvez les figures et les notions rencontrées dans ce récit.
@@ -919,7 +817,7 @@ function Reader({
                 ),
               )}
             </div>
-          </aside>
+          </details>
         </div>
       </div>
     </div>
@@ -2141,7 +2039,7 @@ export default function App() {
     const chapter =
       b?.chapters[Math.min(current.chapter, b.chapters.length) - 1];
     const titles: Record<string, string> = {
-      recits: "Les chroniques",
+      recits: "La bibliothèque",
       univers: "Comprendre l’univers",
       codex: "Le Codex",
       terra: "Terra · Atlas",
@@ -2184,6 +2082,13 @@ export default function App() {
     if (current.page === "univers" && current.section !== null)
       frame = requestAnimationFrame(() => {
         const target = document.getElementById(`universe-${current.section}`);
+        target?.scrollIntoView({ block: "start", behavior: "instant" });
+        target?.focus({ preventScroll: true });
+      });
+    if (current.page === "recits" && current.section !== null)
+      frame = requestAnimationFrame(() => {
+        const id = ["stories-arcs", "stories-origins", "stories-reperes"][current.section!];
+        const target = id ? document.getElementById(id) : null;
         target?.scrollIntoView({ block: "start", behavior: "instant" });
         target?.focus({ preventScroll: true });
       });
@@ -2360,7 +2265,7 @@ export default function App() {
     );
   const links = [
     ["", "Accueil"],
-    ["recits", "Chroniques"],
+    ["recits", "Lire"],
     ["codex", "Codex"],
   ];
   const section = primarySection(current);
@@ -2498,7 +2403,7 @@ export default function App() {
       <nav inert={menu} className="mobile-dock" aria-label="Navigation mobile">
         {[
           ["", "Accueil", "map"],
-          ["recits", "Chroniques", "book"],
+          ["recits", "Lire", "book"],
           ["codex", "Codex", "grid"],
         ].map(([id, label, icon]) => (
           <a
