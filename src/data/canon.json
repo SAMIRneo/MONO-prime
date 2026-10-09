@@ -1082,17 +1082,11 @@
         {
           "title": "État du monde",
           "text": "Les anciennes couronnes fondent leurs droits sur des serments dont les archives ne concordent pas toujours. Des cités financent les routes et les soins en contestant les péages héréditaires ; des maisons régnantes répliquent que leurs réserves protègent aussi les campagnes. Aurenth accueille leurs négociations mais dépend des convois qu’elles peuvent retenir. Les frontières et les dynasties précises restent à nommer."
-        },
-        {
-          "title": "Le Bois de Nacre pendant le Voile",
-          "text": "Vers CD 12100, le Bois de Nacre et le relais des Lisières abritent le premier arc de Naël. Une anomalie locale fait apparaître des voisinages incompatibles et les traces d’un ouvrage antérieur au Grand Rite. Elle ne fixe ni les frontières des royaumes ni une carte certaine des dimensions."
         }
       ],
       "art": "avarn-v2",
       "links": [
-        "terra",
-        "bois-nacre",
-        "nael"
+        "terra"
       ],
       "open_questions": [
         "Frontières et sociétés du présent."
@@ -1526,10 +1520,6 @@
         {
           "title": "Au présent",
           "text": "Depuis CD 12600, les Brisures se multiplient. L’épuisement du Sillage disponible fragilise les relations qui séparent les dimensions ; les tensions en concentrent localement les courants, jusqu’à une rupture. Cette recompression peut rendre une réserve accessible tout en exposant un lieu aux lois d’un autre monde. Étude, fermeture et traversée exigent compréhension et ancrage. À Aurenth, une première crise met en conflit secours, maintenance et reconnaissance des dettes ; l’identité d’une influence rencontrée ne peut être déduite de la seule apparence de la fracture."
-        },
-        {
-          "title": "Un contact pendant le Voile",
-          "text": "Les Brisures existaient avant leur multiplication au début de l’Éveil. Vers CD 12100, Naël et ses compagnons observent au Bois de Nacre des changements de voisinage, une rémanence sans charge et un ancien ouvrage de tenue. Le cortège apparent reste sans identification. Trois perspectives incompatibles n’attestent pas un quatrième monde ; reconnaître un effet de Mémoire ne suffit pas à attribuer le phénomène à un Archange."
         }
       ],
       "art": "brisures",
@@ -1539,9 +1529,7 @@
         "aurenth",
         "maera",
         "sava",
-        "iri",
-        "bois-nacre",
-        "nael"
+        "iri"
       ],
       "open_questions": [
         "La suite du premier conflit d’Aurenth et l’éventuelle influence derrière sa Brisure.",
@@ -1679,19 +1667,13 @@
         {
           "title": "Le nom retiré",
           "text": "Les chroniques effacent son nom après le Rite. Sa responsabilité est établie dans cette version ; le sort d’Eshar et le déroulement détaillé de l’événement restent inconnus."
-        },
-        {
-          "title": "Trois siècles plus tard",
-          "text": "Le premier arc de Naël, vers CD 12100 pendant le Voile, prend pour repère le Grand Rite et les dernières paroles publiques d’Eshar, environ trois siècles auparavant. Aucun décès du prophète n’est daté. Le relevé du Bois de Nacre ouvre une piste antérieure au Rite, sans résoudre le sort d’Eshar ni faire de Naël son successeur."
         }
       ],
       "art": "eshar",
       "links": [
         "sarai",
         "tikkun",
-        "sceaux",
-        "nael",
-        "bois-nacre"
+        "sceaux"
       ],
       "open_questions": [
         "Sort d’Eshar et scènes détaillées du Grand Rite."
@@ -2125,247 +2107,6 @@
       "open_questions": [
         "La libération du convoi et les engagements qu’elle peut encore tenir."
       ]
-    },
-    {
-      "id": "nael",
-      "title": "Naël",
-      "category": "personnages",
-      "subtitle": "Humain · Guide des chemins forestiers",
-      "summary": "Un événement impossible dans le Bois de Nacre l’amène à chercher ce que les routes ordinaires ne permettent pas de comprendre.",
-      "art": "nael-forest-v1",
-      "sections": [
-        {
-          "title": "Avant la forêt",
-          "text": "Naël a vingt-neuf ans, vers CD 12100, pendant le Voile. Il guide des voyageurs et transporte des fournitures entre des relais d’Avarn. Sa connaissance vient de trajets, de gestes et de repères terrestres ; il n’a reçu ni Sceau, ni charge prophétique, ni réserve exceptionnelle."
-        },
-        {
-          "title": "Ce qu’il a vu",
-          "text": "Il découvre un frêne dont le tronc est interrompu sans chute de la cime. Dans l’intervalle, un cortège apparent modifie les voisinages du paysage. Rém, garde du bois, disparaît de son chemin accessible. Naël distingue ensuite une phrase répétée d’une silhouette dont le mouvement semble répondre : elles ne prouvent pas la même chose."
-        },
-        {
-          "title": "Apprendre à chercher",
-          "text": "Tess lui apprend à relever les prises d’un ouvrage ; Veyl prépare les limites du retour ; Sorane utilise un signal entretenu avec Rém. Naël apporte ses gestes de guide et sa capacité à suivre une matière continue. Sa curiosité l’expose au désir d’avancer avant de savoir revenir."
-        },
-        {
-          "title": "Après l’arc",
-          "text": "Rém revient vivant avec une atteinte du regard ; une partie du bois reste inaccessible. Naël commence une enquête vers des ouvrages évoqués par un feuillet antérieur au Grand Rite. Il sait transmettre des observations partielles sans en faire une révélation complète. Son départ ne fait pas de lui un successeur d’Eshar."
-        }
-      ],
-      "links": [
-        "bois-nacre",
-        "tess",
-        "veyl",
-        "sorane",
-        "rem",
-        "edrane",
-        "eshar",
-        "brisures"
-      ],
-      "open_questions": [
-        "L’origine du cortège, la fonction de la silhouette arrêtée et ce qui peut être appris des autres ouvrages."
-      ],
-      "aliases": []
-    },
-    {
-      "id": "tess",
-      "title": "Tess",
-      "category": "personnages",
-      "subtitle": "Golem · Réparatrice et releveuse de routes",
-      "summary": "Elle sait faire une carte utile sans prétendre que le monde doit s’y conformer.",
-      "art": "nael-map-v1",
-      "sections": [
-        {
-          "title": "Le corps et la pratique",
-          "text": "Golem itinérante, Tess entretient ses articulations et des supports de relais. Son visage de porcelaine ivoire, ses réparations métalliques et ses vêtements pratiques sont une interprétation visuelle, pas de nouvelles facultés de lignée. Elle pratique Kethra pour étudier, Meryn pour recevoir certaines traces et des opérations de Mesure et de Permanence sur des supports connus."
-        },
-        {
-          "title": "La carte et les prises",
-          "text": "Elle relève ce qui permet de rejoindre un endroit plutôt que d’imposer des distances fixes à une Brisure. Un diagnostic demande outils, comparaisons, temps et alimentation. Savoir nommer un principe n’établit pas la source de tous ses effets. Ses feuillets conservent des traces partielles, pas une énergie dupliquée ni la totalité d’un lieu."
-        },
-        {
-          "title": "La responsabilité",
-          "text": "Tess consigne la réserve disponible, la charge engagée, la dispersion et les pertes consumées. Elle prépare un retrait et refuse de présenter le sauvetage de Rém comme une réparation de toute la forêt. Elle ne maîtrise pas chaque ouvrage ancien qu’elle rencontre."
-        }
-      ],
-      "links": [
-        "nael",
-        "bois-nacre",
-        "golems",
-        "maitrise-sillage",
-        "sillage",
-        "rem"
-      ],
-      "open_questions": [],
-      "aliases": []
-    },
-    {
-      "id": "veyl",
-      "title": "Veyl",
-      "category": "personnages",
-      "subtitle": "Qerathim · Gardien de refuges",
-      "summary": "Il cherche un bord qui tienne assez longtemps pour que les autres puissent revenir.",
-      "art": "nael-depths-v1",
-      "sections": [
-        {
-          "title": "Une origine, des décisions",
-          "text": "Issu de la Maison de Karzuth, Veyl garde des refuges sur les routes d’Avarn pendant le Voile. Son ascendance ne décide ni sa fidélité ni la valeur de ses choix. Il sait qu’une fermeture peut protéger ceux qui sont dedans en laissant les autres dehors."
-        },
-        {
-          "title": "Une limite préparée",
-          "text": "Sa pratique de l’Enfermement exige fermoirs, prises, supports et une réserve finie. Il peut contenir un contact local qu’il a étudié et signaler sa perte de tenue. Il ne crée pas à volonté une sortie sûre de tout territoire métaphysique ; une réussite locale ne lui donne aucune souveraineté sur les Abysses."
-        },
-        {
-          "title": "Après l’arc",
-          "text": "Veyl tient un bord préparé pendant le retour de Rém. Ses supports et sa propre peau restent abîmés. Il accepte d’examiner d’autres seuils avec Naël et Tess, à condition d’organiser le retrait. Il n’a pas vaincu ni identifié le cortège."
-        }
-      ],
-      "links": [
-        "nael",
-        "tess",
-        "bois-nacre",
-        "qerathim",
-        "karzuth",
-        "inversions-abyssales"
-      ],
-      "open_questions": [],
-      "aliases": []
-    },
-    {
-      "id": "edrane",
-      "title": "Edrane",
-      "category": "personnages",
-      "subtitle": "Humaine · Gardienne du relais des Lisières",
-      "summary": "Elle demande aux témoins ce qu’ils peuvent soutenir, puis garde aussi leurs incertitudes.",
-      "art": "",
-      "sections": [
-        {
-          "title": "Le relais",
-          "text": "Ancienne copiste, Edrane soigne et accueille les voyageurs au relais des Lisières, au bord du Bois de Nacre. Elle conserve les lettres et relevés interrompus par les routes du Voile. Sa fonction lui donne des documents et des contacts, pas une connaissance omnisciente des dimensions."
-        },
-        {
-          "title": "Avant le Grand Rite",
-          "text": "Elle transmet un feuillet daté de CD 11436 qui décrit une anomalie de voisinage et un motif de trois arcs autour d’un blanc. Une provenance partielle est établie dans les archives des relais. Les renvois vers d’autres lieux doivent encore être authentifiés. La pièce ouvre une piste antérieure à Eshar ; elle ne révèle pas le sens ultime de son Rite."
-        },
-        {
-          "title": "Transmettre sans remplir les blancs",
-          "text": "Elle distingue observations et interprétations avec Naël. Elle soigne Rém sans promettre de rendre tout son regard et finance le premier trajet d’enquête en demandant un relevé qui conserve aussi les erreurs."
-        }
-      ],
-      "links": [
-        "nael",
-        "bois-nacre",
-        "rem",
-        "eshar",
-        "tess"
-      ],
-      "open_questions": [],
-      "aliases": []
-    },
-    {
-      "id": "sorane",
-      "title": "Sorane",
-      "category": "personnages",
-      "subtitle": "Djinn · Compagne des routes forestières",
-      "summary": "Un signal reçu peut l’aider à retrouver Rém ; il ne lui apprend pas tout ce qu’il est devenu.",
-      "art": "nael-witnesses-v1",
-      "sections": [
-        {
-          "title": "Une présence incarnée",
-          "text": "Sorane est une Djinn vivant sur les routes d’Avarn pendant le Voile. Son apparence opalescente et les contours colorés de l’illustration ne lui donnent ni invulnérabilité ni accès automatique aux Cieux. Elle entretient avec Rém des dispositifs de signalisation et des gestes partagés."
-        },
-        {
-          "title": "Un lien étroit",
-          "text": "Par la Relation, elle reconnaît certaines réponses entre les anneaux de Rém et son bracelet, lorsqu’une prise demeure accessible. Elle ne lit pas ses pensées et ne peut l’extraire seule d’une Brisure. Un silence ne constitue ni une preuve de mort ni un accord pour continuer. La conduite demande une réserve qu’elle doit aussi garder pour le retour."
-        },
-        {
-          "title": "Après l’arc",
-          "text": "Sorane aide Rém à revenir et reste auprès de lui pendant sa convalescence. Elle remet une copie de leurs signaux au groupe, sans céder sa propre prochaine route. Naël, Tess et Veyl partent sans faire de son aide une obligation de les suivre."
-        }
-      ],
-      "links": [
-        "nael",
-        "rem",
-        "bois-nacre",
-        "djinns",
-        "sept-voies",
-        "sillage"
-      ],
-      "open_questions": [],
-      "aliases": []
-    },
-    {
-      "id": "rem",
-      "title": "Rém",
-      "category": "personnages",
-      "subtitle": "Humain · Garde du Bois de Nacre",
-      "summary": "Il suit un signal qui lui est familier et perd l’accès à son chemin de retour.",
-      "art": "nael-return-v1",
-      "sections": [
-        {
-          "title": "La garde du bois",
-          "text": "Rém inspecte des routes et cherche des voyageurs manquants près du relais des Lisières. Il a entretenu des signaux de conduite avec Sorane. Dans l’événement du frêne, une voix reproduit un signal ancien des gardes ; cette reconnaissance suffit à le faire approcher, pas à établir qui l’appelle."
-        },
-        {
-          "title": "Le sauvetage",
-          "text": "Il demeure vivant dans une distance devenue inaccessible et maintient une prise physique sur une branche. Les signaux préparés permettent au groupe de le retrouver. Il comprend les conditions du retrait et demande de ne pas prendre son silence pour un accord."
-        },
-        {
-          "title": "Après l’arc",
-          "text": "Rém revient vivant, avec une atteinte du regard que les soins ne promettent pas d’effacer entièrement. Son témoignage est précieux mais partiel : le lieu et la voix qu’il a perçus ne deviennent pas, par sa survie, une cartographie certaine des Cieux ou des Abysses."
-        }
-      ],
-      "links": [
-        "sorane",
-        "nael",
-        "tess",
-        "veyl",
-        "bois-nacre"
-      ],
-      "open_questions": [],
-      "aliases": []
-    },
-    {
-      "id": "bois-nacre",
-      "title": "Le Bois de Nacre",
-      "category": "lieux",
-      "subtitle": "Avarn · Forêt de Terra · Le Voile",
-      "summary": "Un frêne interrompu laisse entrevoir un cortège et des voisinages que les chemins ordinaires ne relient plus.",
-      "art": "nael-forest-v1",
-      "sections": [
-        {
-          "title": "Une forêt terrestre",
-          "text": "Situé en Avarn vers CD 12100, le Bois de Nacre est une forêt physique traversée par des routes de relais. Sa localisation cartographique précise reste ouverte. Le relais des Lisières accueille gardes et voyageurs ; l’événement du frêne concerne un secteur local, pas tous les bois du continent."
-        },
-        {
-          "title": "Le cortège et les voisinages",
-          "text": "Naël et le groupe observent un frêne dont la cime reste suspendue et un cortège apparent dans l’intervalle de son tronc. Les distances et prises changent ; un ancien pont revient sans charge matérielle. Mémoire et contact entre dimensions sont des pistes étayées, mais l’identité des présences et leur domaine restent inconnus. Aucun nouveau monde ni principe supplémentaire n’est établi."
-        },
-        {
-          "title": "Sous les racines",
-          "text": "Un ouvrage comportant conduites et bagues préparées maintient encore une circulation locale. Le groupe reconnaît des fonctions de répartition et de tenue sans pouvoir attribuer toute l’intention de ses bâtisseurs. Un relevé antérieur au Grand Rite présente un motif comparable. Le blanc central n’atteste pas une manifestation d’AZKAVOTH."
-        },
-        {
-          "title": "Après l’arc",
-          "text": "Rém est sauvé ; une prise se perd et une bande du bois reste inaccessible par leur trajet. Un détour et des repères sont organisés. Le cortège continue hors de leur accès, et la forêt n’est pas annoncée réparée."
-        }
-      ],
-      "links": [
-        "avarn",
-        "terra",
-        "brisures",
-        "nael",
-        "tess",
-        "veyl",
-        "sorane",
-        "rem",
-        "edrane",
-        "eshar"
-      ],
-      "open_questions": [
-        "Qui ou quoi forme le cortège ? Pourquoi une silhouette s’arrête-t-elle ?",
-        "La fonction d’origine de l’ouvrage et son rapport aux autres relevés antérieurs au Grand Rite."
-      ],
-      "aliases": []
     }
   ],
   "books": [
@@ -2648,163 +2389,6 @@
       ],
       "kind": "origins",
       "period": "Récits fondateurs"
-    },
-    {
-      "id": "livre-5",
-      "title": "Ce qui marche entre les arbres",
-      "subtitle": "Premier arc · Le Voile, vers CD 12100",
-      "kind": "arc",
-      "period": "Trois siècles après les dernières paroles publiques d’Eshar",
-      "art": "nael-forest-v1",
-      "chapters": [
-        {
-          "id": "livre-5-1",
-          "title": "L’arbre qui n’était plus à sa place",
-          "paragraphs": [
-            "Naël connaissait cette forêt assez bien pour y marcher en pensant à autre chose. Il avait vingt-neuf ans, une cape qui laissait entrer la pluie par une couture et six jours pour livrer une besace de remèdes de l’autre côté du Bois de Nacre. Trois siècles avaient passé depuis les dernières paroles publiques d’Eshar. Les gens du relais comptaient les années ; Naël comptait les passages praticables.",
-            "Il remarqua d’abord le cerf. L’animal broutait à trente pas, entre deux hêtres, mais son souffle lui arrivait contre la joue. Naël s’arrêta. Il attendit une rafale. Aucune branche ne bougea. Le cerf leva la tête, recula d’un pas et se retrouva au bord de la rivière, que Naël aurait dû atteindre une heure plus tard.",
-            "Il posa sa besace. Il ne cria pas : enfant, il avait appris qu’un animal inquiet pouvait vous donner une bonne raison de vous taire. Le chemin était encore sous ses pieds. La marque qu’il avait entaillée au printemps restait sur le même arbre. Pourtant, cet arbre se trouvait maintenant derrière le cerf.",
-            "Une feuille descendit devant lui. Elle passa deux fois à hauteur de son visage sans remonter. Naël suivit sa chute et aperçut le grand frêne. Une tranche manquait au milieu de son tronc. La cime demeurait suspendue au-dessus de la souche ; aucune fibre ne reliait les deux. Dans l’espace où sa main aurait à peine tenu, quelqu’un marchait.",
-            "Puis quelqu’un d’autre. Puis une file dont il ne voyait pas la fin. Les silhouettes paraissaient minces à en couper la lumière. Certaines portaient ce qui ressemblait à des voiles ; d’autres n’avaient qu’une limite autour d’un vide. Leurs pas n’écrasaient rien. À chaque mouvement, un arbre proche devenait lointain, une branche séparait deux pans du ciel, la rivière changeait de voisin.",
-            "Naël chercha un reflet, une peinture, une fumée. La profondeur s’étendait au-delà de ce qu’un tronc pouvait contenir. Il avait entendu raconter les Cieux au-dessus des nuages et les Abysses sous les morts. Devant lui, il n’y avait ni dessus ni dessous. Il y avait un endroit qui ne se laissait pas placer.",
-            "Une des silhouettes s’arrêta. Le mouvement du cortège continua autour d’elle. Naël n’aurait su dire où se trouvait son visage ; il sut pourtant qu’elle s’était tournée vers lui. Il recula. Son talon heurta une racine et sa paume trouva l’écorce du hêtre marqué. Il resta là, la main posée sur un morceau du monde qu’il reconnaissait.",
-            "De l’autre côté du frêne, un homme appela. Rém, le garde du bois. Naël reconnaissait sa veste rousse. Il était près de la souche, puis à plusieurs arbres de là, sans avoir changé de posture. « Ne suis pas le sentier ! » cria Naël. Rém tourna la tête. Il semblait entendre autre chose.",
-            "Le garde leva le pied. Le cortège reprit sa marche. La place où il se tenait devint un intervalle entre deux branches ; sa voix arriva encore, si près que Naël lui répondit. Aucun corps ne tomba. Le chemin vide ne disait même pas dans quelle direction chercher.",
-            "Naël déroula sa corde de mesure autour du hêtre, avec un nœud qu’il savait refaire les yeux fermés. Il avança de prise en prise, sans quitter longtemps l’écorce. Quand il revit enfin la borne du relais, le soleil était encore au-dessus de la colline. Cela ne lui apprit pas combien de temps il avait marché.",
-            "À la porte, Edrane prit la besace humide. Elle demanda où était Rém. Naël voulut raconter le frêne, la cime et la file entière. Il commença par la seule phrase qu’il pouvait soutenir : « Il était vivant quand je l’ai perdu de vue. »"
-          ],
-          "illustrations": [
-            {
-              "art": "nael-forest-v1",
-              "after": -1,
-              "caption": "Le Bois de Nacre · L’arbre reste immobile. Ce qui change, c’est la distance entre les choses.",
-              "alt": "Naël découvre un tronc interrompu par une procession impossible dans une forêt aux perspectives disjointes."
-            }
-          ]
-        },
-        {
-          "id": "livre-5-2",
-          "title": "Ce qu’un témoin peut promettre",
-          "paragraphs": [
-            "Edrane avait quitté les salles de copie pour tenir ce relais. Elle soignait, notait les passages et gardait les lettres que les routes rompues empêchaient de remettre. Elle écouta Naël sans l’interrompre. Puis elle lui fit recommencer, en séparant ce qu’il avait vu de ce qu’il avait pensé voir.",
-            "Il se fâcha au mot « silhouettes ». Il avait vu des êtres. Edrane posa la plume. « Tu as vu quelque chose qui s’est tourné. Je l’écris. Leur nom, leur origine, ce qu’ils voulaient : peux-tu l’écrire sans inventer ? » Naël regarda la porte où Rém aurait dû rentrer. Il finit par secouer la tête.",
-            "Tess se trouvait dans la cour, occupée à refaire un genou. La Golem avait un visage de porcelaine ivoire dont les réparations métalliques dessinaient une seconde expression. Sa main droite possédait trois longs doigts de métal et deux outils escamotés. Elle écouta l’histoire, remit son genou en charge, puis apporta une caisse étroite. « Si les distances changent, la carte ne nous servira pas seule. »",
-            "Naël reconnut les bobines et demanda si elle pouvait ouvrir un passage. « Je peux entretenir certains supports, dit Tess. Je n’ai pas appris à traverser ce que tu décris. » Elle lui montra deux fioles préparées. Le fluide qui restait disponible dans l’une ne suffirait pas à alimenter tous les instruments de la caisse. Elle en choisit trois et laissa les autres au relais.",
-            "Veyl accepta de les accompagner après avoir inspecté les portes. Qerathim issu de la Maison de Karzuth, il portait une peau de pierre brune parcourue de fines lignes ivoire. Son métier consistait à garder des refuges ; il savait préparer une limite et sentir quand elle cessait de tenir. Il avait aussi connu des fermetures qui protégeaient les uns en abandonnant les autres.",
-            "La quatrième personne arriva avant le départ. Sorane, une Djinn des routes forestières, avait un corps opalescent dont les bords changeaient avec la lumière. Elle portait les anneaux de cuivre de Rém, ses repères de conduite. « Il me les laisse quand il part seul. » Naël voulut la rassurer. Sorane posa les anneaux à plat. « Aide-moi à chercher. Pour le reste, attends de savoir. »",
-            "Au bord du bois, elle prépara une relation étroite entre son bracelet et les anneaux. Rém l’avait entretenue avec elle pendant des années. Elle pouvait reconnaître une réponse du dispositif, s’il restait accessible ; elle ne pouvait lire la pensée du garde ni tirer son corps à travers un espace inconnu. Le silence pourrait signifier trop de choses pour servir de verdict.",
-            "Ils posèrent trois bornes sur la lisière et laissèrent un signal au relais. Veyl montra l’itinéraire de retrait, que chacun répéta. Tess attribua les réserves : observer, chercher, revenir. Naël demanda combien de temps ils avaient. « Je peux compter ce que nos outils dépensent, répondit-elle. Ce qui se passe dedans, nous allons l’apprendre. »",
-            "Edrane leur remit une vieille feuille. Des gardes morts bien avant sa naissance avaient noté une forêt où les pas ne mesuraient plus les chemins. Elle n’en fit pas un oracle. « Cela peut être un récit. Cela peut être une mauvaise copie. Cherchez ce qui résiste à la comparaison. » Au bas, une date : CD 11436. Avant le Grand Rite.",
-            "Naël entra le premier, parce qu’il reconnaissait encore les arbres. Il choisit son ancien hêtre. Au pied du tronc, le nœud qu’il avait laissé était intact. À trois pas, sa propre corde passait derrière un arbre situé de l’autre côté de la rivière."
-          ],
-          "illustrations": [
-            {
-              "art": "nael-witnesses-v1",
-              "after": -1,
-              "caption": "Le relais des Lisières · Quatre témoins, des outils, aucune interprétation qui suffise à elle seule.",
-              "alt": "Naël, Tess, Veyl et Sorane examinent une branche et un relevé au relais, sous des ombres discordantes."
-            }
-          ]
-        },
-        {
-          "id": "livre-5-3",
-          "title": "Une carte pour ce qui ne tient pas en place",
-          "paragraphs": [
-            "Tess étendit sa carte. La rive, le sentier et le hêtre formaient une figure simple. Elle compara cette figure aux trois points qu’ils pouvaient toucher. Aucun déplacement des repères sur le papier ne suffisait. Elle referma le carnet. « Nous allons noter ce qui mène à quoi. Nous mesurerons les longueurs ensuite. »",
-            "Le hêtre permettait de rejoindre la borne blanche tant qu’ils maintenaient une prise continue sur les racines. Le sentier visible n’y conduisait pas. Une souche ouvrait vers la rivière lorsque les anneaux de Sorane répondaient ; lorsque leur réponse faiblissait, la rive disparaissait derrière des fougères. Ils testèrent chaque relation sans supposer qu’elle durerait.",
-            "Naël avait l’habitude de dire qu’un chemin était bon. Il dut apprendre à préciser pour qui, à partir de quoi et pendant combien de temps. Tess appelait cela des prises. Les principes agissaient à travers des corps, des supports, des relations. Reconnaître le principe ne donnait pas toutes les mains nécessaires pour s’en servir.",
-            "Dans une clairière, ils virent le pont que Naël avait aidé à démonter deux hivers plus tôt. Le bois portait encore une entaille faite par son couteau. Naël s’en approcha. Tess lui prit le poignet avant qu’il ne mette le pied sur une planche. Sous le pont, les feuilles continuaient à flotter à travers les montants.",
-            "Elle prépara un feuillet pour recevoir une trace, puis alimenta brièvement son instrument. La réponse reproduisit un son de marteau et l’ombre d’une main. Rien ne leur répondit lorsqu’ils appelèrent. « Une mémoire peut revenir dans un lieu sans rendre son passé habitable », dit Tess. Elle arrêta l’outil avant que la deuxième fiole ne commence à baisser.",
-            "Veyl demanda si Meryn touchait la forêt. Tess regarda la feuille, puis le pont. La Mémoire constituait une piste sérieuse. Un support terrestre pouvait aussi conserver des traces ; une influence pouvait les employer. La précision du souvenir ne leur donnait ni le nom d’un Archange ni la preuve que toute la scène venait des Cieux.",
-            "Les anneaux de Rém frémirent. Sorane s’accroupit et tira une partie de sa réserve dans le bracelet. Elle attendit, répéta le geste que le garde utilisait pour demander l’arrêt, puis reçut deux réponses courtes. Ses épaules descendirent. « Ce signal-là, nous l’avons préparé ensemble. Il sait encore s’en servir. » Elle ne dit pas qu’elle le sentait dans son âme.",
-            "Naël voulut suivre la réponse aussitôt. Veyl lui montra le bord de la clairière : les trois pierres avaient pris la forme d’une seule ombre. Le retour était en train de changer. Ils préparèrent une autre limite avant de continuer. Sorane dut réduire sa conduite pour garder assez de moyens au retour. La réponse devint moins nette. Ils avancèrent avec cela.",
-            "La rive apparut derrière le frêne coupé. Le cortège cheminait toujours dans son intervalle. Cette fois, Naël distingua une silhouette qui marchait contre le mouvement des autres. Une manche rousse, un coude replié, puis un homme qui s’agrippait à une branche. Rém était là. La branche traversait trois distances sans cesser d’être une branche.",
-            "Tess retourna la feuille de CD 11436. Sous la poussière, un dessinateur avait noté la même disposition : trois arcs qui s’approchaient d’un blanc central sans le remplir. Elle plaça son relevé à côté. La ressemblance n’expliquait rien à elle seule. Elle suffisait à leur donner une raison de regarder plus bas."
-          ],
-          "illustrations": [
-            {
-              "art": "nael-map-v1",
-              "after": -1,
-              "caption": "Une clairière, plusieurs voisinages · Tess relève des prises ; le paysage ne devient pas une carte certaine des Cieux.",
-              "alt": "Tess mesure une clairière fracturée tandis que Naël et Sorane découvrent plusieurs profondeurs dans les mêmes arbres."
-            }
-          ]
-        },
-        {
-          "id": "livre-5-4",
-          "title": "La place laissée vide",
-          "paragraphs": [
-            "Sous les racines, Tess trouva du travail humain. Des bagues de céramique enserraient la pierre, des conduites anciennes descendaient dans le sol et trois prises restaient visibles. Le cortège n’avait pas fabriqué cet ouvrage sous leurs yeux. Quelqu’un, autrefois, avait entretenu une relation avec ce lieu.",
-            "Naël descendit seulement jusqu’à la prise que Veyl pouvait garder. Là, il vit la forêt de profil. La terre conservait sa masse ; au-delà, une galerie claire changeait d’étendue chaque fois qu’un geste ancien revenait sur ses murs ; plus loin encore, une profondeur sombre rapprochait des silhouettes qu’aucun pas terrestre n’aurait réunies. Il cherchait un horizon. Il n’en trouvait pas un seul.",
-            "Au centre, rien. Une place nette, sans objet, sans corps, sans parole. Les trois directions s’arrêtaient autour. Naël pensa au Retrait dont sa mère parlait lorsqu’elle allumait la lampe. Il sentit monter un mélange de terreur et de joie, puis l’envie de prononcer le Nom.",
-            "Veyl le vit lever la main. « Tu peux prier, dit-il. Pour ce que nous avons trouvé, il faudra encore des preuves. » Naël garda la main ouverte. Ce blanc pouvait avoir été ménagé par un artisan, produit par une rupture ou reçu autrement. Même un lieu qui touchait plusieurs dimensions ne pouvait lui livrer la Source entière.",
-            "Le silence se rompit. « Laisse la route prendre son cours. » La phrase vint de la galerie, avec plusieurs voix qui n’arrivaient pas exactement ensemble. Rém lâcha une main. Le cortège se rapprocha de la place vide. Tess reçut un fragment de l’énoncé dans son feuillet, puis coupa : la réserve baissait trop vite.",
-            "Naël demanda qui parlait. La phrase recommença, avec le même souffle au même endroit. Une trace, pensa-t-il. Alors la silhouette arrêtée se tourna de nouveau. Cette fois, son mouvement ne suivait pas la répétition. Ils avaient au moins deux choses à distinguer : l’énoncé qui revenait et la présence qui semblait répondre. Leur faire porter le même nom aurait été facile. Tess nota leur différence.",
-            "Rém cria. Il arrivait par les anneaux de Sorane et par la branche, avec deux distances entre ses mots. Il avait suivi une voix qui reproduisait un ancien signal des gardes. Il croyait chercher des voyageurs perdus. « Je ne peux plus retrouver le bord. » Sorane répondit avec leur signal d’arrêt. Le garde serra la branche et attendit.",
-            "Une bague sous la racine portait trois arcs identiques à ceux de la feuille. Tess reconnut la fonction de deux pièces : elles répartissaient une charge et limitaient une circulation. La troisième restait trop altérée pour qu’elle en déduise l’intention. La réserve disponible y était réelle, mais l’ouvrage la dépensait pour contenir le contact. La vider pour ouvrir une grande voie risquait de défaire ce qui retenait encore les bords.",
-            "Naël aperçut des marches derrière Rém. Il aurait pu atteindre le garde en trois enjambées, si ces marches formaient ce qu’il pensait. Veyl posa sa paume sur la première et la retira, la peau fendillée. Leur limite ne suivait pas ce trajet. Les apparences lui donnaient une invitation ; leurs outils ne leur donnaient pas encore un retour.",
-            "La silhouette immobile leva ce qui ressemblait à un bras. Les autres continuèrent. Naël eut la certitude violente qu’il pouvait aller plus loin. Il ne sut pas si elle venait de lui, d’une influence ou de l’espoir de comprendre enfin. Il demanda à Tess : « Qu’est-ce qu’on sait sauver ? » Elle regarda la branche tenue par Rém. « Une prise. Peut-être un homme. Le reste, aujourd’hui, je ne sais pas. »"
-          ],
-          "illustrations": [
-            {
-              "art": "nael-depths-v1",
-              "after": -1,
-              "caption": "Sous le frêne · Matière, rémanences et profondeur sombre se rencontrent. Leur source reste à établir.",
-              "alt": "Naël découvre sous les racines trois perspectives incompatibles et un vide central que rien ne remplit."
-            }
-          ]
-        },
-        {
-          "id": "livre-5-5",
-          "title": "Garder un retour",
-          "paragraphs": [
-            "Ils choisirent la branche, parce qu’elle traversait encore les distances sans changer de matière. Naël pouvait en suivre l’écorce. Tess prépara deux supports pour stabiliser ses attaches. Veyl maintiendrait une limite à la racine ; Sorane garderait le signal de Rém. Aucun d’eux ne recevrait une prise sur tout le phénomène.",
-            "Ils répétèrent le retrait une fois sans avancer. Si Veyl perdait la limite, Tess libérerait le second support vers la première prise. Si le bracelet de Sorane cessait de répondre, Naël reviendrait avec ce qu’il pourrait encore toucher. Rém entendit les conditions. Il demanda qu’on essaye. Il demanda aussi qu’on ne confonde pas son silence avec un accord pour continuer.",
-            "Tess alimenta le premier support. Une partie du fluide disponible passa dans l’ouvrage ; une autre se dispersa dans les fibres anciennes. Elle ne pouvait récupérer les deux de la même manière. Naël sentit la branche cesser de vibrer. Il avança à plat ventre, une main toujours posée sur la même nervure.",
-            "À moitié du trajet, il vit le cortège à hauteur de son visage. Les silhouettes n’avaient plus la même taille. Une forme immense passait derrière une silhouette minuscule sans que l’une soit plus loin. Il eut envie de fermer les yeux. Il regarda sa main. Une écharde, une tache de résine, une nervure qu’il pouvait continuer à suivre.",
-            "Rém tendit le poignet. Naël passa sa corde, attendit que le garde ajuste le nœud, puis lui montra la nervure. Rém ne la voyait plus. Une lumière sèche avait brûlé une partie de son regard. Il se fia à la main de Naël, au signal de Sorane et au corps de la branche. Ils commencèrent à revenir.",
-            "Au-dessous, la voix répéta qu’il fallait laisser la route prendre son cours. La silhouette arrêtée se pencha vers eux. Naël sentit de nouveau cette promesse sans mots : une réponse entière, au-delà du prochain pas. Il avait voulu sauver Rém. Il voulait maintenant voir. Il reconnut qu’il s’agissait de deux désirs différents.",
-            "Le signal de Veyl frappa la racine. Arrêt. Naël avait presque atteint la prise suivante. Il pouvait gagner un bras de distance en continuant. Il se souvenait du genou que Tess avait réparé le matin même, de la peau de Veyl qui s’ouvrait sur la pierre. Il cessa de tirer et changea la position de la corde.",
-            "Tess libéra le second support. L’ouvrage céda une partie de sa tenue ; les perspectives se rabattirent. Sorane dut interrompre la réponse des anneaux et prendre le bras de Rém de ses propres mains. Elle avait gardé une réserve pour cela. Veyl recula sur la borne et la limite se referma sur un passage plus étroit. Il n’avait pas vaincu ce qui marchait dedans. Il avait tenu assez longtemps un bord qu’ils avaient préparé.",
-            "La branche craqua. Naël, Rém et Sorane tombèrent sur la terre, du même côté. Derrière eux, une bande de forêt disparut de leur chemin praticable. Le frêne n’avait pas repris sa place. Le cortège continuait quelque part qu’ils ne pouvaient plus rejoindre de là.",
-            "Rém respirait. Il distinguait la cape de Naël, mais pas les arbres derrière. Tess ferma les fioles. Ce qu’ils avaient consommé ne reviendrait pas en les remplissant d’eau. Elle regarda le relevé partiel et la prise perdue. « Nous avons un retour, dit-elle. Nous n’avons pas réparé le bois. »",
-            "Au relais, Edrane leur ouvrit avant qu’ils frappent. Naël posa la besace de remèdes sur la table. Deux flacons avaient cassé. Il avait promis de livrer le tout ; quelqu’un de l’autre côté attendait encore. Pour la première fois depuis l’arbre, il pensa aux personnes que son sauvetage ne lui avait pas permis d’aider."
-          ],
-          "illustrations": [
-            {
-              "art": "nael-return-v1",
-              "after": -1,
-              "caption": "Le retrait · Une voie tenue à plusieurs, une réserve finie et le signal qui oblige à changer le geste.",
-              "alt": "Naël et Sorane ramènent Rém par une branche entre des perspectives brisées, pendant que Tess et Veyl tiennent leurs prises."
-            }
-          ]
-        },
-        {
-          "id": "livre-5-6",
-          "title": "Les chemins qui restent",
-          "paragraphs": [
-            "Ils restèrent huit jours au relais. Edrane soigna Rém sans lui promettre que son regard reviendrait entièrement. Veyl refit les fermoirs que sa propre conduite avait abîmés. Tess consigna les pertes et déposa une copie du relevé avec les gardes. Sorane s’assit chaque soir avec Rém devant une fenêtre qu’il distinguait encore.",
-            "Naël retourna seulement jusqu’à la lisière. Le cerf passa sur une pente ordinaire. Cela ne prouvait pas que toute la forêt l’était redevenue. Ils fermèrent l’ancien sentier, organisèrent un détour et inscrivirent les prises perdues. Le bois continuerait d’affecter ceux qui en vivaient, bien après leur départ.",
-            "Au troisième soir, un desservant demanda si Naël avait vu des anges. Un marchand demanda s’il y avait du fluide à recueillir. Un enfant voulut savoir si Rém s’était retrouvé sous la terre. Naël répondit différemment à chacun. Il s’aperçut que la même histoire pouvait devenir une certitude, un permis d’exploiter ou une peur qui empêcherait de dormir.",
-            "Avec Edrane, il conserva deux pages séparées. Sur la première, les observations : le frêne, les prises, le pont sans charge, la phrase répétée, la silhouette qui se tournait et le signal préparé de Rém. Sur la seconde, les interprétations. Mémoire, influence, ancien passage contenu. Personne ne raya le mot « inconnu » pour rendre le récit plus facile à transmettre.",
-            "La feuille de CD 11436 trouva une provenance partielle. Elle avait été copiée dans un inventaire des relais, avant le Grand Rite. Trois renvois accompagnaient le dessin : un ouvrage côtier d’Avarn, des marches ensevelies à Khoram et une pièce d’entretien venue de Theryn. Edrane pouvait établir le trajet du feuillet jusqu’au relais ; elle ne pouvait encore authentifier chacun des lieux qu’il désignait.",
-            "Naël avait grandi avec l’idée qu’Eshar avait brisé tous les chemins. La feuille et l’ouvrage sous les racines lui imposaient une question plus ancienne. Le prophète avait-il tenté de réparer des contacts qui existaient déjà ? Certains mainteneurs savaient-ils ce qu’ils contenaient ? Ce que le Grand Rite avait changé demeurait grave. Cela ne suffisait plus à expliquer tout ce qu’ils avaient trouvé.",
-            "Tess confronta le fragment enregistré à la copie. La phrase « laisse la route prendre son cours » n’y figurait pas. Trois arcs y revenaient, autour d’une place que le copiste avait laissée vide. « Si nous remplissons ce blanc avec notre première réponse, dit-elle, nous ne saurons plus reconnaître ce qu’il manque. »",
-            "Veyl refusa de suivre le cortège sur la seule foi d’une promesse. Il accepta de chercher d’autres seuils avec eux, à condition de préparer chaque retrait. Sorane n’avait pas décidé de partir. Elle resta auprès de Rém et remit à Naël une copie de leurs signaux. Le lien qui les avait aidés à sauver le garde ne leur donnait pas un droit sur sa prochaine route.",
-            "Avant le départ, Naël demanda au relais une avance de réserve, du papier et des pointes pour refaire les bornes. Edrane lui accorda de quoi atteindre le premier renvoi côtier, en échange d’un relevé qui nommerait aussi leurs erreurs. Il ne deviendrait pas l’homme à qui une forêt avait révélé le monde. Il pourrait devenir celui qui revenait dire ce qu’il avait réellement trouvé.",
-            "À l’aube, Tess déplia une dernière fois son feuillet préparé. Une trace du frêne y tint quelques secondes : la file marchait ; au bord du cortège, la silhouette demeurait arrêtée. Dans leur premier relevé, elle avait regardé Naël. Dans celui reçu plus bas, elle faisait face à l’autre bord. « Elle surveille peut-être quelque chose », dit Veyl. Tess nota : hypothèse.",
-            "Naël regarda la route vers la mer. Derrière eux, des gardes posaient les panneaux du détour. Il demanda à Tess combien de papier il leur restait. Elle lui tendit le paquet. Cette fois, il prit aussi de quoi tracer le chemin du retour."
-          ],
-          "illustrations": [
-            {
-              "art": "nael-horizon-v1",
-              "after": -1,
-              "caption": "L’aube aux Lisières · Le relevé devient un départ. Le cortège, son intention et le blanc central restent sans nom.",
-              "alt": "Naël et ses compagnons prennent la route à l’aube ; un dessin incomplet laisse trois directions autour d’un blanc."
-            }
-          ]
-        }
-      ]
     }
   ],
   "eras": [
@@ -2852,11 +2436,6 @@
       "date": "~CD 11800–12600",
       "text": "Le Voile : échanges rompus et regroupements historiques des peuples.",
       "status": "Repère"
-    },
-    {
-      "date": "~CD 12100",
-      "text": "Pendant le Voile, trois siècles après le Grand Rite : Naël observe le cortège du Bois de Nacre. Le sauvetage de Rém ouvre une enquête sur des ouvrages antérieurs à Eshar. L’origine du phénomène et le sort du prophète restent inconnus.",
-      "status": "Établi"
     },
     {
       "date": "CD 12600 → présent",

@@ -143,42 +143,6 @@
     "smallWidth": 420,
     "mediumWidth": 840
   },
-  "nael-depths-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "nael-forest-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "nael-horizon-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "nael-map-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "nael-return-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
-  "nael-witnesses-v1": {
-    "width": 1536,
-    "height": 1024,
-    "smallWidth": 420,
-    "mediumWidth": 840
-  },
   "nechariel": {
     "width": 1024,
     "height": 1536,

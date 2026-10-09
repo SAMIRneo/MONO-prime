@@ -7,18 +7,18 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
 - **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V9.4**, révisé le **9 octobre 2026**.
-- **Contenu actuel :** 67 fiches, 11 catégories, 5 livres, 30 chapitres et 20 repères lexicaux ; 58 illustrations référencées dans les métadonnées, livrées en 174 fichiers WebP avec leurs variantes. Maëra, Sava et Iri disposent de fiches sans portrait dédié.
+- **Contenu actuel :** 60 fiches, 11 catégories, 4 livres, 24 chapitres et 20 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes. Maëra, Sava et Iri disposent de fiches sans portrait dédié.
 
 ## Parcours et fonctionnalités
 
-La réorganisation du 9 octobre fait de la lecture le point d’entrée : l’arc de Naël et les origines constituent deux séquences distinctes. Les anciennes routes restent compatibles. Voir [les choix d’organisation et la validation](docs/organisation-lecture-2026-10-09.md).
+La réorganisation du 9 octobre conserve une lecture confortable, mais l’accueil revient à l’univers et au lore. La bibliothèque présente les quatre récits fondateurs. Voir [l’organisation actuelle](docs/organisation-lecture-2026-10-09.md).
 
 Trois destinations composent la navigation permanente : **Accueil**, **Lire** et **Codex**. Le logo mène à l’accueil. Le guide, l’atlas, le Sillage et les âges sont des parcours contextuels de découverte ; la recherche et la collection restent des outils. La même organisation est utilisée dans la barre mobile. Les URL existantes restent valides.
 
 | Espace        | Route              | Fonctionnement actuel                                                                                                                                                                                                                                        |
 | ------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Accueil | `#/` | Arc de Naël en ouverture, reprise du dernier chapitre, trois parcours explicites, récits fondateurs, outils de découverte et rencontres. |
-| Lire / bibliothèque | `#/recits` | Arc illustré et quatre récits fondateurs séparés ; sommaires, temps de lecture, reprise et accès directs aux sections. |
+| Accueil | `#/` | Cosmologie en ouverture, accès au guide et au Codex, récits fondateurs, atlas, Sillage, chronologie, rencontres et lexique. |
+| Lire / bibliothèque | `#/recits` | Quatre récits fondateurs ; sommaires, temps de lecture, reprise et accès directs aux sections. |
 | Lecture       | `#/lire/livre-1/1` | Sommaire, choix du chapitre, texte agrandi, mode concentration, progression dans le chapitre, estimation du temps de lecture, navigation entre chapitres d’une même séquence, signet du livre et repères du Codex repliables.            |
 | Univers       | `#/univers`        | Guide : origines, mondes, principes, cultes, lignées et Sillage, enjeux ; lexique filtrable de douze repères essentiels et huit distinctions. Renvois directs aux sections, distinction des trois puissances, comparaison des Archanges et Revers, enjeux de Qerath/Vothorak/Concorde et questions ouvertes du canon. |
 | Terra         | `#/terra`          | Atlas éditorial illustré avec cinq marqueurs, sélection des continents, panoramas, présentation d’Aurenth et liens vers les fondements du monde physique.                                                                                                    |
@@ -41,7 +41,7 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 
 ## Canon et contenu éditorial
 
-**`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les catégories, les fiches (`records`), les cinq livres (`books`), la chronologie (`eras`) et le lexique (`lexicon`). Les anciens noms recherchables sont conservés dans `aliases`. Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
+**`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les catégories, les fiches (`records`), les quatre livres (`books`), la chronologie (`eras`) et le lexique (`lexicon`). Les anciens noms recherchables sont conservés dans `aliases`. Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
 
 | Catégorie             | Identifiant    | Fiches |
 | --------------------- | -------------- | -----: |
@@ -51,12 +51,12 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 | Lignées               | `lignees`      |      6 |
 | Cultes                | `cultes`       |      4 |
 | Mondes & Éden         | `mondes`       |      4 |
-| Lieux                 | `lieux`        |      7 |
+| Lieux                 | `lieux`        |      6 |
 | Sillage & puissance   | `pouvoir`      |      4 |
 | Maîtrise              | `powerscaling` |      7 |
-| Figures & personnages | `personnages`  |     13 |
+| Figures & personnages | `personnages`  |      7 |
 | Fondements            | `fondements`   |      5 |
-| **Total**             |                | **67** |
+| **Total**             |                | **60** |
 
 La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend aussi « Éden et les Sept Témoins » : MONO conserve **trois mondes**, Terra, les Cieux et les Abysses.
 
@@ -66,7 +66,6 @@ La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend
 | Le Banni                  | `livre-2`   |         6 |
 | La Matière et les Vivants | `livre-3`   |         6 |
 | Les Sceaux et le Voile    | `livre-4`   |         6 |
-| Ce qui marche entre les arbres | `livre-5` | 6 |
 
 ### Repères à préserver
 
@@ -95,7 +94,7 @@ Ces exports sont produits depuis la même source JSON et inclus dans la publicat
 
 ## Révision éditoriale du 9 octobre 2026
 
-La V9.4 ouvre **Ce qui marche entre les arbres**, premier arc en six chapitres illustrés, vers CD 12100 pendant le Voile. Naël, Tess, Veyl, Sorane, Rém, Edrane et le Bois de Nacre disposent de fiches. L’enquête débute par un cortège qui bouleverse les distances dans une forêt et ouvre des mystères cosmologiques antérieurs au Grand Rite. Les six nouvelles planches reprennent les volumes peints d’Arcane, la rupture graphique de Spider-Verse et l’étrangeté de Sandman. Voir [la note éditoriale et visuelle](docs/arc-nael-2026-10-09.md).
+La V9.4 retire le premier arc proposé et ses ajouts exclusifs. Le canon revient au contenu de la V9.3 : 60 fiches et quatre livres fondateurs. Les améliorations d’organisation et de lecture sont conservées ; l’accueil met de nouveau en avant le lore et l’univers.
 
 La V9.3 précise les prises, manifestations, objectifs locaux, temps de réaction, apprentissage, coûts des ouvrages et conditions d'une réparation collective. Maëra, Sava et Iri entrent dans les premières années de l'Éveil par une crise à Aurenth : secours, contrat contesté et convoi retenu. Le dernier chapitre du Livre IV ouvre leur conflit sans en résoudre toutes les conséquences. Voir [l'approfondissement et ses limites](docs/canon-v9-3-2026-10-09.md).
 
