@@ -1,6 +1,6 @@
-# MONO — Illustrations du 6 octobre 2026
+# MONO — Direction artistique et illustrations
 
-La nouvelle sélection reprend les versions 3D peintes travaillées autour d’Arcane, du graphisme de Spider-Verse et du mystère de Sandman. Les images restent des interprétations artistiques du canon V9.1.
+La nouvelle sélection reprend les versions 3D peintes travaillées autour d’Arcane, du graphisme de Spider-Verse et du mystère de Sandman. Cette sélection reste utilisée en V10. Les images interprètent le canon courant ; les détails visuels ne font pas autorité sur ses règles.
 
 ## Sélection publiée
 
