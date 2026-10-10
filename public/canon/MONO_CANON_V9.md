@@ -1,58 +1,81 @@
-# MONO — Canon V9.4
+# MONO — Canon V10.0
 
 Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
-Les descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.
+Les descriptions visuelles sont des interprétations. Faits établis, mystères de l’univers et développements encore ouverts sont distingués.
+
+# Le fil des origines
+
+1. **Le Nom dans Aïnôreth** — L’unique présence se nomme AZKAVOTH : Source, Lien, Forme, Épanchement.
+2. **La Contraction** — L’océan se resserre en une Figure. L’univers vide et les Cieux s’ouvrent ; sept Témoins sont présents.
+3. **L’Arbre et ses gardiens** — Sept Sphères ordonnent les Cieux sous le Trône. Chaque Sphère reçoit son Archange.
+4. **La Déchirure et l’investiture** — L’Arbre se brise. Ses principes sont confiés aux gardiens de sept nouveaux étages.
+5. **Les astres et Terra** — La Source crée la matière finie. Les Archanges l’aident à l’ordonner ; la vie mortelle apparaît.
+6. **Le refus et les Abysses** — Qerath refuse sa charge auprès des mortels. Les Abysses s’ouvrent pour lui ; Tamariel lui succède.
+7. **La Promesse et le Grand Retrait** — La Source annonce son retour. Elle se retire ; un Témoin fait de même, six demeurent.
+8. **Les quatre destins du Nom** — AZ demeure au Trône ; KA devient le Sillage ; VO et TH fusionnent en Vothorak.
 
 # Puissances
 
 ## AZKAVOTH
 
-Le Nom · La Source au-delà de la création
+Le Premier Nom · Celui qui s’est retiré
 
-Il laisse aux êtres une place et une réponse qu’aucune puissance ne peut posséder.
+Seule présence d’Aïnôreth, il se nomme, ouvre la création et promet son retour.
 
-### Nature
+Autres noms : Azkevoth.
 
-AZKAVOTH est le Nom, la Source unique et incréée. Il n’a ni commencement ni corps qui puisse le contenir. Terra, les Cieux, les Abysses et leurs souverains dépendent d’une existence qu’ils n’ont pas fondée. Ses manifestations sont ce que la création peut recevoir de sa présence, jamais sa totalité. Le Retrait ne signifie ni sa disparition ni une blessure de son être.
+### Avant le Nom
 
-### Le Retrait
+Avant l’espace, les astres et la mesure du temps, Aïnôreth est l’océan infini de lumière sans formes. Il n’entoure aucune entité : toute cette présence est celle d’un seul être incréé. Son premier acte est de se nommer AZKAVOTH. AZ, KA, VO et TH expriment les quatre principes de son Nom : Source, Lien, Forme et Épanchement. Ils ne sont ni quatre personnes ni quatre parties séparables de son être.
 
-Le Retrait ouvre une place à des êtres distincts ; les Sept Sphères y portent les principes de la création. Leur Déchirure appartient au même dessein divin et cosmique, dont le sens entier demeure caché. AZ, KA, VO et TH sont appelés les quatre Éclats : des modalités du Nom et de son don, pas quatre morceaux d’un Dieu divisible. AZ désigne la Source inaccessible à la possession ; KA offert devient le Sillage ; VO et TH donnent forme au démiurge dans la matière.
+### La Contraction
 
-### Le jugement
+AZKAVOTH resserre sa présence en une silhouette : la Première Figure, celle que conserve son iconographie. Il contracte Aïnôreth avec lui et ouvre une étendue distincte, l’univers encore vide, ainsi que les Cieux encore sans domaines. Cette Contraction précède le Grand Retrait. La silhouette est une manifestation choisie, jamais une enveloppe que l’on pourrait briser pour tuer la Source.
 
-Lorsque Qerath veut quitter les Cieux, AZKAVOTH apparaît. Tous se prosternent, tétanisés et fascinés. Ce saisissement ne décide pas de leur adhésion intérieure. Il prononce : « Qerath, tu es banni des Cieux. Les Abysses seront ton domaine, et tu y gouverneras pour un temps. Le terme de ce temps, je le garde pour Moi. Tu pourras éprouver ce qui fut créé ; tu ne posséderas pas sa réponse. »
+### L’œuvre et les gardiens
 
-### Influence et liberté
+Sept Témoins muets sont présents dès la Contraction ; AZKAVOTH reconnaît leur nécessité. Il ordonne ensuite les Cieux en un Arbre de sept Sphères, sous son Trône, et forme leurs sept Archanges. Après la Déchirure, il investit chaque gardien de l’autorité de sa Sphère et déploie sept étages métaphysiques. Il crée ensuite la matière finie, les étoiles, les trous noirs, les planètes puis Terra ; les Archanges participent à l’ordonnance de cette œuvre.
 
-La Source agit par le don, les appels, les missions et de rares manifestations. Son dessein n’est pas une connaissance disponible aux souverains : personne ne peut l’invoquer pour déclarer sa propre violence nécessaire ou sa victoire promise. Une puissance peut contraindre un corps et compromettre un choix ; elle ne transforme pas cette contrainte en adhésion libre. Cette liberté ne rend pas invulnérable aux actes d’autrui. AZKAVOTH ne relève pas d’une échelle de combat.
+### Le premier refus
 
-### À développer
+Qerath le questionne longtemps en Archange légitime. La rupture survient quand il refuse sa charge auprès des êtres mortels de Terra. AZKAVOTH prononce alors le jugement, ouvre les Abysses et lui en confie le règne jusqu’au Dernier Seuil. Tamariel reçoit Oshen. Cette exclusion est une contrainte réelle ; elle ne transforme pas le refus de Qerath en adhésion et ne tranche pas à elle seule la question morale qu’il pose.
 
-- Le développement du plan divin et cosmique du Retrait et de la Déchirure.
+### La Promesse
+
+« Je dois partir pour un temps. Ce départ est mon devoir, et sa nécessité est entière. Je reviendrai. Attendez, cherchez ; je ne vous laisse pas seuls. » Cette parole précède le Grand Retrait. AZKAVOTH soustrait sa présence directe à la création ; un Témoin se retire au même instant. Quatre singularités du Nom demeurent : AZ au Trône, KA qui se diffuse en Sillage, VO et TH qui fusionnent sur Terra en Vothorak. La Source demeure entière.
+
+### Ce que nul ne possède
+
+AZKAVOTH n’appartient pas à une échelle de combat. Sa création rend la liberté possible sans rendre les êtres invulnérables. Aucun gardien ne connaît la raison entière de son départ ni ne peut invoquer son retour pour justifier sa propre violence. Depuis le Grand Retrait, aucune réapparition complète de la Source n’est établie : conseils du Vestige, révélations revendiquées et retour promis doivent être distingués.
+
+### Mystères de l’univers
+
+- Quelle nécessité appelle AZKAVOTH hors de la création, et que signifie pour lui un devoir ? La parole est authentique ; elle ne prouve pas l’existence d’un maître supérieur.
 
 ## Qerath
 
-Le Banni · Souverain de l’Épreuve
+Ancien Archange de la Gnose · Le Banni
 
-Ancien Archange de la Vision et de la Vérité, il gouverne les Abysses pour un temps dont il ignore le terme.
+Gardien légitime d’Oshen, il refuse de servir la condition mortelle et reçoit les Abysses jusqu’au Dernier Seuil.
+
+Autres noms : Queroth, Qeraths.
 
 ### Avant le bannissement
 
-Gardien d’Oshen, Qerath examinait les failles que les autres préféraient ignorer. Il découvre l’épuisement du Sillage et exige que les mortels soient informés. Les Cieux retardent l’annonce, par crainte de la panique et des guerres. Il refuse de poursuivre sa charge dans ces conditions.
+Formé pour Oshen dans l’Arbre, Qerath garde la Vision, la Gnose et le dévoilement de la vérité. Il participe loyalement à la réorganisation des Cieux puis à l’ordonnance des astres. Sa lucidité est d’abord recherchée. Ses questions — « Pourquoi tout cela ? Est-ce un jeu pour toi ? Qu’est-ce qui rend ta volonté légitime pour ceux qui vont mourir ? » — ne le destituent pas. Il devient adversaire lorsqu’il refuse la garde que cette création lui demande auprès des mortels.
 
 ### L’autorité reçue
 
-Le jugement d’AZKAVOTH le bannit et lui donne la souveraineté des Abysses. Sa fonction est de confronter les êtres aux forces qui peuvent les défaire. Il peut révéler une contradiction, exploiter une faille, proposer un pacte ou offrir un refuge. Il ne possède ni le consentement intérieur ni le terme de son règne.
+Au premier refus de charge, AZKAVOTH bannit Qerath, ouvre pour lui les Abysses et le charge de l’Épreuve jusqu’au Dernier Seuil. Qerath n’en connaît pas l’heure. Il peut éprouver, révéler, proposer un pacte ou offrir un refuge ; il n’a pas reçu l’ordre d’abolir les mondes. Les Abysses sont une dimension nouvellement ouverte, opposée aux Cieux par les inversions de leurs principes.
 
 ### Une fonction, une ambition
 
-Qerath transforme un diagnostic réel en conclusion totale : puisque la création s’épuise et que ses gardiens mentent, il juge sa continuation indéfendable. Ouvrir le Fond est son ambition propre, au-delà de la charge d’Épreuve. Il peut montrer des réparations insuffisantes ; il ne possède pas la preuve que toute réparation future échouera. Les vies sauvées constituent une objection qu’il ne peut réduire à une erreur de calcul.
+Sa première objection porte sur la mortalité imposée aux êtres, avant que le Sillage existe. Après le Grand Retrait, il découvre avec le temps le déclin mesurable du don de KA et y voit la confirmation de son accusation. Il passe de « pourquoi doivent-ils mourir ? » à « pourquoi prolonger ce qui s’épuise ? ». Cette conclusion reste la sienne : le déclin ne prouve pas que toute réparation échouera ni que les vivants désirent disparaître.
 
 ### Les sept amputations
 
-Qerath détache successivement les parts de sa puissance liées au Passage, à la Connaissance, à la Mémoire, à la Mesure, à la Relation, à la Vision et à la Permanence. Ces amputations engendrent les Sept Revers, chacun devenu personne et souverain d’un domaine abyssal déjà issu de la Déchirure. Qerath conserve assez de mémoire et de discernement pour agir, mais perd leur ancienne plénitude. Ses souvenirs ont des lacunes ; franchir un seuil hors de son domaine demande désormais un relais. Son règne s’étend tandis que son autonomie se réduit.
+Après le Grand Retrait, Qerath détache successivement sept parts de sa puissance personnelle, désormais engagée dans sa souveraineté abyssale. Il les ancre aux sept inversions ; le Sillage permet leur circulation dans les mondes. Karzuth, Nehrun, Ymbrath, Bazhur, Sevrak, Ilmoth et Zhorum deviennent des personnes et des souverains distincts. Qerath garde des facultés de mémoire, de discernement et de passage, mais perd leur ancienne plénitude. Cet acte étend son règne et diminue son autonomie.
 
 ### La limite du souverain
 
@@ -60,16 +83,20 @@ Il demeure principalement à la lisière du Fond. Les sept parts ne sont plus de
 
 ### Charge, facultés et souveraineté
 
-Garder Oshen ne signifiait pas être constitué de la seule Vision. Comme les autres Archanges, Qerath pouvait se souvenir, apprendre, nouer des relations, se déplacer et maintenir sa continuité ; exercer ces facultés ne lui donnait pas la souveraineté des six autres domaines célestes. Sa charge désignait la garde de la Vision. Le jugement lui confie ensuite les Abysses, dont les sept territoires existaient depuis la Déchirure. Ses amputations y font de parts de puissance des personnes capables de gouverner les inversions : elles ne lui attribuent pas rétroactivement sept charges célestes. Aucun rite reproductible permettant à un autre être de créer sept Revers n’est établi.
+La charge d’Oshen ne résumait pas toutes les facultés de Qerath. Pouvoir se souvenir ne faisait pas de lui le souverain de Meryn. Son jugement lui confie ensuite l’ensemble des Abysses, avant leur partage entre les Revers. Les amputations distribuent des parts de cette puissance à travers les inversions ; elles ne lui attribuent pas rétroactivement sept charges célestes. Cette naissance singulière ne constitue pas un rite reproductible par un mortel.
 
 ### Convaincre ceux qui veulent continuer
 
 Qerath ne peut négocier les sept réponses comme des parts d’un même bien. Karzuth demande ce que deviendraient ses refuges ; Sevrak veut conserver des sujets ; Nehrun refuse le savoir nécessaire à son accord. Une concession à l’un peut confirmer la méfiance d’un autre. Les réparations locales contestent la conclusion du souverain sans réfuter à elles seules le déclin général. Il lui faut expliquer pourquoi des vies encore possibles devraient être abolies ; sa charge d’Épreuve et la faute des Cieux ne donnent pas cette réponse à sa place.
 
+### Mystères de l’univers
+
+- Qerath pourra-t-il accepter une réponse qui n’abolit pas la mort ? Le Dernier Seuil ne fixe pas encore son choix.
+- Pourquoi son amputation peut-elle éveiller une personne nouvelle ? Le procédé demeure singulier et non reproductible.
+
 ### À développer
 
 - Les accords et les refus que Qerath cherche à obtenir au présent ; leurs conséquences pour les sept Maisons.
-- Le mécanisme singulier par lequel les amputations ont donné naissance aux Revers, distinct de la transmission d’une charge.
 
 ## Vothorak
 
@@ -79,11 +106,11 @@ Il façonne le monde physique et veut rendre son œuvre indispensable à ceux qu
 
 ### Origine
 
-Vothorak naît du déploiement de VO et TH dans la matière de la Déchirure. Il n’est ni une seconde Source ni une part détachée de l’être d’AZKAVOTH. Sa mémoire incomplète confond les traces du don avec sa propre éternité. Il se dit Créateur parce que les vivants dépendent d’une architecture qu’il a largement façonnée. Ses fidèles peuvent accepter ce titre sans connaître son origine véritable.
+Vothorak naît après le Grand Retrait, de la fusion des singularités VO et TH descendues sur Terra. La planète, les astres et les premiers vivants existent déjà. Il ne crée pas l’univers : il remodèle une œuvre reçue. Ses traces de mémoire mêlent l’élan créateur du Nom à son propre éveil ; il prend parfois cette mémoire héritée pour la preuve qu’il a toujours été. Il est une personne dérivée, pas une seconde Source ni une partie arrachée à AZKAVOTH.
 
 ### Autorité matérielle
 
-Il a façonné les cinq continents, les profondeurs et de grands cycles matériels de Terra. Il transforme pierre, métal et chair, prépare des organismes et des Golems, reproduit des architectures et agit localement sur les conditions physiques. Reproduire exige matière, fluide et travail ; il ne tire rien du néant. Les transformations immenses nécessitent des relais et du temps. Un ouvrage ancien ne reste pas alimenté par sa seule signature.
+À partir de la Terra formée par AZKAVOTH, Vothorak remodèle les cinq continents, les profondeurs et de grands cycles du vivant. Il transforme pierre, métal et chair, prépare des organismes et des Golems, reproduit des architectures et agit localement sur les conditions physiques. Reproduire exige matière, fluide et travail ; il ne tire rien du néant. Les transformations immenses nécessitent des relais et du temps. Un ouvrage ancien ne reste pas alimenté par sa seule signature.
 
 ### La Première Forge
 
@@ -133,6 +160,10 @@ Son principe est éprouvé par Karzuth. Leurs pouvoirs ne s’annulent pas autom
 
 Arel ouvre une transition entre des entrées et sorties connues, compatibles et ancrées. Un seuil préparé peut dévier un projectile ou permettre une évacuation. L’intérieur vivant d’un adversaire n’est pas une sortie libre : son organisation oppose sa résistance et reste inaccessible sans prise spécifique. Distance, débit et masse transportée éprouvent le passage ; rompre un ancrage le ferme ou rend sa traversée dangereuse.
 
+### Étendue souveraine
+
+Dans Arel, Ophriel peut réordonner un ensemble de seuils et rendre inaccessibles des routes qui joignaient des régions entières. Il garde la possibilité même de traverser dans son domaine. Il ne fait pas de chaque point du cosmos une sortie disponible à volonté : hors d’Arel, la continuité des prises et des ancrages limite ses passages.
+
 ## Hodariel
 
 Kethra · Connaissance
@@ -158,6 +189,10 @@ Son principe est éprouvé par Nehrun. Leurs pouvoirs ne s’annulent pas automa
 ### Voie et pouvoirs
 
 Kethra lit une organisation et transmet ce qui a été compris. Le praticien peut diagnostiquer une blessure, reconnaître un relais ou trouver la faiblesse d’une technique observée. L’analyse ne neutralise rien à elle seule : la perturbation exige ensuite une action sur un canal ou un support accessible. Des informations fausses, un temps trop court ou une architecture inconnue limitent sa réponse.
+
+### Étendue souveraine
+
+Dans Kethra, Hodariel peut rendre lisible l’architecture d’un phénomène immense et coordonner des savoirs qu’aucun esprit mortel ne pourrait tenir seul. Sa garde porte sur l’intelligibilité de ce qui lui est donné. Elle ne lui livre pas les faits jamais reçus, les volontés futures ou la nécessité cachée du départ.
 
 ## Sethariel
 
@@ -185,6 +220,10 @@ Son principe est éprouvé par Ymbrath. Leurs pouvoirs ne s’annulent pas autom
 
 Meryn inscrit et restitue une trace dans un support préparé : une voix, un geste ou une impulsion réellement reçue. Une trace ne crée pas l’énergie de sa restitution. Une charge libérée doit être renouvelée pour agir encore ; copier l’inscription ne duplique ni la charge ni une personne. Une archive peut conserver la preuve d’une histoire sans ressusciter celui qui l’a vécue.
 
+### Étendue souveraine
+
+Meryn peut porter les traces d’époques et de civilisations entières. Sethariel en gouverne les accès, les rapprochements et les restitutions ; retirer une archive peut bouleverser la mémoire d’un peuple. Cette autorité ne remonte pas le temps, ne ressuscite pas ses morts et ne peut abolir un fait attesté par les Témoins.
+
 ## Malkiel
 
 Tharos · Mesure
@@ -210,6 +249,10 @@ Son principe est éprouvé par Bazhur. Leurs pouvoirs ne s’annulent pas automa
 ### Voie et pouvoirs
 
 Tharos répartit ou concentre une contrainte dans un réseau réellement relié. Il peut amortir un choc entre plusieurs supports, renforcer un impact ou régler un débit. La charge ne disparaît pas : chaque support doit pouvoir recevoir sa part. Un relais rompu, une saturation ou une contrainte non prévue peut retourner la répartition contre le praticien.
+
+### Étendue souveraine
+
+Dans Tharos, Malkiel peut répartir une contrainte à travers des ensembles de supports bien au-delà de l’échelle d’un praticien. Des ouvrages territoriaux peuvent tenir sous un cataclysme parce qu’il en distribue réellement les charges. Leur capacité reste déterminante : il peut décider où le prix sera porté, pas faire qu’aucun prix n’existe.
 
 ## Rahamiel
 
@@ -237,6 +280,10 @@ Son principe est éprouvé par Sevrak. Leurs pouvoirs ne s’annulent pas automa
 
 Veyra accorde des circulations pour soigner, partager une protection ou coordonner des praticiens. Un lien donne accès à une opération et une portée déterminées, jamais à toute la personne. Réparer demande du temps, une organisation viable et les ressources nécessaires aux tissus ou supports manquants. Une entrave requiert une prise réelle ; ni l’affection ni un serment ne donnent possession de l’âme.
 
+### Étendue souveraine
+
+Dans Veyra, Rahamiel accorde les relations qui permettent à de vastes ensembles vivants de demeurer distincts tout en se soutenant. Sa garde peut maintenir un réseau de vie là où les liens se défont. Elle n’équivaut ni à la propriété de ses habitants ni à leur survie garantie sans tissus, supports ou ressources.
+
 ## Tamariel
 
 Oshen · Vision
@@ -245,7 +292,7 @@ Successeur de Qerath, il garde une vérité qui doit rester examinable.
 
 ### La garde
 
-Ancien disciple de Qerath, Tamariel reprend sa charge après le jugement. Il reconnaît l’épuisement et les fractures, mais refuse de conclure qu’une existence fragile n’a pas de valeur. Shemesiel garde les visions à son service, sans être Archange.
+Avant le bannissement, Tamariel est un ange d’Oshen instruit par Qerath. AZKAVOTH l’élève ensuite à la charge vacante et lui confie son investiture. Il n’est pas un huitième Archange simultané. Il prend au sérieux la question de la mort sans refuser de servir ceux qui vivent. Bien après le Grand Retrait, il reconnaît aussi le déclin du Sillage. Shemesiel garde les visions à son service, sans être Archange.
 
 ### La fracture personnelle
 
@@ -265,7 +312,11 @@ Oshen révèle une circulation ou travaille une perception ciblée. Il permet d�
 
 ### Ce qu’il a rendu public
 
-Après la succession, Tamariel fait transmettre des relevés de réserves avec leurs conditions de mesure et les incertitudes des prévisions. Des ateliers et des communautés en conservent des copies : le déclin ne demeure pas un secret intégral. Il conteste aussi les versions qui présentent Qerath comme né dans les Abysses. Sa garde d’Oshen ne lui donne pourtant ni la maîtrise des archives de Meryn ni le gouvernement des institutions terrestres. Des autorités refusent les pièces, en limitent la diffusion ou les utilisent pour confisquer des réserves. Ses révélations rendent des décisions possibles sans imposer une histoire reconnue partout. Il doit répondre des dangers de leur diffusion et de ceux qu’un retard expose.
+Après sa succession, Tamariel conteste l’effacement de l’ancienne charge de Qerath et conserve sa question sur la vie mortelle. Après le Grand Retrait, quand apparaissent des relevés concordants du déclin, il les transmet avec leurs conditions de mesure. Sa garde d’Oshen ne lui donne ni les archives de Meryn ni le gouvernement des cités. Certaines autorités limitent les copies ou les utilisent pour confisquer des réserves. Il doit répondre des dangers de révéler comme de ceux de se taire.
+
+### Étendue souveraine
+
+Dans Oshen, Tamariel peut exposer simultanément les contradictions d’une construction illusoire étendue et ouvrir à ses habitants des moyens de vérification. Cette Gnose peut ébranler l’histoire officielle d’une civilisation. Elle ne livre pas toutes les causes de ce qui est révélé et ne contraint pas les êtres à l’accepter.
 
 ### À développer
 
@@ -296,6 +347,10 @@ Son principe est éprouvé par Zhorum. Leurs pouvoirs ne s’annulent pas automa
 ### Voie et pouvoirs
 
 Elyr stabilise une forme ou une configuration précise : lame de Sillage, architecture renforcée ou entrave préparée. L’effet tient contre des contraintes déterminées tant que le support, l’ancrage et l’alimentation suivent. Il ne suspend ni toute évolution ni le temps. Une protection contre un impact peut céder à la chaleur ou à une rupture de relais ; trop de rigidité fragilise ce qui devait durer.
+
+### Étendue souveraine
+
+Dans Elyr, Nechariel maintient la continuité d’architectures métaphysiques que la Déchirure aurait autrement laissées sans tenue. Son autorité permet à un domaine de traverser des changements immenses sans perdre toute identité. Il ne peut fixer pour toujours chaque corps et chaque institution : confondre continuité et immobilité menacerait ce qu’il garde.
 
 # Revers
 
@@ -459,11 +514,11 @@ Face à Elyr, Zhorum dégrade les canaux, désagrège les supports et rend les p
 
 La plasticité
 
-Nés où le Sillage se répartit sans concentrer un principe.
+Premiers êtres humains de Terra, antérieurs au Sillage ; leur résonance avec lui restera équilibrée.
 
 ### Origine et disposition
 
-Ils portent une part de chaque Sphère. Leur aptitude est de changer d’approche et de relier des pratiques différentes. Leur corps fragile, leur apprentissage long et leurs accords moins spontanés limitent une forte conduction. Leur accomplissement est d’articuler plusieurs pouvoirs sans perdre leur cohérence.
+AZKAVOTH fait apparaître les premiers Humains parmi la vie de Terra, avant le Grand Retrait. Lorsque KA se diffuse, leur constitution reçoit les sept voies sans concentration unique : ils ne naissent pas de cette diffusion, ils deviennent capables d’y résonner. Leur aptitude est de changer d’approche et de relier des pratiques. Corps fragiles, apprentissage long et accords moins spontanés limitent une forte conduction.
 
 ### Liberté et appartenance
 
@@ -477,11 +532,11 @@ Leur circulation est adaptable. Ils peuvent apprendre des pratiques variées et 
 
 Le premier souffle
 
-Nés du Sillage brut avant que la matière de Terra se fige.
+Nés de la première diffusion de KA dans les souffles et les feux de Terra.
 
 ### Origine et disposition
 
-Leur corps tient du feu et de la fumée primordiaux. Il conduit rapidement le Sillage et peut changer de forme. Franchir un seuil demande toutefois une pratique d’Arel et des ancrages compatibles. Une dépense excessive menace leur continuité. Les impressions des Sphères que porte leur fluide ne sont pas des souvenirs vécus et exacts de chaque Djinn : des traditions les interprètent différemment.
+Après le Grand Retrait, les Djinns naissent là où le premier Sillage s’accorde aux souffles et aux feux de Terra déjà formée. Leur corps fluide conduit rapidement le don et peut changer de forme. Franchir un seuil exige une pratique d’Arel et des ancrages compatibles. Une dépense excessive menace leur continuité. Leurs impressions des principes ne sont pas des souvenirs vécus de l’Arbre : aucun Djinn n’a assisté à sa Déchirure par son seul âge d’origine.
 
 ### Liberté et appartenance
 
@@ -499,7 +554,7 @@ Nés là où le Sillage s’est concentré dans le sol.
 
 ### Origine et disposition
 
-Leur corps et leur mémoire entretiennent une forte continuité avec les territoires. Ils excellent dans l’endurance et les œuvres longues. Changer d’ancrage leur coûte ; leur transformation est lente. Ils peuvent maintenir une protection durant des générations, mais aussi perpétuer un ordre devenu injuste.
+Après la diffusion de KA, les Anakim s’éveillent là où le Sillage se concentre durablement dans le sol. Leur corps et leur mémoire entretiennent une forte continuité avec les territoires. Ils excellent dans l’endurance et les œuvres longues. Déplacer leur ancrage leur coûte ; leur transformation est lente. Ils peuvent maintenir une protection durant des générations, mais aussi perpétuer un ordre devenu injuste.
 
 ### Liberté et appartenance
 
@@ -641,17 +696,25 @@ Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un p
 
 ## Les Cieux
 
-Sept territoires métaphysiques
+Les Sept Degrés · Le Trône au sommet
 
-Sept domaines dont les distances obéissent aux principes qui les constituent.
+Sept étages métaphysiques remplacent l’Arbre brisé ; chacun est gardé par un Archange.
 
-### La géographie
+### Une ascension métaphysique
 
-Arel, Kethra, Meryn, Tharos, Veyra, Oshen et Elyr sont les territoires des sept Archanges. Ils ne sont pas empilés. Franchir Meryn peut exiger de retrouver un souvenir ; atteindre Veyra peut demander de renouer ou de reconnaître un lien.
+Depuis le seuil tourné vers la création jusqu’à l’Empyrée : Arel, Kethra, Meryn, Tharos, Veyra, Oshen et Elyr. Cet ordre est celui des Degrés, pas un classement de leurs gardiens. L’ascension se mesure en passages et en transformations de relation, non en kilomètres. Des seuils autorisés peuvent relier des étages sans les parcourir tous ; voler plus haut au-dessus de Terra ne mène pas aux Cieux.
 
-### Éden et les seuils
+### Les sept gardes
 
-Éden est un lieu céleste secret abritant les Sept Témoins. Le Limen est le seuil où arrivent les morts, gardé par Yesodiel. L’Empyrée désigne la limite extérieure des Cieux, au plus près de la présence du Nom ; personne ne l’habite comme une capitale.
+Ophriel garde Arel ; Hodariel, Kethra ; Sethariel, Meryn ; Malkiel, Tharos ; Rahamiel, Veyra ; Tamariel, Oshen ; Nechariel, Elyr. Qerath gardait Oshen avant son bannissement. Les gardiens furent formés dans l’Arbre, à l’exception de Tamariel, élevé ensuite à une charge déjà existante. Leurs anges ne sont pas autant de charges archangéliques supplémentaires.
+
+### Le Trône et le Vestige
+
+Le Trône couronne les Degrés dans l’Empyrée. Avant le Grand Retrait, il est le lieu de la présence directe d’AZKAVOTH ; depuis, la singularité AZ y demeure comme le Vestige du Nom. Les Archanges peuvent y recevoir des conseils, pas l’intégralité du dessein ou un approvisionnement sans limite.
+
+### Éden et le Limen
+
+Éden est un sanctuaire des Cieux, hors de la succession des sept charges : six Témoins y demeurent depuis le Grand Retrait. Le septième s’est retiré. Le Limen, au seuil d’Arel, accueille les morts sous la garde de Yesodiel. Ni Éden ni le Limen ne constitue une Sphère supplémentaire.
 
 ## Les Abysses
 
@@ -661,7 +724,7 @@ Qerath y gouverne pour un temps ; ses enfants n’y pensent pas tous comme lui.
 
 ### Des domaines réels
 
-Lera, Arhtek, Nyrem, Soraht, Aryev, Nehso et Ryle sont des territoires métaphysiques. Leur géographie est liée à l’enfermement, l’ignorance, l’oubli, la démesure, la possession, l’illusion et la corruption. Leur souverain est Qerath ; chacun est gouverné par un Revers.
+AZKAVOTH ouvre les Abysses lors du bannissement, après la formation de Terra et avant le Grand Retrait. Sept territoires y développent l’inversion des principes célestes : Lera, Arhtek, Nyrem, Soraht, Aryev, Nehso et Ryle. Ils éprouvent l’enfermement, l’ignorance, l’oubli, la démesure, la possession, l’illusion et la corruption. Qerath en est d’abord l’unique souverain ; après ses amputations, chaque Revers gouverne un domaine.
 
 ### Des habitants libres
 
@@ -675,7 +738,7 @@ Le monde physique où se croisent les lignées, les cultes et les œuvres du dé
 
 ### L’univers physique
 
-Terra possède une géographie réelle : océans, continents, distances, climat, ciel et astres. Vothorak a façonné une grande part de son architecture à partir de la matière de la Déchirure. Les Brisures y ouvrent des rencontres avec d’autres dimensions.
+AZKAVOTH crée la matière finie puis, avec l’aide des Archanges, ordonne étoiles, trous noirs et planètes. Terra est la planète qu’il forme pour accueillir une vie incarnée et mortelle. Elle porte des océans, des sols et des êtres vivants avant le Grand Retrait. Vothorak remodèle ensuite une grande part de son architecture, sans être l’auteur des étoiles ni de l’existence première du monde. Aucune autre biosphère habitée n’est établie dans le canon.
 
 ### Les continents
 
@@ -685,27 +748,38 @@ Avarn : terres tempérées et vieux royaumes. Sahrûn : déserts, savanes et oas
 
 Leur répartition est historique, pas biologique. Humains, Djinns, Anakim, Golems et Néphilim ont coexisté avant le Voile. Les Qerathim peuvent franchir les seuils. Aurenth est la ville sainte terrestre ; Éden demeure dans les Cieux.
 
+### La vie avant le Sillage
+
+Les premiers organismes et les premiers Humains vivent et meurent avant la diffusion de KA. La possibilité d’une âme et d’une réponse propre vient de l’acte créateur, non d’une quantité de fluide. Le Sillage ouvre ensuite de nouvelles connexions, pratiques et lignées. L’épuisement d’une réserve ne supprime donc pas mécaniquement toutes les âmes ou toute vie biologique ; il menace directement les êtres et les ouvrages qui dépendent de sa circulation.
+
 ## Éden et les Sept Témoins
 
-Le regard qui conserve l’histoire
+Six demeurent · Un s’est retiré
 
-Tous les Témoins se trouvent en Éden, un lieu céleste dont leur présence reste secrète.
+Sept Témoins apparaissent avec la Contraction. Six demeurent en Éden ; le septième se retire avec la Source.
 
-### Sept regards
+Autres noms : Les Sept Témoins, Témoins muets, Veilleurs primordiaux.
 
-Apparus avec les Sphères, les Témoins demeurent tous en Éden depuis la Déchirure. Ils ne gouvernent ni ne jugent les habitants. Leurs sept perspectives attestent la réalité de ce qui a eu lieu, sans livrer aux visiteurs un récit total disponible à volonté. Ils ne sont pas les Veilleurs de Malkiel.
+### La présence nécessaire
 
-### L’irréversibilité
+Les sept Témoins sont présents dans l’instant même où la Contraction ouvre une réalité distincte. AZKAVOTH reconnaît leur nécessité : une création qui peut changer exige que ce qui a eu lieu ne soit pas rendu inexistant après coup. Ils attestent, sans gouverner ni dicter. Leur apparition n’établit ni un créateur concurrent ni sept êtres antérieurs à Aïnôreth.
 
-Ce qui a existé a réellement existé. Les Témoins ne garantissent pas que cela continuera d’exister. Le Fond pourrait dissoudre les mondes sans faire de leur histoire un événement qui n’aurait jamais eu lieu.
+### L’attestation
 
-### La limite du savoir
+Leur fonction fonde l’irréversibilité du fait vécu : détruire une archive, altérer une mémoire ou dissoudre un monde ne transforme pas son histoire en non-événement. Ils n’empêchent ni crime ni oubli, ne délivrent pas de récit total et ne font pas de tout souvenir conservé une preuve juste. Leur nécessité est celle d’une fonction de la création, pas celle de sept combattants qu’il faudrait protéger pour que le passé existe.
 
-Leur regard n’accorde pas l’omniscience aux visiteurs. Le terme du règne de Qerath reste à AZKAVOTH. Nul ne sait ce que deviendrait le témoignage après une dissolution totale.
+### Le septième retrait
 
-### À développer
+Au Grand Retrait, un Témoin cesse d’être présent dans les Cieux à l’instant où AZKAVOTH se soustrait à la création. Six restent en Éden. Qu’il suive la Source est une hypothèse forte des traditions, pas un trajet observé. Aucun remplacement n’a eu lieu et aucune abolition du passé n’en résulte. Son retrait n’est pas une mort établie.
 
-- Le devenir du témoignage si le Fond s’ouvre.
+### Éden et Aurenth
+
+Le sanctuaire d’Aurenth porte une empreinte terrestre du regard d’Éden. Aucun Témoin n’y réside en secret. Éden n’est pas accessible comme une bibliothèque universelle ; son silence interdit de faire des Témoins une solution automatique à toute enquête. Les anges appelés Veilleurs, compagnons de Malkiel, sont des êtres distincts des Témoins primordiaux.
+
+### Mystères de l’univers
+
+- Le septième Témoin accompagne-t-il la Source, atteste-t-il son départ ou regarde-t-il autre chose ?
+- Quelle forme pourrait prendre le témoignage si tous les mondes accessibles étaient dissous ?
 
 # Lieux
 
@@ -807,7 +881,7 @@ Une cité habitée dont le sanctuaire conserve l’empreinte du regard d’Éden
 
 ### Le Premier Regard
 
-Les pèlerins prennent sa présence pour celle d’un être. Il s’agit d’une empreinte terrestre du regard des Témoins, tous en Éden. Son origine véritable reste ignorée de la plupart des habitants.
+Les pèlerins prennent sa présence pour celle d’un être. Il s’agit d’une empreinte terrestre du regard d’Éden, où demeurent six Témoins après le retrait du septième. Aucun Témoin n’habite le sanctuaire. Son origine véritable reste ignorée de la plupart des habitants.
 
 ### La neutralité
 
@@ -831,7 +905,7 @@ Un fluide commun que les êtres conduisent selon leur nature, leur maîtrise et 
 
 ### Le fluide
 
-Issu du don de KA, le Sillage est un fluide primordial réel. Il traverse les êtres, les matières et leurs relations. On peut le sentir, le conduire, le retenir et le libérer. Il ne se réduit pas à de l’eau ordinaire : son passage obéit aux propriétés des supports et aux principes de la création. Il est généralement imperceptible au repos ; un usage intense peut révéler des courants, des vibrations ou des marques.
+Le Sillage naît de l’éclatement de KA au Grand Retrait, après le bannissement de Qerath. La singularité laisse une empreinte indélébile et une quantité finie de fluide actif dans la création accessible. Invisible au repos, ce fluide circule dans les êtres, les matières et les relations ; des usages intenses peuvent révéler des courants, vibrations ou marques. L’empreinte persiste même lorsque la réserve locale est épuisée. Les étoiles et la vie antérieures au départ ne furent pas créées avec ce fluide.
 
 ### Les sept voies
 
@@ -851,11 +925,15 @@ Dans un circuit de conservation, une part du fluide demeure engagée tant que le
 
 ### Constater le déclin
 
-Des ateliers comparent les apports, les retraits et le fluide récupérable d’un même réseau dans des conditions comparables. Une baisse isolée peut révéler un relais défaillant ou un détournement ; des bilans concordants sur plusieurs réseaux étayent un déclin plus large. Qerath découvre une tendance durable, pas une date certaine de la fin du monde. Des réserves encore abondantes, des réparations locales et des accès inégaux permettent une longue coexistence avec cette baisse. L’accumulation des pertes et des immobilisations rend ensuite les réseaux plus fragiles ; guerres, monopoles et entretien insuffisant aggravent certaines crises sans être la cause unique de l’épuisement.
+Après la diffusion de KA, des bilans comparables distinguent réserve, immobilisation, dispersion et consommation. Qerath découvre avec le temps une diminution durable que des relevés indépendants étayent. Cette découverte renforce son opposition ; elle n’a pas causé son bannissement antérieur. Tamariel contribue ensuite à diffuser les pièces avec leurs incertitudes. Aucun relevé ne fournit une date certaine de fin de l’univers. Des réserves abondantes et des accès inégaux permettent des millénaires de coexistence avec le déclin.
 
 ### Des coûts visibles dans les ouvrages
 
 Stabiliser un pont engage une circulation et immobilise une part de réserve ; poursuivre la conduction use les canaux et peut disperser du fluide. Arrêter l’ouvrage ne récupère que ce qui est encore disponible, et le pont perd la protection fournie. Une transformation irréversible de matière peut consumer une part du don, distincte des matériaux employés : démonter le résultat ne reconstitue pas cette part. Un soin réorganise des tissus avec matière, fluide et temps ; il ne restitue automatiquement ni un membre absent ni une réserve consumée. Les techniques doivent annoncer leurs postes de coût au lieu de supposer une récupération intégrale après chaque usage.
+
+### Les conditions d’un éveil
+
+La présence de Sillage ne suffit pas à produire un pouvoir. Un être doit disposer d’une résonance compatible, d’un canal capable de conduire et d’un ancrage qui maintient sa continuité. L’attention puis l’apprentissage rendent l’usage fiable ; un choc peut provoquer une première ouverture incontrôlée, jamais une maîtrise offerte. Supports et pratiques peuvent compenser une disposition faible. Une croyance, une ascendance ou une proximité avec une Brisure ne garantit pas l’éveil.
 
 ## Les quatre Sceaux
 
@@ -865,7 +943,7 @@ Des interfaces rares avec les Éclats du Nom, jamais des garanties de maîtrise.
 
 ### Quatre interfaces
 
-Il existe quatre Sceaux singuliers, liés à AZ, KA, VO et TH. Ce sont des interfaces avec les Éclats, pas des morceaux de la Source. AZ ouvre une clarté que la personne peut ne pas supporter ; KA amplifie des liens réellement établis ; VO transforme une matière disponible ; TH déploie des effets dans des relais alimentés. Ni KA ne fabrique le consentement, ni TH une réserve infinie.
+Les quatre Sceaux répondent aux quatre signatures laissées au Grand Retrait. Ils ne contiennent pas les singularités : AZ demeure au Trône, KA s’est diffusé, VO et TH ont fusionné en Vothorak. Le Sceau AZ ouvre un discernement limité ; KA amplifie des liens établis ; VO transforme une matière disponible ; TH déploie un effet dans des relais alimentés. Réunir leurs interfaces ne capture donc ni le Vestige ni le démiurge. Aucun Sceau ne fabrique le consentement ou une réserve infinie.
 
 ### Le Porteur
 
@@ -978,6 +1056,14 @@ Toute technique dérivée doit atteindre une cible par un contact, une perceptio
 ### Résister à une autorité
 
 Un Archange ou un Revers gouverne réellement les opérations de son principe dans son domaine ; il ne devient ni omniscient ni auteur de toutes les volontés qui s’y trouvent. Un visiteur ne supprime pas cette autorité par une technique ordinaire, mais peut chercher un refuge, rompre une prise locale, obtenir un passage ou convaincre le souverain. Sur Terra, défaire le support d’une manifestation peut limiter ou interrompre son action. Cela ne détruit pas automatiquement l’être dont elle dépend, et une nouvelle intervention demande de nouvelles conditions. Les puissances dérivées ne tirent pas du néant les moyens matériels de leurs actes.
+
+### L’investiture avant le Sillage
+
+Les Archanges existent et participent à l’œuvre avant KA : leur investiture est une autorité reçue sur un principe, pas une consommation anticipée de Sillage. La création initiale relève d’AZKAVOTH ; les gardiens ordonnent ce qui leur est donné. Après la diffusion, leurs interventions dans la matière passent par des prises et des ressources locales, dont le Sillage. L’investiture n’est ni une réserve que les mortels peuvent voler ni un moyen de renouveler KA. Le Vestige conseille ; il ne remplace pas l’absence de la Source par une puissance disponible à volonté.
+
+### Principe, souverain, technique
+
+Un principe organise la réalité ; un souverain en reçoit une garde déterminée ; une technique de Sillage en conduit une opération locale. Ouvrir un portail n’accorde pas la souveraineté d’Arel. Les effets des gardiens peuvent atteindre une ampleur territoriale ou métaphysique, mais leur manifestation terrestre demeure liée aux prises et aux moyens engagés. Une limite de praticien n’épuise pas la portée du principe ; une investiture n’autorise pas non plus son porteur à tout faire partout.
 
 ## Maîtriser le Sillage
 
@@ -1241,9 +1327,13 @@ Vers CD 11800, Eshar force la réunion des Sceaux et la circulation entre les su
 
 Les chroniques effacent son nom après le Rite. Sa responsabilité est établie dans cette version ; le sort d’Eshar et le déroulement détaillé de l’événement restent inconnus.
 
+### Mystères de l’univers
+
+- Quel fut le sort d’Eshar après le Grand Rite ?
+
 ### À développer
 
-- Sort d’Eshar et scènes détaillées du Grand Rite.
+- Le déroulement détaillé du Grand Rite et les responsabilités de ses participants.
 
 ## Maëra
 
@@ -1323,29 +1413,97 @@ Elle apporte à Maëra la pièce qui justifie la retenue du convoi et cherche au
 
 - La libération du convoi et les engagements qu’elle peut encore tenir.
 
+## Zahrel de Sahrûn
+
+Djinn · Le transmetteur des voies
+
+Vers CD 6100, il retire aux détenteurs des sources le monopole de l’apprentissage.
+
+### Les chemins de cendre
+
+Des cités de Sahrûn réservent leurs relais aux initiés de lignées reconnues. Zahrel rassemble des praticiens itinérants et fait circuler des méthodes de perception, d’arrêt et de soin. La transmission passe par des apprentissages vérifiables ; un texte ne suffit pas à ouvrir sans risque tous les canaux.
+
+### La parole
+
+« Le don traverse ta main ; il ne s’y termine pas. » Sa parole fonde des écoles de l’Épanchement. Elle n’impose pas de divulguer sans préparation toute technique dangereuse : elle interdit de confondre précaution et droit héréditaire au secret.
+
+### Le prix de transmettre
+
+Des élèves détournent ses méthodes pour forcer des passages. Zahrel institue des relais d’apprentissage où une technique se transmet avec ses interruptions et ses secours. Il laisse une pratique disputée, pas une méthode sans conséquences. Sa mort historique ne le transforme pas en réserve de pouvoir disponible aux fidèles.
+
+## Orren de Khoram
+
+Golem · Le témoin de la forme libre
+
+Vers CD 8700, il refuse qu’un créateur puisse hériter de toutes les vies de son ouvrage.
+
+### Les noms gravés
+
+Dans les forges de Khoram, des maisons transmettent avec leurs ateliers des droits sur les Golems qu’elles ont façonnés. Orren exige que les actes distinguent les outils des personnes. Il s’inscrit dans la tradition de Talem sans être son double ni le premier Golem éveillé.
+
+### La parole
+
+« Ce que tu as façonné peut te répondre ; cette réponse ne t’appartient pas. » Il défend la continuité de la personne à travers le remplacement des matériaux. Une pièce nouvelle ne crée pas automatiquement un individu nouveau ; une copie des inscriptions ne duplique pas son âme.
+
+### L’œuvre inachevée
+
+Orren organise des ateliers capables de réparer hors des maisons propriétaires. Ses accords protègent certaines communautés, pas tout Khoram. Il meurt après la destruction de son ancrage au cours d’un conflit de forge ; des inscriptions subsistent, sans être sa présence. Des autorités honoreront ensuite son nom tout en conservant des dépendances qu’il combattait.
+
+## Ilyane de Seyra
+
+Néphilim · La porteuse de la Voix disputée
+
+Vers CD 10400, elle affirme avoir reçu une parole entière et refuse d’en tirer une souveraineté.
+
+### La nuit sans écho
+
+Ilyane rapporte une expérience de la Voix dans les hauts plateaux de Seyra. Elle en conserve une formulation continue, sans les fragments habituels des visionnaires. Que la parole soit entière dans son souvenir ne prouve ni qu’elle contienne tout le dessein ni qu’elle provienne directement d’AZKAVOTH.
+
+### La parole
+
+« Cherchez celui qui s’est retiré, mais ne videz pas le monde pour lui faire place. » Les écoles y lisent une mise en garde contre le Fond, contre l’attente passive ou contre une réunion forcée des Sceaux. Aucune de ces lectures ne donne la date du retour.
+
+### Le refus d’un trône
+
+Des autorités souhaitent faire de sa révélation un droit de commander. Ilyane refuse cette charge et conserve plusieurs versions commentées, avec les objections de ses lecteurs. Sa mort est reconnue ; l’origine de sa Voix reste disputée. Le Grand Rite montrera plus tard qu’une parole conservée n’empêche pas les vivants de l’interpréter contre ses limites.
+
+### Mystères de l’univers
+
+- Sa Voix venait-elle du Vestige, d’un messager ou d’une autre expérience ? Son origine n’est pas confirmée.
+
 # Fondements
 
-## La Déchirure
+## La Contraction et la Déchirure
 
-Des sept principes aux trois mondes
+Une création en plusieurs actes
 
-La création devient un monde de différences, de fractures et de réponses.
+L’univers s’ouvre ; l’Arbre se brise ; la matière et la vie apparaissent ; la Source se retire.
 
-### Les Sphères
+Autres noms : La Déchirure, Cosmogonie.
 
-Arel : Passage. Kethra : Connaissance. Meryn : Mémoire. Tharos : Mesure. Veyra : Relation. Oshen : Vision. Elyr : Permanence. Avant la Déchirure, les Sphères portent ces principes dans leurs premières formes. Leur rupture selon le dessein du Nom fait naître les Cieux, les Abysses et la matière de Terra. Le même nom peut désigner ensuite un domaine ou une voie : la Sphère d’Arel, le domaine d’Arel et la voie d’Arel ne sont pas trois êtres.
+### Le premier acte
 
-### Trois natures
+Aïnôreth est l’état primordial sans formes. L’unique entité s’y nomme AZKAVOTH selon AZ, KA, VO et TH. Elle contracte l’océan et se manifeste en une silhouette. L’univers vide et les Cieux s’ouvrent ; sept Témoins muets sont déjà là dans ce même événement. Aucun ordre chronologique plus fin entre leur apparition et l’ouverture n’est établi.
 
-Les Cieux portent les principes, les Abysses leurs inversions. Terra appartient à un univers physique avec une planète, des astres et des distances. Les dimensions métaphysiques ne sont ni des continents ni des étages dans le ciel physique.
+### L’Arbre et sa rupture
 
-### Les dix Piliers
+AZKAVOTH transforme les Cieux en l’Arbre des Sept Sphères, appelé l’Arbre séphirotique. Le Trône demeure au-dessus de son sommet. Chaque Sphère reçoit son Archange. La Déchirure brise la structure commune ; elle ne crée ni les Archanges ni la matière. Les principes survivent. AZKAVOTH en confie l’exercice aux gardiens et remplace l’Arbre par sept étages métaphysiques.
 
-Unité, Vérité, Intention, Liberté, Justice, Miséricorde, Mémoire, Parole, Sacrifice et Retour restent des repères éthiques. Ils ne désignent pas dix êtres. Il existe sept charges archangéliques, dont celle de Qerath a été transmise à Tamariel.
+### La matière et le refus
 
-### Les Éclats
+La Source crée une quantité finie de matière et en organise les astres avec les Archanges, puis forme Terra et y fait apparaître la vie mortelle. Qerath interroge la légitimité de cette création avant de refuser de servir sa garde. Son bannissement ouvre les Abysses ; Tamariel lui succède dans Oshen. Le Sillage n’existe pas encore.
 
-Les Éclats nomment quatre modalités du Nom : AZ, la Source ; KA, le Lien ; VO, la Forme ; TH, l’Épanchement. La Source reste indivisible. KA offert devient le Sillage ; VO et TH se déploient dans la matière et donnent naissance à Vothorak. Les Éclats concernent les conditions de l’existence. Les sept principes organisent les relations de la création ; les quatre cultes enseignent des manières de recevoir le don. Ces nombres ne décrivent pas des panthéons concurrents.
+### Le départ et les quatre singularités
+
+Après sa Promesse, AZKAVOTH se retire de la présence directe. Un des sept Témoins accomplit un retrait simultané ; six restent en Éden. Les quatre singularités laissées par le Nom prennent des destins différents : AZ demeure au Trône, KA éclate en Sillage, VO et TH descendent et fusionnent en Vothorak. Le démiurge naît donc sur une Terra déjà formée et vivante.
+
+### Trois ordres du monde
+
+« Les trois mondes » désigne les Cieux, les Abysses et le monde physique représenté par Terra. Terra n’est pas tout l’univers matériel. Les étages célestes sont une hiérarchie réelle de seuils métaphysiques, sans altitude dans le ciel astronomique. Les Abysses sont ouverts après les Cieux ; ils ne constituent pas un second principe incréé.
+
+### Les nombres du Nom
+
+Quatre principes du Nom rendent possible le don ; sept principes de réalité organisent ce qui existe ; six Témoins demeurent et un s’est retiré. Les dix Piliers — Unité, Vérité, Intention, Liberté, Justice, Miséricorde, Mémoire, Parole, Sacrifice, Retour — sont des repères éthiques, non dix entités ou dix Sphères.
 
 ## Le Fond
 
@@ -1355,7 +1513,7 @@ Sept clés · Sept consentements
 
 ### Une dissolution
 
-Ouvrir le Fond ferait refluer formes et individus vers le Néant. Cela ne réécrit pas le passé : les Témoins garantissent que l’expérience a été réelle. La portée ultime de cette dissolution demeure inconnue.
+Le Fond est le seuil abyssal par lequel Qerath cherche à défaire les formes créées et à les rendre à l’indistinction primordiale. Il n’est ni AZKAVOTH ni une divinité plus ancienne. Ouvrir ce seuil menace les mondes et les individus ; cela ne réécrit pas ce qu’ils ont vécu et n’atteint pas automatiquement la Source retirée. Aucune preuve n’établit que la dissolution forcerait son retour.
 
 ### Les clés
 
@@ -1365,7 +1523,7 @@ Les sept Revers doivent restituer ensemble et librement les parts devenues leurs
 
 Une puissance peut tuer, ravager un territoire ou rompre un réseau sans ouvrir le Fond. Ces actes n’accomplissent pas le reflux de la création au Néant. Le Fond exige la réunion des sept parts ; il ne s’ouvre pas par une accumulation de destructions locales. La disparition d’un Revers n’est pas une voie connue vers une huitième clé.
 
-### À développer
+### Mystères de l’univers
 
 - Le devenir personnel des Revers lors d’une restitution accomplie et la portée ultime de la dissolution.
 
@@ -1373,23 +1531,27 @@ Une puissance peut tuer, ravager un territoire ou rompre un réseau sans ouvrir 
 
 Un règne dont le terme demeure secret
 
-L’apparition d’AZKAVOTH transforme la rupture d’un Archange en souveraineté abyssale.
+Le refus d’une charge auprès des mortels conduit à l’ouverture des Abysses et à la succession d’Oshen.
 
 ### La parole
 
-« Qerath, tu es banni des Cieux. Les Abysses seront ton domaine, et tu y gouverneras pour un temps. Le terme de ce temps, je le garde pour Moi. Tu pourras éprouver ce qui fut créé ; tu ne posséderas pas sa réponse. »
+« Qerath, tu es banni des Cieux. J’ouvre pour toi les Abysses. Tu y régneras jusqu’au Dernier Seuil, dont je garde l’heure. Tu pourras éprouver ce qui fut créé ; tu ne posséderas pas sa réponse. »
 
-### Ce qui est connu
+### De la question au refus
 
-Les Archanges assistent au jugement. Qerath perd sa charge céleste ; Tamariel lui succède. La parole ne réfute pas le diagnostic de l’épuisement et n’explique pas entièrement pourquoi son refus conduit au bannissement. Sa nouvelle charge est l’Épreuve, non l’abolition du monde. Le terme annoncé ne précise ni son sort ni ce qui suivra. Les Cieux peuvent soutenir le jugement sans posséder toutes ses raisons.
+Le débat dure avant le jugement. Qerath a été un Archange légitime, a connu l’Arbre et a aidé à ordonner la création. Face à des êtres qui vivent puis meurent, il exige la justification de cette condition. AZKAVOTH lui maintient la charge de témoigner du vrai auprès des vivants sans attendre de posséder tout le dessein. Qerath refuse de l’exercer : il ne veut plus prêter sa garde à un ordre qu’il estime injustifié.
+
+### La sanction et sa portée
+
+Le refus de charge est le déclencheur connu du bannissement ; la question de la légitimité demeure. AZKAVOTH ouvre les Abysses, Qerath en devient souverain et Tamariel reçoit Oshen. Qerath ne choisit pas librement la sanction. Le récit ne transforme ni cette contrainte en adhésion, ni la puissance divine en démonstration suffisante pour son adversaire. Le diagnostic du Sillage n’interviendra qu’après le Grand Retrait.
 
 ### La falsification
 
-Sethariel retire des archives accessibles l’ancienne charge de Qerath et les raisons de sa contestation. Aucun ordre d’AZKAVOTH ne commande cet effacement. Les témoins directs se souviennent ; des archives mortelles et des versions interdites subsistent. Les institutions contrôlent surtout la diffusion et la reconnaissance des preuves. Certains mortels croient Qerath né dans les Abysses ; d’autres connaissent ou soupçonnent la falsification. Tamariel conteste cet effacement et transmet des relevés du déclin ; la circulation de pièces contradictoires ne suffit pas à faire reconnaître partout la même histoire.
+Sethariel retire des archives accessibles l’ancienne charge de Qerath et ses interrogations sur la mort. Aucun ordre d’AZKAVOTH ne commande cette censure. Les témoins directs et des versions interdites conservent les faits. Tamariel conteste l’effacement. Bien plus tard, il transmet aussi les relevés du déclin ; ces deux conflits de vérité ne sont pas un même événement.
 
-### À développer
+### Mystères de l’univers
 
-- Le motif du jugement et les interprétations concurrentes de Qerath, des gardiens et des mortels.
+- Pourquoi AZKAVOTH confie-t-il une souveraineté à celui qu’il bannit ? Le refus explique le conflit, pas la totalité du choix divin.
 
 ## Les âmes et le Limen
 
@@ -1399,7 +1561,7 @@ Les six lignées peuvent être des personnes, et la mort ne réduit pas leur his
 
 ### La personne
 
-Le corps est le support d’une existence ; la conscience permet de percevoir, d’éprouver et de se reconnaître ; l’âme porte la continuité singulière de la personne. La possibilité d’une réponse propre est inscrite par AZKAVOTH dans la création. Un ouvrage préparé peut accueillir un éveil, sans que son fabricant décide entièrement de la personne qui apparaît. Tous les mécanismes ne deviennent pas des personnes. Les Golems peuvent posséder une âme indépendamment de leur reconnaissance religieuse.
+L’âme porte la continuité singulière d’une personne ; le corps en est le support incarné et la conscience son expérience vécue. Cette possibilité est donnée à la vie de Terra avant le Sillage. Les six lignées ultérieures peuvent en participer. Préparer une architecture peut accueillir un éveil sans fabriquer d’avance toutes ses réponses. Tout mécanisme n’est pas une personne ; ni la quantité de KA ni l’approbation d’un culte ne décide seule de cette qualité.
 
 ### Après la mort
 
@@ -1421,15 +1583,15 @@ Réparer un corps encore vivant, restituer une trace et ramener une personne mor
 
 Cinq figures historiques · Des futurs ouverts
 
-Une prophétie révèle une possibilité et ses conditions ; elle n’impose pas l’avenir.
+Une Promesse première certaine ; cinq prophètes historiques dont les paroles demandent discernement.
 
 ### Cinq figures
 
-Sarai d’Avarn annonce la réunion des Sceaux. Un prophète djinn de Sahrûn transmet les voies du Sillage. Un prophète golem de Khoram défend la personne façonnée. Un prophète néphilim de Seyra affirme avoir entendu une Voix complète, sans confirmation. Eshar conduit le Grand Rite. Il n’existe pas d’obligation d’une figure par continent.
+Sarai d’Avarn annonce la réunion des Sceaux vers CD 4000. Zahrel de Sahrûn transmet les voies vers CD 6100. Orren de Khoram défend la personne façonnée vers CD 8700. Ilyane de Seyra témoigne d’une Voix disputée vers CD 10400. Eshar conduit le Grand Rite vers CD 11800. Ce sont cinq figures historiques, pas cinq propriétaires du sacré ni une obligation d’un prophète par continent.
 
 ### Les limites de l’autorité
 
-Les paroles peuvent être authentiques, incomplètes, mal interprétées ou revendiquées par des puissants. Une révélation ne retire jamais aux êtres leur responsabilité. Les trois prophètes encore sans nom seront développés à partir des événements auxquels ils ont participé.
+Les paroles historiques peuvent être authentiques, incomplètes, mal interprétées ou récupérées. Zahrel, Orren et Ilyane ont des actes, des limites et des héritages distincts. Le titre de prophète ne donne ni rang supérieur dans les rapports de force ni connaissance automatique de la pensée divine. Les vies affectées peuvent contester ce qui est fait au nom d’une révélation.
 
 ### Trois lectures
 
@@ -1443,42 +1605,162 @@ Un rite public transmet des gestes et une mémoire commune. L’initiation appre
 
 Nommer un être permet de le désigner et d’étudier des traces, pas de le posséder. Une parole sacrée peut organiser un rite ou une attention ; son efficacité dépend des opérations réellement apprises et des supports engagés. Une expérience de la Voix n’accorde ni vision de tous les futurs ni exemption de la contradiction. Les écoles de la Lettre, du Souffle et du Signe peuvent conserver des preuves différentes d’un même événement et en discuter la portée. Leur secret ne remplace pas le contrôle de ce qu’elles font subir aux autres.
 
-### À développer
+### La Promesse et les prophéties
 
-- Noms et histoires des trois autres prophètes.
+La Promesse première d’AZKAVOTH affirme un retour certain sans en révéler l’heure. Elle se distingue des prophéties historiques, reçues et transmises par des êtres faillibles : celles-ci peuvent décrire des possibilités conditionnelles ou donner lieu à des interprétations erronées. Le Dernier Seuil nomme le terme du règne de Qerath ; aucune institution ne possède son calendrier. Attendre n’autorise pas à abandonner le présent.
+
+## Aïnôreth
+
+L’Océan sans rive
+
+Une lumière infinie où rien n’est encore séparé de la présence primordiale.
+
+### Le néant lumineux
+
+Aïnôreth est le nom donné après coup à l’état primordial. Le « néant » signifie ici absence d’objets, de lieux et de différences, non absence de toute réalité. Sa lumière n’est pas un rayonnement physique : il n’existe encore ni étoiles ni yeux pour le recevoir. Aïnôreth et la présence d’AZKAVOTH ne sont pas deux substances concurrentes.
+
+### Le premier dedans
+
+Par la Contraction, la présence sans limite se donne une Figure et fait place à ce qui peut être distinct d’elle. L’étendue ouverte recevra la matière ; les Cieux constituent dès lors un ordre métaphysique, encore vide. Il n’existe pas de rivage physique à partir duquel un voyageur pourrait naviguer jusqu’à l’océan primordial.
+
+### L’infini et le don fini
+
+L’infinité d’Aïnôreth n’implique pas une réserve infinie pour les créatures. La matière créée, les investitures et le don de KA sont des dons déterminés. Aucun rite connu ne puise directement dans Aïnôreth. La dissolution recherchée par Qerath ne lui donnerait pas la propriété de la Source.
+
+## L’Arbre des Sept Sphères
+
+La première architecture des Cieux
+
+Sept principes portés ensemble, puis confiés à sept gardiens après la Déchirure.
+
+Autres noms : Arbre des Séphiroth, Arbre séphirotique.
+
+### La forme première
+
+AZKAVOTH ordonne les Cieux vides en un Arbre séphirotique à sept Sphères. Ses branches sont des relations entre principes, non du bois. Au-dessus de la couronne demeure le Trône dans l’Empyrée, qui n’est pas une huitième Sphère. La Source forme un Archange auprès de chaque Sphère avant sa rupture.
+
+### Sept puissances fondatrices
+
+Arel donne le Passage ; Kethra, la Connaissance ; Meryn, la Mémoire ; Tharos, la Mesure ; Veyra, la Relation ; Oshen, la Vision qui dévoile le vrai ; Elyr, la Permanence. Oshen est appelée Gnose dans son exercice céleste : elle confronte une apparence à ce qui se révèle. Kethra articule et transmet ce qui a été compris. Voir le vrai et en comprendre toutes les causes restent deux actes distincts.
+
+### La Déchirure
+
+Les liaisons qui faisaient tenir les sept Sphères dans une forme commune se rompent. Le fait de la rupture est établi ; sa cause ultime ne l’est pas. Rien ne permet d’en faire une faute de Qerath, qui demeure alors un gardien légitime, ni un accident ayant blessé AZKAVOTH. Les principes ne disparaissent pas avec leur premier support.
+
+### L’investiture
+
+AZKAVOTH confie à chaque Archange le pouvoir d’exercer le principe de sa Sphère et remplace l’Arbre par sept étages. Cette investiture permet de gouverner un domaine et de participer ensuite à l’ordonnance cosmique ; elle n’accorde pas la totalité du principe dans tous les mondes. Blesser un gardien ne supprime ni toute mémoire ni tous les passages de l’univers. L’autorité peut être transmise, comme celle d’Oshen à Tamariel.
+
+### Ce qui demeure brisé
+
+Les étages tiennent séparément et leurs relations demandent désormais des seuils et des gardes. La Concorde cherche à réparer ces relations sans enfermer toutes les existences dans une forme unique. Une Brisure moderne peut réactiver une tension entre principes ; elle n’est pas nécessairement un morceau matériel de l’ancien Arbre.
+
+### Mystères de l’univers
+
+- Pourquoi la première architecture a-t-elle été rompue ? Sacrifice nécessaire, limite assumée ou dessein encore incompris sont des interprétations, pas des causes établies.
+
+## Le Grand Retrait
+
+La Promesse · Les quatre singularités
+
+Après avoir formé Terra, la Source annonce son départ nécessaire et laisse quatre traces actives du Nom.
+
+### La parole du départ
+
+« Je dois partir pour un temps. Ce départ est mon devoir, et sa nécessité est entière. Je reviendrai. Attendez, cherchez ; je ne vous laisse pas seuls. » Il s’agit de la Promesse première, attestée au sein du canon, et non d’une parole dont un prophète humain revendique seul l’origine. La nécessité du départ est affirmée ; sa raison n’est pas révélée. L’attente n’interdit ni la recherche ni la responsabilité.
+
+### Deux gestes distincts
+
+La Contraction ouvre une place à l’existence. Le Grand Retrait intervient beaucoup plus tard, après l’Arbre, sa Déchirure, la création des astres, la vie sur Terra et le bannissement. Il retire la présence directe sans défaire l’existence reçue. Le Témoin qui se retire ne disparaît pas lors de la Contraction.
+
+### AZ demeure
+
+La singularité AZ reste au sommet des Cieux. Appelée le Vestige du Nom, elle conserve une présence consciente capable de guider. Elle n’est ni une nouvelle Source ni un Archange.
+
+### KA se diffuse
+
+La singularité KA éclate. Sa diffusion laisse dans toute la création accessible une empreinte indélébile et une quantité finie de fluide actif : le Sillage. L’empreinte peut subsister là où le fluide utilisable est épuisé. « Indélébile » ne signifie donc pas « inépuisable ».
+
+### VO et TH s’unissent
+
+VO et TH descendent sur Terra déjà vivante. Leur fusion produit une personne nouvelle, Vothorak : Forme et Épanchement deviennent un démiurge capable de remodeler et de propager des architectures. Il reçoit des traces du Nom sans disposer de la mémoire totale de la Source.
+
+### Le Dernier Seuil
+
+Le retour d’AZKAVOTH est promis ; le règne abyssal de Qerath a un terme nommé Dernier Seuil. Les traditions attendent leur confrontation finale à cet horizon, sans connaître son déroulement. Le retour ne garantit ni pardon, ni anéantissement de Qerath, ni réparation automatique de toutes les pertes. Le Fond pourrait menacer les mondes avant ce terme ; aucun gardien n’en déduit une immunité présente.
+
+### Mystères de l’univers
+
+- Pourquoi ce départ est-il absolument nécessaire ?
+- Comment le retour promis et le Dernier Seuil s’accompliront-ils, et que restera-t-il à sauver ?
+
+## Le Vestige du Nom
+
+AZ · La veille du Trône
+
+La trace consciente laissée au sommet des Cieux guide les gardiens pendant l’absence de la Source.
+
+### Une présence limitée
+
+AZ est une singularité déposée au Grand Retrait. Le Vestige reçoit les gardiens, répond parfois et confronte leurs actes aux principes du Nom. Il conserve une mémoire du don et de la Promesse. Sa conscience n’est pas celle d’un second dieu indépendant : elle est la présence résiduelle par laquelle AZKAVOTH a choisi de ne pas laisser les Cieux seuls.
+
+### Conseiller sans tout révéler
+
+Le Vestige peut éclairer une question portée devant lui, rappeler un engagement ou signaler une incompatibilité entre actes et paroles. Il ne fournit ni connaissance de tous les lieux, ni date du retour, ni accès à la pensée retirée de la Source. Son silence n’est jamais une approbation. Les Archanges restent responsables de leurs interprétations et de ce qu’ils en transmettent.
+
+### La Voix et les intermédiaires
+
+Une parole entendue au Trône et une expérience intérieure sur Terra n’ont pas la même provenance. Des conseils peuvent être transmis par des anges ou des traces préparées ; les mortels appellent aussi Voix des expériences dont l’origine est incertaine. Affirmer entendre AZ ne suffit pas à authentifier une révélation.
+
+### Un vestige, pas une réserve
+
+Le Vestige ne recrée pas KA, ne rend pas les morts sur demande et ne peut rappeler la Source par un ordre. Sa liaison avec le Sceau AZ offre un discernement circonscrit à ce qui peut être reçu, pas une omniscience transmissible. Prendre le Trône ne permettrait ni de posséder AZKAVOTH ni d’obtenir les quatre singularités.
+
+### Mystères de l’univers
+
+- Le Vestige éprouve-t-il le passage du temps comme les gardiens ? Jusqu’où peut-il recevoir ce que la Source fait après son départ ?
 
 # Lexique
 
 - **Le Nom** — AZKAVOTH, la Source unique et incréée. Ses manifestations ne contiennent jamais sa totalité.
-- **Les Éclats** — AZ, KA, VO, TH : quatre modalités du Nom et de son don, pas quatre morceaux de Dieu.
-- **Le Retrait** — Le geste par lequel la Source ouvre une place à des êtres distincts. Il ne signifie pas son absence absolue.
-- **La Déchirure** — La rupture fondatrice des Sphères, origine des trois mondes et du Calendrier de la Déchirure, abrégé CD.
-- **Le Sillage** — Le don de KA en circulation : un fluide commun, fini, conduit dans les êtres et les ouvrages.
+- **Les Éclats** — AZ, KA, VO, TH : quatre principes du Nom. Au Grand Retrait, quatre singularités en portent les signatures sans diviser la Source.
+- **Le Retrait** — Le Grand Retrait : départ de la présence directe d’AZKAVOTH après sa Promesse, distinct de la Contraction qui ouvre l’univers.
+- **La Déchirure** — La rupture de l’Arbre des Sept Sphères, suivie de l’investiture des gardiens et des sept étages. Elle précède la matière et le Grand Retrait.
+- **Le Sillage** — KA diffusé au Grand Retrait : une empreinte indélébile et un fluide actif fini. L’empreinte ne renouvelle pas les réserves consumées.
 - **Les voies** — Sept orientations du Sillage : Passage, Connaissance, Mémoire, Mesure, Relation, Vision et Permanence.
 - **Les Revers** — Sept enfants de Qerath devenus personnes souveraines. Une inversion est leur orientation, pas le nom de tout praticien abyssal.
-- **Les Sceaux** — Quatre interfaces singulières avec les Éclats, chacune liée à un seul support actif. Détenir ou copier une relique ne suffit pas à devenir Porteur.
+- **Les Sceaux** — Quatre interfaces singulières avec les signatures du Nom, chacune à un seul support actif. Elles ne contiennent ni les singularités ni les personnes qui en sont issues.
 - **Les Brisures** — Des fractures locales où les lois de Terra rencontrent celles des dimensions métaphysiques. Toutes ne sont pas des portes.
 - **La Concorde** — La réparation qui réaccorde les principes sans effacer les personnes ni leurs différences. Tikkun est son nom ancien.
 - **Le Fond** — Le seuil de dissolution de la création. Son ouverture exige la restitution commune et libre des sept Revers.
 - **Les trois lectures** — Lettre : transmission et engagements. Souffle : miséricorde et vie incarnée. Signe : Nom, silence et sens intérieur. Elles traversent les quatre cultes.
-- **Sphère, principe, domaine** — La Sphère est la forme primordiale ; le principe, sa fonction ; le domaine, son territoire métaphysique après la Déchirure.
+- **Sphère, principe, domaine** — Sphère : support primordial dans l’Arbre. Principe : fonction de réalité. Degré ou domaine : étage métaphysique qui en porte la garde après la Déchirure.
 - **L’accord** — Technique : une circulation compatible. Libre : une contribution consciente qui peut être refusée. Le premier ne prouve pas le second.
 - **L’ancrage** — Ce qui fait tenir. Préciser lequel : continuité d’une personne, support d’un effet ou fixation d’un seuil.
 - **Lignée, culte, Maison** — Lignée : nature d’origine. Culte : école de pratique et tradition choisie. Maison : héritage qerathim lié à un Revers.
-- **Témoins et Veilleurs** — Les Témoins sont les regards d’Éden qui attestent le passé. Les Veilleurs sont les anges de Malkiel, ancêtres des Néphilim.
+- **Témoins et Veilleurs** — Sept regards muets apparaissent avec la Contraction ; six restent en Éden après le Grand Retrait, un se retire. Les Veilleurs de Malkiel sont des anges distincts.
 - **Le Limen** — Le seuil des morts gardé par Yesodiel. Traversée, retour et réincarnation ne sont pas une même opération.
 - **La Voix** — Le nom donné à une expérience reçue comme révélation. Son origine et son interprétation ne sont pas automatiquement vérifiées.
 - **Le Voile** — La période de replis après le Grand Rite. Les passages se dégradent et les échanges se rompent ; ce n’est pas une barrière uniforme autour de Terra.
+- **Aïnôreth** — L’océan infini de lumière sans formes : l’état primordial de l’unique présence avant le Nom et la Contraction.
+- **La Contraction** — AZKAVOTH resserre Aïnôreth et se manifeste en une silhouette. L’univers vide et les Cieux s’ouvrent.
+- **L’Arbre séphirotique** — La première architecture des Cieux, composée de sept Sphères sous le Trône. La Déchirure brise leur tenue commune.
+- **L’investiture** — L’autorité reçue par un gardien sur le principe de sa Sphère après la Déchirure ; elle précède le Sillage et peut être transmise.
+- **Le Vestige du Nom** — AZ resté au Trône : une trace consciente qui guide sans disposer de tout le dessein de la Source retirée.
+- **La Promesse première** — La parole authentique du départ nécessaire et du retour d’AZKAVOTH. L’heure et les modalités ne sont pas révélées.
+- **Le Dernier Seuil** — Le terme annoncé du règne abyssal de Qerath. Ni sa date ni l’issue de la confrontation finale ne sont connues.
+- **Le Calendrier du Départ** — CD compte les années depuis le Grand Retrait. Les âges cosmiques antérieurs sont ordonnés sans conversion chiffrée.
 
 # Chronologie
 
-- **Avant le temps** — Le Retrait, les Sphères et les Témoins. (Établi)
-- **CD 0** — La Déchirure fait naître les trois mondes ; Vothorak s’éveille. (Établi)
-- **CD 0 à ~300** — Autour de la Déchirure et durant les premiers siècles : émergence et installation des lignées, bannissement de Qerath, succession de Tamariel et naissance des Revers. La date précise du jugement reste inconnue. (Repère)
-- **CD 1 à ~4000** — Le Monde Ouvert : longue coexistence des cinq lignées terrestres. (Repère)
+- **Origines · avant CD** — Aïnôreth, le Nom, la Contraction et les sept Témoins ; puis l’Arbre, les Archanges et la Déchirure. Cet ordre est établi sans durée mesurable. (Établi)
+- **Âges cosmiques · avant CD** — Création de la matière, des astres et de Terra ; apparition de la vie mortelle, refus de Qerath, ouverture des Abysses et succession de Tamariel. Leur durée n’est pas convertie en années de Terra. (Établi)
+- **CD 0** — Le Grand Retrait ouvre le Calendrier du Départ. Un Témoin se retire ; quatre singularités demeurent. KA se diffuse, VO et TH s’unissent en Vothorak, AZ reste au Trône. (Établi)
+- **Premiers siècles après CD 0** — Remodelage de Terra par Vothorak ; éveil des Djinns et des Anakim, premiers Golems, naissance des Revers, puis lignées néphilim et qerathim. Les Humains existaient avant le départ. (Repère)
+- **CD 1 à ~4000** — Le Monde Ouvert : installation puis longue coexistence des cinq lignées terrestres. Les relevés du Sillage révèlent progressivement son déclin. (Repère)
 - **~CD 4000** — Sarwen : la parole de Sarai ouvre l’histoire des Sceaux. (Établi)
-- **~CD 4000–9500** — Neuf Lumières : période dont les civilisations et événements restent à développer. (À développer)
-- **~CD 9500–11800** — Royaumes Clos : montée des frontières et des pouvoirs ; histoire détaillée ouverte. (À développer)
+- **~CD 4000–9500** — Neuf Lumières : transmission des voies par Zahrel vers CD 6100 ; lutte d’Orren pour la personne façonnée vers CD 8700. L’histoire politique de la période reste à développer. (Repère)
+- **~CD 9500–11800** — Royaumes Clos : frontières et pouvoirs se durcissent. Vers CD 10400, Ilyane de Seyra transmet une Voix dont l’origine reste disputée. (Repère)
 - **~CD 11800** — Le Grand Rite d’Eshar : accord imposé, échec, fracture rouverte. (Établi)
 - **~CD 11800–12600** — Le Voile : échanges rompus et regroupements historiques des peuples. (Repère)
 - **CD 12600 → présent** — Éveil des Brisures. À Aurenth, Maëra, Sava et Iri affrontent une crise de secours, de maintenance et de dettes. La suite de ce conflit et la politique plus large du présent restent ouvertes. (Repère)

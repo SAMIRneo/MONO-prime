@@ -6,8 +6,8 @@ MONO est un portail narratif et un codex illustré en français : lire les origi
 
 - **Site :** [samirneo.github.io/MONO-prime](https://samirneo.github.io/MONO-prime/)
 - **Dépôt :** [SAMIRneo/MONO-prime](https://github.com/SAMIRneo/MONO-prime)
-- **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V9.4**, révisé le **9 octobre 2026**.
-- **Contenu actuel :** 60 fiches, 11 catégories, 4 livres, 24 chapitres et 20 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes. Maëra, Sava et Iri disposent de fiches sans portrait dédié.
+- **État documenté :** portail ésotérique du **8 octobre 2026** ; canon **V10.0**, révisé le **9 octobre 2026**.
+- **Contenu actuel :** 67 fiches, 11 catégories, 4 livres, 24 chapitres et 28 repères lexicaux ; 52 illustrations référencées dans les métadonnées, livrées en 156 fichiers WebP avec leurs variantes. Maëra, Sava, Iri, Zahrel, Orren et Ilyane disposent de fiches sans portrait dédié. Les nouvelles fiches cosmologiques réemploient les illustrations symboliques existantes.
 
 ## Parcours et fonctionnalités
 
@@ -25,7 +25,7 @@ Trois destinations composent la navigation permanente : **Accueil**, **Lire** et
 | Codex         | `#/codex`          | Catégories avec compteurs, filtre textuel, vues galerie et liste, fiches illustrées et agrandissement des images. La catégorie initiale est « Puissances ».                                                                                                  |
 | Fiche         | `#/fiche/qerath`   | Résumé, illustration, sommaire avec liens directs aux sections, contenu détaillé, questions ouvertes, références associées, fiches précédente et suivante, signet et copie du lien.                                                                          |
 | Pouvoirs      | `#/powerscaling`   | Guide du Sillage, comparaison des sept voies avec leurs inversions, circulation des six lignées, rapports de force et accès aux fiches de maîtrise, guerre et économie.                                                                                      |
-| Âges          | `#/chronologie`    | Chronologie du Calendrier de la Déchirure (CD), avec distinction entre événements établis et périodes à développer.                                                                                                                                          |
+| Âges          | `#/chronologie`    | Chronologie du Calendrier du Départ (CD), avec distinction entre événements établis et périodes à développer.                                                                                                                                          |
 | Recherche     | `#/chercher`       | Recherche dans les fiches, les chapitres et le lexique ; accepte les accents, les apostrophes et plusieurs termes. Raccourci `Ctrl+K` ou `Cmd+K`.                                                                                                                        |
 | Ma collection | `#/signets`        | Fiches et livres conservés sur l’appareil, avec possibilité de retrait.                                                                                                                                                                                      |
 
@@ -41,7 +41,7 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 
 ## Canon et contenu éditorial
 
-**`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les catégories, les fiches (`records`), les quatre livres (`books`), la chronologie (`eras`) et le lexique (`lexicon`). Les anciens noms recherchables sont conservés dans `aliases`. Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
+**`src/data/canon.json` est la source éditoriale de référence.** Il contient la version, la date de consolidation, les huit étapes d’origine (`origins`), les catégories, les fiches (`records`, avec `mysteries` et `open_questions` distincts), les quatre livres (`books`), la chronologie (`eras`) et le lexique (`lexicon`). Les anciens noms recherchables sont conservés dans `aliases`. Les pages de synthèse utilisent ces données, avec des textes et compositions complémentaires dans `src/app.tsx`.
 
 | Catégorie             | Identifiant    | Fiches |
 | --------------------- | -------------- | -----: |
@@ -54,29 +54,29 @@ L’interface comprend un menu mobile, une barre de navigation inférieure sur l
 | Lieux                 | `lieux`        |      6 |
 | Sillage & puissance   | `pouvoir`      |      4 |
 | Maîtrise              | `powerscaling` |      7 |
-| Figures & personnages | `personnages`  |      7 |
-| Fondements            | `fondements`   |      5 |
-| **Total**             |                | **60** |
+| Figures & personnages | `personnages`  |     10 |
+| Fondements            | `fondements`   |      9 |
+| **Total**             |                | **67** |
 
 La catégorie « Mondes & Éden » compte quatre fiches parce qu’elle comprend aussi « Éden et les Sept Témoins » : MONO conserve **trois mondes**, Terra, les Cieux et les Abysses.
 
 | Livre                     | Identifiant | Chapitres |
 | ------------------------- | ----------- | --------: |
-| Avant le Temps            | `livre-1`   |         6 |
+| Le Nom et l’Arbre          | `livre-1`   |         6 |
 | Le Banni                  | `livre-2`   |         6 |
 | La Matière et les Vivants | `livre-3`   |         6 |
 | Les Sceaux et le Voile    | `livre-4`   |         6 |
 
 ### Repères à préserver
 
-- **AZKAVOTH** est la Source au-delà de la création ; le Retrait et la Déchirure appartiennent à son plan divin et cosmique. Il ne relève pas d’une échelle de combat.
-- **Vothorak** est le démiurge et architecte du monde physique. **Qerath**, ancien Archange banni, est le souverain de l’Épreuve dans les Abysses ; il ignore le terme de son règne.
+- **AZKAVOTH** se nomme dans **Aïnôreth**, se contracte en une Figure et ouvre l’univers. L’Arbre, sa Déchirure, la matière et le bannissement précèdent le **Grand Retrait**. La Source ne relève pas d’une échelle de combat. La cause ultime de la Déchirure demeure mystérieuse.
+- **Vothorak** naît de VO et TH après le Grand Retrait, sur une Terra déjà vivante. **Qerath**, ancien gardien légitime de la Gnose d’Oshen, est banni après son refus d’accompagner la condition mortelle ; les Abysses sont alors ouverts pour lui. Son diagnostic du Sillage est postérieur.
 - Les **sept Archanges actuels** incluent Malkiel et Tamariel. Les **sept Revers** possèdent leurs propres volontés.
 - Les **six lignées** sont les Humains, Djinns, Anakim, Golems, Néphilim et Qerathim. Elles peuvent rejoindre chacun des quatre cultes.
 - **Terra** appartient à un univers physique. Les **Cieux** et les **Abysses** sont des dimensions métaphysiques, pas des étages géographiques au-dessus ou au-dessous de la planète.
-- **Éden et les Sept Témoins** sont dans les Cieux. **Aurenth** est une cité sainte terrestre située en Avarn ; son sanctuaire conserve une empreinte du regard d’Éden.
+- **Six Témoins demeurent en Éden** ; le septième se retire en même temps qu’AZKAVOTH. Qu’il le suive reste une hypothèse. **Aurenth** est une cité sainte terrestre située en Avarn ; son sanctuaire conserve une empreinte du regard d’Éden.
 - Terra possède cinq continents : **Avarn, Sahrûn, Khoram, Seyra et Theryn**. La carte affichée est une proposition artistique : contours, positions, distances et échelle ne sont pas une géographie précise canonique.
-- Le **Sillage**, issu du don de KA, est un fluide primordial commun. Les sept voies et leurs inversions orientent sa pratique ; réserves, débit, précision, ancrage, maîtrise et contexte déterminent les effets. La naissance ne garantit pas la victoire.
+- Le **Sillage**, issu de l’éclatement de KA au Grand Retrait, est un fluide actif fini associé à une empreinte indélébile. Les Humains et la vie existent avant ce don. Le **Vestige AZ** demeure au Trône avec une conscience limitée. Les sept voies et leurs inversions orientent sa pratique ; réserves, débit, précision, ancrage, maîtrise et contexte déterminent les effets. La naissance ne garantit pas la victoire.
 
 Les costumes, couleurs, effets visuels, ornements et équipements des illustrations ne définissent aucune règle supplémentaire. Une question marquée « À développer » ne doit pas être présentée comme déjà résolue ; les mystères internes au monde sont distincts du travail éditorial encore ouvert.
 
@@ -86,15 +86,19 @@ Les costumes, couleurs, effets visuels, ornements et équipements des illustrati
 
 - `public/canon/MONO_CANON_V9.md` : fiches par catégorie et chronologie ;
 - `public/canon/MONO_RECITS_V9.md` : livres et chapitres ;
-- `public/canon/MONO_LEXIQUE.md` : vingt définitions et leurs fiches.
+- `public/canon/MONO_LEXIQUE.md` : vingt-huit définitions et leurs fiches.
 
-Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V9.4.
+Les suffixes V9 des deux URL historiques sont conservés pour les liens existants ; leurs en-têtes portent la version consolidée V10.0.
 
 Ces exports sont produits depuis la même source JSON et inclus dans la publication. Le pied de page permet de télécharger le canon complet. **Ne pas modifier les exports à la main** : changer les données, puis les régénérer avec les commandes du projet.
 
 ## Révision éditoriale du 9 octobre 2026
 
-La V9.4 retire le premier arc proposé et ses ajouts exclusifs. Le canon revient au contenu de la V9.3 : 60 fiches et quatre livres fondateurs. Les améliorations d’organisation et de lecture sont conservées ; l’accueil met de nouveau en avant le lore et l’univers.
+La **V10.0** refonde la cosmogonie selon les nouvelles décisions du créateur : Aïnôreth, Contraction, Arbre et Déchirure, matière, bannissement, Promesse et Grand Retrait, puis quatre singularités. Les fiches, quatre livres, lexique, chronologie et guide ont été synchronisés. Les anciennes formulations causales V9 sont remplacées ; leurs comptes rendus restent historiques. Voir [les décisions et la matrice de cohérence](docs/canon-v10-2026-10-09.md).
+
+**Migration du calendrier :** CD désigne désormais le Calendrier du Départ. Les nombres des événements historiques sont conservés dans ce nouveau référentiel ; ce changement éditorial n’est pas une conversion arithmétique depuis V9. Les âges cosmiques antérieurs restent sans durée chiffrée.
+
+La V9.4 retirait le premier arc proposé et ses ajouts exclusifs. Le canon revenait alors au contenu de la V9.3 : 60 fiches et quatre livres fondateurs. Les améliorations d’organisation et de lecture sont conservées ; l’accueil met de nouveau en avant le lore et l’univers.
 
 La V9.3 précise les prises, manifestations, objectifs locaux, temps de réaction, apprentissage, coûts des ouvrages et conditions d'une réparation collective. Maëra, Sava et Iri entrent dans les premières années de l'Éveil par une crise à Aurenth : secours, contrat contesté et convoi retenu. Le dernier chapitre du Livre IV ouvre leur conflit sans en résoudre toutes les conséquences. Voir [l'approfondissement et ses limites](docs/canon-v9-3-2026-10-09.md).
 
@@ -208,4 +212,4 @@ Les doublons d’images, polices inutilisées, ancien manifeste et comptes rendu
 
 Pour une modification éditoriale, commencer par `src/data/canon.json` et ses questions ouvertes. Pour une modification d’interface, lire `src/app.tsx`, `src/design.css`, en conservant les parcours et le canon. Mettre à jour ce README lorsque les fonctionnalités, commandes, données ou direction artistique changent.
 
-Les sujets encore ouverts comprennent l’histoire des Neuf Lumières et des Royaumes Clos, les scènes détaillées du Grand Rite, les frontières et sociétés du présent, trois prophètes encore sans nom, les règles précises du devenir des âmes et la suite du premier conflit d'Aurenth. Son ouverture est racontée ; l'arc complet ne l'est pas. Les questions propres à chaque fiche sont conservées dans `open_questions` et affichées sur le site.
+Les sujets encore ouverts comprennent l’histoire des Neuf Lumières et des Royaumes Clos, les scènes détaillées du Grand Rite, les frontières et sociétés du présent, les règles précises du devenir des âmes et la suite du premier conflit d'Aurenth. Son ouverture est racontée ; l'arc complet ne l'est pas. Les travaux restant à écrire sont conservés dans `open_questions` ; les énigmes internes sont dans `mysteries`. Les deux catégories sont affichées séparément sur le site et dans les exports. Zahrel, Orren et Ilyane complètent désormais les cinq prophètes historiques.

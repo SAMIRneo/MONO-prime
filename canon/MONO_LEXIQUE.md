@@ -1,8 +1,8 @@
-# MONO — Canon V9.4
+# MONO — Canon V10.0
 
 Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
-Les descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.
+Les descriptions visuelles sont des interprétations. Faits établis, mystères de l’univers et développements encore ouverts sont distingués.
 
 # Lexique
 
@@ -14,25 +14,25 @@ Fiche : AZKAVOTH.
 
 ## Les Éclats
 
-AZ, KA, VO, TH : quatre modalités du Nom et de son don, pas quatre morceaux de Dieu.
+AZ, KA, VO, TH : quatre principes du Nom. Au Grand Retrait, quatre singularités en portent les signatures sans diviser la Source.
 
-Fiche : La Déchirure.
+Fiche : La Contraction et la Déchirure.
 
 ## Le Retrait
 
-Le geste par lequel la Source ouvre une place à des êtres distincts. Il ne signifie pas son absence absolue.
+Le Grand Retrait : départ de la présence directe d’AZKAVOTH après sa Promesse, distinct de la Contraction qui ouvre l’univers.
 
 Fiche : AZKAVOTH.
 
 ## La Déchirure
 
-La rupture fondatrice des Sphères, origine des trois mondes et du Calendrier de la Déchirure, abrégé CD.
+La rupture de l’Arbre des Sept Sphères, suivie de l’investiture des gardiens et des sept étages. Elle précède la matière et le Grand Retrait.
 
-Fiche : La Déchirure.
+Fiche : La Contraction et la Déchirure.
 
 ## Le Sillage
 
-Le don de KA en circulation : un fluide commun, fini, conduit dans les êtres et les ouvrages.
+KA diffusé au Grand Retrait : une empreinte indélébile et un fluide actif fini. L’empreinte ne renouvelle pas les réserves consumées.
 
 Fiche : Le Sillage.
 
@@ -50,7 +50,7 @@ Fiche : Les inversions abyssales.
 
 ## Les Sceaux
 
-Quatre interfaces singulières avec les Éclats, chacune liée à un seul support actif. Détenir ou copier une relique ne suffit pas à devenir Porteur.
+Quatre interfaces singulières avec les signatures du Nom, chacune à un seul support actif. Elles ne contiennent ni les singularités ni les personnes qui en sont issues.
 
 Fiche : Les quatre Sceaux.
 
@@ -80,9 +80,9 @@ Fiche : Les prophètes et leurs paroles.
 
 ## Sphère, principe, domaine
 
-La Sphère est la forme primordiale ; le principe, sa fonction ; le domaine, son territoire métaphysique après la Déchirure.
+Sphère : support primordial dans l’Arbre. Principe : fonction de réalité. Degré ou domaine : étage métaphysique qui en porte la garde après la Déchirure.
 
-Fiche : La Déchirure.
+Fiche : La Contraction et la Déchirure.
 
 ## L’accord
 
@@ -104,7 +104,7 @@ Fiche : Qerathim.
 
 ## Témoins et Veilleurs
 
-Les Témoins sont les regards d’Éden qui attestent le passé. Les Veilleurs sont les anges de Malkiel, ancêtres des Néphilim.
+Sept regards muets apparaissent avec la Contraction ; six restent en Éden après le Grand Retrait, un se retire. Les Veilleurs de Malkiel sont des anges distincts.
 
 Fiche : Éden et les Sept Témoins.
 
@@ -125,3 +125,51 @@ Fiche : Les prophètes et leurs paroles.
 La période de replis après le Grand Rite. Les passages se dégradent et les échanges se rompent ; ce n’est pas une barrière uniforme autour de Terra.
 
 Fiche : Les prophètes et leurs paroles.
+
+## Aïnôreth
+
+L’océan infini de lumière sans formes : l’état primordial de l’unique présence avant le Nom et la Contraction.
+
+Fiche : Aïnôreth.
+
+## La Contraction
+
+AZKAVOTH resserre Aïnôreth et se manifeste en une silhouette. L’univers vide et les Cieux s’ouvrent.
+
+Fiche : AZKAVOTH.
+
+## L’Arbre séphirotique
+
+La première architecture des Cieux, composée de sept Sphères sous le Trône. La Déchirure brise leur tenue commune.
+
+Fiche : L’Arbre des Sept Sphères.
+
+## L’investiture
+
+L’autorité reçue par un gardien sur le principe de sa Sphère après la Déchirure ; elle précède le Sillage et peut être transmise.
+
+Fiche : L’Arbre des Sept Sphères.
+
+## Le Vestige du Nom
+
+AZ resté au Trône : une trace consciente qui guide sans disposer de tout le dessein de la Source retirée.
+
+Fiche : Le Vestige du Nom.
+
+## La Promesse première
+
+La parole authentique du départ nécessaire et du retour d’AZKAVOTH. L’heure et les modalités ne sont pas révélées.
+
+Fiche : Le Grand Retrait.
+
+## Le Dernier Seuil
+
+Le terme annoncé du règne abyssal de Qerath. Ni sa date ni l’issue de la confrontation finale ne sont connues.
+
+Fiche : Le Grand Retrait.
+
+## Le Calendrier du Départ
+
+CD compte les années depuis le Grand Retrait. Les âges cosmiques antérieurs sont ordonnés sans conversion chiffrée.
+
+Fiche : La Contraction et la Déchirure.

@@ -3,6 +3,9 @@ import assert from 'node:assert/strict';
 const d=JSON.parse(readFileSync('src/data/canon.json','utf8'));
 const ids=new Set(d.records.map(e=>e.id));
 const groups=new Set(d.categories.map(g=>g.id));
+assert(Array.isArray(d.origins)&&d.origins.length>0,'Missing chronological orientation');
+assert.equal(new Set(d.origins.map(e=>e.id)).size,d.origins.length,'Duplicate origin stage');
+for(const e of d.origins)assert(e.title&&e.summary&&ids.has(e.record),'Invalid origin reference '+e.id);
 const art=JSON.parse(readFileSync('src/data/art.json','utf8'));
 const usedArt=new Set([...d.records.map(e=>e.art),...d.books.map(b=>b.art),...d.books.flatMap(b=>b.chapters.flatMap(c=>(c.illustrations||[]).map(p=>p.art))),'terra-map-v1'].filter(Boolean));
 assert.deepEqual(Object.keys(art).sort(),[...usedArt].sort(),'Unused or missing illustration metadata');
@@ -26,6 +29,7 @@ for(const [group,count] of [['puissances',3],['archanges',7],['revers',7],['lign
 for(const e of d.records){
  assert(groups.has(e.category),e.id+' unknown category');
  assert(e.title&&e.summary&&e.sections.length,e.id+' incomplete');
+ assert(Array.isArray(e.mysteries)&&e.mysteries.every(q=>typeof q==='string'&&q.trim()),e.id+' invalid mysteries');
  assert(Array.isArray(e.aliases)&&e.aliases.every(alias=>typeof alias==='string'&&alias.trim()),e.id+' invalid aliases');
  for(const s of e.sections)assert(s.title&&s.text,e.id+' incomplete section');
  for(const id of e.links)assert(ids.has(id)||groups.has(id),e.id+' broken reference '+id);
@@ -62,14 +66,14 @@ for(const name of usedArt){
 }
 const text=JSON.stringify(d);
 for(const phrase of ['Onzième primordial','Dix Primordiaux','seul Archange à avoir quitté','Les 7 étages célestes','Trois dans les Cieux','Trois dans les Abysses'])assert(!text.includes(phrase),'Obsolete canon '+phrase);
-assert(d.records.find(e=>e.id==='temoins').summary.includes('Tous les Témoins'));
+assert(d.records.find(e=>e.id==='temoins').summary.includes('Six demeurent'));
 assert(d.records.find(e=>e.id==='malkiel').category==='archanges');
 assert(d.records.find(e=>e.id==='qerath').category==='puissances');
 assert(d.records.find(e=>e.id==='eshar').open_questions.length>0);
 mkdirSync('public/canon',{recursive:true});
-const header=`# MONO — Canon ${d.version}\n\nVersion consolidée le ${d.updated}. Source éditoriale : src/data/canon.json.\n\nLes descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.\n\n`;
-let lore=header;
-for(const g of d.categories){lore+=`# ${g.label}\n\n`;for(const e of d.records.filter(e=>e.category===g.id)){lore+=`## ${e.title}\n\n${e.subtitle}\n\n${e.summary}\n\n`;if(e.aliases.length)lore+=`Autres noms : ${e.aliases.join(', ')}.\n\n`;for(const s of e.sections)lore+=`### ${s.title}\n\n${s.text}\n\n`;if(e.open_questions.length)lore+=`### À développer\n\n${e.open_questions.map(q=>'- '+q).join('\n')}\n\n`;}}
+const header=`# MONO — Canon ${d.version}\n\nVersion consolidée le ${d.updated}. Source éditoriale : src/data/canon.json.\n\nLes descriptions visuelles sont des interprétations. Faits établis, mystères de l’univers et développements encore ouverts sont distingués.\n\n`;
+let lore=header+'# Le fil des origines\n\n'+d.origins.map((e,i)=>`${i+1}. **${e.title}** — ${e.summary}`).join('\n')+'\n\n';
+for(const g of d.categories){lore+=`# ${g.label}\n\n`;for(const e of d.records.filter(e=>e.category===g.id)){lore+=`## ${e.title}\n\n${e.subtitle}\n\n${e.summary}\n\n`;if(e.aliases.length)lore+=`Autres noms : ${e.aliases.join(', ')}.\n\n`;for(const s of e.sections)lore+=`### ${s.title}\n\n${s.text}\n\n`;if(e.mysteries.length)lore+=`### Mystères de l’univers\n\n${e.mysteries.map(q=>'- '+q).join('\n')}\n\n`;if(e.open_questions.length)lore+=`### À développer\n\n${e.open_questions.map(q=>'- '+q).join('\n')}\n\n`;}}
 let lexicon=header+'# Lexique\n\n';
 for(const term of d.lexicon)lexicon+=`## ${term.term}\n\n${term.definition}\n\nFiche : ${d.records.find(e=>e.id===term.record).title}.\n\n`;
 lore+='# Lexique\n\n'+d.lexicon.map(term=>`- **${term.term}** — ${term.definition}`).join('\n')+'\n\n';

@@ -304,7 +304,7 @@ function ReadingTrail({ onlyResume = false }: { onlyResume?: boolean }) {
             : start.title}
         </strong>
         <span>
-          {book ? book.title : "Les origines de MONO, depuis le Retrait."}
+          {book ? book.title : "Les origines de MONO, depuis Aïnôreth."}
         </span>
       </div>
       <span className="trail-action">
@@ -323,15 +323,15 @@ function Home() {
   return <div className="content reading-home">
     <ReadingTrail onlyResume />
     <section className="home-story" aria-labelledby="home-title">
-      <a className="home-story-art" href="#/univers" aria-label="Découvrir la cosmologie de MONO"><Art name={origin.art} alt="Interprétation de la Déchirure et des trois mondes de MONO" hero sizes="(max-width: 760px) 100vw, 680px" /></a>
+      <a className="home-story-art" href="#/univers" aria-label="Découvrir la cosmologie de MONO"><Art name={origin.art} alt="Interprétation symbolique des sept principes de MONO" hero sizes="(max-width: 760px) 100vw, 680px" /></a>
       <div className="home-story-copy"><span className="eyebrow">MONO · L’UNIVERS</span><h1 id="home-title">Le Codex de la Déchirure</h1><p>Une Source. Trois mondes. Des êtres libres dans une création qui s’épuise.</p><p>Explorez les origines, les puissances et les lois qui donnent à chaque choix son poids.</p><a className="button reading-cta" href="#/univers">Comprendre l’univers <Icon name="arrow" /></a><span className="story-duration"><a href="#/recits">Lire les récits fondateurs →</a></span></div>
     </section>
     <section className="home-paths" aria-label="Choisir un parcours"><SectionHead eyebrow="À VOTRE RYTHME" title="Choisissez votre chemin" /><div className="reading-path-grid">
       <a href="#/univers"><span className="eyebrow">01 · L’UNIVERS</span><h3>Comprendre le monde</h3><p>Les origines, les trois mondes, les lignées et les principes de la création.</p><span>Les premiers repères →</span></a>
       <a href="#/codex"><span className="eyebrow">02 · LE CODEX</span><h3>Approfondir le lore</h3><p>Personnages, puissances, cultes, lieux et pratiques du Sillage.</p><span>Consulter les fiches →</span></a>
-      <a href="#/recits"><span className="eyebrow">03 · LES ORIGINES</span><h3>Lire les fondements</h3><p>Quatre livres pour suivre le Retrait, la Déchirure et les grands rites.</p><span>Ouvrir la bibliothèque →</span></a>
+      <a href="#/recits"><span className="eyebrow">03 · LES ORIGINES</span><h3>Lire les fondements</h3><p>D’Aïnôreth à l’Arbre brisé, de la Promesse aux choix des vivants.</p><span>Ouvrir la bibliothèque →</span></a>
     </div></section>
-    <section className="home-origins"><div><span className="eyebrow">LES RÉCITS FONDATEURS</span><h2>Aux origines, le Retrait.</h2><p>Le Retrait, le bannissement de Qerath, la matière et le Grand Rite. Quatre livres pour suivre les origines du monde, jusqu’à l’ouverture de l’Éveil.</p><LinkArrow to="#/recits?section=1">Découvrir les origines</LinkArrow></div><a href="#/lire/livre-1/1" aria-label="Lire Avant le Temps"><Art name={canon.books[0].art} alt="Interprétation du Retrait Premier" sizes="(max-width: 620px) 120px, 260px" /></a></section>
+    <section className="home-origins"><div><span className="eyebrow">LES RÉCITS FONDATEURS</span><h2>Avant les astres, un Nom.</h2><p>Un océan sans rive. Un Arbre qui se brise. Un gardien qui questionne. Puis une promesse : « Je reviendrai. » Quatre livres pour entrer dans les origines et leurs conséquences.</p><LinkArrow to="#/recits?section=1">Découvrir les origines</LinkArrow></div><a href="#/lire/livre-1/1" aria-label="Lire Le Nom et l’Arbre"><Art name={canon.books[0].art} alt="Les principes de l’Arbre, interprétation symbolique" sizes="(max-width: 620px) 120px, 260px" /></a></section>
     <section className="home-explore"><SectionHead eyebrow="EXPLORER MONO" title="Des repères pour aller plus loin" /><div className="exploration-links">{exploreLinks.map(([id,label,copy,art])=><a key={id} href={"#/"+id}><Art name={art} sizes="(max-width: 620px) 72px, 120px" /><div><h3>{label}</h3><p>{copy}</p></div><Icon name="arrow" /></a>)}</div></section>
     <section className="home-discoveries" aria-label="Rencontres et lexique"><div className="encounter-widget"><h2>À travers le miroir</h2><a href={href(figure.id)}><Art name={figure.art} alt={figure.title} sizes="120px" /><div><h3>{figure.title}</h3><p>{figure.summary}</p></div></a><button onClick={()=>setPassage((passage+1)%6)}>Une autre rencontre ↻</button></div><div className="lexicon-widget"><h2>Les mots du Nom</h2><div aria-live="polite"><a href={href(term.record)}>{term.term}</a><p>{term.definition}</p></div><button onClick={()=>setWord((word+1)%canon.lexicon.length)}>Le mot suivant →</button><a className="lexicon-all" href="#/univers?section=6">Le lexique complet</a></div></section>
   </div>;
@@ -616,7 +616,7 @@ function Stories() {
     <PageHead eyebrow="Les origines" title="Les récits fondateurs" copy="Quatre livres pour suivre la création, ses fractures et les grands rites, jusqu’à l’ouverture de l’Éveil." />
     <ReadingTrail onlyResume />
     <nav className="library-jump" aria-label="Dans la bibliothèque"><a href="#/recits?section=1">Les quatre livres</a><a href="#/recits?section=2">Se repérer dans le lore</a></nav>
-    <section id="stories-origins" tabIndex={-1}><SectionHead eyebrow="LE FIL DES ORIGINES" title="Du Retrait au Voile" copy="À lire dans l’ordre, ou à consulter chapitre par chapitre." /><div className="origins-grid">{canon.books.map(book=><StoryCard key={book.id} book={book} />)}</div></section>
+    <section id="stories-origins" tabIndex={-1}><SectionHead eyebrow="LE FIL DES ORIGINES" title="D’Aïnôreth au Voile" copy="À lire dans l’ordre, ou à consulter chapitre par chapitre." /><div className="origins-grid">{canon.books.map(book=><StoryCard key={book.id} book={book} />)}</div></section>
     <section id="stories-reperes" tabIndex={-1} className="library-context"><span className="eyebrow">LES REPÈRES DU MONDE</span><h2>Relier les récits au lore.</h2><p>Le guide présente les lois de MONO ; le Codex approfondit ses puissances, ses peuples et ses lieux. La chronologie distingue les événements établis des périodes à développer.</p><div><LinkArrow to="#/univers">Comprendre l’univers</LinkArrow><LinkArrow to="#/chronologie">Voir la chronologie</LinkArrow><LinkArrow to="#/codex">Consulter le Codex</LinkArrow></div></section>
   </div>;
 }
@@ -825,10 +825,10 @@ function Reader({
   );
 }
 const readingGuides: Record<string, string[]> = {
-  "livre-1": ["azkavoth", "cosmogonie", "temoins", "sillage"],
-  "livre-2": ["qerath", "jugement", "tamariel", "fond"],
+  "livre-1": ["ainoreth", "azkavoth", "arbre", "temoins", "terra"],
+  "livre-2": ["qerath", "jugement", "grand-retrait", "vestige-az", "fond"],
   "livre-3": ["vothorak", "talem", "golems", "malkiel"],
-  "livre-4": ["sceaux", "sarai", "eshar", "tikkun", "brisures", "maera", "sava", "iri"],
+  "livre-4": ["sceaux", "sarai", "zahrel", "orren", "ilyane", "eshar", "tikkun", "brisures"],
 };
 function LoreOrientation() {
   return (
@@ -839,28 +839,12 @@ function LoreOrientation() {
         copy="Commencez par les causes. Les lieux, les personnages et les pouvoirs prennent ensuite leur sens."
       />
       <ol className="lore-sequence">
-        {[
-          [
-            "Le Retrait",
-            "AZKAVOTH offre le Lien, KA. Le Sillage rend possible une création qui peut répondre à son don.",
-            "azkavoth",
-          ],
-          [
-            "La Déchirure",
-            "VO et TH se déploient dans la matière. Vothorak naît de la Forme et de l’Épanchement ; la Source demeure indivisible.",
-            "cosmogonie",
-          ],
-          [
-            "Les volontés",
-            "Façonner un corps, protéger un monde ou gouverner une épreuve ne donne pas possession du choix d’autrui.",
-            "jugement",
-          ],
-        ].map(([title, copy, id], i) => (
+        {canon.origins.map(({id, title, summary, record}, i) => (
           <li key={id}>
             <span className="eyebrow">{String(i + 1).padStart(2, "0")}</span>
             <h3>{title}</h3>
-            <p>{copy}</p>
-            <LinkArrow to={href(id)}>Comprendre cette étape</LinkArrow>
+            <p>{summary}</p>
+            <LinkArrow to={href(record)}>Comprendre cette étape</LinkArrow>
           </li>
         ))}
       </ol>
@@ -870,6 +854,11 @@ function LoreOrientation() {
           Vothorak est le démiurge de Terra ; Qerath est le souverain banni des
           Abysses. Ces rôles ne forment pas un classement de puissance.
         </p>
+      </div>
+      <div className="cosmic-remnants" aria-label="Les quatre singularités du Grand Retrait">
+        <a href={href("vestige-az")}><b>AZ</b><span>Le Vestige au Trône</span><small>Une présence qui conseille</small></a>
+        <a href={href("sillage")}><b>KA</b><span>Le Sillage diffusé</span><small>Une empreinte durable, un fluide fini</small></a>
+        <a href={href("vothorak")}><b>VO + TH</b><span>Vothorak sur Terra</span><small>Deux singularités, une personne nouvelle</small></a>
       </div>
     </section>
   );
@@ -892,7 +881,7 @@ function LoreStakes() {
           [
             "vothorak",
             "Protéger, puis vouloir posséder",
-            "Vothorak rend Terra habitable et la défend. Son conflit vient de sa volonté de rendre les vivants dépendants de son œuvre ; fabriquer leurs supports ne lui donne pas leur réponse.",
+            "Vothorak transforme Terra et la défend. Son conflit vient de sa volonté de rendre les vivants dépendants de son œuvre ; fabriquer leurs supports ne lui donne pas leur réponse.",
           ],
           [
             "tikkun",
@@ -909,7 +898,12 @@ function LoreStakes() {
         ))}
       </div>
       <details className="lore-open">
-        <summary>Les questions encore ouvertes</summary>
+        <summary>Les mystères de l’univers</summary>
+        <p>Ces inconnues font partie de l’histoire : leurs effets sont établis, leurs réponses demeurent cachées.</p>
+        <ul>{entries.filter(e=>e.mysteries.length>0).map(e=><li key={e.id}><a href={href(e.id)}>{e.title}</a><span>{e.mysteries.join(" ")}</span></li>)}</ul>
+      </details>
+      <details className="lore-open">
+        <summary>Les développements encore ouverts</summary>
         <p>
           Le guide reprend les repères établis. Les fiches signalent les
           développements encore ouverts ; ils ne constituent pas des réponses
@@ -949,11 +943,11 @@ function Lexicon() {
         <Icon name="search" />
         <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Sillage, Sceau, Concorde…" aria-label="Filtrer le lexique" />
       </label>
-      <p className="lexicon-status" role="status">{query.trim() ? `${filtered.length} repère${filtered.length > 1 ? "s" : ""}` : "12 repères essentiels · 8 distinctions"}</p>
+      <p className="lexicon-status" role="status">{query.trim() ? `${filtered.length} repère${filtered.length > 1 ? "s" : ""}` : `${canon.lexicon.filter(t=>t.essential).length} repères essentiels · ${canon.lexicon.filter(t=>!t.essential).length} distinctions`}</p>
       {terms(query.trim() ? filtered : filtered.filter((term) => term.essential))}
       {!query.trim() && (
         <details className="lore-open">
-          <summary>Huit distinctions pour aller plus loin</summary>
+          <summary>{canon.lexicon.filter(t=>!t.essential).length} distinctions pour aller plus loin</summary>
           {terms(filtered.filter((term) => !term.essential))}
         </details>
       )}
@@ -1024,10 +1018,14 @@ function Universe() {
         <div className="note compact">
           <p>
             <strong>Les Brisures</strong> mettent ces dimensions en contact. Les
-            Cieux et les Abysses ne sont pas des étages au-dessus ou au-dessous
-            de la planète.
+            Cieux comportent sept étages métaphysiques. Leur ordre ne correspond
+            pas à une altitude au-dessus de la planète ; les Abysses ne sont pas son sous-sol.
           </p>
           <LinkArrow to={href("brisures")}>Comprendre les Brisures</LinkArrow>
+        </div>
+        <div className="heavenly-degrees">
+          <div><span className="eyebrow">LES SEPT DEGRÉS</span><h3>Du seuil au Trône</h3><p>Un ordre de passage, sans classement de force entre les gardiens.</p><LinkArrow to={href("arbre")}>L’Arbre et son investiture</LinkArrow><p><a href={href("temoins")}>Éden : six Témoins demeurent, un s’est retiré.</a></p></div>
+          <div><a className="throne-link" href={href("vestige-az")}>L’Empyrée · Le Trône · AZ</a><ol reversed>{entries.filter(e=>e.category==="archanges").slice().reverse().map(e=><li key={e.id}><a href={href(e.id)}><span>{e.subtitle}</span><strong>{e.title}</strong></a></li>)}</ol><a href={href("ames")}>Le Limen · Au seuil d’Arel</a></div>
         </div>
       </section>
       <section id="universe-2" tabIndex={-1}>
@@ -1664,7 +1662,7 @@ function EntryPage({
               <span className="zoom">⤢</span>
             </button>
             <span className="art-caption">
-              Illustration de MONO · Cliquer pour agrandir.
+              {entry.id === "temoins" ? "Évocation des sept Témoins aux origines, avant le Grand Retrait." : "Illustration symbolique de MONO · Cliquer pour agrandir."}
             </span>
           </aside>
         )}
@@ -1685,9 +1683,15 @@ function EntryPage({
               </section>
             ))}
           </div>
+          {entry.mysteries.length > 0 && (
+            <aside className="note">
+              <span className="eyebrow">MYSTÈRES DE L’UNIVERS</span>
+              <ul>{entry.mysteries.map(q=><li key={q}>{q}</li>)}</ul>
+            </aside>
+          )}
           {entry.open_questions.length > 0 && (
             <aside className="note">
-              <span className="eyebrow">CE QUI RESTE OUVERT</span>
+              <span className="eyebrow">DÉVELOPPEMENTS ENCORE OUVERTS</span>
               <ul>
                 {entry.open_questions.map((q) => (
                   <li key={q}>{q}</li>
@@ -1757,8 +1761,8 @@ function Timeline() {
     <div className="content">
       <PageHead
         eyebrow="Chronologie"
-        title="Les âges de la Déchirure."
-        copy="CD signifie Calendrier de la Déchirure. Les dates approximatives restent des repères, pas des événements entièrement racontés."
+        title="Les âges du monde."
+        copy="CD signifie Calendrier du Départ : l’an zéro est le Grand Retrait. Les origines et les âges cosmiques le précèdent sans durée chiffrée."
       />
       <div className="timeline">
         {canon.eras.map((era, i) => (
@@ -1774,10 +1778,10 @@ function Timeline() {
                 {era.status}
               </span>
               <p>{era.text}</p>
-              {i === 7 && (
+              {era.date === "~CD 11800" && (
                 <LinkArrow to={href("eshar")}>Eshar et le Grand Rite</LinkArrow>
               )}
-              {i === 4 && (
+              {era.date === "~CD 4000" && (
                 <LinkArrow to={href("sarai")}>La parole de Sarai</LinkArrow>
               )}
             </div>
@@ -2056,7 +2060,7 @@ export default function App() {
         ? e.summary
         : b && current.page === "lire"
           ? `${chapter?.title} — ${b.subtitle}`
-          : "MONO : un monde né de la Déchirure. Découvrez ses récits, ses six lignées, ses quatre cultes et les puissances qui en disputent l’avenir.",
+          : "MONO : d’Aïnôreth au Grand Retrait. Découvrez l’Arbre brisé, les sept gardiens et les mondes suspendus à une promesse de retour.",
     );
     const filtering =
       (previous?.page === "codex" && current.page === "codex") ||

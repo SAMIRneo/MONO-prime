@@ -1,5 +1,7 @@
 # MONO — Univers, lore et lecture, 9 octobre 2026
 
+Note historique de la V9.4, antérieure à la refonte cosmologique V10 réalisée le même jour. L’organisation de lecture reste en place ; les effectifs et le contenu ci-dessous décrivent cet état antérieur. Pour le canon courant, voir [la refonte V10](canon-v10-2026-10-09.md).
+
 Le premier arc proposé a été retiré à la demande de Samir : livre, personnages exclusifs, lieu, références chronologiques, six illustrations et leurs variantes. Le contenu éditorial reprend la V9.3, conservant ses approfondissements du Sillage et des rapports de force. Le canon actif compte 60 fiches, quatre livres, 24 chapitres, vingt termes et 52 illustrations.
 
 L’accueil s’ouvre sur la cosmologie et propose trois parcours : comprendre l’univers, approfondir le Codex, lire les origines. Atlas, Sillage, chronologie, miroir et lexique restent accessibles. La bibliothèque conserve les sommaires, les durées et la reprise d’un chapitre valide.

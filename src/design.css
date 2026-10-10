@@ -3446,3 +3446,20 @@ html[data-reading-focus='true'] .reader-focus .reading-controls { top: 0; }
  .chapter-navigation { gap: 16px; }
 }
 @media(max-width:360px) { .home-origins { grid-template-columns: minmax(0,1fr); } .home-origins > a { display: none; } .library-origin h3 { font-size: 22px; } .reader.content { padding-inline: 16px; } }
+
+/* V10: the sequence and hierarchy are drawn from the revised cosmology. */
+.lore-sequence { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.cosmic-remnants { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin: 24px 0 40px; }
+.cosmic-remnants a { display: flex; flex-direction: column; gap: 10px; padding: 24px; border: 1px solid var(--line); background: var(--panel); }
+.cosmic-remnants b { font-family: var(--serif); font-size: 34px; color: var(--gold); }
+.cosmic-remnants small { line-height: 1.6; color: var(--muted); }
+.heavenly-degrees { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.3fr); gap: 36px; padding: 32px; margin: 30px 0 48px; border: 1px solid var(--line); background: var(--panel); }
+.heavenly-degrees h3 { font: 36px/1.15 var(--serif); margin: 14px 0; }
+.heavenly-degrees p { line-height: 1.75; color: var(--muted); }
+.heavenly-degrees ol { padding-left: 24px; border-left: 1px solid var(--copper); }
+.heavenly-degrees li { padding: 5px 0; color: var(--copper); }
+.heavenly-degrees li a { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 5px 16px; min-height: 44px; align-items: center; border-bottom: 1px solid var(--line); color: var(--ink); padding: 9px 8px; font-size: 12px; }
+.heavenly-degrees .throne-link { display: block; padding: 14px; border: 1px solid var(--copper); text-align: center; color: var(--gold); }
+.heavenly-degrees a:hover,.cosmic-remnants a:hover { color: var(--accent); }
+@media(max-width:1000px) { .lore-sequence { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:620px) { .lore-sequence,.cosmic-remnants,.heavenly-degrees { grid-template-columns: minmax(0,1fr); } .heavenly-degrees { padding: 20px 16px; gap: 20px; } .cosmic-remnants a { padding: 20px; } }

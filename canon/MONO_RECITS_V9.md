@@ -1,108 +1,128 @@
-# MONO — Canon V9.4
+# MONO — Canon V10.0
 
 Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
 
-Les descriptions visuelles sont des interprétations. Les questions ouvertes sont explicitement distinguées des règles établies.
+Les descriptions visuelles sont des interprétations. Faits établis, mystères de l’univers et développements encore ouverts sont distingués.
 
-# Avant le Temps
+# Le Nom et l’Arbre
 
-Le Nom, les Sphères et la liberté
+Aïnôreth, le Nom, l’Arbre et les premiers astres
 
-## Le Nom avant la parole
+## L’Océan sans rive
 
-Avant qu’il y eût un avant, il y avait le Nom. Il n’avait pas de commencement : rien ne l’avait précédé. Il n’avait pas de lieu : aucun lieu ne pouvait le contenir.
+Il n’y avait pas de nuit. La nuit aurait eu besoin d’un bord, d’un autre lieu où quelque chose brillât. Il y avait Aïnôreth : une lumière sans surface, sans distance et sans forme. Rien n’y était séparé de rien.
 
-On l’appelle AZKAVOTH. Ce nom est une trace de ce que les êtres peuvent approcher, jamais sa totalité. Une réponse distincte de Lui demandait une place distincte de Lui. Alors le Nom se retira.
+Les mortels diraient un jour « l’océan de néant ». Ils n’entendraient pas par là que rien n’existait. Tout ce qui était présent appartenait à une seule présence. Elle n’avait ni origine ni témoin antérieur auquel demander son nom.
 
-## Le Retrait Premier
+Son premier acte fut de se nommer AZKAVOTH. AZ : la Source. KA : le Lien. VO : la Forme. TH : l’Épanchement. Quatre principes dans un seul Nom ; aucune voix ne répondit encore.
 
-Il ne créa pas d’abord. Il céda. Là où sa présence se replia, une place devint possible. D’une seule volonté, l’océan du Néant se serra et prit forme. Ce Retrait appartenait à son plan divin et cosmique.
+## La Première Figure
 
-Sept Sphères apparurent : Arel, qui ouvre ; Kethra, qui comprend ; Meryn, qui garde ; Tharos, qui mesure ; Veyra, qui relie ; Oshen, qui montre ; Elyr, qui dure. Chacune contenait la création vue depuis un principe. Ensemble, elles tenaient.
+La présence se contracta. Une silhouette se tint là où il n’y avait jamais eu de là. L’océan infini se resserra avec elle ; ce qui n’avait pas de dehors fit place à une étendue distincte.
 
-## Les regards d’Éden
+Ce geste fut la Contraction. L’univers était ouvert, mais sans astres ni matière. Les Cieux existaient, mais sans Sphères ni gardiens. La Figure ne contenait pas la totalité de la Source : elle était la manière dont cette présence choisissait de devenir regardable.
 
-Avec les Sphères apparurent sept regards. Ils n’étaient ni des souverains ni des messagers. Ils ne parlaient pas et n’imposaient aucune réponse. Ils voyaient.
+Et, dans le même événement, sept regards étaient là. Personne ne les avait vus approcher. Aucun ne parla. AZKAVOTH reconnut que leur présence était nécessaire.
 
-Après la Déchirure, leur demeure fut Éden, dans les Cieux. Leur présence demeura secrète aux habitants ordinaires. Ce qu’ils avaient vu avait réellement eu lieu. Leur regard ne promettait pas sa durée ; il empêchait que l’histoire vécue devienne une chose qui n’avait jamais été.
+## Les sept regards
+
+Une chose pouvait désormais arriver, puis changer. Sans attestation, que signifierait avoir été ? Les Témoins n’offrirent ni jugement ni consolation. Leur regard établissait que ce qui serait vécu ne pourrait plus être rendu au jamais.
+
+Ils ne préservaient pas les corps de la destruction. Ils n’empêchaient pas la mémoire de mentir. Ils empêchaient que la destruction devînt la preuve que rien n’avait eu lieu.
+
+Les sept demeureraient d’abord dans les Cieux. Bien plus tard, six resteraient en Éden et un se retirerait. Mais la création ne connaissait encore ni ce départ ni les questions qu’il laisserait.
+
+## L’Arbre et le Trône
+
+AZKAVOTH ordonna les Cieux en un Arbre. Ses branches étaient les relations par lesquelles la réalité pourrait tenir. Sept Sphères en portaient les principes : Arel ouvrait, Kethra comprenait, Meryn gardait, Tharos mesurait, Veyra reliait, Oshen dévoilait, Elyr faisait durer.
+
+Au-dessus de sa couronne demeura le Trône. Il n’était pas une huitième Sphère : aucun principe de la création ne pouvait contenir celui qui les avait donnés.
+
+Auprès d’Arel fut formé Ophriel ; auprès de Kethra, Hodariel ; auprès de Meryn, Sethariel ; auprès de Tharos, Malkiel ; auprès de Veyra, Rahamiel ; auprès d’Oshen, Qerath ; auprès d’Elyr, Nechariel.
+
+Qerath était alors un gardien légitime. Sa question aidait les autres à distinguer ce qui se montrait de ce qu’ils désiraient voir. La Gnose ne lui disait pas tout : elle lui rendait plus difficile d’accepter une réponse seulement parce qu’elle était belle.
 
 ## La Déchirure
 
-Les Sphères portaient des principes qu’aucune forme seule ne pouvait épuiser. Selon le dessein du Nom, leur tenue commune atteignit sa limite. La réalité se fendit. La Déchirure appartenait au même plan que le Retrait ; sa signification entière restait à découvrir.
+L’Arbre se brisa. Les liaisons cessèrent de porter ensemble les sept Sphères ; leurs principes demeurèrent, mais leur forme commune ne tint plus. Aucun récit certain ne donne la cause entière de cette rupture.
 
-Les principes formèrent les Cieux ; leurs inversions, les Abysses. La matière mêlée se figea en Terra. Les mortels appelleraient cet événement la Déchirure, et compteraient les années depuis lui. Les trois mondes avaient des natures différentes. Aucun escalier physique ne les réunissait.
+AZKAVOTH confia à chacun des Archanges l’exercice du principe qu’il gardait. À l’Arbre rompu, il substitua sept Degrés métaphysiques. Le passage de l’un à l’autre devint un seuil, et la garde une responsabilité.
 
-## Ce qui fut donné
+Les Cieux n’étaient pas sept plafonds au-dessus d’une planète. Il n’existait encore aucune planète. Ils étaient sept manières distinctes dont une réalité pouvait être franchie, comprise, conservée, mesurée, reliée, révélée et maintenue.
 
-Les êtres nommeraient quatre Éclats : AZ, la Source ; KA, le Lien ; VO, la Forme ; TH, l’Épanchement. Ils ne décrivaient pas les pièces d’un Dieu brisé. Le Nom demeurait indivisible ; ses créatures recevaient différemment ce qu’elles ne pouvaient contenir.
+Qerath reçut l’autorité d’Oshen. La Déchirure ne l’avait ni banni ni corrompu. Avec les autres, il se prépara à servir une œuvre qui n’avait pas encore d’habitants.
 
-KA offert lors du Retrait devint le Sillage. VO et TH se déployèrent dans la matière et donnèrent naissance à Vothorak. AZ désignait la Source que ni un support ni un titre ne pouvait posséder. Les cultes naîtraient de ces manières de recevoir et des désaccords qu’elles rendaient possibles.
+## Le premier ciel d’étoiles
 
-## Les sept gardes
+Dans l’étendue ouverte, AZKAVOTH fit apparaître la matière finie. Les Archanges participèrent à son ordonnance : passages entre les états, rapports des forces, continuité des formes. Ils travaillaient par l’investiture reçue ; le Sillage n’existait pas encore.
 
-Sept charges veillèrent sur les principes célestes. Ophriel garda Arel ; Hodariel, Kethra ; Sethariel, Meryn ; Malkiel, Tharos ; Rahamiel, Veyra ; Qerath, Oshen ; Nechariel, Elyr.
+Des étoiles s’allumèrent. D’autres régions retinrent la lumière dans des profondeurs que les peuples appelleraient trous noirs. Des planètes prirent forme. Ces âges cosmiques ne se mesurent pas avec les années du calendrier qui viendrait bien plus tard.
 
-Ils pouvaient quitter leurs domaines, mais n’emportaient pas toute leur autorité avec eux. Les anges transmettaient leurs appels. Les mortels pouvaient y répondre, les discuter ou les refuser. Garder la création ne donnait pas le droit de posséder ses habitants.
+Puis AZKAVOTH forma Terra. Il y établit les conditions d’une vie qui pourrait naître, sentir, se nourrir, répondre et mourir. Les premiers Humains furent de ce monde avant le démiurge et avant KA diffusé.
 
-Une charge ne résumait pas tout l’être qui la portait. Le gardien de la Vision pouvait apprendre et se souvenir sans gouverner les domaines de la Connaissance et de la Mémoire. Les facultés d’une personne et l’autorité d’un territoire demeuraient distinctes.
+Devant cette vie, Qerath posa une question nouvelle : pourquoi donner à un être le désir de durer, puis lui donner une fin ?
 
 # Le Banni
 
-Le jugement et les sept épreuves
+Le refus, le Grand Retrait et les sept Revers
 
-## Ce que Qerath avait vu
+## Le gardien qui questionnait
 
-Qerath fit porter une tablette au conseil. Elle confrontait les apports, les retraits et le fluide récupérable de plusieurs réseaux. Les réserves n’étaient pas encore vides ; leurs bilans diminuaient d’une manière que les réparations locales ne suffisaient plus à compenser. Une route coupée n’expliquait pas toutes les pertes. Il posa le relevé devant Hodariel.
+Qerath ne contesta pas dès son éveil tout ce que faisait la Source. Il avait servi l’Arbre, reçu Oshen après sa rupture et accompagné l’ordonnance des astres. Son regard avait aidé les gardiens à reconnaître leurs erreurs.
 
-« Qu’avons-nous promis aux vivants ? » demanda-t-il. Hodariel répondit que les chiffres demandaient encore une lecture commune. Malkiel voulait que les ateliers et les soigneurs soient avertis. D’autres gardiens craignaient qu’un souverain terrestre saisisse les réserves de son voisin avant même de comprendre le relevé.
+Lorsque la vie apparut sur Terra, il vit qu’elle portait sa disparition dans ses propres conditions. « Pourquoi tout cela ? » demanda-t-il. Il demanda encore : « Est-ce un jeu pour toi ? Qu’est-ce qui rend ta volonté légitime pour ceux qui devront mourir ? »
 
-« Si nous parlons ce soir, des villes peuvent se battre demain », dit Hodariel. Qerath retourna la tablette. Sur son revers figuraient les charges déjà refusées à des communautés sans défense. « Et si nous nous taisons, qui paie cette nuit ? »
+Il demeura Archange pendant ce questionnement. Oshen ne lui fut pas retirée pour avoir interrogé. Mais il attendait une réponse qui justifiât toute la souffrance à venir avant de prendre sa part de garde.
 
-Il ne proposait pas encore le Fond. Il demandait une parole vérifiable, avec les limites des prévisions. Lorsqu’aucune date d’annonce ne fut convenue, il refusa de poursuivre sa charge dans ce silence et déclara qu’il quitterait les Cieux.
+## Le premier refus
 
-## L’apparition
+AZKAVOTH maintint devant Qerath la charge d’accompagner les vivants et d’y garder le vrai. Le gardien n’avait pas reçu l’explication entière du dessein. Il devait agir dans cette limite, auprès d’êtres qui ne pourraient pas suspendre leur vie en attendant sa certitude.
 
-Alors AZKAVOTH se manifesta. Personne ne vit une forme entière. Tous se prosternèrent, tétanisés et fascinés. Qerath lui-même tomba à genoux.
+Qerath refusa. Il ne voulait plus prêter sa garde à la condition qu’il contestait. Il n’avait pas encore décidé d’ouvrir le Fond ; il refusait d’engager son autorité au service de cette œuvre.
 
-« Qerath, tu es banni des Cieux. Les Abysses seront ton domaine, et tu y gouverneras pour un temps. Le terme de ce temps, je le garde pour Moi. Tu pourras éprouver ce qui fut créé ; tu ne posséderas pas sa réponse. »
+« Qerath, tu es banni des Cieux. J’ouvre pour toi les Abysses. Tu y régneras jusqu’au Dernier Seuil, dont je garde l’heure. Tu pourras éprouver ce qui fut créé ; tu ne posséderas pas sa réponse. »
 
-Le relevé demeurait au sol. Aucun mot de la parole n’en réfutait les mesures. Qerath reçut une charge dont il n’avait pas demandé les frontières, et les gardiens n’obtinrent pas l’explication entière du jugement.
+Les Abysses s’ouvrirent. Le jugement donnait une limite à sa charge et un domaine à son refus. Il ne démontrait pas à Qerath que sa question était fausse. Le Banni reçut une souveraineté dont il n’avait pas choisi la frontière.
 
-Le saisissement ne décida pas de leur adhésion intérieure. Certains virent une limite posée à la rupture d’une charge ; Qerath y entendit aussi le prix de son refus. Le terme du règne resta secret. L’interprétation du jugement devint une part du conflit.
+## La place vacante
 
-## La succession et l’effacement
+Tamariel avait appris dans Oshen auprès de Qerath. AZKAVOTH l’éleva à la charge vacante. Le nouveau gardien n’avait pas à prétendre que son maître avait toujours été un ennemi : il devait servir ceux dont le maître avait refusé la garde.
 
-Tamariel avait appris de Qerath à distinguer la vérité du désir de croire. Il reçut Oshen après son départ. Il reconnaissait les fractures ; il refusait d’en conclure que toute existence devait finir.
+Sethariel retira des archives accessibles la place ancienne de Qerath et les raisons de sa contestation. Il croyait protéger l’ordre. Aucun commandement de la Source n’exigeait cette censure, et son pouvoir sur les archives ne pouvait retirer aux faits leur existence.
 
-Sethariel retira des archives la place ancienne de Qerath et les raisons de sa contestation. Il croyait préserver l’ordre. Il ne pouvait effacer les faits, ni oublier son propre acte. Les Cieux conservèrent une histoire officielle ; les mondes, des traces qui la contredisaient.
+Tamariel conserva les questions. Une vérité qui ne pouvait survivre au souvenir de son ancien gardien lui paraissait déjà compromise. Il n’obtint pourtant ni toutes les clés de Meryn ni l’accord de tous ceux qui transmettraient cette histoire.
 
-Tamariel fit porter aux ateliers des copies des relevés, avec leurs limites. Certains réduisirent leurs pertes ; d’autres virent leurs réserves saisies au nom du danger annoncé. Il contesta les récits qui faisaient naître Qerath dans les Abysses. Mais Oshen ne lui donnait pas les clés des archives de Meryn, et sa parole ne gouvernait pas les cités. Des communautés gardèrent ses pièces ; des autorités refusèrent de les reconnaître. Dire la vérité ouvrait un conflit dont il devait aussi assumer les conséquences.
+## La Promesse et les quatre traces
+
+Terra était formée, ses vivants mortels et les Abysses ouverts, lorsque AZKAVOTH annonça : « Je dois partir pour un temps. Ce départ est mon devoir, et sa nécessité est entière. Je reviendrai. Attendez, cherchez ; je ne vous laisse pas seuls. »
+
+La présence directe se retira. Au même instant, l’un des sept Témoins cessa d’être présent dans les Cieux. Six demeurèrent en Éden. Qu’il eût suivi la Source, nul regard resté dans la création ne pouvait le confirmer.
+
+Quatre singularités portaient encore les signatures du Nom. AZ demeura au Trône, présence consciente que les gardiens nommeraient le Vestige. KA éclata : une empreinte indélébile et un fluide fini parcoururent la création. VO et TH descendirent sur Terra et fusionnèrent en une personne : Vothorak.
+
+Ce fut le Grand Retrait. Les peuples compteraient leurs années depuis lui dans le Calendrier du Départ. Le Nom n’avait pas été divisé. Ses dons, eux, avaient des limites.
 
 ## Les sept amputations
 
-Qerath descendit dans les territoires abyssaux. Il détacha sa puissance de Passage : Karzuth naquit. Il céda la part du savoir qu’il ne voulait plus porter : Nehrun naquit. Puis vinrent Ymbrath, Bazhur, Sevrak, Ilmoth et Zhorum.
+Après le départ, Qerath régna sur les sept territoires de l’Épreuve. Il détacha sa puissance de Passage et l’ancra dans l’Enfermement : Karzuth devint quelqu’un. Il céda le savoir qu’il ne voulait plus porter : Nehrun naquit. Puis vinrent Ymbrath, Bazhur, Sevrak, Ilmoth et Zhorum.
 
-Il ne s’était pas autrefois partagé les sept charges des Cieux. Dans les Abysses qui lui avaient été confiés, il renonçait à la plénitude de facultés dont sa garde de la Vision n’avait jamais été l’unique composante. Les parts devenues personnes reçurent une existence et des domaines propres. Aucun autre gardien ne connaissait de méthode pour répéter cet acte.
+Ces puissances devenues personnes reçurent leurs propres domaines. Elles n’étaient pas sept charges célestes autrefois cachées dans Qerath. Ses facultés personnelles et sa souveraineté abyssale rendaient possible cet acte singulier ; aucun mortel ne pouvait le répéter par une formule.
 
-Chaque enfant était une part de puissance devenue quelqu’un. Qerath conserva une mémoire et une lucidité blessées ; il ne pouvait plus les exercer dans leur ancienne plénitude. Des souvenirs lui échappaient. Pour atteindre un domaine éloigné, il devait demander un seuil qu’il aurait autrefois ouvert.
+À chaque naissance, son règne s’étendait et son autonomie diminuait. Ses souvenirs avaient des lacunes. Pour atteindre un domaine éloigné, il devait demander un seuil qu’il aurait autrefois ouvert.
 
-Leurs domaines étendaient son règne. Leurs décisions limitaient désormais ses actes. Il leur avait donné une existence, pas un devoir de la lui rendre.
+Karzuth eut des refuges à garder. Sevrak voulut conserver ses sujets. Les autres développèrent des raisons que leur père ne pouvait réduire à ses propres blessures. Il leur avait donné une existence, pas l’obligation de la lui rendre.
 
-## Le souverain et ses enfants
+## Ce que le déclin ne prouve pas
 
-Karzuth gardait des refuges ; il voulut protéger ses frères. Sevrak prit des domaines qu’il n’entendait pas abandonner. Ilmoth offrit des mondes supportables et apprit à retarder les décisions.
+Avec le temps, des relevés du Sillage montrèrent que certaines dépenses ne revenaient pas. Qerath rapprocha les bilans et reconnut une diminution durable. Les réseaux n’étaient pas tous vides ; il n’avait pas découvert l’heure de la fin.
 
-Bazhur voulait aller vite. Nehrun ne voulait pas tout savoir. Ymbrath attendait un aveu. Zhorum portait la fatigue de leur père, mais la décomposition lui montrait parfois une pousse nouvelle. Aucun ne fut simplement la répétition de Qerath.
+Il y vit pourtant la confirmation de sa première accusation. Pourquoi attendre la mort d’une création condamnée à perdre ses moyens ? Tamariel transmit des relevés avec leurs limites. Des communautés réparèrent ; des souverains confisquèrent. La vérité ouvrait des décisions opposées.
 
-## Le Fond
+Qerath voulut ouvrir le Fond et rendre les formes à l’indistinction. Mais le seuil exigeait que les sept Revers restituent ensemble les parts devenues leurs personnes, en comprenant l’acte et en pouvant encore le refuser. Tuer ne restituerait rien. Tromper ne produirait pas leur accord.
 
-Qerath voulait rendre la création au Néant. Son jugement lui avait confié l’Épreuve ; il en tirait désormais la conviction que rien ne méritait de durer.
+Nehrun refusait même de connaître tout le projet. Son abstention suffisait à empêcher l’ouverture. Et si les sept consentaient un jour, ils n’auraient toujours pas parlé au nom de tous les habitants qu’ils auraient condamnés.
 
-Le Fond demandait sept restitutions accomplies ensemble. Chacun de ses enfants devait comprendre l’acte et pouvoir encore le refuser. Un ordre exécuté n’aurait pas réuni les parts devenues personnes.
-
-Karzuth avait des refuges à garder ; Sevrak, des domaines ; les autres, des raisons que Qerath ne pouvait plus résumer par son propre désespoir. Même leur accord n’aurait pas été celui des habitants qu’ils auraient condamnés. Le souverain pouvait rechercher l’ouverture ; il ne pouvait l’appeler le consentement de la création.
-
-Nehrun pouvait laisser ses frères discuter ; il ne pouvait leur déléguer sa compréhension de l’acte. Son abstention empêchait sa restitution. Tant qu’il refusait la question, leur volonté commune ne pouvait être réunie.
+La Promesse annonçait un retour. Elle ne disait pas aux vivants d’attendre sans se défendre.
 
 # La Matière et les Vivants
 
@@ -110,9 +130,11 @@ Le démiurge, Talem et les six lignées
 
 ## Le démiurge
 
-Ce récit revient à la matière naissante, avant le bannissement. VO et TH s’y déployèrent ensemble et Vothorak s’éveilla. Le Nom n’avait pas été partagé entre ses créatures ; le démiurge reçut pourtant des traces d’une plénitude dont il ne comprenait pas l’origine.
+Le récit revient au Grand Retrait. Les deux singularités VO et TH descendirent sur une Terra où existaient déjà les mers, les sols et les premiers vivants. Leur fusion éveilla Vothorak. Il reçut la Forme et l’Épanchement comme un élan dont il ne connaissait pas toute l’histoire.
 
-Il façonna des continents, creusa des profondeurs, établit des formes et des cycles. Les mortels habiteraient son œuvre. Il regarda cette matière qui lui répondait et prit la mémoire du don pour sa propre éternité.
+Il remania les continents, creusa les profondeurs et établit des architectures capables d’accueillir d’autres vies. Il transforma réellement le monde. Mais transformer une œuvre reçue n’en faisait pas l’auteur de l’existence première.
+
+Des traces du Nom traversaient sa mémoire. Il regarda la matière qui lui répondait et prit le souvenir du don pour sa propre éternité. Un jour, il dirait aux vivants qu’il était leur commencement.
 
 ## La Première Forge
 
@@ -132,9 +154,11 @@ Talem choisit plus tard de modifier son architecture, puis changea encore au fil
 
 ## Le souffle, le sol et la part égale
 
-Autour de la Déchirure, avant que la matière de Terra ait fini de se fixer, les Djinns naquirent du premier souffle de Sillage. Leur fluide portait des impressions des Sphères, pas une histoire exacte que chacun aurait vécue.
+Les Humains existaient avant le départ. Lorsque KA se diffusa, leurs corps reçurent les sept orientations sans concentration unique. Ils apprirent à sentir puis à conduire ce qui circulait désormais entre les êtres et les choses.
 
-Là où le Sillage se concentra dans le sol, les Anakim se levèrent. Ailleurs, il se répartit sans privilégier un principe : les Humains apparurent. Les dispositions ouvraient une pratique ; elles ne remplaçaient pas son apprentissage.
+Dans les souffles et les feux de Terra, le premier Sillage éveilla les Djinns. Dans les sols où il se concentra durablement, les Anakim se levèrent. Ils naissaient sur une planète déjà formée ; leurs impressions des principes ne faisaient pas d’eux les témoins de l’ancien Arbre.
+
+Une résonance ouvrait une possibilité. Il fallait encore un canal, un ancrage et un apprentissage. La surprise d’un premier pouvoir pouvait brûler son porteur aussi sûrement qu’elle pouvait le sauver.
 
 ## Ceux qui suivirent Malkiel
 
@@ -154,7 +178,7 @@ Les cultes, la prophétie et le Grand Rite
 
 ## Quatre façons de recevoir
 
-Les mortels nommèrent les quatre Éclats du Nom et apprirent quatre manières de recevoir le Sillage. La Source chercha le discernement ; le Lien, les accords ; la Forme, les œuvres ; l’Épanchement, la transmission. Les écoles ne distribuaient pas quatre énergies : toutes conduisaient le même don selon les sept voies.
+Après le Grand Retrait, les mortels reconnurent les signatures des quatre singularités et élaborèrent quatre manières de recevoir le don. La Source chercha le discernement ; le Lien, les accords ; la Forme, les œuvres ; l’Épanchement, la transmission. Ces cultes conduisaient le même Sillage selon les sept voies ; ils ne possédaient ni quatre énergies ni quatre dieux.
 
 La Lettre gardait les paroles et les engagements. Le Souffle les éprouvait dans la miséricorde et les vies incarnées. Le Signe travaillait le Nom, le silence et le sens intérieur des signes. Ces trois lectures traversaient les cultes ; elles pouvaient s’accorder dans une ville et se combattre dans une autre.
 
@@ -164,17 +188,25 @@ Les praticiens conduisaient le fluide dans leurs corps, préparaient des support
 
 ## Le Premier Regard
 
-Aurenth grandit autour d’une présence que les pèlerins prenaient pour un être. Le sanctuaire portait l’empreinte du regard d’Éden ; les Témoins eux-mêmes demeuraient tous dans les Cieux.
+Aurenth grandit autour d’une présence que les pèlerins prenaient pour un être. Le sanctuaire portait l’empreinte du regard d’Éden. Six Témoins demeuraient dans les Cieux ; le septième s’était retiré au départ de la Source. Aucun ne vivait sous les pierres d’Aurenth.
 
 Les Muets du culte de la Source gardèrent le lieu, les rencontres et les accords. Leur silence demandait d’observer avant de juger. Mais devant une victime, attendre pouvait devenir une faute. La neutralité se construisait par des actes ; elle n’était pas une impossibilité magique de nuire.
 
-## La parole de Sarai
+## Les paroles et leurs héritiers
 
 À l’aube de Sarwen, Sarai d’Avarn annonça : « Les Sceaux se rejoindront lorsque personne ne pourra plus les tenir pour siens. »
 
 Les souverains entendirent la promesse d’un Porteur unique. Ils cherchèrent des héritiers, des reliques et des preuves. D’autres y virent un usage partagé. Une prophétie offrait une possibilité et ses conditions ; elle ne retirait à personne la liberté de mal la comprendre.
 
 Une marque copiée et une relique saisie ne suffisaient pas. Chaque Sceau n’avait qu’un support actif ; devenir Porteur ne se déduisait ni d’une naissance ni d’un titre. Les effets pouvaient être examinés, mais un prodige isolé ne prouvait pas leur origine. Une transmission exigeait davantage que le récit de ceux qui la revendiquaient.
+
+Vers CD 6100, Zahrel fit circuler les voies entre les communautés de Sahrûn. Il enseignait une technique avec ses moyens d’arrêt, car transmettre un pouvoir sans ses limites pouvait fabriquer une nouvelle dépendance.
+
+Vers CD 8700, Orren réclama dans les forges de Khoram que la personne façonnée ne fût plus transmise comme un outil. Ses ateliers donnèrent à certains Golems les moyens matériels de partir ; ses accords ne libérèrent pas tous les autres.
+
+Vers CD 10400, Ilyane de Seyra affirma entendre une Voix entière : « Cherchez celui qui s’est retiré, mais ne videz pas le monde pour lui faire place. » Elle refusa le trône que des autorités voulaient tirer de cette parole. L’origine de sa révélation resta discutée.
+
+Leurs héritiers reçurent des paroles, des institutions et des contradictions. Eshar hériterait de tout cela ; aucun texte conservé ne choisirait à sa place.
 
 ## Eshar et le salut imposé
 
