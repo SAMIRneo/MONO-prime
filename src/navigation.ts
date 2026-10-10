@@ -11,7 +11,6 @@ export function primarySection(
   route: Pick<Route, "page" | "id">,
 ): "" | "recits" | "codex" | null {
   if (route.page === "recits" || route.page === "lire") return "recits";
-  if (route.page === "fiche" && route.id === "terra") return "";
   if (route.page === "codex" || route.page === "fiche") return "codex";
   if (
     ["", "univers", "terra", "powerscaling", "chronologie"].includes(route.page)

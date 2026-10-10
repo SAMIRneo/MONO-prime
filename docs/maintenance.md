@@ -21,3 +21,11 @@ Le validateur contrôle les références et refuse les images orphelines. Le bui
 Conserver les décisions et conventions toujours applicables ; utiliser Git pour retrouver les anciens états. Éviter de laisser des scripts ponctuels de réécriture près des commandes de maintenance : les rejouer pourrait réintroduire du contenu retiré.
 
 Après une modification : compilation et tests adaptés, examen du diff ; en cas de changement d’interface, contrôle des parcours, du clavier et des petits écrans. Après publication, vérifier les Actions et les fichiers servis. Aucune certification générale d’accessibilité ou de cohérence littéraire ne découle des seuls tests.
+
+## Nettoyage du site
+
+Les sélecteurs des anciennes pages et des arcs abandonnés ont été retirés après vérification de leurs références. Le traitement spécial du dénouement de l’arc supprimé est retiré. Les composants de lecture illustrée restent disponibles pour les récits futurs.
+
+La fiche Terra est consultable dans le Codex ; elle renvoie vers l’atlas, qui propose le retour vers la fiche. La recherche couvre désormais les mystères et les questions éditoriales ouvertes. La fenêtre d’agrandissement utilise un libellé adapté aux illustrations. Le défilement vers les continents respecte la préférence de mouvement réduit.
+
+TypeScript refuse désormais les déclarations et paramètres inutilisés. Les tests protègent les recherches dans les rubriques complémentaires et distinguent la fiche Terra de son atlas.

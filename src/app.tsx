@@ -44,7 +44,7 @@ const save = (key: string, value: unknown) => {
     return false;
   }
 };
-const href = (id: string) => (id === "terra" ? "#/terra" : `#/fiche/${id}`);
+const href = (id: string) => `#/fiche/${id}`;
 const category = (id: string) => groups.find((g) => g.id === id)?.label || id;
 const route = (): Route => parseRoute(location.hash);
 const minutes = (text: string) =>
@@ -417,7 +417,7 @@ function Terra({
           onClick={() => {
             panel.current?.scrollIntoView({
               block: "start",
-              behavior: "smooth",
+              behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
             });
             panel.current?.focus({ preventScroll: true });
           }}
@@ -425,7 +425,7 @@ function Terra({
           Les continents
         </button>
         <a href="#/terra?section=1">Aurenth</a>
-        <LinkArrow to={href("cosmogonie")}>Les origines de Terra</LinkArrow>
+        <LinkArrow to={href("terra")}>Comprendre Terra</LinkArrow>
       </nav>
       <section id="terra-map" className="terra-map-section">
         <div className="terra-map-heading">
@@ -1615,6 +1615,7 @@ function EntryPage({
           <p className="lede">{entry.summary}</p>
         </div>
         <div className="entry-actions">
+          {entry.id === "terra" && <a className="button subtle" href="#/terra">Explorer l’atlas</a>}
           <button
             className="button subtle"
             aria-pressed={saved}
@@ -1676,7 +1677,7 @@ function EntryPage({
             ))}
           </nav>
           <div className="prose">
-            {entry.sections.map((s, i) => s.title === "Après l’arc" ? <details className="story-spoiler" key={s.title} id={`section-${i}`}><summary>Après l’arc · dévoiler le dénouement</summary><p>{s.text}</p></details> : (
+            {entry.sections.map((s, i) => (
               <section key={s.title} id={`section-${i}`} tabIndex={-1}>
                 <h2>{s.title}</h2>
                 <p>{s.text}</p>
@@ -2214,12 +2215,11 @@ export default function App() {
   else if (current.page === "powerscaling")
     content = <Powerscaling onPortrait={setPortrait} />;
   else if (
-    current.page === "terra" ||
-    (current.page === "fiche" && current.id === "terra")
+    current.page === "terra"
   )
     content = (
       <Terra
-        selected={current.page === "terra" ? current.id : "avarn"}
+        selected={current.id}
         onPortrait={setPortrait}
       />
     );
@@ -2495,7 +2495,7 @@ export default function App() {
                 <h2 id="portrait-title">{portrait.title}</h2>
               </div>
               <button
-                aria-label="Fermer le portrait"
+                aria-label="Fermer l’illustration"
                 onClick={() => dialog.current?.close()}
               >
                 <Icon name="close" />

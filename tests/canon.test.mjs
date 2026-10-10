@@ -45,3 +45,13 @@ test('the powers guide and individual sovereign entries cannot drift apart',()=>
   assert.equal(individual.sections.find(section=>section.title==='Circulation du Sillage').text,section.text,section.title);
  }
 });
+
+test('search includes mysteries and open editorial questions',()=>{
+ const source=byId.get('azkavoth');
+ assert(matches(entrySearchText(source),'maître supérieur'));
+ for(const entry of canon.records){
+  for(const text of [...entry.mysteries,...entry.open_questions]){
+   assert(matches(entrySearchText(entry),text),entry.id);
+  }
+ }
+});

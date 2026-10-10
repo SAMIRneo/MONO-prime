@@ -9,10 +9,13 @@ type SearchEntry = {
  subtitle: string;
  summary: string;
  aliases?: readonly string[];
+ mysteries?: readonly string[];
+ open_questions?: readonly string[];
  sections: readonly {title: string; text: string}[];
 };
 export function entrySearchText(entry: SearchEntry): string {
  return [entry.title, ...(entry.aliases ?? []), entry.subtitle, entry.summary,
+  ...(entry.mysteries ?? []), ...(entry.open_questions ?? []),
   ...entry.sections.flatMap(section => [section.title, section.text])].join(' ');
 }
 export function lexiconSearchText(term: {term: string; definition: string}): string {

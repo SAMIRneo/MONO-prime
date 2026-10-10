@@ -14,7 +14,6 @@ test("deep links belong to one primary destination, while utilities stay indepen
     "#/",
     "#/univers",
     "#/terra/khoram",
-    "#/fiche/terra",
     "#/pouvoirs",
     "#/ages",
   ])
@@ -28,6 +27,7 @@ test("deep links belong to one primary destination, while utilities stay indepen
   for (const hash of [
     "#/codex/lignees?q=djinns",
     "#/fiche/qerath",
+    "#/fiche/terra",
     "#/fiche/archanges",
   ])
     assert.equal(primarySection(parseRoute(hash)), "codex");
