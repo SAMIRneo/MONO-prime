@@ -1,15 +1,15 @@
-# MONO — Le Codex de la Déchirure
+# MONO — Les trois portails
 
 **Un monde brisé. Des êtres libres.** Portail narratif et codex illustré en français.
 
 - [Site publié](https://samirneo.github.io/MONO-prime/) · [Dépôt](https://github.com/SAMIRneo/MONO-prime)
-- Canon **V10.0** : 67 fiches, 11 catégories, 4 livres, 24 chapitres, 28 repères lexicaux.
+- Première édition **V1.0** : 67 fiches, 11 catégories, 4 cahiers, 8 chapitres illustrés, 28 repères lexicaux.
 - 52 illustrations avec trois variantes WebP chacune. Maëra, Sava, Iri, Zahrel, Orren et Ilyane restent sans portrait dédié.
 
 ## Sources de référence
 
 - `src/data/canon.json` : canon, récits, chronologie, lexique, mystères et questions éditoriales ouvertes.
-- [Décisions cosmologiques V10](docs/canon-v10-2026-10-09.md).
+- [Fondations de la V1.0](docs/fondations-v1.md).
 - [Direction artistique et ressources](docs/illustrations.md).
 - [Maintenance et purge](docs/maintenance.md).
 
@@ -17,13 +17,13 @@ Les illustrations interprètent le canon ; elles ne créent pas de nouvelles rè
 
 ## Parcours actuels
 
-La navigation permanente utilise **Accueil, Lire, Codex**, sur ordinateur et mobile. Recherche et collection complètent ces parcours.
+La navigation permanente utilise **Portails, Lire, Codex**, sur ordinateur et mobile. Recherche et collection complètent ces parcours.
 
 | Route | Contenu |
 | --- | --- |
-| `#/` | Présentation de l’univers, parcours, rencontres et lexique |
-| `#/recits` | Bibliothèque des quatre récits fondateurs |
-| `#/lire/livre-1/1` | Chapitre, sommaire, réglage du texte, concentration et progression |
+| `#/` | Entrée dans les trois portails : Univers, Codex, Lire |
+| `#/recits` | Quatre cahiers du nouveau cycle des fondations |
+| `#/lire/fondations-1/1` | Chapitre, sommaire, réglage du texte, concentration et progression |
 | `#/univers` | Guide des origines, mondes, principes et lexique |
 | `#/terra` | Atlas des cinq continents et Aurenth |
 | `#/codex` | Catégories, filtre, galerie ou liste |
@@ -55,7 +55,7 @@ Ouvrir alors `/MONO-prime/`. `npm run check` vérifie TypeScript, le canon et le
 
 Modifier `src/`, `public/` et `app.html`. **Ne pas modifier les sorties compilées.** Le build produit `dist/`, puis synchronise les sorties de compatibilité à la racine : `index.html`, `assets/`, `art/`, `fonts/`, `canon/`, `qa/` et les SVG publics. Ces copies sont nécessaires au mode de publication existant ; ce ne sont pas des doublons abandonnés.
 
-Les exports Markdown sont générés par `scripts/check-canon.mjs`. Les noms historiques `MONO_CANON_V9.md` et `MONO_RECITS_V9.md` servent toujours les textes V10 : conserver ces URL pour les liens existants. `MONO_LEXIQUE.md` est généré de la même façon.
+Les exports Markdown sont générés par `scripts/check-canon.mjs`. Les noms historiques `MONO_CANON_V9.md` et `MONO_RECITS_V9.md` servent toujours les textes V1.0 : conserver ces URL pour les liens existants. `MONO_LEXIQUE.md` est généré de la même façon.
 
 Le workflow `.github/workflows/pages.yml` compile et publie `dist` après un push sur `main`. Avant publication : build, examen du diff et contrôles des parcours concernés. Après publication : vérifier les Actions et comparer les fichiers servis au commit. Les tests ne remplacent pas les contrôles visuels, clavier et mobiles.
 

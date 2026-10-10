@@ -1,6 +1,6 @@
 # Maintenance — 10 octobre 2026
 
-Canon actif : V10.0, 67 fiches, 24 chapitres, 28 repères lexicaux, 52 illustrations et 156 WebP.
+Canon actif : V1.0, 67 fiches, 8 chapitres illustrés, 28 repères lexicaux, 52 illustrations et 156 WebP.
 
 ## Purge réalisée
 
@@ -29,3 +29,7 @@ Les sélecteurs des anciennes pages et des arcs abandonnés ont été retirés a
 La fiche Terra est consultable dans le Codex ; elle renvoie vers l’atlas, qui propose le retour vers la fiche. La recherche couvre désormais les mystères et les questions éditoriales ouvertes. La fenêtre d’agrandissement utilise un libellé adapté aux illustrations. Le défilement vers les continents respecte la préférence de mouvement réduit.
 
 TypeScript refuse désormais les déclarations et paramètres inutilisés. Les tests protègent les recherches dans les rubriques complémentaires et distinguent la fiche Terra de son atlas.
+
+## Première édition V1.0
+
+La documentation historique V10 est remplacée par fondations-v1.md. Les anciennes pages d’accueil et leurs styles inutilisés sont retirés. Le cycle de lecture et ses positions enregistrées sont réinitialisés ; les signets de fiches et le thème sont préservés. Les références générées suivent le canon V1.0. Les suffixes V9 des deux exports restent des URL de compatibilité, pas des contenus antérieurs.

@@ -32,7 +32,7 @@ test('aliases, new historical figures and deliberately unanswered mysteries rema
   assert(matches(entrySearchText(byId.get('ainoreth')),'Ainoreth'));
   for(const id of ['zahrel','orren','ilyane']){
     assert(byId.get('propheties').links.includes(id));
-    assert(d.books.some(b=>b.chapters.some(c=>c.paragraphs.some(p=>p.includes(byId.get(id).title.split(' ')[0])))));
+    assert(byId.get(id).sections.length>0);
   }
   for(const e of d.records){
     assert(Array.isArray(e.mysteries),e.id);

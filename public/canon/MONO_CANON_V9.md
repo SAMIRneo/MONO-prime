@@ -1,6 +1,6 @@
-# MONO — Canon V10.0
+# MONO — Canon V1.0
 
-Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
+Version consolidée le 2026-10-10. Source éditoriale : src/data/canon.json.
 
 Les descriptions visuelles sont des interprétations. Faits établis, mystères de l’univers et développements encore ouverts sont distingués.
 
@@ -131,6 +131,10 @@ Des villes confient aux ateliers de la Forme leurs digues, leurs réserves et le
 ### Une protection dont on peut sortir
 
 Une cité peut chercher à remplacer un relais de la Forge par ses propres ateliers, mais doit obtenir plans, matières, compétences et réserve avant de couper l’ancien soutien. Une indépendance déclarée qui laisse mourir les habitants n’accomplit pas l’autonomie recherchée. Vothorak peut accepter un remplacement, imposer des conditions ou défendre son ouvrage ; ses intendants ne répondent pas tous de la même manière. La dette devient un conflit politique lorsque le service rendu justifie un droit sans terme sur les corps, le travail ou les descendants.
+
+### Les vivants et leur auteur
+
+AZKAVOTH fonde la vie et la possibilité d’une personne. Vothorak transforme des milieux, prépare les matrices des Anakim, canalise les foyers où apparaissent les Djinns et façonne les premiers Golems. Les Humains lui préexistent ; Néphilim et Qerathim ont d’autres filiations. Ce partage explique sa grandeur et son erreur : il a rendu des existences possibles, puis exige qu’elles lui appartiennent. Ni un corps fabriqué ni un territoire entretenu ne donnent possession d’une réponse libre.
 
 # Archanges
 
@@ -518,7 +522,7 @@ Premiers êtres humains de Terra, antérieurs au Sillage ; leur résonance avec 
 
 ### Origine et disposition
 
-AZKAVOTH fait apparaître les premiers Humains parmi la vie de Terra, avant le Grand Retrait. Lorsque KA se diffuse, leur constitution reçoit les sept voies sans concentration unique : ils ne naissent pas de cette diffusion, ils deviennent capables d’y résonner. Leur aptitude est de changer d’approche et de relier des pratiques. Corps fragiles, apprentissage long et accords moins spontanés limitent une forte conduction.
+AZKAVOTH fait apparaître les premiers Humains parmi la vie de Terra, avant le Grand Retrait. Lorsque KA se diffuse, ils deviennent capables de résonner avec les sept voies. Leur plasticité permet de changer de pratique ; leur corps supporte difficilement les forts débits. Vothorak transforme ensuite leurs territoires, sans être leur créateur. Leur existence antérieure dément sa prétention à être l’origine de tous les vivants.
 
 ### Liberté et appartenance
 
@@ -536,7 +540,7 @@ Nés de la première diffusion de KA dans les souffles et les feux de Terra.
 
 ### Origine et disposition
 
-Après le Grand Retrait, les Djinns naissent là où le premier Sillage s’accorde aux souffles et aux feux de Terra déjà formée. Leur corps fluide conduit rapidement le don et peut changer de forme. Franchir un seuil exige une pratique d’Arel et des ancrages compatibles. Une dépense excessive menace leur continuité. Leurs impressions des principes ne sont pas des souvenirs vécus de l’Arbre : aucun Djinn n’a assisté à sa Déchirure par son seul âge d’origine.
+Après le Grand Retrait, les premiers Djinns naissent de l’accord du Sillage avec les feux et les souffles de Terra. Vothorak canalise ces foyers dans ses premiers ouvrages ; il favorise leur éveil sans produire seul la possibilité d’une personne. Il revendique ces naissances comme son œuvre. Les Djinns entretiennent les foyers et les liens qui soutiennent leur continuité, puis forment leurs propres communautés. Ils n’ont pas assisté à la Déchirure par leur seul âge d’origine.
 
 ### Liberté et appartenance
 
@@ -554,7 +558,7 @@ Nés là où le Sillage s’est concentré dans le sol.
 
 ### Origine et disposition
 
-Après la diffusion de KA, les Anakim s’éveillent là où le Sillage se concentre durablement dans le sol. Leur corps et leur mémoire entretiennent une forte continuité avec les territoires. Ils excellent dans l’endurance et les œuvres longues. Déplacer leur ancrage leur coûte ; leur transformation est lente. Ils peuvent maintenir une protection durant des générations, mais aussi perpétuer un ordre devenu injuste.
+Après la diffusion de KA, Vothorak prépare des matrices de terre et de matière minérale pour stabiliser les territoires qu’il remodèle. Le Sillage s’y concentre et les premiers Anakim s’éveillent. Une matrice devient un corps vivant capable de se maintenir et de choisir. Leur ancrage favorise les œuvres longues, mais le déplacer exige un effort considérable. Leur fonction première de stabilisation n’oblige pas leurs descendants à servir le démiurge.
 
 ### Liberté et appartenance
 
@@ -572,7 +576,7 @@ Façonnés par Vothorak, puis capables de répondre à leur créateur.
 
 ### Origine et disposition
 
-Leur architecture offre précision et stabilité ; elle impose aussi des contraintes initiales. Une modification profonde exige matière, compétence et consentement. Ils peuvent devenir coauteurs de leur propre forme. Leur aptitude à vivre et choisir ne dépend pas d’une reconnaissance religieuse.
+Vothorak assemble les premiers corps golems après le Grand Retrait. Des matériaux préparés et des canaux de Sillage permettent leur éveil ; une machine qui exécute des ordres ne devient pas pour autant une personne. Le procédé ouvre les conditions d’une vie propre, dont Vothorak ne commande pas la réponse. Des artisans apprennent ensuite à façonner des corps golems. Une modification profonde exige matière, compétence et consentement ; les Golems peuvent devenir coauteurs de leur forme.
 
 ### Liberté et appartenance
 
@@ -590,7 +594,7 @@ Nés des unions entre les Veilleurs de Malkiel et les Humains.
 
 ### Origine et disposition
 
-Nés des Veilleurs de Malkiel et des Humains, ils résonnent intensément avec certains principes. Leur existence est incarnée et mortelle ; une manifestation visible n’est pas à elle seule un corps capable de filiation. Certains éprouvent des échos de la Voix, expérience reçue comme révélation, dont l’origine et le sens demeurent incertains. Ils doivent distinguer l’appel, leur désir et la voix de leurs institutions.
+Après le Grand Retrait, des Veilleurs liés à Malkiel s’incarnent et s’unissent à des Humains ; leur descendance forme les Néphilim. Ces Veilleurs sont des êtres célestes distincts des Sept Témoins muets. Une apparition visible seule ne permet pas de filiation : elle requiert une existence incarnée. Les Néphilim sont mortels et ne reçoivent aucune charge d’Archange par naissance. Leur origine échappe à Vothorak. Les échos de la Voix demeurent une expérience à discerner, pas un ordre vérifié.
 
 ### Liberté et appartenance
 
@@ -608,7 +612,7 @@ Descendants des Revers, eux-mêmes enfants de Qerath.
 
 ### Origine et disposition
 
-Les Qerathim sont sensibles aux ruptures de circulation. Chaque Maison hérite surtout de l’inversion de son Revers ; l’individu doit apprendre à la pratiquer. Une déliaison peut libérer d’une emprise ou blesser une relation vitale et risque les propres ancrages du praticien. Cette sensibilité ne donne ni la maîtrise des sept inversions ni le pouvoir de son ancêtre. Les Maisons portent des héritages disputés, pas une destinée morale.
+Après les sept amputations de Qerath, les Revers deviennent des personnes distinctes ; leurs descendances forment les sept Maisons qerathim dans les Abysses. Cette origine n’est pas une création de Vothorak. Chaque Maison transmet une sensibilité privilégiée à l’inversion de son Revers, que ses membres doivent apprendre à pratiquer. La déliaison peut libérer d’une emprise ou rompre une relation vitale. La filiation n’impose ni fidélité au Revers ni destinée morale.
 
 ### Liberté et appartenance
 
@@ -626,17 +630,29 @@ AZ · Voir au-delà des apparences
 
 Comprendre exige de dépasser ses illusions et de s’approcher d’une origine que personne ne contient.
 
-### Pratique
+### But et philosophie
 
-Silence, étude du Nom et discernement des manifestations. Les Muets gardent Aurenth ; ils ne forment pas une religion supplémentaire. Les écoles de la Lettre cherchent des transmissions fiables, celles du Signe éprouvent le sens intérieur des signes. Ni un nom prononcé ni une illumination ne donnent possession de la Source.
+Chercher la vérité pendant l’absence de la Source. Les fidèles confrontent les signes, les témoignages et les effets, afin de distinguer une révélation d’une illusion. Leur idéal est un discernement qui supporte d’être corrigé.
+
+### Pratique du Sillage
+
+Les écoles de la Source privilégient perception, lecture des traces et séparation des signaux. Elles préparent un champ limité, confrontent plusieurs observations et cherchent les relais cachés. Elles peuvent détecter une altération ou comprendre une illusion ; connaître sa construction ne suffit pas à la défaire. Observer ne lit pas infailliblement les pensées ni la volonté d’un être.
+
+### Coût et limites
+
+Une lecture demande du temps, un ancrage et un signal encore accessible. Une trace détruite ou trop dispersée limite le résultat. La conviction du praticien ne remplace pas la preuve.
+
+### Dans les sociétés
+
+Archives, lieux d’étude et enquêtes sur les manifestations. Les Muets d’Aurenth gardent le silence et les accords ; ils ne forment pas une cinquième religion. Le culte peut éclairer une communauté ou lui imposer la surveillance de ceux qui prétendent seuls discerner.
 
 ### Contradiction
 
 Les Effacés veulent restituer l’ancienne charge de Qerath. Des gardiens craignent qu’une vérité rendue publique détruise des accords fragiles ; d’autres accusent ce silence de protéger les puissants. La dispute porte sur les preuves, leur diffusion et ceux qui en paient le prix. Le dépouillement peut aussi devenir indifférence envers des vies concrètes.
 
-### Un même Sillage
+### Une tradition ouverte
 
-Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements.
+Ces quatre religions reconnaissent AZKAVOTH et interprètent ses quatre principes après la Promesse du retour. Elles traversent les six lignées et les cinq continents. Les préférences locales viennent de l’histoire, des métiers et des institutions ; aucune naissance ne fixe une foi. Le Sillage peut être appris hors des religions. Elles enseignent des méthodes privilégiées avec les mêmes sept voies, pas quatre énergies ni quatre monopoles.
 
 ## Culte du Lien
 
@@ -644,17 +660,29 @@ KA · Réparer ensemble
 
 La création mérite de durer grâce à des relations librement consenties.
 
-### Pratique
+### But et philosophie
 
-Soin, serments consentis, partage des charges et protections communes. La Concorde est son horizon. Des écoles du Souffle défendent l’accueil sans condition ; des autorités de la Lettre demandent des engagements durables pour entretenir les réseaux. Un même hospice peut dépendre des deux et devenir le lieu de leur conflit.
+Maintenir des relations dans lesquelles chacun peut vivre, contribuer et se retirer. La protection et le soin doivent soutenir l’autonomie. La Concorde est un horizon commun, dont aucune institution ne peut promettre l’accomplissement.
+
+### Pratique du Sillage
+
+Les écoles du Lien privilégient l’accord entre plusieurs ancrages : partager une charge, coordonner une protection et soutenir un soin. Chaque relais doit pouvoir supporter sa part. Un accord libre règle les contributions ; une conduction arrachée peut déplacer une charge mais ne produit pas cette adhésion.
+
+### Coût et limites
+
+Le réseau dépend de relais vivants ou matériels, de leur entretien et de leur capacité. La perte d’un appui surcharge les autres ; le retrait d’une personne impose de réorganiser le circuit. Le réseau ne crée pas de réserve supplémentaire.
+
+### Dans les sociétés
+
+Hospices, maisons d’accueil, protections communes et serments. Certains établissements accueillent sans condition ; d’autres réservent leurs réserves aux fidèles. Le danger est de transformer les secours reçus en dette permanente.
 
 ### Contradiction
 
 La solidarité peut devenir obligation. Le souci d’épargner le Sillage peut réserver les soins aux puissants ou aux seuls fidèles. La responsabilité consiste aussi à permettre une séparation.
 
-### Un même Sillage
+### Une tradition ouverte
 
-Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements.
+Ces quatre religions reconnaissent AZKAVOTH et interprètent ses quatre principes après la Promesse du retour. Elles traversent les six lignées et les cinq continents. Les préférences locales viennent de l’histoire, des métiers et des institutions ; aucune naissance ne fixe une foi. Le Sillage peut être appris hors des religions. Elles enseignent des méthodes privilégiées avec les mêmes sept voies, pas quatre énergies ni quatre monopoles.
 
 ## Culte de la Forme
 
@@ -662,17 +690,29 @@ VO · Rendre le monde habitable
 
 Une forme juste peut accueillir une vie ; Vothorak est la grande figure de l’architecture matérielle.
 
-### Pratique
+### But et philosophie
 
-Ateliers, inscriptions et architectures du corps ou de la cité. Certains fidèles vénèrent Vothorak comme Créateur ; d’autres reconnaissent l’Architecte sans le confondre avec la Source. Les Disciples de Talem défendent le droit de modifier sa forme. Les ateliers vivent de commandes, de matières et de droits de maintenance : la foi se noue aussi dans leurs contrats.
+Donner à la vie des structures durables qui peuvent être entretenues et corrigées. Une œuvre accomplie reste ouverte à ses habitants. Certains fidèles vénèrent Vothorak ; d’autres honorent son art en contestant son autorité.
+
+### Pratique du Sillage
+
+Les écoles de la Forme privilégient inscription, préparation de matériaux et transformation de supports. Des canaux définis fixent un effet dans un corps, un ouvrage ou un outil. La précision et l’entretien permettent sa durée. Elles transforment une matière disponible ; une inscription seule ne crée ni matière ni personne.
+
+### Coût et limites
+
+La préparation prend du temps et consomme des matériaux. La forme obtenue impose ses contraintes ; une modification imprévue peut rompre les canaux. Une œuvre durable demande une alimentation ou un entretien adaptés.
+
+### Dans les sociétés
+
+Ateliers, bâtisseurs, mainteneurs et institutions de formation. Les Disciples de Talem défendent le droit de modifier son corps. Le danger est de réduire une personne à la fonction pour laquelle son support a été préparé.
 
 ### Contradiction
 
 La question de Talem traverse le culte : avoir créé un être donne-t-il le droit de le posséder ? Les Disciples de Talem sont une tradition interne. L’orgueil de la maîtrise peut réduire les personnes à des fonctions.
 
-### Un même Sillage
+### Une tradition ouverte
 
-Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements.
+Ces quatre religions reconnaissent AZKAVOTH et interprètent ses quatre principes après la Promesse du retour. Elles traversent les six lignées et les cinq continents. Les préférences locales viennent de l’histoire, des métiers et des institutions ; aucune naissance ne fixe une foi. Le Sillage peut être appris hors des religions. Elles enseignent des méthodes privilégiées avec les mêmes sept voies, pas quatre énergies ni quatre monopoles.
 
 ## Culte de l’Épanchement
 
@@ -680,17 +720,29 @@ TH · Transmettre le don
 
 Ce qui est reçu doit pouvoir circuler, croître et bénéficier à d’autres existences.
 
-### Pratique
+### But et philosophie
 
-Transmission des savoirs, préparation de relais et accès au Sillage. Les écoles du Souffle souhaitent porter les pratiques aux communautés isolées ; des autorités de la Lettre fixent des épreuves avant de divulguer des techniques dangereuses. Le Signe interroge ce qui peut être reçu sans préparation intérieure. Partager n’efface ni le coût d’entretien ni le risque d’une expansion forcée.
+Transmettre le don reçu pour ouvrir d’autres possibilités de vivre. Les savoirs et les ressources doivent atteindre ceux qui en sont éloignés. Transmettre exige de préparer celui qui reçoit et de mesurer ce que le monde peut soutenir.
+
+### Pratique du Sillage
+
+Les écoles de l’Épanchement privilégient le déploiement d’un effet dans des relais préparés : projection, diffusion et circulation vers plusieurs lieux. Elles savent ouvrir un passage temporaire de charge ou distribuer une pratique. Un relais doit être compatible et alimenté ; étendre la portée ne multiplie pas gratuitement la puissance.
+
+### Coût et limites
+
+Plus de distance et de relais imposent des pertes et un besoin de coordination. Un déploiement mal arrêté peut épuiser sa source ou toucher des lieux non préparés. Le partage n’abolit pas la réserve finie.
+
+### Dans les sociétés
+
+Praticiens itinérants, écoles de transmission et relais entre communautés. La générosité peut devenir expansion forcée ou divulgation de procédés que personne ne sait plus maîtriser.
 
 ### Contradiction
 
 Le partage peut devenir expansion forcée, conversion imposée ou consommation irresponsable. L’idéal d’abondance ne dispense pas de mesurer l’épuisement.
 
-### Un même Sillage
+### Une tradition ouverte
 
-Ce culte enseigne une méthode privilégiée, pas une énergie distincte ni un pouvoir exclusif. Il peut pratiquer les sept voies. Toute lignée peut y entrer ; ses membres demeurent libres d’en discuter les enseignements.
+Ces quatre religions reconnaissent AZKAVOTH et interprètent ses quatre principes après la Promesse du retour. Elles traversent les six lignées et les cinq continents. Les préférences locales viennent de l’histoire, des métiers et des institutions ; aucune naissance ne fixe une foi. Le Sillage peut être appris hors des religions. Elles enseignent des méthodes privilégiées avec les mêmes sept voies, pas quatre énergies ni quatre monopoles.
 
 # Mondes & Éden
 
@@ -751,6 +803,10 @@ Leur répartition est historique, pas biologique. Humains, Djinns, Anakim, Golem
 ### La vie avant le Sillage
 
 Les premiers organismes et les premiers Humains vivent et meurent avant la diffusion de KA. La possibilité d’une âme et d’une réponse propre vient de l’acte créateur, non d’une quantité de fluide. Le Sillage ouvre ensuite de nouvelles connexions, pratiques et lignées. L’épuisement d’une réserve ne supprime donc pas mécaniquement toutes les âmes ou toute vie biologique ; il menace directement les êtres et les ouvrages qui dépendent de sa circulation.
+
+### Le présent de référence
+
+Le présent de MONO est situé vers CD 12600, à l’ouverture de l’Éveil des Brisures. Aurenth et ses dépendances en Avarn forment notre premier territoire de lecture : les religions y coexistent, les convois y apportent des ressources, les ateliers et les hospices y négocient des réserves limitées. Les autres continents restent accessibles dans le Codex. Les durées cosmiques avant le Grand Retrait ne sont pas chiffrées.
 
 ## Éden et les Sept Témoins
 
@@ -934,6 +990,10 @@ Stabiliser un pont engage une circulation et immobilise une part de réserve ; p
 ### Les conditions d’un éveil
 
 La présence de Sillage ne suffit pas à produire un pouvoir. Un être doit disposer d’une résonance compatible, d’un canal capable de conduire et d’un ancrage qui maintient sa continuité. L’attention puis l’apprentissage rendent l’usage fiable ; un choc peut provoquer une première ouverture incontrôlée, jamais une maîtrise offerte. Supports et pratiques peuvent compenser une disposition faible. Une croyance, une ascendance ou une proximité avec une Brisure ne garantit pas l’éveil.
+
+### Foi et pratique
+
+La foi oriente les buts et les méthodes ; elle ne conditionne pas l’accès au Sillage. Source, Lien, Forme et Épanchement pratiquent les mêmes sept voies. Les non-croyants peuvent apprendre hors de leurs institutions. Une lignée favorise une circulation, une tradition privilégie une méthode et une technique réalise un effet : ces trois dimensions ne se confondent pas.
 
 ## Les quatre Sceaux
 

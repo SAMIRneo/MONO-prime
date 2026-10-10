@@ -1,6 +1,6 @@
 # MONO — Direction artistique et illustrations
 
-La nouvelle sélection reprend les versions 3D peintes travaillées autour d’Arcane, du graphisme de Spider-Verse et du mystère de Sandman. Cette sélection reste utilisée en V10. Les images interprètent le canon courant ; les détails visuels ne font pas autorité sur ses règles.
+La nouvelle sélection reprend les versions 3D peintes travaillées autour d’Arcane, du graphisme de Spider-Verse et du mystère de Sandman. Cette sélection reste utilisée en V1.0. Les images interprètent le canon courant ; les détails visuels ne font pas autorité sur ses règles.
 
 ## Sélection publiée
 

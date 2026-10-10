@@ -1,6 +1,6 @@
-# MONO — Canon V10.0
+# MONO — Canon V1.0
 
-Version consolidée le 2026-10-09. Source éditoriale : src/data/canon.json.
+Version consolidée le 2026-10-10. Source éditoriale : src/data/canon.json.
 
 Les descriptions visuelles sont des interprétations. Faits établis, mystères de l’univers et développements encore ouverts sont distingués.
 

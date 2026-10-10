@@ -218,7 +218,8 @@ function Card({
           </button>
         </div>
       )}
-      <div className="card-copy">
+      {!entry.art && <a className="card-seal" href={href(entry.id)} aria-label={"Ouvrir "+entry.title}><span>{entry.title.slice(0,1)}</span><small>Figure du monde</small></a>}
+      <div className="card-copy"><span className="deck-label">{category(entry.category)} · {String(entries.indexOf(entry)+1).padStart(3,"0")}</span>
         <span className="eyebrow">{entry.subtitle}</span>
         <h3>
           <a href={href(entry.id)}>{entry.title}</a>
@@ -251,15 +252,15 @@ function PageHead({
 }
 
 const exploreLinks = [
-  ["univers", "Le guide", "Les clés du monde", "azkavoth"],
-  ["terra", "L’atlas", "Cinq continents à explorer", "terra-map-v1"],
-  ["powerscaling", "Le Sillage", "Un fluide. Sept voies.", "sillage-fluide-v1"],
-  ["chronologie", "Les âges", "De l’origine aux Brisures", "brisures"],
+  ["univers", "Le guide"],
+  ["terra", "L’atlas"],
+  ["powerscaling", "Le Sillage"],
+  ["chronologie", "Les âges"],
 ];
 function ExploreNav({ page }: { page: string }) {
   return (
     <nav className="explore-nav" aria-label="Explorer l’univers">
-      <a href="#/">Accueil</a>
+      <a href="#/">Les portails</a>
       <div>
         {exploreLinks.map(([id, label]) => (
           <a
@@ -276,7 +277,7 @@ function ExploreNav({ page }: { page: string }) {
 }
 function ReadingTrail({ onlyResume = false }: { onlyResume?: boolean }) {
   const position = readingPosition(
-    read<unknown>("mono-v9-reading", null),
+    read<unknown>("mono-v1-reading", null),
     canon.books,
   );
   const book = canon.books.find((b) => b.id === position?.book);
@@ -315,25 +316,23 @@ function ReadingTrail({ onlyResume = false }: { onlyResume?: boolean }) {
   );
 }
 function Home() {
-  const origin = byId.get("cosmogonie")!;
-  const [passage, setPassage] = useState(0);
-  const [word, setWord] = useState(0);
-  const figure = byId.get(["azkavoth", "qerath", "vothorak", "tamariel", "eshar", "aurenth"][passage])!;
-  const term = canon.lexicon[word];
-  return <div className="content reading-home">
-    <ReadingTrail onlyResume />
-    <section className="home-story" aria-labelledby="home-title">
-      <a className="home-story-art" href="#/univers" aria-label="Découvrir la cosmologie de MONO"><Art name={origin.art} alt="Interprétation symbolique des sept principes de MONO" hero sizes="(max-width: 760px) 100vw, 680px" /></a>
-      <div className="home-story-copy"><span className="eyebrow">MONO · L’UNIVERS</span><h1 id="home-title">Le Codex de la Déchirure</h1><p>Une Source. Trois mondes. Des êtres libres dans une création qui s’épuise.</p><p>Explorez les origines, les puissances et les lois qui donnent à chaque choix son poids.</p><a className="button reading-cta" href="#/univers">Comprendre l’univers <Icon name="arrow" /></a><span className="story-duration"><a href="#/recits">Lire les récits fondateurs →</a></span></div>
+  return <div className="content portal-home">
+    <section className="portal-intro" aria-labelledby="portal-title">
+      <div className="portal-emblem" aria-hidden="true"><span>AZ</span><i/><span>KA · VO · TH</span></div>
+      <span className="eyebrow">MONO · PREMIÈRE ÉDITION</span>
+      <h1 id="portal-title">Une lumière.<br/><em>Un monde à habiter.</em></h1>
+      <p>Aïnôreth, l’Arbre brisé et une promesse de retour.<br/>Entrez dans un univers dont chaque puissance a une origine,<br className="desktop-break"/> chaque don une limite, chaque être une réponse.</p>
+      <span className="edition-note">V1.0 · Le commencement</span>
     </section>
-    <section className="home-paths" aria-label="Choisir un parcours"><SectionHead eyebrow="À VOTRE RYTHME" title="Choisissez votre chemin" /><div className="reading-path-grid">
-      <a href="#/univers"><span className="eyebrow">01 · L’UNIVERS</span><h3>Comprendre le monde</h3><p>Les origines, les trois mondes, les lignées et les principes de la création.</p><span>Les premiers repères →</span></a>
-      <a href="#/codex"><span className="eyebrow">02 · LE CODEX</span><h3>Approfondir le lore</h3><p>Personnages, puissances, cultes, lieux et pratiques du Sillage.</p><span>Consulter les fiches →</span></a>
-      <a href="#/recits"><span className="eyebrow">03 · LES ORIGINES</span><h3>Lire les fondements</h3><p>D’Aïnôreth à l’Arbre brisé, de la Promesse aux choix des vivants.</p><span>Ouvrir la bibliothèque →</span></a>
-    </div></section>
-    <section className="home-origins"><div><span className="eyebrow">LES RÉCITS FONDATEURS</span><h2>Avant les astres, un Nom.</h2><p>Un océan sans rive. Un Arbre qui se brise. Un gardien qui questionne. Puis une promesse : « Je reviendrai. » Quatre livres pour entrer dans les origines et leurs conséquences.</p><LinkArrow to="#/recits?section=1">Découvrir les origines</LinkArrow></div><a href="#/lire/livre-1/1" aria-label="Lire Le Nom et l’Arbre"><Art name={canon.books[0].art} alt="Les principes de l’Arbre, interprétation symbolique" sizes="(max-width: 620px) 120px, 260px" /></a></section>
-    <section className="home-explore"><SectionHead eyebrow="EXPLORER MONO" title="Des repères pour aller plus loin" /><div className="exploration-links">{exploreLinks.map(([id,label,copy,art])=><a key={id} href={"#/"+id}><Art name={art} sizes="(max-width: 620px) 72px, 120px" /><div><h3>{label}</h3><p>{copy}</p></div><Icon name="arrow" /></a>)}</div></section>
-    <section className="home-discoveries" aria-label="Rencontres et lexique"><div className="encounter-widget"><h2>À travers le miroir</h2><a href={href(figure.id)}><Art name={figure.art} alt={figure.title} sizes="120px" /><div><h3>{figure.title}</h3><p>{figure.summary}</p></div></a><button onClick={()=>setPassage((passage+1)%6)}>Une autre rencontre ↻</button></div><div className="lexicon-widget"><h2>Les mots du Nom</h2><div aria-live="polite"><a href={href(term.record)}>{term.term}</a><p>{term.definition}</p></div><button onClick={()=>setWord((word+1)%canon.lexicon.length)}>Le mot suivant →</button><a className="lexicon-all" href="#/univers?section=6">Le lexique complet</a></div></section>
+    <nav className="portal-triptych" aria-label="Les trois portails de MONO">
+      {[
+        ["univers","01","Univers","Comprendre avant de traverser.","azkavoth","Les origines, les mondes et leurs lois."],
+        ["codex","02","Codex","Rencontrer les figures du monde.","vothorak","Un deck illustré des êtres, peuples et lieux."],
+        ["recits","03","Lire","Suivre le fil du commencement.","qerath","Quatre cahiers, huit chapitres illustrés."],
+      ].map(([id,n,title,line,art,copy])=><a href={"#/"+id} className="portal-gate" key={id}><span className="gate-number">{n}</span><div className="gate-window"><Art name={art} alt={title+" — portail de MONO"} hero sizes="(max-width: 760px) 90vw, 30vw"/></div><div className="gate-copy"><span className="eyebrow">{line}</span><h2>{title}</h2><p>{copy}</p><span className="gate-enter">Entrer <Icon name="arrow"/></span></div></a>)}
+    </nav>
+    <section className="portal-colophon"><p><strong>Le présent : CD 12600.</strong> Aurenth et Avarn sont notre premier territoire. Le passé se découvre à travers les traces qu’il y laisse.</p><LinkArrow to="#/terra">Déplier l’atlas</LinkArrow></section>
+    <ReadingTrail onlyResume />
   </div>;
 }
 
@@ -608,15 +607,15 @@ function Terra({
 function StoryCard({book}: {book: Book}) {
   return <article className="book-card library-origin">
     <a href={"#/lire/"+book.id+"/1"} className="book-image" aria-label={"Lire " + book.title}><Art name={book.art} alt={book.title} sizes="(max-width: 620px) 110px, 180px" /></a>
-    <div className="book-copy"><span className="eyebrow">LIVRE {["I","II","III","IV"][canon.books.findIndex(b=>b.id===book.id)]}</span><h3><a href={"#/lire/"+book.id+"/1"}>{book.title}</a></h3><p>{book.subtitle}</p><p className="book-facts">{book.chapters.length} chapitres · {minutes(book.chapters.flatMap(c=>c.paragraphs).join(" "))} min</p><LinkArrow to={"#/lire/"+book.id+"/1"}>Ouvrir ce livre</LinkArrow><details className="book-contents"><summary>Voir les chapitres <span>+</span></summary><ol>{book.chapters.map((ch,n)=><li key={ch.id}><a href={"#/lire/"+book.id+"/"+(n+1)}><span>{String(n+1).padStart(2,"0")}</span>{ch.title}<Icon name="arrow" /></a></li>)}</ol></details></div>
+    <div className="book-copy"><span className="eyebrow">CAHIER {["I","II","III","IV"][canon.books.findIndex(b=>b.id===book.id)]}</span><h3><a href={"#/lire/"+book.id+"/1"}>{book.title}</a></h3><p>{book.subtitle}</p><p className="book-facts">{book.chapters.length} chapitres · {minutes(book.chapters.flatMap(c=>c.paragraphs).join(" "))} min</p><LinkArrow to={"#/lire/"+book.id+"/1"}>Ouvrir ce cahier</LinkArrow><details className="book-contents"><summary>Voir les chapitres <span>+</span></summary><ol>{book.chapters.map((ch,n)=><li key={ch.id}><a href={"#/lire/"+book.id+"/"+(n+1)}><span>{String(n+1).padStart(2,"0")}</span>{ch.title}<Icon name="arrow" /></a></li>)}</ol></details></div>
   </article>;
 }
 function Stories() {
   return <div className="content stories-page organized-library">
-    <PageHead eyebrow="Les origines" title="Les récits fondateurs" copy="Quatre livres pour suivre la création, ses fractures et les grands rites, jusqu’à l’ouverture de l’Éveil." />
+    <PageHead eyebrow="Les origines" title="Le commencement" copy="Un cycle court et illustré : comprendre les origines, rencontrer les vivants et découvrir leurs traditions." />
     <ReadingTrail onlyResume />
-    <nav className="library-jump" aria-label="Dans la bibliothèque"><a href="#/recits?section=1">Les quatre livres</a><a href="#/recits?section=2">Se repérer dans le lore</a></nav>
-    <section id="stories-origins" tabIndex={-1}><SectionHead eyebrow="LE FIL DES ORIGINES" title="D’Aïnôreth au Voile" copy="À lire dans l’ordre, ou à consulter chapitre par chapitre." /><div className="origins-grid">{canon.books.map(book=><StoryCard key={book.id} book={book} />)}</div></section>
+    <nav className="library-jump" aria-label="Dans la bibliothèque"><a href="#/recits?section=1">Les quatre cahiers</a><a href="#/recits?section=2">Se repérer dans le lore</a></nav>
+    <section id="stories-origins" tabIndex={-1}><SectionHead eyebrow="LE FIL DES ORIGINES" title="Les fondations de MONO" copy="Huit chapitres à lire dans l’ordre. Chaque cahier relie le récit aux fiches du Codex." /><div className="origins-grid">{canon.books.map(book=><StoryCard key={book.id} book={book} />)}</div></section>
     <section id="stories-reperes" tabIndex={-1} className="library-context"><span className="eyebrow">LES REPÈRES DU MONDE</span><h2>Relier les récits au lore.</h2><p>Le guide présente les lois de MONO ; le Codex approfondit ses puissances, ses peuples et ses lieux. La chronologie distingue les événements établis des périodes à développer.</p><div><LinkArrow to="#/univers">Comprendre l’univers</LinkArrow><LinkArrow to="#/chronologie">Voir la chronologie</LinkArrow><LinkArrow to="#/codex">Consulter le Codex</LinkArrow></div></section>
   </div>;
 }
@@ -639,7 +638,7 @@ function Reader({
   const index = Math.min(Math.max(1, chapter), book.chapters.length) - 1,
     ch = book.chapters[index];
   const [large, setLarge] = useState(
-    read<unknown>("mono-v9-large", false) === true,
+    read<unknown>("mono-v1-large", false) === true,
   );
   const [focus, setFocus] = useState(false);
   const [progress, setProgress] = useState(0);
@@ -652,7 +651,7 @@ function Reader({
   useEffect(() => {
     setFocus(false);
     setMarked(false);
-    save("mono-v9-reading", { book: book.id, chapter: index + 1 });
+    save("mono-v1-reading", { book: book.id, chapter: index + 1 });
     const update = () => {
       const box = article.current?.getBoundingClientRect();
       if (box)
@@ -743,7 +742,7 @@ function Reader({
               aria-pressed={large}
               onClick={() => {
                 setLarge(!large);
-                save("mono-v9-large", !large);
+                save("mono-v1-large", !large);
               }}
             >
               Aa <span>Texte</span>
@@ -777,7 +776,7 @@ function Reader({
               }}
             >
               <Icon name="star" />
-              {saved ? "Retirer des signets" : "Garder ce livre"}
+              {saved ? "Retirer des signets" : "Garder ce cahier"}
             </button>
             <span role="status">
               {marked
@@ -825,10 +824,10 @@ function Reader({
   );
 }
 const readingGuides: Record<string, string[]> = {
-  "livre-1": ["ainoreth", "azkavoth", "arbre", "temoins", "terra"],
-  "livre-2": ["qerath", "jugement", "grand-retrait", "vestige-az", "fond"],
-  "livre-3": ["vothorak", "talem", "golems", "malkiel"],
-  "livre-4": ["sceaux", "sarai", "zahrel", "orren", "ilyane", "eshar", "tikkun", "brisures"],
+  "fondations-1": ["ainoreth", "azkavoth", "arbre", "temoins", "terra"],
+  "fondations-2": ["qerath", "jugement", "grand-retrait", "vestige-az", "fond"],
+  "fondations-3": ["vothorak", "humains", "djinns", "anakim", "golems", "nephilim", "qerathim"],
+  "fondations-4": ["source", "lien", "forme", "epanchement", "aurenth", "sillage"],
 };
 function LoreOrientation() {
   return (
@@ -1074,8 +1073,8 @@ function Universe() {
       <section id="universe-3" tabIndex={-1}>
         <SectionHead
           eyebrow="04 / QUATRE CULTES"
-          title="Les quatre cultes"
-          copy="Un culte exprime un rapport au don ; une lignée désigne une nature. Les six lignées peuvent rejoindre chacun des quatre cultes. Aucun culte ne possède un Sillage distinct."
+          title="Quatre religions, un même don"
+          copy="La foi oriente une méthode. Les quatre traditions traversent les six lignées et les cinq continents ; les non-croyants peuvent aussi apprendre à conduire le Sillage."
         />
         <div className="cult-grid">
           {entries
@@ -1415,10 +1414,10 @@ function Codex({
   const group =
     initialGroup === "tout" || groups.some((g) => g.id === initialGroup)
       ? initialGroup
-      : "puissances";
+      : "tout";
   const [query, setQuery] = useState(initialQuery);
   const [view, setView] = useState(
-    read<unknown>("mono-codex-view", "list") === "list" ? "list" : "gallery",
+    read<unknown>("mono-v1-codex-view", "gallery") === "list" ? "list" : "gallery",
   );
   useEffect(() => setQuery(initialQuery), [initialGroup, initialQuery]);
   const filter = (value: string) => {
@@ -1430,7 +1429,7 @@ function Codex({
   };
   const changeView = (value: string) => {
     setView(value);
-    save("mono-codex-view", value);
+    save("mono-v1-codex-view", value);
   };
   const categories = [...groups, { id: "tout", label: "Tout le Codex" }];
   const list = entries.filter(
@@ -1446,7 +1445,7 @@ function Codex({
       <PageHead
         eyebrow="Codex"
         title="Codex"
-        copy="Fiches classées par catégorie. Filtrez les noms et le contenu, ou parcourez les illustrations."
+        copy="Les êtres, les peuples, les lieux et les lois de MONO. Chaque carte ouvre sa fiche : origine, rôle, pouvoirs et liens."
       />
       <div className="codex-layout">
         <aside className="codex-categories">
@@ -2053,7 +2052,7 @@ export default function App() {
       chercher: "Recherche",
       signets: "Mes signets",
     };
-    document.title = `${current.page === "fiche" && e ? e.title : current.page === "lire" && b ? chapter?.title || b.title : titles[current.page] || "Le Codex de la Déchirure"} · MONO`;
+    document.title = `${current.page === "fiche" && e ? e.title : current.page === "lire" && b ? chapter?.title || b.title : titles[current.page] || "Les trois portails"} · MONO`;
     const description = document.querySelector('meta[name="description"]');
     description?.setAttribute(
       "content",
@@ -2268,7 +2267,7 @@ export default function App() {
       </div>
     );
   const links = [
-    ["", "Accueil"],
+    ["", "Portails"],
     ["recits", "Lire"],
     ["codex", "Codex"],
   ];
@@ -2336,7 +2335,7 @@ export default function App() {
       <header ref={header} className="site-header">
         <a className="brand" href="#/" aria-label="MONO — Accueil">
           <span>
-            <img className="header-wordmark" src={BASE+"mono-mark.svg"} alt="MONO" width="540" height="170" /><small>LE CODEX DE LA DÉCHIRURE</small>
+            <img className="header-wordmark" src={BASE+"mono-mark.svg"} alt="MONO" width="540" height="170" /><small>LES TROIS PORTAILS</small>
           </span>
         </a>
         <nav
@@ -2406,7 +2405,7 @@ export default function App() {
       </header>
       <nav inert={menu} className="mobile-dock" aria-label="Navigation mobile">
         {[
-          ["", "Accueil", "map"],
+          ["", "Portails", "map"],
           ["recits", "Lire", "book"],
           ["codex", "Codex", "grid"],
         ].map(([id, label, icon]) => (
@@ -2461,7 +2460,7 @@ export default function App() {
           </a>
         </div>
         <div className="footer-bottom">
-          <span>LE CODEX DE LA DÉCHIRURE · {canon.version}</span>
+          <span>LES TROIS PORTAILS · {canon.version}</span>
           <nav aria-label="Navigation de pied de page">
             <a href="#/univers">Le guide</a>
             <a href="#/signets">Ma collection</a>

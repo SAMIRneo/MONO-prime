@@ -3,3 +3,4 @@ import App from "./app";
 import "./design.css";
 
 createRoot(document.getElementById("root")!).render(<App />);
+import "./edition.css";
